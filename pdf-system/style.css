@@ -1,0 +1,321 @@
+/* ============================================================
+   HANDWRITTEN NOTES PDF THEME  —  Playpen Sans Deva
+   Used by md2pdf.py .  Edit colours in :root to re-skin.
+   ============================================================ */
+
+/* ---------- FONTS ---------- */
+@font-face{font-family:'Playpen Sans Deva';src:url('fonts/PlaypenSansDeva-400.ttf') format('truetype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Playpen Sans Deva';src:url('fonts/PlaypenSansDeva-500.ttf') format('truetype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Playpen Sans Deva';src:url('fonts/PlaypenSansDeva-600.ttf') format('truetype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Playpen Sans Deva';src:url('fonts/PlaypenSansDeva-700.ttf') format('truetype');font-weight:700;font-style:normal;}
+
+:root{
+  /* ---- PALETTE (edit to re-skin the whole book) ---- */
+  --ink:#1f2431;           /* body text  */
+  --ink-soft:#4a5163;
+  --paper:#fffdf7;         /* page tint  */
+  --rule:#dfe3ec;
+
+  --c-blue:#1668c4;   --bg-blue:#eaf3ff;
+  --c-green:#127a4d;  --bg-green:#e6f7ee;
+  --c-amber:#a8620a;  --bg-amber:#fff3dc;
+  --c-red:#c02b3a;    --bg-red:#ffecec;
+  --c-purple:#6b3fa0; --bg-purple:#f3ecff;
+  --c-teal:#0b6f78;   --bg-teal:#e3f7f8;
+  --c-pink:#b83280;   --bg-pink:#fdecf6;
+
+  --h1:22pt; --h2:16.5pt; --h3:13pt; --h4:11.5pt; --body:10.4pt;
+}
+
+/* ---------- PAGE ---------- */
+@page{
+  size:A4;
+  margin:15mm 13mm 17mm 13mm;
+  background:var(--paper);
+  @bottom-center{
+    content:counter(page);
+    font-family:'Playpen Sans Deva',sans-serif;
+    font-size:9pt; color:#8b93a6;
+  }
+  @bottom-right{
+    content:string(doctitle);
+    font-family:'Playpen Sans Deva',sans-serif;
+    font-size:7.6pt; color:#aeb5c5;
+  }
+}
+@page:first{ @bottom-center{content:none;} @bottom-right{content:none;} }
+
+/* ---------- BASE ---------- */
+*{box-sizing:border-box;}
+body{
+  font-family:'Playpen Sans Deva','DejaVu Sans',sans-serif;
+  font-size:var(--body);
+  line-height:1.72;
+  color:var(--ink);
+  margin:0;
+  hyphens:none;
+}
+p{margin:.45em 0 .7em;orphans:2;widows:2;}
+strong{font-weight:700;color:#111726;}
+em{font-style:normal;font-weight:500;color:var(--c-purple);}
+a{color:var(--c-blue);text-decoration:none;}
+
+/* ---------- COVER ---------- */
+.cover{
+  height:262mm;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;text-align:center;
+  page-break-after:always;
+  border:2.5px solid var(--c-blue);border-radius:18px;
+  background:linear-gradient(160deg,#f4f9ff 0%,#fffdf7 45%,#fff6e8 100%);
+  padding:20mm 14mm;
+}
+.cover .kicker{
+  font-size:11pt;letter-spacing:.16em;color:var(--c-blue);
+  font-weight:600;text-transform:uppercase;margin-bottom:10mm;
+}
+.cover h1{
+  font-size:33pt;line-height:1.3;font-weight:700;color:#14263f;
+  background:none;background-image:none;border:none;border-bottom:none;
+  box-shadow:none;margin:0 0 7mm;padding:0;
+  page-break-before:avoid;string-set:none;
+}
+.cover h1::after{display:none;}
+.cover .sub{font-size:13.5pt;color:var(--ink-soft);font-weight:500;margin-bottom:14mm;}
+.cover .rule{width:58mm;height:4px;border-radius:3px;background:var(--c-amber);margin:0 0 14mm;}
+.cover .meta{font-size:10pt;color:#7d8598;line-height:2;}
+.cover .badge{
+  display:inline-block;margin-top:12mm;padding:5mm 9mm;
+  border:2px dashed var(--c-green);border-radius:14px;
+  background:var(--bg-green);color:var(--c-green);
+  font-weight:600;font-size:11pt;
+}
+
+/* ---------- HEADINGS ---------- */
+h1{
+  string-set:doctitle content();
+  font-size:var(--h1);font-weight:700;color:#fff;
+  background:linear-gradient(95deg,var(--c-blue),#4a95e8);
+  padding:5.5mm 7mm;border-radius:12px;
+  margin:0 0 6mm;
+  page-break-before:always;page-break-after:avoid;
+  border-bottom:3px solid #0f4f9c;
+}
+h1:first-of-type{page-break-before:avoid;}
+
+h2{
+  font-size:var(--h2);font-weight:700;color:var(--c-purple);
+  margin:8mm 0 3.5mm;padding:0 0 2mm 0;
+  border-bottom:2.5px dashed var(--c-purple);
+  page-break-after:avoid;break-after:avoid;
+}
+h3{
+  font-size:var(--h3);font-weight:700;color:var(--c-teal);
+  margin:6mm 0 2.5mm;padding-left:6mm;
+  border-left:4.5px solid var(--c-teal);
+  page-break-after:avoid;break-after:avoid;
+}
+h4{
+  font-size:var(--h4);font-weight:600;color:var(--c-amber);
+  margin:4.5mm 0 2mm;page-break-after:avoid;break-after:avoid;
+}
+h5,h6{font-size:10.6pt;font-weight:600;color:var(--ink-soft);margin:3.5mm 0 1.5mm;}
+
+/* ---------- LISTS ---------- */
+ul,ol{margin:.35em 0 .8em;padding-left:6.5mm;}
+li{margin:.2em 0;padding-left:1mm;}
+ul li::marker{color:var(--c-blue);font-weight:700;}
+ol li::marker{color:var(--c-green);font-weight:700;}
+li>ul,li>ol{margin:.15em 0 .25em;}
+
+/* checkbox lists */
+li.task{list-style:none;margin-left:-4mm;}
+li.task::before{content:"☐  ";color:var(--c-blue);font-weight:700;}
+
+/* ---------- TABLES ---------- */
+table{
+  width:100%;border-collapse:separate;border-spacing:0;
+  margin:3.5mm 0 5mm;font-size:9.5pt;
+  border:1.6px solid var(--c-blue);border-radius:10px;
+  overflow:hidden;
+  /* tables may split across pages; a tall table that cannot fit would
+     otherwise strand its heading on an almost-empty page */
+  page-break-inside:auto;
+}
+table tr{page-break-inside:avoid;}
+thead{display:table-header-group;}   /* repeat header on the next page */
+thead{display:table-header-group;}
+th{
+  background:var(--c-blue);color:#fff;font-weight:600;
+  padding:2.4mm 2.8mm;text-align:left;font-size:9.4pt;
+  border-right:1px solid rgba(255,255,255,.28);
+}
+th:last-child{border-right:none;}
+td{
+  padding:2.2mm 2.8mm;border-top:1px solid var(--rule);
+  border-right:1px solid var(--rule);vertical-align:top;
+}
+td:last-child{border-right:none;}
+tbody tr:nth-child(even){background:#f6f9ff;}
+table.long{page-break-inside:auto;}
+table.long tr{page-break-inside:avoid;}
+
+/* ---------- BLOCKQUOTE → TRICK / RULE BOX ---------- */
+blockquote{
+  margin:3.5mm 0;padding:3.2mm 4.5mm 3.2mm 5.5mm;
+  background:var(--bg-amber);
+  border-left:5px solid var(--c-amber);
+  border-radius:0 10px 10px 0;
+  color:#54390f;page-break-inside:avoid;
+  orphans:3;widows:3;
+}
+blockquote p{margin:.25em 0;}
+blockquote strong{color:#7a4708;}
+blockquote > :first-child{margin-top:0;}
+blockquote > :last-child{margin-bottom:0;}
+
+/* auto-coloured variants (set by md2pdf.py from the leading emoji) */
+blockquote.tip   {background:var(--bg-amber);border-left-color:var(--c-amber);color:#54390f;}
+blockquote.key   {background:var(--bg-green);border-left-color:var(--c-green);color:#0c4a30;}
+blockquote.warn  {background:var(--bg-red);  border-left-color:var(--c-red);  color:#7a1620;}
+blockquote.info  {background:var(--bg-blue); border-left-color:var(--c-blue); color:#0d3f77;}
+blockquote.star  {background:var(--bg-purple);border-left-color:var(--c-purple);color:#3f1f6b;}
+blockquote.note  {background:var(--bg-teal); border-left-color:var(--c-teal); color:#07474d;}
+
+/* ---------- CALLOUT (::: name ... :::) ---------- */
+.callout{
+  margin:4mm 0;border-radius:12px;padding:3.6mm 4.6mm;
+  border:1.8px solid var(--c-blue);background:var(--bg-blue);
+  page-break-inside:avoid;orphans:3;widows:3;
+}
+.callout > .callout-title{
+  font-weight:700;font-size:10.6pt;margin:0 0 1.6mm;color:var(--c-blue);
+}
+.callout.trick {border-color:var(--c-amber); background:var(--bg-amber);}
+.callout.trick   > .callout-title{color:var(--c-amber);}
+.callout.formula{border-color:var(--c-green); background:var(--bg-green);}
+.callout.formula > .callout-title{color:var(--c-green);}
+.callout.trap   {border-color:var(--c-red);   background:var(--bg-red);}
+.callout.trap    > .callout-title{color:var(--c-red);}
+.callout.example{border-color:var(--c-purple);background:var(--bg-purple);}
+.callout.example > .callout-title{color:var(--c-purple);}
+.callout.remember{border-color:var(--c-teal); background:var(--bg-teal);}
+.callout.remember> .callout-title{color:var(--c-teal);}
+.callout.question{border-color:var(--c-pink); background:var(--bg-pink);}
+.callout.question> .callout-title{color:var(--c-pink);}
+
+/* ---------- CODE / FORMULA SHEET ---------- */
+code{
+  font-family:'DejaVu Sans Mono',monospace;font-size:8.9pt;
+  background:#eef1f7;color:#b3245c;
+  padding:.5mm 1.4mm;border-radius:4px;
+}
+pre{
+  background:#fbfcfe;border:1.6px dashed var(--c-green);
+  border-radius:10px;padding:3.4mm 4.2mm;margin:3.5mm 0;
+  /* long formula sheets must be allowed to break, else they push a whole
+     page down and leave the chapter heading alone at the top */
+  page-break-inside:auto;
+  orphans:4;widows:4;
+}
+pre code{
+  background:none;color:#123c2a;font-size:8.9pt;
+  line-height:1.62;padding:0;white-space:pre-wrap;overflow-wrap:break-word;
+}
+
+/* ---------- MISC ---------- */
+hr{border:none;border-top:2.5px dotted var(--c-blue);margin:6mm 0;}
+img{max-width:100%;}
+.page-break{page-break-after:always;}
+
+/* ---------- TOC ---------- */
+.toc{page-break-after:always;}
+.toc h1{background:linear-gradient(95deg,var(--c-green),#3aa974);border-bottom:3px solid #0b5c3a;}
+.toc ul{list-style:none;padding-left:0;}
+.toc ul{column-count:2;column-gap:6mm;}
+.toc li{
+  margin:.18em 0;padding:1.1mm 2.4mm;border-radius:6px;
+  background:#f5f8fd;border-left:3px solid var(--c-blue);
+  font-size:8.9pt;line-height:1.42;
+  break-inside:avoid;page-break-inside:avoid;
+}
+.toc li.lvl3{margin-left:4mm;background:#fafbfe;border-left-color:var(--c-teal);font-size:8.3pt;}
+.toc a{color:var(--ink);}
+.toc .num{color:var(--c-blue);font-weight:700;}
+
+/* ---------- FIGURES ---------- */
+figure.fig{
+  page-break-inside:avoid;break-inside:avoid;
+  page-break-before:auto;page-break-after:auto;
+  text-align:center;margin:4.5mm auto;padding:3mm 3mm 2mm;
+  border:1.5px dashed #cbd3e3;border-radius:12px;
+  background:#fffefa;max-width:96%;
+}
+figure.fig svg.figsvg{max-width:100%;height:auto;display:block;margin:0 auto;}
+figure.fig svg text{font-family:'Playpen Sans Deva','DejaVu Sans',sans-serif;}
+figure.fig figcaption{
+  font-size:9.2pt;color:#5b6478;margin-top:1.6mm;line-height:1.5;
+}
+figure.fig .fignum{font-weight:700;color:var(--c-blue);}
+/* two figures side by side */
+.fig-row{display:flex;gap:4mm;justify-content:center;align-items:flex-start;
+  page-break-inside:avoid;margin:4mm 0;}
+.fig-row figure.fig{margin:0;flex:1;}
+
+/* ---------- SPACE-SAVING LAYOUTS ---------- */
+
+/* figures placed side by side (auto-grouped when adjacent) */
+.fig-row{
+  display:flex;gap:3.5mm;align-items:stretch;justify-content:center;
+  page-break-inside:avoid;break-inside:avoid;margin:4mm 0;
+}
+.fig-row figure.fig{margin:0;flex:1 1 0;max-width:none;padding:2.4mm 2mm 1.6mm;}
+/* height cap must preserve aspect ratio, else WeasyPrint squashes width */
+.fig-row figure.fig svg.figsvg{max-height:46mm;width:auto;max-width:100%;}
+.fig-row figure.fig figcaption{font-size:8.4pt;line-height:1.42;margin-top:1.2mm;}
+
+/* generic multi-column block:  ::: cols 2 ... :::  */
+.mcols{column-gap:7mm;column-rule:1px dashed #d9dfeb;margin:2mm 0 3mm;}
+.mcols.c2{column-count:2;}
+.mcols.c3{column-count:3;}
+.mcols p,.mcols li,.mcols table,.mcols figure,.mcols blockquote,.mcols pre{
+  break-inside:avoid;page-break-inside:avoid;
+}
+.mcols ul,.mcols ol{margin-top:0;}
+.mcols>*:first-child{margin-top:0;}
+.mcols h3,.mcols h4{column-span:all;}
+
+/* two-column MCQ flow for question banks */
+.qcols{
+  column-count:2;column-gap:7mm;column-rule:1px dashed #dfe4ee;
+  column-fill:auto;      /* fill column 1 to the bottom before column 2 */
+}
+.qcols p{break-inside:avoid;margin:.28em 0 .5em;}
+.qcols blockquote{break-inside:avoid;margin:2mm 0;padding:2.2mm 3mm;font-size:9.3pt;}
+.qcols hr{margin:3mm 0;}
+.qcols table{font-size:8.8pt;}
+
+/* ---------- LaTeX MATH ---------- */
+img.mathinline{
+  vertical-align:-0.30em;margin:0 .10em;
+  /* keep crisp at print resolution */
+  image-rendering:auto;
+}
+img.mathblock{
+  display:block;margin:2.2mm auto 2.4mm;max-width:92%;
+}
+/* consecutive display equations sit as one visual block */
+p:has(> img.mathblock:only-child){margin:0;}
+code.texerr{background:#ffecec;color:#c02b3a;border:1px dashed #c02b3a;}
+/* math inside coloured boxes keeps the box colour readable */
+blockquote img.mathinline,.callout img.mathinline{vertical-align:-0.28em;}
+
+/* ---------- INLINE ICONS ---------- */
+svg.ic{
+  display:inline-block;vertical-align:-0.16em;margin-right:.18em;
+  flex-shrink:0;
+}
+h2 svg.ic,h3 svg.ic,h4 svg.ic{vertical-align:-0.12em;margin-right:.3em;}
+blockquote svg.ic,.callout svg.ic{vertical-align:-0.18em;}
+li svg.ic{margin-right:.25em;}
+span.iconerr{background:#ffecec;color:#c02b3a;font-size:.8em;padding:0 .2em;}
+.callout-title svg.ic{vertical-align:-0.14em;}
