@@ -1,8 +1,8 @@
 """figlib — code-generated sketchy SVG figures for the notes pipeline."""
-from . import geometry, geometry2, charts, nonverbal, numsys, surds, roots, series, cyclic, wordprob, percent, ratio, average, unitary, profit, interest, compound, partner, mixture, ages, icons
+from . import geometry, geometry2, charts, nonverbal, numsys, surds, roots, series, cyclic, wordprob, percent, ratio, average, unitary, profit, interest, compound, partner, mixture, ages, timework, icons
 
 REGISTRY = {}
-for _m in (geometry, geometry2, charts, nonverbal, numsys, surds, roots, series, cyclic, wordprob, percent, ratio, average, unitary, profit, interest, compound, partner, mixture, ages):
+for _m in (geometry, geometry2, charts, nonverbal, numsys, surds, roots, series, cyclic, wordprob, percent, ratio, average, unitary, profit, interest, compound, partner, mixture, ages, timework):
     REGISTRY.update(_m.REGISTRY)
 
 
