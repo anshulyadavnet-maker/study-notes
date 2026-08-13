@@ -25,10 +25,17 @@ from pathlib import Path
 
 try:
     import markdown
+except ImportError as e:
+    sys.exit(f"Missing dependency: {e}\n  pip install markdown pygments")
+
+WEASYPRINT_AVAILABLE = False
+try:
     from weasyprint import HTML, CSS
     from weasyprint.text.fonts import FontConfiguration
-except ImportError as e:
-    sys.exit(f"Missing dependency: {e}\n  pip install weasyprint markdown pygments")
+    WEASYPRINT_AVAILABLE = True
+except Exception:
+    WEASYPRINT_AVAILABLE = False
+
 
 _OPTS = {}
 HERE = Path(__file__).resolve().parent
@@ -423,6 +430,55 @@ def collect(inputs):
     return files
 
 
+def render_pdf_with_browser(doc: str, out_path: Path, css_file: Path, extra_css=None, flow=False):
+    import subprocess, shutil
+    browser = None
+    candidates = [
+        r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+        r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
+        r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+        shutil.which("msedge"),
+        shutil.which("chrome"),
+        shutil.which("google-chrome"),
+    ]
+    for c in candidates:
+        if c and os.path.exists(c):
+            browser = c
+            break
+
+    if not browser:
+        sys.exit("Error: Neither WeasyPrint nor Microsoft Edge/Chrome browser is available to render PDF.")
+
+    css_text = css_file.read_text(encoding="utf-8")
+    if flow:
+        css_text += "\nh1{page-break-before:auto;margin-top:9mm;}h1:first-of-type{margin-top:0;}"
+    if extra_css and Path(extra_css).exists():
+        css_text += "\n" + Path(extra_css).read_text(encoding="utf-8")
+
+    full_html = doc.replace("</head>", f"<style>{css_text}</style></head>")
+    temp_html = HERE / f"temp_{out_path.stem}.html"
+    temp_html.write_text(full_html, encoding="utf-8")
+
+    html_uri = temp_html.resolve().as_uri()
+    out_pdf = out_path.resolve()
+    out_pdf.parent.mkdir(parents=True, exist_ok=True)
+
+    cmd = [
+        browser,
+        "--headless",
+        "--disable-gpu",
+        f"--print-to-pdf={out_pdf}",
+        "--no-pdf-header-footer",
+        html_uri
+    ]
+    try:
+        subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    finally:
+        if temp_html.exists():
+            temp_html.unlink()
+
+
 def main():
     ap = argparse.ArgumentParser(description="Markdown -> handwritten-style PDF")
     ap.add_argument("inputs", nargs="+", help="md files and/or folders")
@@ -474,23 +530,41 @@ def main():
     debug = out.with_suffix(".debug.html")
     debug.write_text(doc, encoding="utf-8")
 
-    font_config = FontConfiguration()
-    sheets = [CSS(filename=str(CSS_FILE), font_config=font_config)]
-    if a.flow:
-        sheets.append(CSS(string=
-            "h1{page-break-before:auto;margin-top:9mm;}"
-            "h1:first-of-type{margin-top:0;}", font_config=font_config))
-    if a.css:
-        sheets.append(CSS(filename=a.css, font_config=font_config))
-
     print("  rendering PDF ...")
-    HTML(string=doc, base_url=str(HERE)).write_pdf(
-        str(out), stylesheets=sheets, font_config=font_config)
-    debug.unlink(missing_ok=True)
+    rendered = False
+    if WEASYPRINT_AVAILABLE:
+        try:
+            font_config = FontConfiguration()
+            sheets = [CSS(filename=str(CSS_FILE), font_config=font_config)]
+            if a.flow:
+                sheets.append(CSS(string=
+                    "h1{page-break-before:auto;margin-top:9mm;}"
+                    "h1:first-of-type{margin-top:0;}", font_config=font_config))
+            if a.css:
+                sheets.append(CSS(filename=a.css, font_config=font_config))
 
+            HTML(string=doc, base_url=str(HERE)).write_pdf(
+                str(out), stylesheets=sheets, font_config=font_config)
+            rendered = True
+        except Exception as err:
+            print(f"  ! WeasyPrint failed ({err}), falling back to Headless Browser...")
+
+    if not rendered:
+        render_pdf_with_browser(doc, out, CSS_FILE, extra_css=a.css, flow=a.flow)
+
+    debug.unlink(missing_ok=True)
     mb = out.stat().st_size / 1024 / 1024
-    print(f"  ✔ {out}  ({mb:.2f} MB)")
+    try:
+        print(f"  ✔ {out}  ({mb:.2f} MB)")
+    except UnicodeEncodeError:
+        print(f"  [OK] {out}  ({mb:.2f} MB)")
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
     main()
+

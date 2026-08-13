@@ -76,9 +76,9 @@ def _dots(cv, n, cx, cy, r, color=None):
 
 def _panel(cv, x, y, s, label=None, dashed=False, color=None):
     col = color or "#c8d0e0"
+    dash_attr = ' stroke-dasharray="4 3"' if dashed else ""
     cv.raw(f'<rect x="{x}" y="{y}" width="{s}" height="{s}" rx="5" '
-           f'fill="#ffffff" stroke="{col}" stroke-width="1.2"'
-           f'{" stroke-dasharray=\'4 3\'" if dashed else ""}/>')
+           f'fill="#ffffff" stroke="{col}" stroke-width="1.2"{dash_attr}/>')
     if label:
         cv.text(x + s/2, y + s + 13, label, size=9.5, color=C["soft"])
 
@@ -414,10 +414,10 @@ def number_matrix(spec):
         for c, v in enumerate(list(row)[:3]):
             x, y = ox + c*(cw+2), oy + r*(ch+2)
             isq = str(v) == "?"
+            dash_attr = ' stroke-dasharray="4 3"' if isq else ""
             cv.raw(f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="5" '
                    f'fill="{"#f3f6fc" if c==2 else "#ffffff"}" '
-                   f'stroke="{C["blue"] if not isq else C["grey"]}" stroke-width="1.3"'
-                   f'{" stroke-dasharray=\'4 3\'" if isq else ""}/>')
+                   f'stroke="{C["blue"] if not isq else C["grey"]}" stroke-width="1.3"{dash_attr}/>')
             cv.text(x+cw/2, y+ch/2+6, str(v), size=15,
                     weight=700 if c == 2 else 400,
                     color=C["grey"] if isq else (C["purple"] if c == 2 else C["ink"]))
