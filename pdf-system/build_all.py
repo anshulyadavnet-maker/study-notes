@@ -119,14 +119,13 @@ def main():
     P = REPO_ROOT / "polity"
     if P.exists():
         print("\n--- 4. INDIAN POLITY -----------------------------")
-        polity_files = sorted([str(f) for f in P.glob("*.md") if not f.name.startswith("-") and f.stat().st_size > 10])
-        if polity_files:
-            run(polity_files + [
-                "-o", str(OUT_DIR / 'Indian-Polity-COMPLETE.pdf'),
-                "--title", "भारतीय राजव्यवस्था",
-                "--subtitle", "UPSC · State PSC · SSC · Railways",
-                "--badge", "संवैधानिक ढांचा व मौलिक अधिकार", "--toc", "--flow"
-            ])
+        run([
+            str(P),
+            "-o", str(OUT_DIR / 'Indian-Polity-COMPLETE.pdf'),
+            "--title", "भारतीय राजव्यवस्था",
+            "--subtitle", "UPSC · State PSC · SSC · Railways",
+            "--badge", "संवैधानिक ढांचा व मौलिक अधिकार", "--toc", "--flow"
+        ])
 
     print("\n==================================================")
     print("            BUILD COMPLETE                        ")

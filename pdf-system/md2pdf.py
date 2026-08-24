@@ -340,20 +340,68 @@ def mark_long_tables(h: str) -> str:
     return re.sub(r"<table>.*?</table>", repl, h, flags=re.S)
 
 # -------------------------------------------------------------------- TOC
+def format_toc_title(txt: str) -> str:
+    m = re.match(r'^((?:अध्याय|Chapter|CHAPTER|भाग|Part|SET|खंड|खण्ड)\s*[\dA-Za-z\u0966-\u096F]+|\d+\.)', txt, re.I)
+    if m:
+        prefix = m.group(1).strip()
+        rest = txt[len(prefix):].strip()
+        if rest and rest[0] in ('—', ':', '-', '·', '.'):
+            sep = rest[0]
+            rest = rest[1:].strip()
+            return f'<span class="num">{prefix}</span> <span class="sep">{sep}</span> {rest}'
+        else:
+            return f'<span class="num">{prefix}</span> {rest}'
+    return txt
+
+
 def build_toc(h: str) -> str:
     items = re.findall(r'<h([123])[^>]*id="([^"]+)"[^>]*>(.*?)</h[123]>', h, flags=re.S)
     if not items:
         return ""
+
+    def clean_text(txt):
+        return re.sub(r'<[^>]+>', '', txt).strip()
+
+    h1_items = [(hid, clean_text(t)) for lvl, hid, t in items if lvl == '1']
     rows = []
-    for lvl, hid, txt in items:
-        if lvl == "1":
-            continue
-        clean = re.sub(r"<[^>]+>", "", txt).strip()
-        clean = re.sub(r"^([\d.]+)\s*", r'<span class="num">\1</span> ', clean)
-        cls = "lvl3" if lvl == "3" else ""
-        rows.append(f'<li class="{cls}"><a href="#{hid}">{clean}</a></li>')
+    chap_re = re.compile(r'^(अध्याय|Chapter|CHAPTER|भाग|Part|PART|SET|खंड|खण्ड)\s*[\d\w\.\—\:\-]', re.I)
+
+    if len(h1_items) > 1:
+        # Multi-chapter document where chapters/parts are H1
+        for lvl, hid, raw in items:
+            txt = clean_text(raw)
+            if not txt:
+                continue
+            if lvl == '1':
+                formatted = format_toc_title(txt)
+                is_part = bool(re.match(r'^(भाग|Part|SET|खंड)\b', txt, re.I))
+                cls = "toc-part" if is_part else "toc-chap"
+                rows.append(f'<li class="{cls}"><a href="#{hid}">{formatted}</a></li>')
+            elif lvl == '2':
+                # Include explicit chapter headings if placed at H2 level
+                if chap_re.match(txt):
+                    formatted = format_toc_title(txt)
+                    rows.append(f'<li class="toc-chap lvl2"><a href="#{hid}">{formatted}</a></li>')
+    else:
+        # Single-file or single-H1 document (e.g. chapters are at H2 level)
+        for lvl, hid, raw in items:
+            txt = clean_text(raw)
+            if not txt:
+                continue
+            if lvl == '1':
+                continue
+            elif lvl == '2':
+                # Filter out noisy non-chapter subsections
+                if any(noise in txt for noise in ['सीखने के उद्देश्य', 'परीक्षा में महत्व', 'PYQ', 'परिचय व वेटेज', 'संख्या रेखा पर स्थिति', 'वर्गीकरण']):
+                    continue
+                formatted = format_toc_title(txt)
+                is_part = bool(re.match(r'^(भाग|Part|SET|खंड)\b', txt, re.I))
+                cls = "toc-part" if is_part else "toc-chap"
+                rows.append(f'<li class="{cls}"><a href="#{hid}">{formatted}</a></li>')
+
     if not rows:
         return ""
+
     return ('<section class="toc"><h1>विषय-सूची / Contents</h1><ul>'
             + "".join(rows) + "</ul></section>")
 
@@ -395,7 +443,20 @@ def apply_qcols(html: str) -> str:
     return "".join(out)
 
 
-def md_to_html(text: str) -> str:
+def prefix_ids(html_str: str, pfx: str) -> str:
+    """Prefix all heading IDs and internal hash links with a unique per-file prefix."""
+    if not pfx:
+        return html_str
+    def id_repl(m):
+        return f'{m.group(1)}id="{pfx}-{m.group(2)}"'
+    html_str = re.sub(r'(<[a-zA-Z0-9_-]+\s+[^>]*?)id="([^"]+)"', id_repl, html_str)
+    def href_repl(m):
+        return f'{m.group(1)}href="#{pfx}-{m.group(2)}"'
+    html_str = re.sub(r'(<a\s+[^>]*?)href="#([^"]+)"', href_repl, html_str)
+    return html_str
+
+
+def md_to_html(text: str, prefix: str = "") -> str:
     text = convert_figures(text)
     text = convert_icons(text)
     if mathtex is not None:
@@ -414,7 +475,15 @@ def md_to_html(text: str) -> str:
     h = group_figure_rows(h)
     if _OPTS.get("qcols"):
         h = apply_qcols(h)
+    if prefix:
+        h = prefix_ids(h, prefix)
     return h
+
+
+def natural_sort_key(p):
+    """Sort strings with embedded numbers naturally (e.g. Chapter-2 before Chapter-10)."""
+    s = str(p)
+    return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', s)]
 
 
 def collect(inputs):
@@ -422,7 +491,8 @@ def collect(inputs):
     for p in inputs:
         p = Path(p)
         if p.is_dir():
-            files += sorted(p.glob("*.md"))
+            md_files = [f for f in p.glob("*.md") if not f.name.startswith("-")]
+            files += sorted(md_files, key=natural_sort_key)
         elif p.suffix.lower() in (".md", ".markdown"):
             files.append(p)
         else:
@@ -507,9 +577,10 @@ def main():
 
     print(f"  reading {len(files)} file(s)")
     body = []
-    for f in files:
+    for i, f in enumerate(files, 1):
         print(f"    - {f.name}")
-        body.append(md_to_html(f.read_text(encoding="utf-8")))
+        pfx = f"ch{i:02d}" if len(files) > 1 else ""
+        body.append(md_to_html(f.read_text(encoding="utf-8"), prefix=pfx))
     content = "\n".join(body)
 
     parts = []
