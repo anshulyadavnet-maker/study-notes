@@ -112,7 +112,7 @@ def main():
             "-o", str(OUT_DIR / 'Maths-Master-COMPLETE.pdf'),
             "--title", "सम्पूर्ण गणित मास्टरी",
             "--subtitle", "UPSC · SSC · RRB · Banking · State Exams",
-            "--badge", "20 अध्याय", "--toc", "--flow"
+            "--badge", "46 अध्याय", "--toc", "--flow"
         ])
 
     # 4. POLITY
