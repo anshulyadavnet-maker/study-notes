@@ -127,6 +127,41 @@ def main():
             "--badge", "संवैधानिक ढांचा व मौलिक अधिकार", "--toc", "--flow"
         ])
 
+    # 5. CTET MCQ
+    C = REPO_ROOT / "ctet-mcq"
+    if C.exists():
+        print("\n--- 5. CTET MCQ -----------------------------------")
+        run([
+            str(C / '00-CTET-Detailed-Syllabus.md'),
+            "-o", str(OUT_DIR / 'CTET-Detailed-Syllabus.pdf'),
+            "--title", "CTET विस्तृत पाठ्यक्रम व परीक्षा योजना",
+            "--subtitle", "Paper I व Paper II · CTET 2026",
+            "--badge", "Official Blueprint", "--toc"
+        ])
+        run([
+            str(C / '01-CDP-MCQ-Part-1.md'),
+            "-o", str(OUT_DIR / 'CTET-CDP-MCQ-Part-1.pdf'),
+            "--title", "CTET बाल विकास एवं शिक्षाशास्त्र (भाग-1)",
+            "--subtitle", "अभ्यास प्रश्न 001–100 · PYQ पैटर्न",
+            "--badge", "100 MCQs", "--toc", "--qcols", "--flow"
+        ])
+        run([
+            str(C / '01-CDP-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-CDP-MCQ-Part-2.pdf'),
+            "--title", "CTET बाल विकास एवं शिक्षाशास्त्र (भाग-2)",
+            "--subtitle", "अभ्यास प्रश्न 101–200 · Inclusive & Pedagogy",
+            "--badge", "100 MCQs", "--toc", "--qcols", "--flow"
+        ])
+        run([
+            str(C / '00-CTET-Detailed-Syllabus.md'),
+            str(C / '01-CDP-MCQ-Part-1.md'),
+            str(C / '01-CDP-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-CDP-COMPLETE.pdf'),
+            "--title", "CTET बाल विकास एवं शिक्षण शास्त्र सम्पूर्ण संग्रह",
+            "--subtitle", "विस्तृत सिलेबस + 200 PYQ-बेस्ड MCQs व्याख्या सहित",
+            "--badge", "Paper I व II", "--toc", "--qcols", "--flow"
+        ])
+
     print("\n==================================================")
     print("            BUILD COMPLETE                        ")
     print("==================================================")
