@@ -19,10 +19,20 @@ OUT_DIR = REPO_ROOT / "PDF"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MD2PDF = HERE / "md2pdf.py"
+MCQ2PDF = HERE / "mcqmdtopdf.py"
 
 def run(cmd_args):
     cmd = [sys.executable, str(MD2PDF)] + cmd_args
     print(f"\n[RUN] {' '.join(cmd_args)}")
+    res = subprocess.run(cmd, cwd=str(REPO_ROOT))
+    if res.returncode != 0:
+        print(f"  [ERROR] Command failed with code {res.returncode}")
+    return res.returncode
+
+def run_mcq(cmd_args):
+    runner = MCQ2PDF if MCQ2PDF.exists() else MD2PDF
+    cmd = [sys.executable, str(runner)] + cmd_args
+    print(f"\n[RUN MCQ] {' '.join(cmd_args)}")
     res = subprocess.run(cmd, cwd=str(REPO_ROOT))
     if res.returncode != 0:
         print(f"  [ERROR] Command failed with code {res.returncode}")
@@ -138,28 +148,28 @@ def main():
             "--subtitle", "Paper I व Paper II · CTET 2026",
             "--badge", "Official Blueprint", "--toc"
         ])
-        run([
+        run_mcq([
             str(C / '01-CDP-MCQ-Part-1.md'),
             "-o", str(OUT_DIR / 'CTET-CDP-MCQ-Part-1.pdf'),
             "--title", "CTET बाल विकास एवं शिक्षाशास्त्र (भाग-1)",
             "--subtitle", "अभ्यास प्रश्न 001–100 · PYQ पैटर्न",
-            "--badge", "100 MCQs", "--toc", "--qcols", "--flow"
+            "--badge", "100 MCQs", "--toc", "--flow"
         ])
-        run([
+        run_mcq([
             str(C / '01-CDP-MCQ-Part-2.md'),
             "-o", str(OUT_DIR / 'CTET-CDP-MCQ-Part-2.pdf'),
             "--title", "CTET बाल विकास एवं शिक्षाशास्त्र (भाग-2)",
             "--subtitle", "अभ्यास प्रश्न 101–200 · Inclusive & Pedagogy",
-            "--badge", "100 MCQs", "--toc", "--qcols", "--flow"
+            "--badge", "100 MCQs", "--toc", "--flow"
         ])
-        run([
+        run_mcq([
             str(C / '00-CTET-Detailed-Syllabus.md'),
             str(C / '01-CDP-MCQ-Part-1.md'),
             str(C / '01-CDP-MCQ-Part-2.md'),
             "-o", str(OUT_DIR / 'CTET-CDP-COMPLETE.pdf'),
             "--title", "CTET बाल विकास एवं शिक्षण शास्त्र सम्पूर्ण संग्रह",
             "--subtitle", "विस्तृत सिलेबस + 200 PYQ-बेस्ड MCQs व्याख्या सहित",
-            "--badge", "Paper I व II", "--toc", "--qcols", "--flow"
+            "--badge", "Paper I व II", "--toc", "--flow"
         ])
 
     print("\n==================================================")

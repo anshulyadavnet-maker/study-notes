@@ -105,6 +105,7 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
 
     document = (
         '<!DOCTYPE html><html lang="hi"><head><meta charset="utf-8">'
+        f'<style>{MCQ_CSS}</style>'
         f'<title>{html.escape(title)}</title></head><body>{"".join(parts)}</body></html>'
     )
 
@@ -113,33 +114,43 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
     debug = output.with_suffix(".debug.html")
     debug.write_text(document, encoding="utf-8")
 
-    # md2pdf.py imports the same three objects.  Keeping the actual PDF call in
-    # this wrapper is what allows the MCQ-only CSS to be added without touching
-    # the general chapter renderer.
-    font_config = pipeline.FontConfiguration()
-    sheets = [
-        pipeline.CSS(filename=str(pipeline.CSS_FILE), font_config=font_config),
-        pipeline.CSS(string=MCQ_CSS, font_config=font_config),
-    ]
-    if flow:
-        sheets.append(pipeline.CSS(
-            string="h1{page-break-before:auto;margin-top:9mm;}"
-                   "h1:first-of-type{margin-top:0;}",
-            font_config=font_config,
-        ))
-    if extra_css:
-        sheets.append(pipeline.CSS(filename=str(extra_css), font_config=font_config))
-
     print("  rendering MCQ PDF ...")
-    try:
-        pipeline.HTML(string=document, base_url=str(pipeline.HERE)).write_pdf(
-            str(output), stylesheets=sheets, font_config=font_config
-        )
-    finally:
-        debug.unlink(missing_ok=True)
+    rendered = False
+    if getattr(pipeline, "WEASYPRINT_AVAILABLE", False):
+        try:
+            from weasyprint.text.fonts import FontConfiguration
+            from weasyprint import HTML, CSS
+            font_config = FontConfiguration()
+            sheets = [
+                CSS(filename=str(pipeline.CSS_FILE), font_config=font_config),
+                CSS(string=MCQ_CSS, font_config=font_config),
+            ]
+            if flow:
+                sheets.append(CSS(
+                    string="h1{page-break-before:auto;margin-top:9mm;}"
+                           "h1:first-of-type{margin-top:0;}",
+                    font_config=font_config,
+                ))
+            if extra_css:
+                sheets.append(CSS(filename=str(extra_css), font_config=font_config))
+
+            HTML(string=document, base_url=str(pipeline.HERE)).write_pdf(
+                str(output), stylesheets=sheets, font_config=font_config
+            )
+            rendered = True
+        except Exception as err:
+            print(f"  ! WeasyPrint failed ({err}), falling back to Headless Browser...")
+
+    if not rendered:
+        pipeline.render_pdf_with_browser(document, output, pipeline.CSS_FILE, extra_css=extra_css, flow=flow)
+
+    debug.unlink(missing_ok=True)
 
     size_mb = output.stat().st_size / 1024 / 1024
-    print(f"  ✔ {output}  ({size_mb:.2f} MB)")
+    try:
+        print(f"  ✔ {output}  ({size_mb:.2f} MB)")
+    except UnicodeEncodeError:
+        print(f"  [OK] {output}  ({size_mb:.2f} MB)")
     return output
 
 
@@ -188,4 +199,9 @@ def main():
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
     main()
