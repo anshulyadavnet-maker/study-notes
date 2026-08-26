@@ -1,11 +1,7 @@
 # CTET MCQ — Child Development & Pedagogy
 ## Part 1: PYQ-Concept Based Questions 001–100
 
-> **Purpose:** ये questions CTET के repeated PYQ concepts, official CDP syllabus और common exam patterns पर आधारित original practice questions हैं। ये किसी previous-year paper की verbatim copy नहीं हैं।
->
-> **Coverage:** Child Development, learning relationship, development principles, heredity/environment, socialisation, Piaget, Vygotsky, Kohlberg, child-centred education, intelligence, language and thought, gender, diversity and assessment.
->
-> **Print/PDF tip:** इस file को `pdf-system/md2pdf.py` से `--toc --qcols` options के साथ build करें। हर set को अलग heading दिया गया है ताकि questions दो-column print flow में भी पढ़ने योग्य रहें।
+
 
 ---
 

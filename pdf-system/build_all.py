@@ -150,26 +150,60 @@ def main():
         ])
         run_mcq([
             str(C / '01-CDP-MCQ-Part-1.md'),
-            "-o", str(OUT_DIR / 'CTET-CDP-MCQ-Part-1.pdf'),
-            "--title", "CTET बाल विकास एवं शिक्षाशास्त्र (भाग-1)",
-            "--subtitle", "अभ्यास प्रश्न 001–100 · PYQ पैटर्न",
-            "--badge", "100 MCQs", "--toc", "--flow"
+            str(C / '01-CDP-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-CDP-MCQ.pdf'),
+            "--title", "CTET बाल विकास एवं शिक्षाशास्त्र",
+            "--subtitle", "सम्पूर्ण 200 अभ्यास प्रश्न (Part 1 + 2) · PYQ पैटर्न",
+            "--badge", "200 MCQs", "--toc", "--flow"
         ])
         run_mcq([
-            str(C / '01-CDP-MCQ-Part-2.md'),
-            "-o", str(OUT_DIR / 'CTET-CDP-MCQ-Part-2.pdf'),
-            "--title", "CTET बाल विकास एवं शिक्षाशास्त्र (भाग-2)",
-            "--subtitle", "अभ्यास प्रश्न 101–200 · Inclusive & Pedagogy",
-            "--badge", "100 MCQs", "--toc", "--flow"
+            str(C / '02-Paper-I-Mathematics-MCQ-Part-1.md'),
+            str(C / '02-Paper-I-Mathematics-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-I-Mathematics-MCQ.pdf'),
+            "--title", "CTET गणित (Paper I)",
+            "--subtitle", "सम्पूर्ण 200 अभ्यास प्रश्न (Part 1 + 2) · PYQ पैटर्न",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '03-Paper-I-EVS-MCQ-Part-1.md'),
+            str(C / '03-Paper-I-EVS-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-I-EVS-MCQ.pdf'),
+            "--title", "CTET पर्यावरण अध्ययन (EVS)",
+            "--subtitle", "सम्पूर्ण 200 अभ्यास प्रश्न (Part 1 + 2) · PYQ पैटर्न",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '04-Language-I-Hindi-MCQ-Part-1.md'),
+            str(C / '04-Language-I-Hindi-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Language-I-Hindi-MCQ.pdf'),
+            "--title", "CTET भाषा I (हिन्दी)",
+            "--subtitle", "सम्पूर्ण 200 अभ्यास प्रश्न (Part 1 + 2) · PYQ पैटर्न",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '05-Language-II-English-MCQ-Part-1.md'),
+            str(C / '05-Language-II-English-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Language-II-English-MCQ.pdf'),
+            "--title", "CTET Language II (English)",
+            "--subtitle", "Complete 200 Practice MCQs (Part 1 + 2) · PYQ Pattern",
+            "--badge", "200 MCQs", "--toc", "--flow"
         ])
         run_mcq([
             str(C / '00-CTET-Detailed-Syllabus.md'),
             str(C / '01-CDP-MCQ-Part-1.md'),
             str(C / '01-CDP-MCQ-Part-2.md'),
-            "-o", str(OUT_DIR / 'CTET-CDP-COMPLETE.pdf'),
-            "--title", "CTET बाल विकास एवं शिक्षण शास्त्र सम्पूर्ण संग्रह",
-            "--subtitle", "विस्तृत सिलेबस + 200 PYQ-बेस्ड MCQs व्याख्या सहित",
-            "--badge", "Paper I व II", "--toc", "--flow"
+            str(C / '02-Paper-I-Mathematics-MCQ-Part-1.md'),
+            str(C / '02-Paper-I-Mathematics-MCQ-Part-2.md'),
+            str(C / '03-Paper-I-EVS-MCQ-Part-1.md'),
+            str(C / '03-Paper-I-EVS-MCQ-Part-2.md'),
+            str(C / '04-Language-I-Hindi-MCQ-Part-1.md'),
+            str(C / '04-Language-I-Hindi-MCQ-Part-2.md'),
+            str(C / '05-Language-II-English-MCQ-Part-1.md'),
+            str(C / '05-Language-II-English-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-I-COMPLETE.pdf'),
+            "--title", "CTET Paper I सम्पूर्ण प्रश्न बैंक",
+            "--subtitle", "पाठ्यक्रम + CDP, गणित, EVS, हिन्दी, English (1000 MCQs)",
+            "--badge", "1000 MCQs", "--toc", "--flow"
         ])
 
     print("\n==================================================")

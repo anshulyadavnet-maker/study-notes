@@ -1,11 +1,7 @@
 # CTET Paper I Mathematics MCQ
 ## Part 2: Mathematics Pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** ये original MCQs CTET Paper I Mathematics Pedagogy के official syllabus, repeated PYQ themes और classroom-scenario patterns पर आधारित हैं। ये किसी previous-year paper की verbatim copy नहीं हैं।
->
-> **Coverage:** Nature of Mathematics, logical thinking, children’s reasoning and strategies, curriculum, language of Mathematics, community Mathematics, evaluation, teaching problems, error analysis, diagnostic and remedial teaching.
->
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। आवश्यक जगहों पर visual figure blocks दिए गए हैं।
+
 
 ---
 

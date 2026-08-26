@@ -1,11 +1,7 @@
 # CTET Paper I Mathematics MCQ
 ## Part 1: Mathematics Content — Q001–Q100
 
-> **PYQ-concept based practice:** ये original MCQs CTET Paper I Mathematics के NCERT Classes I–V content, repeated PYQ themes और common question patterns पर आधारित हैं। ये किसी previous-year paper की verbatim copy नहीं हैं।
->
-> **Coverage:** Numbers, operations, fractions, geometry, shapes and spatial understanding, solids, measurement, time, volume, data handling, patterns and money.
->
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। जहाँ concept को visual model से बेहतर समझाया जा सकता है, वहाँ figure block दिया गया है।
+
 
 ---
 
