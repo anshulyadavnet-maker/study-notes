@@ -757,14 +757,22 @@ Focus areas:
 ```text
 ctet-mcq/
 ├── 00-CTET-Detailed-Syllabus.md   ← यह file
-├── 01-CDP-MCQ.md
-├── 02-Paper-I-Mathematics-MCQ.md
-├── 03-Paper-I-EVS-MCQ.md
-├── 04-Language-I-MCQ.md
-├── 05-Language-II-MCQ.md
-├── 06-Paper-II-Mathematics-MCQ.md
-├── 07-Paper-II-Science-MCQ.md
-├── 08-Paper-II-Social-Science-MCQ.md
+├── 01-CDP-MCQ-Part-1.md
+├── 01-CDP-MCQ-Part-2.md
+├── 02-Paper-I-Mathematics-MCQ-Part-1.md
+├── 02-Paper-I-Mathematics-MCQ-Part-2.md
+├── 03-Paper-I-EVS-MCQ-Part-1.md
+├── 03-Paper-I-EVS-MCQ-Part-2.md
+├── 04-Language-I-Hindi-MCQ-Part-1.md
+├── 04-Language-I-Hindi-MCQ-Part-2.md
+├── 05-Language-II-English-MCQ-Part-1.md
+├── 05-Language-II-English-MCQ-Part-2.md
+├── 06-Paper-II-Mathematics-MCQ-Part-1.md
+├── 06-Paper-II-Mathematics-MCQ-Part-2.md
+├── 07-Paper-II-Science-MCQ-Part-1.md
+├── 07-Paper-II-Science-MCQ-Part-2.md
+├── 08-Paper-II-Social-Science-MCQ-Part-1.md
+├── 08-Paper-II-Social-Science-MCQ-Part-2.md
 ├── 09-Pedagogy-Mixed-MCQ.md
 ├── 10-CTET-Full-Mock-Tests.md
 └── 11-CTET-Answer-Key-Explanations.md
