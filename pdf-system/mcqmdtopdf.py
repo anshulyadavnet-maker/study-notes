@@ -3,8 +3,9 @@
 mcqmdtopdf.py — MCQ Markdown ➜ print-friendly PDF.
 
 This is deliberately separate from md2pdf.py.  It reuses the common Markdown,
-figure, cover and WeasyPrint pipeline, but adds a light horizontal divider before
-each MCQ so questions remain visually separated in one- and two-column print.
+figure, cover and WeasyPrint pipeline, but gives each MCQ a colour-coded,
+print-friendly outline so questions remain visually separated in one- and
+two-column print.
 
 Examples
   python3 pdf-system/mcqmdtopdf.py ctet-mcq/01-CDP-MCQ-Part-1.md \
@@ -37,36 +38,126 @@ import md2pdf as pipeline  # noqa: E402
 QUESTION_START = re.compile(r"<p>\s*<strong>Q\d{1,3}\.?</strong>")
 
 # Kept local to this MCQ-only wrapper so the ordinary chapter renderer is not
-# changed.  A subtle solid rule is clearer on paper than a heavy coloured box.
+# changed.  The colours are deliberately high-contrast and print-friendly:
+# black question text, dark blue options, green answer and dark red explanation.
 MCQ_CSS = """
-.q-sep {
+/* One bordered card contains the complete question, options, answer and
+   explanation.  Keeping the card together also prevents awkward column/page
+   breaks in WeasyPrint. */
+.mcq-question {
   display:block;
+  box-sizing:border-box;
   width:100%;
-  height:0;
-  border-top:0.8pt solid #c8d1de;
-  margin:2.4mm 0 2.0mm;
+  border:0.85pt solid #9eabc0;
+  border-left:2.2pt solid #536b88;
+  border-radius:1.4mm;
+  background:#ffffff;
+  padding:1.55mm 2.0mm 1.25mm;
+  margin:0 0 2.45mm;
   break-inside:avoid;
   page-break-inside:avoid;
 }
-.qcols .q-sep {
-  border-top-color:#cbd4e0;
-  margin:2.0mm 0 1.8mm;
+.mcq-question .mcq-prompt {
+  color:#111111;
+  font-weight:600;
+  margin:0 0 1.25mm;
+  break-after:avoid;
+  page-break-after:avoid;
+}
+.mcq-question .mcq-prompt strong {
+  color:#000000;
+}
+.mcq-question > ul {
+  color:#153f73;
+  margin:.2em 0 .75em 1.2em;
+  padding-left:1.0em;
+}
+.mcq-question > ul li {
+  color:#153f73;
+  margin:.12em 0;
+}
+.mcq-question .mcq-answer {
+  color:#177245;
+  font-weight:600;
+  margin:.55mm 0 .65mm;
+}
+.mcq-question .mcq-answer strong {
+  color:#126238;
+}
+.mcq-question .mcq-explanation {
+  color:#8b2635;
+  margin:.45mm 0 .15mm;
+}
+.mcq-question .mcq-explanation strong {
+  color:#741b29;
+}
+/* The Markdown source uses --- after each MCQ.  The card outline is the
+   separator now, so avoid adding a second rule inside the card. */
+.mcq-question > hr {
+  display:none;
+}
+/* qcols has slightly smaller type; retain the card padding and keep each card
+   intact when the questions flow down the two columns. */
+.qcols .mcq-question {
+  margin-bottom:2.0mm;
+  padding:1.35mm 1.75mm 1.1mm;
+}
+.qcols .mcq-question .mcq-prompt {
+  margin-bottom:1.0mm;
+}
+.qcols .mcq-question > ul {
+  margin-bottom:.55em;
 }
 """
 
 
 def add_question_separators(rendered_html: str) -> str:
-    """Place a horizontal divider before every MCQ after the first one."""
-    seen = 0
+    """Wrap each complete MCQ in a print-friendly, colour-coded card.
 
-    def replace(match):
-        nonlocal seen
-        seen += 1
-        if seen == 1:
-            return match.group(0)
-        return '<div class="q-sep"></div>' + match.group(0)
+    The Markdown converter emits one question as a prompt paragraph, an
+    options list, an answer paragraph, an explanation paragraph and usually an
+    ``<hr>``.  We wrap from one Q paragraph up to the next Q paragraph so the
+    border covers the whole question without changing the general renderer.
+    """
+    matches = list(QUESTION_START.finditer(rendered_html))
+    if not matches:
+        return rendered_html
 
-    return QUESTION_START.sub(replace, rendered_html)
+    out = [rendered_html[:matches[0].start()]]
+    for index, match in enumerate(matches):
+        start = match.start()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(rendered_html)
+        raw_block = rendered_html[start:end]
+
+        # Every MCQ Markdown entry normally ends with `---`, rendered as an
+        # <hr />.  Stop the card there so a final question does not swallow the
+        # following Quick Answer Index or the next input file's heading.  The
+        # explanation paragraph is a safe fallback for banks that omit `---`.
+        boundary = re.search(r'<hr\s*/?>', raw_block)
+        if boundary is None:
+            boundary = re.search(
+                r'<p>\s*<strong>Explanation:</strong>.*?</p>',
+                raw_block, flags=re.S
+            )
+        block = raw_block[:boundary.end()] if boundary else raw_block
+        tail = raw_block[boundary.end():] if boundary else ""
+
+        block = re.sub(
+            r"^<p>\s*(<strong>Q\d{1,3}\.?</strong>)",
+            r'<p class="mcq-prompt">\1', block, count=1
+        )
+        block = re.sub(
+            r'<p>\s*(<strong>Answer:</strong>)',
+            r'<p class="mcq-answer">\1', block, count=1
+        )
+        block = re.sub(
+            r'<p>\s*(<strong>Explanation:</strong>)',
+            r'<p class="mcq-explanation">\1', block, count=1
+        )
+        out.append('<div class="mcq-question">' + block + '</div>')
+        if tail:
+            out.append(tail)
+    return ''.join(out)
 
 
 def render_mcq_pdf(files, output, title, subtitle, author, badge,
@@ -76,8 +167,8 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
     if not files:
         raise SystemExit("No Markdown files found.")
 
-    # Get raw rendered sections first.  qcols is applied only after the divider
-    # markers are inserted, which keeps the rule in the correct column.
+    # Get raw rendered sections first.  Question cards are added before qcols is
+    # applied so the complete bordered card flows as one unit in a column.
     pipeline._OPTS["qcols"] = False
     rendered_sections = []
     for f in files:
@@ -145,7 +236,7 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
 
 def main():
     parser = argparse.ArgumentParser(
-        description="MCQ Markdown -> print-friendly PDF with question separators"
+        description="MCQ Markdown -> print-friendly PDF with colour-coded question cards"
     )
     parser.add_argument("inputs", nargs="+", help="Markdown files and/or folders")
     parser.add_argument("-o", "--output")
