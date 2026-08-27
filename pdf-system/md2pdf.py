@@ -405,9 +405,45 @@ def build_toc(h: str) -> str:
     return ('<section class="toc"><h1>विषय-सूची / Contents</h1><ul>'
             + "".join(rows) + "</ul></section>")
 
-# ------------------------------------------------------------------ cover
+# ------------------------------------------------------------------ cover & social
+SOCIAL_LINKS = [
+    {
+        "platform": "Instagram",
+        "handle": "@studyhub.point",
+        "url": "https://www.instagram.com/studyhub.point/",
+        "cls": "instagram",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#E1306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>',
+    },
+    {
+        "platform": "YouTube",
+        "handle": "@studyhub.points",
+        "url": "https://www.youtube.com/@studyhub.points",
+        "cls": "youtube",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#FF0000"></polygon></svg>',
+    },
+    {
+        "platform": "Telegram",
+        "handle": "studyhub_point",
+        "url": "https://t.me/studyhub_point",
+        "cls": "telegram",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#0088cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>',
+    },
+    {
+        "platform": "Website",
+        "handle": "studyhubpoint",
+        "url": "https://studyhubpoint.anshulyadav.net/",
+        "cls": "website",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#127a4d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>',
+    },
+]
+
+
 def build_cover(title, subtitle, meta, badge) -> str:
     m = "".join(f"<div>{html.escape(x)}</div>" for x in meta if x)
+    social_pills = "".join(
+        f'<a href="{s["url"]}" target="_blank" class="social-pill {s["cls"]}">{s["icon"]} <span>{s["platform"]}</span></a>'
+        for s in SOCIAL_LINKS
+    )
     return f"""<section class="cover">
   <div class="kicker">Study Notes</div>
   <h1>{html.escape(title)}</h1>
@@ -415,6 +451,36 @@ def build_cover(title, subtitle, meta, badge) -> str:
   {f'<div class="sub">{html.escape(subtitle)}</div>' if subtitle else ''}
   <div class="meta">{m}</div>
   {f'<div class="badge">{html.escape(badge)}</div>' if badge else ''}
+  <div class="cover-social">{social_pills}</div>
+</section>"""
+
+
+def build_back_cover() -> str:
+    items = "".join(
+        f'''<a href="{s["url"]}" target="_blank" class="bc-item {s["cls"]}">
+          <div class="bc-icon">{s["icon"]}</div>
+          <div class="bc-text">
+            <span class="bc-platform">{s["platform"]}</span>
+            <span class="bc-handle">{s["handle"]}</span>
+          </div>
+        </a>'''
+        for s in SOCIAL_LINKS
+    )
+    return f"""<section class="back-cover">
+  <div class="bc-card">
+    <div class="bc-logo">StudyHub Point</div>
+    <div class="bc-tagline">आपकी सफलता, हमारा संकल्प · Best Wishes for Your Exam Preparation!</div>
+    <div class="bc-rule"></div>
+    <div class="bc-heading">हमारे साथ जुड़ें / Connect with Us</div>
+    <div class="bc-grid">
+      {items}
+    </div>
+    <div class="bc-footer">
+      <span>📚 Study Notes &amp; Question Banks</span>
+      <span>•</span>
+      <span>🎯 PYQ Based Exam Preparation</span>
+    </div>
+  </div>
 </section>"""
 
 # ------------------------------------------------------------------- main
@@ -594,6 +660,8 @@ def main():
         t = build_toc(content)
         if t: parts.append(t)
     parts.append(content)
+    if not a.no_cover:
+        parts.append(build_back_cover())
 
     doc = f"""<!DOCTYPE html><html lang="hi"><head><meta charset="utf-8">
 <title>{html.escape(title)}</title></head><body>{''.join(parts)}</body></html>"""

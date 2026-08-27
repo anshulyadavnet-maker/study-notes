@@ -200,6 +200,8 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
     if toc_html:
         parts.append(toc_html)
     parts.append(content)
+    if show_cover:
+        parts.append(pipeline.build_back_cover())
 
     is_punjabi = bool(GURMUKHI_RE.search(content))
     doc_lang = "pa" if is_punjabi else "hi"
