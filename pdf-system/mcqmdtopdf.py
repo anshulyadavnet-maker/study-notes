@@ -36,6 +36,7 @@ import md2pdf as pipeline  # noqa: E402
 
 
 QUESTION_START = re.compile(r"<p>\s*<strong>Q\d{1,3}\.?</strong>")
+GURMUKHI_RE = re.compile(r"[\u0A00-\u0A7F]")
 
 # Kept local to this MCQ-only wrapper so the ordinary chapter renderer is not
 # changed.  The colours are deliberately high-contrast and print-friendly:
@@ -107,6 +108,12 @@ MCQ_CSS = """
 }
 .qcols .mcq-question > ul {
   margin-bottom:.55em;
+}
+/* Punjabi banks use Gurmukhi in HTML.  Prefer a Gurmukhi-capable font when
+   the host provides one, while keeping the existing Devanagari documents on
+   their original font stack. */
+.punjabi-document {
+  font-family:'Noto Sans Gurmukhi','Raavi','Nirmala UI','Lohit Punjabi','DejaVu Sans',sans-serif;
 }
 """
 
@@ -194,9 +201,12 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
         parts.append(toc_html)
     parts.append(content)
 
+    is_punjabi = bool(GURMUKHI_RE.search(content))
+    doc_lang = "pa" if is_punjabi else "hi"
+    body_class = ' class="punjabi-document"' if is_punjabi else ""
     document = (
-        '<!DOCTYPE html><html lang="hi"><head><meta charset="utf-8">'
-        f'<title>{html.escape(title)}</title></head><body>{"".join(parts)}</body></html>'
+        f'<!DOCTYPE html><html lang="{doc_lang}"><head><meta charset="utf-8">'
+        f'<title>{html.escape(title)}</title></head><body{body_class}>{"".join(parts)}</body></html>'
     )
 
     output = Path(output)
