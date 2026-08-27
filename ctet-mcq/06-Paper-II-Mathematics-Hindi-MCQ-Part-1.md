@@ -1,12 +1,6 @@
 # CTET Paper II Mathematics MCQ — हिन्दी संस्करण
 ## Part 1: गणित विषय-वस्तु — Q001–Q100
 
-> **PYQ-concept based practice:** ये original अभ्यास-प्रश्न CTET Paper-II Mathematics के Class VI–VIII concepts पर आधारित हैं—number system, integers, fractions, ratio, algebra, geometry, construction, mensuration और data handling।
->
-> **चित्र-सूचना:** English version वाले वही Python-generated vector SVG figures यहाँ reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 01 — संख्या-पद्धति और integers (Q001–Q010)

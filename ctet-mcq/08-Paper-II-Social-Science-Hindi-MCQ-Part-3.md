@@ -1,12 +1,6 @@
 # CTET Paper II Social Studies/Social Science MCQ — हिन्दी माध्यम
 ## Part 3: History, Geography और Civics Content — Q201–Q300
 
-> **Next 100 content questions:** ये original Hindi-medium MCQs पहले 200 के बाद के extended content practice set हैं। Q201–Q240 History, Q241–Q270 Geography और Q271–Q300 Civics/Social and Political Life पर आधारित हैं।
->
-> **चित्र-सूचना:** English version वाले वही Python-generated vector SVG figures reuse किए गए हैं; figures के labels English में हैं ताकि visual models दोनों versions में समान रहें।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 21 — Sources, Early Societies and Historical Reasoning (Q201–Q210)

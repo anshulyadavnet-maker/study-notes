@@ -1,14 +1,6 @@
 # CTET Paper II Social Studies/Social Science MCQ — हिन्दी माध्यम
 ## Part 4: Social Science Pedagogy — Q301–Q400
 
-> **Next 100 pedagogy questions:** ये original Hindi-medium practice MCQs Social Science की nature, History/Geography/Civics pedagogy, enquiry, sources, maps, democratic classroom, projects, evaluation, inclusion और remedial teaching पर आधारित हैं।
->
-> **चित्र-सूचना:** English version वाले वही Python-generated vector SVG figures reuse किए गए हैं; figures के labels English में हैं ताकि visual models समान रहें।
->
-> **Exam lens:** Evidence, learner thinking, multiple perspectives, democratic participation, inclusion और responsive assessment वाले options को preference दें।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 31 — Social Science की Nature और Learning Goals (Q301–Q310)

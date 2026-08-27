@@ -1,12 +1,6 @@
 # CTET Paper II Social Studies/Social Science MCQ — हिन्दी संस्करण
 ## Part 1: History, Geography और Civics Content — Q001–Q100
 
-> **PYQ-concept based practice:** ये original Hindi-medium अभ्यास-प्रश्न CTET Paper-II Social Studies/Social Science के Classes VI–VIII content पर आधारित हैं—History, Geography और Social and Political Life/Civics।
->
-> **चित्र-सूचना:** English version वाले वही Python-generated vector SVG figures reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 01 — प्रारम्भिक समाज, नगर और historical sources (Q001–Q010)

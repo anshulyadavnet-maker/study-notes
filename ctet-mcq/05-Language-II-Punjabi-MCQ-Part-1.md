@@ -1,12 +1,6 @@
 # CTET Language II — Punjabi MCQ (ਪੰਜਾਬੀ + हिंदी सहायता)
 ## Part 1: ਪੰਜਾਬੀ comprehension, grammar ਅਤੇ vocabulary — Q001–Q100
 
-> **Language choice:** ਇਹ Punjabi Language II bank Hindi Language I ਦੇ ਨਾਲ ਵਰਤਣ ਲਈ ਹੈ। ਪੰਜਾਬੀ ਮੁੱਖ text Gurmukhi script ਵਿੱਚ ਹੈ ਅਤੇ ਹਰ ਪ੍ਰਸ਼ਨ ਦੇ ਨਾਲ Hindi सहायता ਦਿੱਤੀ ਗਈ ਹੈ।
->
-> **Original practice:** ਇਹ questions CTET Language-II ਦੇ comprehension, grammar ਅਤੇ verbal-ability patterns ਉੱਤੇ ਆਧਾਰਿਤ original practice ਹਨ; passages ਕਿਸੇ previous-year paper ਦੀ verbatim copy ਨਹੀਂ ਹਨ।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` ਤੋਂ `--toc --flow` ਨਾਲ build ਕਰੋ। Gurmukhi text ਲਈ system ਵਿੱਚ Punjabi/Gurmukhi-compatible font ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ; figures ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
-
 ---
 
 ## Set 01 — ਗਦ ਅੰਸ਼ 1: ਪਾਣੀ ਦੀ ਸੰਭਾਲ (Q001–Q010)

@@ -1,11 +1,6 @@
 # CTET Language II — English MCQ
 ## Part 1: Comprehension, Grammar & Vocabulary — Q001–Q100
 
-> **PYQ-concept based practice:** These are original practice questions built around recurring CTET Language-II patterns: unseen-passage comprehension, inference, vocabulary, grammar and language use. The passages and questions are not verbatim copies of previous-year papers.
->
-> **Language choice reminder:** Language II must be different from Language I. This bank is for English Language II alongside Hindi Language I.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow` for clear question separators.
 
 ---
 

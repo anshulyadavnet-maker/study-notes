@@ -1,12 +1,6 @@
 # CTET Paper II Social Studies/Social Science MCQ
 ## Part 2: Social Science Pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** These original MCQs cover CTET Paper-II Social Science pedagogy: nature and aims of Social Science, classroom processes, enquiry, evidence, History and Geography teaching, Civics discussion, projects, evaluation, inclusion and remedial support.
->
-> **Exam lens:** Prefer the response that makes evidence and learner thinking visible, supports democratic participation, respects multiple perspectives and uses assessment to plan the next step—not rote copying, stereotyping or unsupported opinion.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card and selected concepts include Python-generated vector figures.
-
 ---
 
 ## Set 11 — Nature and Concept of Social Science (Q101–Q110)

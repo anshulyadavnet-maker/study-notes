@@ -1,11 +1,7 @@
 # CTET Language II — English MCQ
 ## Part 2: English Language Pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** These original questions cover the recurring CTET themes of language acquisition and learning, listening and speaking, reading comprehension, writing and grammar, multilingual classrooms, inclusive practice, assessment and remedial teaching.
->
-> **Exam lens:** Choose the response that develops communication, learner participation, inclusion and evidence-based teaching—not the option based only on rote memorisation, punishment or labelling.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow` for clear question separators.
+
 
 ---
 

@@ -1,14 +1,6 @@
 # CTET Paper II Social Studies/Social Science MCQ — हिन्दी संस्करण
 ## Part 2: Social Science pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** ये original Hindi-medium अभ्यास-प्रश्न CTET Paper-II Social Science pedagogy के recurring concepts पर आधारित हैं—Social Science की nature, classroom processes, enquiry, evidence, History/Geography teaching, Civics discussion, projects, evaluation, inclusion और remedial support।
->
-> **चित्र-सूचना:** English version वाले वही Python-generated vector SVG figures reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
->
-> **Exam lens:** Evidence और learner thinking को visible बनाने, democratic participation support करने, multiple perspectives respect करने और assessment से next step plan करने वाले options prefer करें।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 11 — Social Science की प्रकृति और concept (Q101–Q110)

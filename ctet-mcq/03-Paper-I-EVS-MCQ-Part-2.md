@@ -1,11 +1,7 @@
 # CTET Paper I Environmental Studies MCQ
 ## Part 2: EVS Pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** ये original MCQs CTET Paper I EVS Pedagogy के official syllabus, repeated PYQ themes और classroom-scenario patterns पर आधारित हैं। ये किसी previous-year paper की verbatim copy नहीं हैं।
->
-> **Coverage:** Concept and scope of EVS, significance, integrated EVS, environmental education, learning principles, relation with Science/Social Science, approaches, activities, experimentation, discussion, CCE, teaching aids and problems of teaching.
->
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। आवश्यक concepts के लिए visual figure blocks शामिल हैं।
+
 
 ---
 

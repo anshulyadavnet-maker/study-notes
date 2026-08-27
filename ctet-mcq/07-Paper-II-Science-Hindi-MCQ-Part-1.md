@@ -1,12 +1,6 @@
 # CTET Paper II Science MCQ — हिन्दी संस्करण
 ## Part 1: विज्ञान विषय-वस्तु — Q001–Q100
 
-> **PYQ-concept based practice:** ये original अभ्यास-प्रश्न CTET Paper-II Science के Class VI–VIII concepts पर आधारित हैं—भोजन, पदार्थ, जीव-जगत, गति, विद्युत, चुम्बक, प्रकाश, प्राकृतिक घटनाएँ, संसाधन और daily-life applications।
->
-> **चित्र-सूचना:** इस Hindi version में वही Python-generated vector SVG figures reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 01 — भोजन और भोजन के घटक (Q001–Q010)

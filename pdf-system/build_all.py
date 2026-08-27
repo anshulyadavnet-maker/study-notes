@@ -189,6 +189,14 @@ def main():
             "--badge", "200 MCQs", "--toc", "--flow"
         ])
         run_mcq([
+            str(C / '05-Language-II-Punjabi-MCQ-Part-1.md'),
+            str(C / '05-Language-II-Punjabi-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Language-II-Punjabi-MCQ.pdf'),
+            "--title", "CTET Language II (ਪੰਜਾਬੀ Punjabi)",
+            "--subtitle", "200 Practice MCQs (Part 1 + 2) · Gurmukhi + Hindi Clues",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
             str(C / '00-CTET-Detailed-Syllabus.md'),
             str(C / '01-CDP-MCQ-Part-1.md'),
             str(C / '01-CDP-MCQ-Part-2.md'),
@@ -204,6 +212,58 @@ def main():
             "--title", "CTET Paper I सम्पूर्ण प्रश्न बैंक",
             "--subtitle", "पाठ्यक्रम + CDP, गणित, EVS, हिन्दी, English (1000 MCQs)",
             "--badge", "1000 MCQs", "--toc", "--flow"
+        ])
+
+        # Paper II subjects
+        run_mcq([
+            str(C / '06-Paper-II-Mathematics-MCQ-Part-1.md'),
+            str(C / '06-Paper-II-Mathematics-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Mathematics-MCQ.pdf'),
+            "--title", "CTET Paper II Mathematics (English)",
+            "--subtitle", "Complete 200 Practice MCQs (Content + Pedagogy)",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '06-Paper-II-Mathematics-Hindi-MCQ-Part-1.md'),
+            str(C / '06-Paper-II-Mathematics-Hindi-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Mathematics-Hindi-MCQ.pdf'),
+            "--title", "CTET गणित (Paper II हिन्दी)",
+            "--subtitle", "सम्पूर्ण 200 अभ्यास प्रश्न (विषय + शिक्षाशास्त्र)",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '07-Paper-II-Science-MCQ-Part-1.md'),
+            str(C / '07-Paper-II-Science-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Science-MCQ.pdf'),
+            "--title", "CTET Paper II Science (English)",
+            "--subtitle", "Complete 200 Practice MCQs (Content + Pedagogy)",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '07-Paper-II-Science-Hindi-MCQ-Part-1.md'),
+            str(C / '07-Paper-II-Science-Hindi-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Science-Hindi-MCQ.pdf'),
+            "--title", "CTET विज्ञान (Paper II हिन्दी)",
+            "--subtitle", "सम्पूर्ण 200 अभ्यास प्रश्न (विषय + शिक्षाशास्त्र)",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '08-Paper-II-Social-Science-MCQ-Part-1.md'),
+            str(C / '08-Paper-II-Social-Science-MCQ-Part-2.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Social-Science-MCQ.pdf'),
+            "--title", "CTET Paper II Social Science (English)",
+            "--subtitle", "Complete 200 Practice MCQs (History, Geo, Civics + Pedagogy)",
+            "--badge", "200 MCQs", "--toc", "--flow"
+        ])
+        run_mcq([
+            str(C / '08-Paper-II-Social-Science-Hindi-MCQ-Part-1.md'),
+            str(C / '08-Paper-II-Social-Science-Hindi-MCQ-Part-2.md'),
+            str(C / '08-Paper-II-Social-Science-Hindi-MCQ-Part-3.md'),
+            str(C / '08-Paper-II-Social-Science-Hindi-MCQ-Part-4.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Social-Science-Hindi-MCQ.pdf'),
+            "--title", "CTET सामाजिक अध्ययन / सामाजिक विज्ञान (Paper II)",
+            "--subtitle", "सम्पूर्ण 400 अभ्यास प्रश्न (इतिहास, भूगोल, नागरिक शास्त्र + शिक्षाशास्त्र)",
+            "--badge", "400 MCQs", "--toc", "--flow"
         ])
 
     print("\n==================================================")

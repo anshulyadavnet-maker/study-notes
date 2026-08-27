@@ -1,12 +1,6 @@
 # CTET Paper II Mathematics MCQ
 ## Part 1: Mathematics Content — Q001–Q100
 
-> **PYQ-concept based practice:** These original MCQs follow the recurring CTET Paper-II Mathematics concepts from the Class VI–VIII syllabus: number system, integers, fractions, ratio and proportion, algebra, geometry, construction, mensuration and data handling.
->
-> **Paper-II focus:** Content questions are followed in Part 2 by mathematics pedagogy questions. Figures are Python-generated vector SVG models and are included only where a visual representation improves understanding.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card.
-
 ---
 
 ## Set 01 — Number System and Integers (Q001–Q010)

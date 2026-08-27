@@ -1,14 +1,6 @@
 # CTET Paper II Science MCQ — हिन्दी संस्करण
 ## Part 2: विज्ञान pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** ये original अभ्यास-प्रश्न CTET Paper-II Science pedagogy के recurring concepts पर आधारित हैं—विज्ञान की प्रकृति, inquiry, observation, experimentation, resources, evaluation, misconceptions, inclusion और remedial teaching।
->
-> **चित्र-सूचना:** इस Hindi version में वही Python-generated vector SVG figures reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
->
-> **Exam lens:** ऐसे option चुनें जो learner thinking को visible बनाए, safe evidence-based inquiry कराए, inclusion support करे और assessment को next teaching step में बदले।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
-
 ---
 
 ## Set 11 — विज्ञान की प्रकृति, उद्देश्य और संरचना (Q101–Q110)

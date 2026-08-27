@@ -1,12 +1,6 @@
 # CTET Paper II Social Studies/Social Science MCQ
 ## Part 1: History, Geography and Civics Content — Q001–Q100
 
-> **PYQ-concept based practice:** These original MCQs cover CTET Paper-II Social Studies/Social Science content for Classes VI–VIII: History, Geography and Social and Political Life/Civics.
->
-> **Coverage plan:** Q001–Q040 History, Q041–Q070 Geography and Q071–Q100 Civics. Figures are Python-generated vector SVG teaching models, included where timelines, maps, processes or institutions benefit from a visual representation.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card.
-
 ---
 
 ## Set 01 — Early Societies, Cities and Historical Sources (Q001–Q010)

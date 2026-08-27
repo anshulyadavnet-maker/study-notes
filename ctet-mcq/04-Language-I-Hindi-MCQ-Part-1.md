@@ -1,11 +1,6 @@
 # CTET Language I — हिन्दी MCQ
 ## Part 1: Comprehension, Grammar & Vocabulary — Q001–Q100
 
-> **PYQ-concept based practice:** ये मौलिक प्रश्न CTET Hindi Language-I के comprehension, inference, grammar और verbal-ability patterns पर आधारित हैं। गद्यांश और कविताएँ अभ्यास के लिए original लिखी गई हैं; ये किसी previous-year paper की verbatim copy नहीं हैं।
->
-> **Paper pattern reminder:** Language I में comprehension और language proficiency के साथ language use को समझने की क्षमता भी जाँची जाती है।
->
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें।
 
 ---
 

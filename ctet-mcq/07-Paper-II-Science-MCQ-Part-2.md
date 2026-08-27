@@ -1,12 +1,6 @@
 # CTET Paper II Science MCQ
 ## Part 2: Science Pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** These original questions cover CTET Paper-II Science pedagogy: nature and aims of science, inquiry, observation, experimentation, integrated approaches, resources, evaluation, misconceptions, inclusion and remedial teaching.
->
-> **Exam lens:** Prefer the response that makes learner thinking visible, uses safe evidence-based inquiry, supports inclusion and turns assessment into the next teaching step—not rote copying, punishment or unsupported claims.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card and selected concepts include Python-generated vector figures.
-
 ---
 
 ## Set 11 — Nature, Aims and Structure of Science (Q101–Q110)

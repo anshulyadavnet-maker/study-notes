@@ -1,12 +1,6 @@
 # CTET Language II — Punjabi MCQ (ਪੰਜਾਬੀ + हिंदी सहायता)
 ## Part 2: ਪੰਜਾਬੀ language pedagogy — Q101–Q200
 
-> **Language choice:** ਇਹ Punjabi Language II bank Hindi Language I ਦੇ ਨਾਲ ਵਰਤਣ ਲਈ ਹੈ। Main pedagogy questions Gurmukhi ਵਿੱਚ ਹਨ ਅਤੇ ਹਰ question ਦੇ ਨਾਲ Hindi सहायता ਦਿੱਤੀ ਗਈ ਹੈ।
->
-> **Coverage:** Language acquisition and learning, listening-speaking, reading-writing, grammar teaching, multilingual classroom, language difficulties, assessment, materials ਅਤੇ remedial teaching।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` ਤੋਂ `--toc --flow` ਨਾਲ build ਕਰੋ। Gurmukhi text ਲਈ Punjabi/Gurmukhi-compatible font ਚਾਹੀਦਾ ਹੈ।
-
 ---
 
 ## Set 08 — ਭਾਸ਼ਾ-ਅਧਿਗਮ ਅਤੇ ਸਿੱਖਿਆ (Q101–Q115)

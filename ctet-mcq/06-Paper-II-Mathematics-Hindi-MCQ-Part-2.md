@@ -1,14 +1,6 @@
 # CTET Paper II Mathematics MCQ — हिन्दी संस्करण
 ## Part 2: गणित pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** ये original अभ्यास-प्रश्न CTET Paper-II Mathematics pedagogy के recurring concepts पर आधारित हैं—nature of Mathematics, logical thinking, child strategies, curriculum, language, community Mathematics, evaluation, errors, diagnostic और remedial teaching।
->
-> **चित्र-सूचना:** English version वाले वही Python-generated vector SVG figures यहाँ reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
->
-> **Exam lens:** “Most appropriate teacher response” में conceptual understanding, learner reasoning, multiple representations, inclusion, evidence-based assessment और targeted support को rote learning, speed, punishment या fixed labels से ऊपर रखें।
->
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा और selected concepts में वही vector figures आएँगे।
-
 ---
 
 ## Set 11 — Mathematics की प्रकृति और logical thinking (Q101–Q110)

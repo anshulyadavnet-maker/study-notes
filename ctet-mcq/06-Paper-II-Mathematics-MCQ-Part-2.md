@@ -1,12 +1,6 @@
 # CTET Paper II Mathematics MCQ
 ## Part 2: Mathematics Pedagogy — Q101–Q200
 
-> **PYQ-concept based practice:** These original questions cover the recurring CTET Paper-II Mathematics pedagogy themes: nature of mathematics, logical thinking, children’s strategies, curriculum, language, community mathematics, evaluation, errors, diagnostic teaching and remedial teaching.
->
-> **Exam lens:** In “most appropriate teacher response” questions, prefer conceptual understanding, learner reasoning, multiple representations, inclusion, evidence-based assessment and targeted support over rote learning, speed, punishment or fixed labels.
->
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card and selected concepts include Python-generated vector figures.
-
 ---
 
 ## Set 11 — Nature of Mathematics and Logical Thinking (Q101–Q110)

@@ -1,11 +1,7 @@
 # CTET Language I — हिन्दी MCQ
 ## Part 2: हिन्दी भाषा-शिक्षणशास्त्र — Q101–Q200
 
-> **PYQ-concept based practice:** ये मौलिक प्रश्न CTET Hindi Language-I के *Pedagogy of Language Development* syllabus, repeated PYQ themes और classroom scenarios पर आधारित हैं।
->
-> **Coverage:** Learning and acquisition, principles of language teaching, listening-speaking, language as a tool, grammar, multilingual classroom, language skills, errors/disorders, evaluation, materials and remedial teaching.
->
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें।
+
 
 ---
 
