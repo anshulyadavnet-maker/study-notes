@@ -295,7 +295,10 @@ def convert_callouts(md: str) -> str:
                 ctype = "info"
             out.append(f'<div class="callout {ctype}" markdown="1">')
             if title:
-                out.append(f'<p class="callout-title">{html.escape(title)}</p>')
+                if "<svg" in title or ":icon-" in title:
+                    out.append(f'<p class="callout-title">{title}</p>')
+                else:
+                    out.append(f'<p class="callout-title">{html.escape(title)}</p>')
             stack.append(ctype)
         elif line.strip() == ":::" and stack:
             out.append("</div>")
@@ -524,18 +527,20 @@ def prefix_ids(html_str: str, pfx: str) -> str:
 
 def md_to_html(text: str, prefix: str = "") -> str:
     text = convert_figures(text)
-    text = convert_icons(text)
     if mathtex is not None:
         text = mathtex.convert(text)
     text = split_adjacent_blockquotes(text)
     text = convert_callouts(text)
+    text = convert_icons(text)
     md = markdown.Markdown(extensions=[
         "extra", "tables", "fenced_code", "sane_lists",
         "attr_list", "md_in_html", "toc", "nl2br",
     ], extension_configs={"toc": {"permalink": False}})
     h = md.convert(text)
     h = colour_blockquotes(h)   # colour chosen from the ORIGINAL emoji
-    h = swap_emoji(h)           # then swap to print-safe glyphs
+    h = convert_icons(h)        # convert any remaining :icon-name: in titles/HTML
+    if WEASYPRINT_AVAILABLE:
+        h = swap_emoji(h)       # then swap to print-safe glyphs only for WeasyPrint
     h = convert_tasks(h)
     h = mark_long_tables(h)
     h = group_figure_rows(h)

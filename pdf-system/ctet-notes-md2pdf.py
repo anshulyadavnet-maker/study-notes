@@ -307,7 +307,7 @@ body.notes-document h2.note-revision { border-left-color:#127a4d; background:#f1
 /* Punjabi notes / bilingual material: use a Gurmukhi-capable system font when
    available; Devanagari notes keep the normal Playpen Sans Deva stack. */
 body.punjabi-document {
-  font-family:'Noto Sans Gurmukhi','Raavi','Nirmala UI','Lohit Punjabi','DejaVu Sans',sans-serif;
+  font-family:'Noto Sans Gurmukhi','Raavi','Nirmala UI','Lohit Punjabi','Segoe UI Emoji','Noto Color Emoji','Apple Color Emoji','DejaVu Sans',sans-serif;
 }
 
 /* Cover and back-cover social links. */
