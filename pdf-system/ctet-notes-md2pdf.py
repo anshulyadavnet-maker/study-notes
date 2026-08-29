@@ -91,9 +91,24 @@ SECTION_STYLES = {
         "colour": "purple",
     },
     "cdp": {
-        "keywords": ("Child Development", "CDP"),
+        "keywords": ("Child Development", "Development", "CDP"),
         "label": "Child Development & Pedagogy",
         "colour": "teal",
+    },
+    "learning": {
+        "keywords": ("Learning", "अधिगम", "अधिगम और Pedagogy"),
+        "label": "Learning & Pedagogy",
+        "colour": "teal",
+    },
+    "inclusion": {
+        "keywords": ("Inclusive Education", "Inclusion", "समावेशी शिक्षा"),
+        "label": "Inclusive Education",
+        "colour": "green",
+    },
+    "assessment": {
+        "keywords": ("Assessment", "Evaluation", "मूल्यांकन"),
+        "label": "Assessment & Evidence",
+        "colour": "red",
     },
     "maths": {
         "keywords": ("Mathematics", "गणित"),
@@ -218,6 +233,9 @@ body.notes-document h2.note-paper-i,
 body.notes-document h2.note-maths { border-left-color:#1668c4; background:#f3f8ff; }
 body.notes-document h2.note-paper-ii { border-left-color:#6b3fa0; background:#f8f4ff; }
 body.notes-document h2.note-cdp { border-left-color:#0b6f78; background:#f1fbfb; }
+body.notes-document h2.note-learning { border-left-color:#0b6f78; background:#f1fbfb; }
+body.notes-document h2.note-inclusion { border-left-color:#127a4d; background:#f1fbf5; }
+body.notes-document h2.note-assessment { border-left-color:#c02b3a; background:#fff5f5; }
 body.notes-document h2.note-evs { border-left-color:#127a4d; background:#f1fbf5; }
 body.notes-document h2.note-science { border-left-color:#c02b3a; background:#fff5f5; }
 body.notes-document h2.note-sst { border-left-color:#a8620a; background:#fff9ed; }

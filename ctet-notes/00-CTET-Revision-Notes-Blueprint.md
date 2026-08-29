@@ -336,7 +336,7 @@ Revision notes बनाते समय existing question banks को applicat
 ```text
 ctet-notes/
 ├── 00-CTET-Revision-Notes-Blueprint.md   ← यह file
-├── 01-CDP-Revision-Notes.md
+├── 01-CDP-Revision-Notes.md              ← first completed revision notes file
 ├── 02-Paper-I-Mathematics-Revision-Notes.md
 ├── 03-Paper-I-EVS-Revision-Notes.md
 ├── 04-Language-I-Hindi-Revision-Notes.md
