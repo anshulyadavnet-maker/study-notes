@@ -424,6 +424,48 @@ Child-centred classroom में:
 | Rote recall | Understanding और application |
 | Fixed pace | Differentiated support |
 
+### 10.4 Learning theories — visual quick revision
+
+```figure
+type: cdp-learning-theories
+caption: Thorndike, Pavlov, Skinner and Bandura connect theory names with classroom mechanisms
+```
+
+#### :icon-cat|1.5: Thorndike — Trial-and-error learning
+
+- Puzzle-box cat example को **mechanism समझने** के लिए पढ़ें, literal classroom method की तरह नहीं।
+- **Law of Effect:** satisfying consequence वाले response की संभावना बढ़ सकती है।
+- **Law of Exercise:** practice से connections strengthen हो सकते हैं, लेकिन meaningful practice जरूरी है।
+- **Law of Readiness:** learner की readiness और situation को consider करना चाहिए।
+
+#### :icon-dog|1.5: Pavlov — Classical conditioning
+
+- एक neutral stimulus को repeated pairing के बाद response से जोड़ा जा सकता है।
+- Classic example: food के साथ bell pairing के बाद dog का salivation response।
+- Classroom में safe routines और positive associations उपयोगी हो सकते हैं; fear-based conditioning ethical teaching नहीं है।
+
+#### :icon-target|1.5: Skinner — Operant conditioning
+
+- Behaviour के बाद आने वाला consequence future behaviour को influence कर सकता है।
+- **Reinforcement** desired response की probability बढ़ा सकता है; positive reinforcement का अर्थ specific encouragement/reward है।
+- हर correct answer पर mechanical reward देना learning का substitute नहीं है।
+
+#### :icon-brain|1.5: Bandura — Social learning
+
+- Learner observation, model, imitation, feedback और self-efficacy से सीख सकता है।
+- Teacher का respectful behaviour भी बच्चों के लिए model बनता है।
+- केवल imitation पर्याप्त नहीं; learner को reasoning और independent practice भी चाहिए।
+
+::: cols 2
+::: remember ✔ Fast distinction
+Thorndike = trial and error · Pavlov = stimulus association · Skinner = consequence/reinforcement · Bandura = observation/model.
+:::
+
+::: trap ⚠️ Theory trap
+इन theories को “हर learning की complete explanation” न मानें। CTET में mechanism को classroom context, learner agency और ethics के साथ पढ़ें।
+:::
+:::
+
 ---
 
 ## 11. Constructivism और Meaning-making

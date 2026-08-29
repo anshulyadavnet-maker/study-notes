@@ -204,6 +204,66 @@ def answer_ladder_cdp(spec):
     return cv.svg()
 
 
+def _cat_face(cv, cx, cy, scale=1.0, col=None):
+    col = col or C["purple"]
+    r = 25 * scale
+    cv.circle(cx, cy, r, color=col, w=1.8, fill=C["purple_bg"])
+    cv.polygon([(cx-r*.7, cy-r*.55), (cx-r*.95, cy-r*1.25), (cx-r*.18, cy-r*.82)], color=col, w=1.5, fill=C["purple_bg"])
+    cv.polygon([(cx+r*.7, cy-r*.55), (cx+r*.95, cy-r*1.25), (cx+r*.18, cy-r*.82)], color=col, w=1.5, fill=C["purple_bg"])
+    cv.dot(cx-r*.35, cy-r*.08, r=2.0*scale, color=col)
+    cv.dot(cx+r*.35, cy-r*.08, r=2.0*scale, color=col)
+    cv.polygon([(cx, cy+r*.12), (cx-r*.16, cy+r*.28), (cx+r*.16, cy+r*.28)], color=col, w=1.0, fill=col)
+    cv.line(cx, cy+r*.28, cx, cy+r*.5, color=col, w=1.0)
+    cv.line(cx-r*.16, cy+r*.45, cx-r*.58, cy+r*.35, color=col, w=1.0)
+    cv.line(cx+r*.16, cy+r*.45, cx+r*.58, cy+r*.35, color=col, w=1.0)
+    cv.line(cx-r*.55, cy+r*.2, cx-r*1.0, cy+r*.05, color=col, w=1.0)
+    cv.line(cx+r*.55, cy+r*.2, cx+r*1.0, cy+r*.05, color=col, w=1.0)
+
+
+def _dog_face(cv, cx, cy, scale=1.0, col=None):
+    col = col or C["amber"]
+    r = 25 * scale
+    cv.ellipse(cx, cy, r, r*.95, color=col, w=1.8, fill=C["amber_bg"])
+    cv.polygon([(cx-r*.7, cy-r*.45), (cx-r*1.32, cy-r*.1), (cx-r*1.02, cy+r*.7), (cx-r*.48, cy+r*.38)], color=col, w=1.5, fill=C["amber_bg"])
+    cv.polygon([(cx+r*.7, cy-r*.45), (cx+r*1.32, cy-r*.1), (cx+r*1.02, cy+r*.7), (cx+r*.48, cy+r*.38)], color=col, w=1.5, fill=C["amber_bg"])
+    cv.dot(cx-r*.35, cy-r*.08, r=2.0*scale, color=col)
+    cv.dot(cx+r*.35, cy-r*.08, r=2.0*scale, color=col)
+    cv.ellipse(cx, cy+r*.18, r*.23, r*.16, color=col, w=1.2, fill=col)
+    cv.line(cx, cy+r*.32, cx, cy+r*.53, color=col, w=1.0)
+    cv.arc(cx, cy+r*.35, r*.35, 0.15, math.pi-.15, color=col, w=1.0)
+
+
+def learning_theories_cdp(spec):
+    W, H = 452, 318
+    cv = Canvas(W, H, seed=_seed(spec, 9113))
+    cv.text(W / 2, 18, "learning theories: different explanations, different classroom clues", size=8.9, weight=700, color=C["soft"])
+    cards = [
+        (34, 43, "Thorndike", "trial + error", C["purple"], C["purple_bg"]),
+        (236, 43, "Pavlov", "classical conditioning", C["amber"], C["amber_bg"]),
+        (34, 183, "Skinner", "consequence + reinforcement", C["blue"], C["blue_bg"]),
+        (236, 183, "Bandura", "model + observation", C["green"], C["green_bg"]),
+    ]
+    for x, y, title, sub, col, bg in cards:
+        _box(cv, x, y, 182, 108, title, col, bg, size=9.8)
+        cv.text(x + 91, y + 96, sub, size=7.6, color=col)
+    _cat_face(cv, 82, 96, .62, C["purple"])
+    cv.text(146, 89, "puzzle", size=7.8, color=C["purple"], anchor="start")
+    cv.arrow(132, 105, 170, 105, color=C["purple"], w=1.0)
+    cv.text(146, 120, "effect", size=7.8, color=C["purple"], anchor="start")
+    _dog_face(cv, 284, 96, .62, C["amber"])
+    cv.circle(347, 95, 13, color=C["amber"], w=1.2, fill=C["amber_bg"])
+    cv.text(347, 99, "bell", size=6.8, color=C["amber"])
+    cv.arrow(311, 96, 332, 96, color=C["amber"], w=1.0)
+    cv.line(80, 236, 80, 264, color=C["blue"], w=4.0)
+    cv.circle(80, 229, 10, color=C["blue"], w=1.2, fill=C["blue_bg"])
+    cv.text(111, 244, "reinforcement", size=7.8, color=C["blue"], anchor="start")
+    cv.circle(282, 229, 12, color=C["green"], w=1.3, fill=C["green_bg"])
+    cv.circle(282, 229, 4, color=C["green"], w=1.0, fill=C["green_bg"])
+    cv.text(306, 244, "observe → imitate", size=7.8, color=C["green"], anchor="start")
+    cv.text(W / 2, H - 8, "theory name → mechanism → appropriate classroom use", size=8.4, color=C["ink"])
+    return cv.svg()
+
+
 REGISTRY = {
     "cdp-development-domains": development_domains,
     "cdp-heredity-environment": heredity_environment,
@@ -217,4 +277,5 @@ REGISTRY = {
     "cdp-motivation-paths": motivation_paths_cdp,
     "cdp-teacher-response": teacher_response_cdp,
     "cdp-answer-ladder": answer_ladder_cdp,
+    "cdp-learning-theories": learning_theories_cdp,
 }
