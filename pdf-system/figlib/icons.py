@@ -1,7 +1,7 @@
 """
 icons.py — small inline SVG icons for headings, callouts and list items.
 
-Usage in markdown:  :icon-bulb:  :icon-warn:  :icon-target: ...
+Usage in markdown:  :icon-bulb:  :icon-warn:  :icon-target:  :icon-cat:  :icon-dog: ...
 
 Rendered as a ~1em inline SVG so icons sit on the text baseline.
 Deliberately stroke-only: WeasyPrint's SVG support does not cover
@@ -17,6 +17,8 @@ _ICONS = {
     "star": ('<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>', "#6b3fa0"),
     "check": ('<circle cx="12" cy="12" r="9"/><path d="m7.8 12.3 2.9 2.9 5.5-5.9"/>', "#127a4d"),
     "cross": ('<circle cx="12" cy="12" r="9"/><path d="m8.5 8.5 7 7M15.5 8.5l-7 7"/>', "#c02b3a"),
+    "cat": ('<path d="M5 9 4 3l5 3a7 7 0 0 1 6 0l5-3-1 6"/><path d="M5 9v4.2A7 7 0 0 0 12 20a7 7 0 0 0 7-6.8V9"/><circle cx="9" cy="12" r=".7" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r=".7" fill="currentColor" stroke="none"/><path d="m11 15 1-1 1 1M12 15v1M8 14l-3-1M8 16l-3 1M16 14l3-1M16 16l3 1"/>', "#6b3fa0"),
+    "dog": ('<path d="M6 8 3 4l1 9M18 8l3-4-1 9"/><path d="M6 9v4a6 6 0 0 0 12 0V9"/><circle cx="9" cy="12" r=".7" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r=".7" fill="currentColor" stroke="none"/><path d="m10 15 2 1 2-1M12 16v2"/>', "#a8620a"),
 
     # ── maths specific ──────────────────────────────────────────────
     "calc": ('<rect x="4.5" y="2.5" width="15" height="19" rx="2"/><path d="M7.5 6.5h9M8 11h.01M12 11h.01M16 11h.01M8 14.5h.01M12 14.5h.01M16 14.5h.01"/>', "#1668c4"),
