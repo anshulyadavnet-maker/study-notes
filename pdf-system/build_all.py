@@ -20,6 +20,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MD2PDF = HERE / "md2pdf.py"
 MCQ2PDF = HERE / "mcqmdtopdf.py"
+NOTES2PDF = HERE / "ctet-notes-md2pdf.py"
 
 def run(cmd_args):
     cmd = [sys.executable, str(MD2PDF)] + cmd_args
@@ -33,6 +34,15 @@ def run_mcq(cmd_args):
     runner = MCQ2PDF if MCQ2PDF.exists() else MD2PDF
     cmd = [sys.executable, str(runner)] + cmd_args
     print(f"\n[RUN MCQ] {' '.join(cmd_args)}")
+    res = subprocess.run(cmd, cwd=str(REPO_ROOT))
+    if res.returncode != 0:
+        print(f"  [ERROR] Command failed with code {res.returncode}")
+    return res.returncode
+
+def run_notes(cmd_args):
+    runner = NOTES2PDF if NOTES2PDF.exists() else MD2PDF
+    cmd = [sys.executable, str(runner)] + cmd_args
+    print(f"\n[RUN NOTES] {' '.join(cmd_args)}")
     res = subprocess.run(cmd, cwd=str(REPO_ROOT))
     if res.returncode != 0:
         print(f"  [ERROR] Command failed with code {res.returncode}")
@@ -264,6 +274,25 @@ def main():
             "--title", "CTET सामाजिक अध्ययन / सामाजिक विज्ञान (Paper II)",
             "--subtitle", "सम्पूर्ण 400 अभ्यास प्रश्न (इतिहास, भूगोल, नागरिक शास्त्र + शिक्षाशास्त्र)",
             "--badge", "400 MCQs", "--toc", "--flow"
+        ])
+
+    # 7. CTET REVISION NOTES
+    CN = REPO_ROOT / "ctet-notes"
+    if CN.exists():
+        print("\n--- 7. CTET REVISION NOTES ------------------------")
+        run_notes([
+            str(CN / '00-CTET-Revision-Notes-Blueprint.md'),
+            "-o", str(OUT_DIR / 'CTET-Revision-Notes-Blueprint.pdf'),
+            "--title", "CTET Revision Notes Blueprint",
+            "--subtitle", "पाठ्यक्रम एवं सम्पूर्ण नोट्स रूपरेखा",
+            "--badge", "CTET", "--toc"
+        ])
+        run_notes([
+            str(CN / '01-CDP-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-01-CDP-Revision-Notes.pdf'),
+            "--title", "बाल विकास एवं शिक्षाशास्त्र (CDP)",
+            "--subtitle", "CTET Paper I & II · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "CDP", "--toc"
         ])
 
     print("\n==================================================")
