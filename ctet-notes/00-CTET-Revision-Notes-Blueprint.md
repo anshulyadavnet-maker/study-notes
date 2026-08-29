@@ -87,7 +87,21 @@ CTET revision notes में हर topic को short लेकिन complete
 - Hindi explanation के साथ standard English terms
 - Figures केवल learning value होने पर
 - हर topic के अंत में **Last-Minute Revision Box**
-- PDF के लिए `pdf-system/md2pdf.py` या MCQ banks के लिए `pdf-system/mcqmdtopdf.py`
+- Revision notes के लिए `pdf-system/ctet-notes-md2pdf.py`
+- MCQ banks के लिए `pdf-system/mcqmdtopdf.py`
+
+### Revision notes PDF command
+
+```bash
+python3 pdf-system/ctet-notes-md2pdf.py \\
+  ctet-notes/00-CTET-Revision-Notes-Blueprint.md \\
+  -o PDF/CTET-Revision-Notes-Blueprint.pdf \\
+  --title "CTET Revision Notes" \\
+  --subtitle "Hindi-medium exam revision" \\
+  --badge "CTET" --toc --flow
+```
+
+`ctet-notes-md2pdf.py` में `SECTION_STYLES` mapping section keywords और colours control करती है। जब कोई नया notes section बनाया जाए, उसकी keyword और preferred colour उसी mapping में add करें; unknown headings के लिए generic style automatically लागू रहेगी।
 
 ---
 
