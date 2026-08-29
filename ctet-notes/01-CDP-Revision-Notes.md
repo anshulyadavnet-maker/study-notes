@@ -19,6 +19,25 @@
 | Learning and Pedagogy | Children कैसे सोचते, सीखते और classroom में respond करते हैं | 10 |
 | **Total** | **Child Development and Pedagogy** | **30** |
 
+```figure
+type: cdp-exam-dashboard
+caption: Paper I CDP revision dashboard: age, question split and response lens
+```
+
+::: cols 3
+::: info 🎯 Age focus
+लगभग 6–11 years के Primary Stage child पर focus।
+:::
+
+::: formula 📊 Question split
+15 Child Development + 5 Inclusive Education + 10 Learning and Pedagogy = 30।
+:::
+
+::: remember ✔ Answer lens
+Child-centred + inclusive + evidence-based + developmentally suitable।
+:::
+:::
+
 ### Age और question nature
 
 - Paper I CDP का focus लगभग **6–11 years** के primary school child पर रहता है।
@@ -338,6 +357,15 @@ Competence बढ़ने पर support धीरे-धीरे **fade** क
 
 ::: remember 🔑 Exam distinction
 “Independent और assisted performance के बीच का क्षेत्र” = **ZPD**। “Existing schema में नई information fit करना” = **Assimilation**।
+:::
+
+```figure
+type: cdp-theory-map
+caption: Piaget, Vygotsky, Kohlberg and Bruner offer different lenses for understanding a child
+```
+
+::: info 🧠 Theory map कैसे पढ़ें
+एक ही classroom child को अलग lenses से समझा जा सकता है: schema और reasoning के लिए Piaget, social support के लिए Vygotsky, moral reasoning के लिए Kohlberg और spiral/discovery learning के लिए Bruner। Question के context के अनुसार lens चुनें।
 :::
 
 ---
@@ -728,6 +756,21 @@ Anxiety वाले learner के लिए:
 - gradual public performance;
 - no public comparison।
 
+```figure
+type: cdp-motivation-paths
+caption: intrinsic and extrinsic motivation can be shaped by purpose, choice and feedback
+```
+
+::: cols 2
+::: tip 💡 Motivation booster
+Meaningful goal + achievable challenge + specific feedback = better persistence।
+:::
+
+::: trap ⚠️ Motivation trap
+Public comparison, fear और केवल rewards पर निर्भरता को intrinsic motivation न समझें।
+:::
+:::
+
 ---
 
 ## 18. Errors और Alternative Conceptions
@@ -873,6 +916,11 @@ Open-ended question में एक से अधिक possible response य�
 | Group में एक child dominate करता है | Clear roles और turn-taking structures |
 | Learner gifted है | Open investigation, creativity और depth |
 | Parent “naturally weak” कहता है | Low expectations reject; evidence और support plan |
+
+```figure
+type: cdp-teacher-response
+caption: observe, ask, diagnose, support and re-check before judging a learner
+```
 
 ::: remember ✔ Golden response
 Understand the child → respect diversity → make thinking visible → provide support → reassess progress.
@@ -1035,6 +1083,11 @@ Understand the child → respect diversity → make thinking visible → provide
 - [ ] Formative, summative और diagnostic assessment अलग कर सकते हैं।
 - [ ] Validity और reliability में अन्तर आता है।
 - [ ] “Most appropriate” response में punishment, labelling और rote options से बचेंगे।
+
+```figure
+type: cdp-answer-ladder
+caption: a fast CDP decision ladder for choosing the most appropriate teacher response
+```
 
 ::: formula 🎯 Last-minute rule
 CTET CDP में best answer प्रायः वह है जो बच्चे की thinking को समझे, dignity बनाए रखे, diversity को accept करे, meaningful support दे और evidence के आधार पर next teaching plan करे।

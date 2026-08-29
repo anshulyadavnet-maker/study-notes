@@ -129,6 +129,81 @@ def inclusion_udl(spec):
     return cv.svg()
 
 
+def exam_dashboard_cdp(spec):
+    W, H = 452, 228
+    cv = Canvas(W, H, seed=_seed(spec, 9108))
+    cv.text(W / 2, 18, "Paper I CDP at a glance", size=10.2, weight=700, color=C["soft"])
+    cards = [("age 6–11", "primary", C["blue"], C["blue_bg"]),
+             ("15 + 5 + 10", "30 questions", C["teal"], C["teal_bg"]),
+             ("child first", "think + support", C["purple"], C["purple_bg"])]
+    xs = [77, 226, 375]
+    for x, (top, bottom, col, bg) in zip(xs, cards):
+        _box(cv, x - 61, 53, 122, 61, top, col, bg, size=9.0)
+        cv.text(x, 99, bottom, size=8.1, color=col)
+    cv.arrow(143, 83, 158, 83, color=C["grey"], w=1.0)
+    cv.arrow(292, 83, 307, 83, color=C["grey"], w=1.0)
+    _box(cv, 78, 151, 296, 32, "observe → understand → scaffold → reassess", C["red"], C["red_bg"], size=9.0)
+    cv.text(W / 2, H - 8, "application beats rote recall", size=8.7, weight=700, color=C["ink"])
+    return cv.svg()
+
+
+def theory_map_cdp(spec):
+    W, H = 452, 258
+    cv = Canvas(W, H, seed=_seed(spec, 9109))
+    cv.text(W / 2, 18, "four theory lenses for one classroom child", size=9.4, weight=700, color=C["soft"])
+    cx, cy = 226, 120
+    _box(cv, 174, 101, 104, 38, "child", C["purple"], C["purple_bg"], size=10)
+    nodes = [("Piaget\nschemas", 75, 63, C["blue"], C["blue_bg"]),
+             ("Vygotsky\nsocial support", 377, 63, C["green"], C["green_bg"]),
+             ("Kohlberg\nreasoning", 75, 184, C["amber"], C["amber_bg"]),
+             ("Bruner\nspiral", 377, 184, C["red"], C["red_bg"])]
+    for lab, x, y, col, bg in nodes:
+        _box(cv, x - 55, y - 19, 110, 38, lab.replace("\n", " / "), col, bg, size=7.8)
+        cv.line(cx + (x - cx) * .35, cy + (y - cy) * .35, x - (x - cx) * .23, y - (y - cy) * .23, color=col, w=1.0)
+    cv.text(W / 2, H - 8, "use the lens that explains the learner's response", size=8.4, color=C["ink"])
+    return cv.svg()
+
+
+def motivation_paths_cdp(spec):
+    W, H = 452, 238
+    cv = Canvas(W, H, seed=_seed(spec, 9110))
+    cv.text(W / 2, 18, "motivation: purpose, choice and feedback shape persistence", size=9.1, weight=700, color=C["soft"])
+    _box(cv, 44, 61, 160, 46, "intrinsic: interest + mastery", C["blue"], C["blue_bg"], size=8.0)
+    _box(cv, 248, 61, 160, 46, "extrinsic: reward + consequence", C["amber"], C["amber_bg"], size=7.7)
+    _box(cv, 140, 146, 172, 38, "meaningful goal", C["green"], C["green_bg"], size=9.0)
+    cv.arrow(124, 111, 176, 143, color=C["blue"], w=1.0)
+    cv.arrow(328, 111, 276, 143, color=C["amber"], w=1.0)
+    cv.text(W / 2, 211, "choice + achievable challenge + specific feedback", size=8.5, weight=700, color=C["purple"])
+    return cv.svg()
+
+
+def teacher_response_cdp(spec):
+    W, H = 452, 232
+    cv = Canvas(W, H, seed=_seed(spec, 9111))
+    cv.text(W / 2, 18, "most-appropriate response: a repeatable decision path", size=9.1, weight=700, color=C["soft"])
+    _flow(cv, ["observe", "ask", "diagnose", "support", "re-check"], [C["blue"], C["green"], C["amber"], C["red"], C["purple"]], y=91, x0=48, x1=404)
+    cv.arrow(362, 149, 91, 149, color=C["grey"], w=1.0)
+    cv.text(W / 2, 156, "new evidence changes the next step", size=8.6, weight=700, color=C["red"])
+    cv.text(W / 2, H - 8, "never jump from one error to a permanent label", size=8.5, color=C["ink"])
+    return cv.svg()
+
+
+def answer_ladder_cdp(spec):
+    W, H = 452, 242
+    cv = Canvas(W, H, seed=_seed(spec, 9112))
+    cv.text(W / 2, 18, "CDP answer ladder", size=10, weight=700, color=C["soft"])
+    steps = [("1  notice the child", C["blue"], C["blue_bg"]),
+             ("2  understand the context", C["teal"], C["teal_bg"]),
+             ("3  choose inclusive support", C["green"], C["green_bg"]),
+             ("4  use evidence again", C["purple"], C["purple_bg"])]
+    x, y0, w, h = 60, 48, 332, 33
+    for i, (lab, col, bg) in enumerate(steps):
+        y = y0 + i * 39
+        _box(cv, x + i * 8, y, w - i * 16, h, lab, col, bg, size=8.7)
+    cv.text(W / 2, H - 8, "child-centred · inclusive · evidence-based", size=8.6, weight=700, color=C["red"])
+    return cv.svg()
+
+
 REGISTRY = {
     "cdp-development-domains": development_domains,
     "cdp-heredity-environment": heredity_environment,
@@ -137,4 +212,9 @@ REGISTRY = {
     "cdp-learning-cycle": learning_cycle_cdp,
     "cdp-assessment-loop": assessment_loop_cdp,
     "cdp-inclusion-udl": inclusion_udl,
+    "cdp-exam-dashboard": exam_dashboard_cdp,
+    "cdp-theory-map": theory_map_cdp,
+    "cdp-motivation-paths": motivation_paths_cdp,
+    "cdp-teacher-response": teacher_response_cdp,
+    "cdp-answer-ladder": answer_ladder_cdp,
 }
