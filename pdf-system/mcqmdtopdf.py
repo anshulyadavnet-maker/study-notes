@@ -169,7 +169,8 @@ def add_question_separators(rendered_html: str) -> str:
 
 def render_mcq_pdf(files, output, title, subtitle, author, badge,
                    show_toc=True, show_cover=True, two_columns=True,
-                   flow=False, extra_css=None):
+                   flow=False, extra_css=None, watermark=True,
+                   watermark_scale=1.0, watermark_opacity=0.08):
     """Build an MCQ PDF using md2pdf's existing conversion primitives."""
     if not files:
         raise SystemExit("No Markdown files found.")
@@ -249,6 +250,9 @@ def render_mcq_pdf(files, output, title, subtitle, author, badge,
 
     debug.unlink(missing_ok=True)
 
+    if watermark and getattr(pipeline, "auto_watermark_pdf", None):
+        pipeline.auto_watermark_pdf(output, scale=watermark_scale, opacity=watermark_opacity)
+
     size_mb = output.stat().st_size / 1024 / 1024
     try:
         print(f"  ✔ {output}  ({size_mb:.2f} MB)")
@@ -275,6 +279,9 @@ def main():
     parser.add_argument("--flow", action="store_true",
                         help="allow sections to continue on the same page")
     parser.add_argument("--css", help="optional additional CSS file")
+    parser.add_argument("--no-watermark", action="store_true", help="disable watermark on pages")
+    parser.add_argument("--watermark-scale", type=float, default=1.0, help="watermark scale relative to page width")
+    parser.add_argument("--watermark-opacity", type=float, default=0.08, help="watermark opacity (0.0 to 1.0)")
     args = parser.parse_args()
 
     files = pipeline.collect(args.inputs)
@@ -298,6 +305,9 @@ def main():
         two_columns=not args.no_qcols,
         flow=args.flow,
         extra_css=args.css,
+        watermark=not args.no_watermark,
+        watermark_scale=args.watermark_scale,
+        watermark_opacity=args.watermark_opacity,
     )
 
 

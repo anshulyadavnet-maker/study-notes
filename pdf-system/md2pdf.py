@@ -55,6 +55,12 @@ try:
 except Exception as _e:          # figures optional
     figlib = None
     print(f"  ! figlib unavailable ({_e}) — ```figure``` blocks will be skipped")
+try:
+    from watermark import auto_watermark_pdf, apply_watermark_to_pdf, resolve_logo_path
+except Exception:
+    auto_watermark_pdf = None
+    apply_watermark_to_pdf = None
+    resolve_logo_path = None
 
 
 
@@ -636,6 +642,9 @@ def main():
                          "always starting a new one (saves tail pages)")
     ap.add_argument("--qcols", action="store_true",
                     help="flow MCQ chapters in two columns (question banks)")
+    ap.add_argument("--no-watermark", action="store_true", help="disable watermark on pages")
+    ap.add_argument("--watermark-scale", type=float, default=1.0, help="watermark scale relative to page width")
+    ap.add_argument("--watermark-opacity", type=float, default=0.08, help="watermark opacity (0.0 to 1.0)")
     a = ap.parse_args()
 
     _OPTS["qcols"] = a.qcols
@@ -697,6 +706,10 @@ def main():
         render_pdf_with_browser(doc, out, CSS_FILE, extra_css=a.css, flow=a.flow)
 
     debug.unlink(missing_ok=True)
+
+    if not a.no_watermark and auto_watermark_pdf is not None:
+        auto_watermark_pdf(out, scale=a.watermark_scale, opacity=a.watermark_opacity)
+
     mb = out.stat().st_size / 1024 / 1024
     try:
         print(f"  ✔ {out}  ({mb:.2f} MB)")
