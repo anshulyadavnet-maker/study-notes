@@ -126,7 +126,12 @@ SECTION_STYLES = {
         "colour": "green",
     },
     "science": {
-        "keywords": ("Science", "विज्ञान"),
+        "keywords": (
+            "Science", "विज्ञान", "Food", "Materials", "Living World",
+            "Motion", "How Things Work", "Electric Current", "Magnets",
+            "Light", "Natural Phenomena", "Natural Resources", "Inquiry",
+            "Observation", "Experimentation", "Science Pedagogy",
+        ),
         "label": "Science",
         "colour": "red",
     },
