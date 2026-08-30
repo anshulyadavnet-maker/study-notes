@@ -318,6 +318,14 @@ def main():
             "--subtitle", "CTET Paper I · सम्पूर्ण रिवीज़न नोट्स",
             "--badge", "EVS", "--toc"
         ])
+        if (CN / '03-Paper-I-EVS-Revision-Notes-Pure-Hindi.md').exists():
+            run_notes([
+                str(CN / '03-Paper-I-EVS-Revision-Notes-Pure-Hindi.md'),
+                "-o", str(OUT_DIR / 'CTET-03-Paper-I-EVS-Revision-Notes-Pure-Hindi.pdf'),
+                "--title", "पर्यावरण अध्ययन — शुद्ध हिंदी",
+                "--subtitle", "CTET Paper I (प्राथमिक स्तर) · सम्पूर्ण शुद्ध हिंदी रिवीज़न नोट्स",
+                "--badge", "शुद्ध हिंदी", "--toc"
+            ])
         run_notes([
             str(CN / '04-Language-I-Hindi-Revision-Notes.md'),
             "-o", str(OUT_DIR / 'CTET-04-Language-I-Hindi-Revision-Notes.pdf'),
