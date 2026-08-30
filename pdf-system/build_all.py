@@ -348,6 +348,14 @@ def main():
             "--subtitle", "CTET Paper I & II · Comprehensive Revision Notes",
             "--badge", "English", "--toc"
         ])
+        if (CN / '06-Language-II-Sanskrit-Revision-Notes.md').exists():
+            run_notes([
+                str(CN / '06-Language-II-Sanskrit-Revision-Notes.md'),
+                "-o", str(OUT_DIR / 'CTET-06-Language-II-Sanskrit-Revision-Notes.pdf'),
+                "--title", "संस्कृत भाषा (Language II)",
+                "--subtitle", "CTET Paper I & II · सम्पूर्ण रिवीज़न नोट्स",
+                "--badge", "संस्कृत", "--toc"
+            ])
         # Paper II Subjects
         run_notes([
             str(CN / '07-Paper-II-CDP-Revision-Notes.md'),
