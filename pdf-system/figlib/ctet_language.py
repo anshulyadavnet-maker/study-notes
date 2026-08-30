@@ -28,6 +28,21 @@ def _flow(cv, labels, colors, y=92, x0=45, x1=407):
             cv.arrow(xs[i] + 47, y, xs[i + 1] - 47, y, color=C["grey"], w=1.0)
 
 
+def language2_dashboard(spec):
+    W, H = 452, 232
+    cv = Canvas(W, H, seed=_seed(spec, 9410))
+    cv.text(W / 2, 18, "Language II English: revision dashboard", size=9.5, weight=700, color=C["soft"])
+    cards = [("15", "comprehension", C["blue"], C["blue_bg"]), ("15", "pedagogy", C["purple"], C["purple_bg"]), ("LSRW", "language skills", C["green"], C["green_bg"])]
+    for x, (top, bottom, col, bg) in zip((76, 226, 376), cards):
+        _box(cv, x - 57, 49, 114, 59, top, col, bg, size=13)
+        cv.text(x, 96, bottom, size=7.8, color=col)
+    cv.arrow(135, 78, 165, 78, color=C["grey"], w=1.0)
+    cv.arrow(285, 78, 315, 78, color=C["grey"], w=1.0)
+    _box(cv, 74, 145, 304, 33, "meaning → interaction → communication", C["red"], C["red_bg"], size=8.9)
+    cv.text(W / 2, H - 8, "English is learned through purposeful use", size=8.4, color=C["ink"])
+    return cv.svg()
+
+
 def language_dashboard(spec):
     W, H = 452, 232
     cv = Canvas(W, H, seed=_seed(spec, 9401))
@@ -143,6 +158,7 @@ def grammar_context(spec):
 
 
 REGISTRY = {
+    "language2-dashboard": language2_dashboard,
     "language-exam-dashboard": language_dashboard,
     "language-comprehension-ladder": comprehension_ladder,
     "language-lsrw-cycle": lsrw_cycle,
