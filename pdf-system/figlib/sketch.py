@@ -5,8 +5,9 @@ Rough.js-inspired. Every stroke gets deterministic jitter derived from a seed,
 so a figure looks identical on every rebuild (reproducible, never random).
 
 HARD RULE: no Devanagari inside SVG <text>. WeasyPrint's SVG text path does not
-compose Devanagari matras (they detach). Captions carry the Hindi; the canvas
-carries Latin/numerals only. `Canvas.text()` enforces this and raises on breach.
+compose Devanagari matras reliably. Hindi labels used by figures are emitted as
+pre-shaped glyph outlines (SVG <path>) when a label is available in
+`hindi_paths.py`; captions/body text remain the preferred place for Hindi.\n\n`Canvas.text()` keeps the no-Devanagari-`<text>` rule and uses the path-backed\nlabels for the small set of tested Hindi labels.
 """
 import math
 import random
@@ -280,15 +281,21 @@ class Canvas:
         self.raw(f'<circle cx="{n(x)}" cy="{n(y)}" r="{n(r)}" '
                  f'fill="{color or C["ink"]}"/>')
 
-    # ---------- text (Latin / numerals ONLY) ----------
+    # ---------- text (Latin / numerals, plus tested Hindi path labels) ----------
     def text(self, x, y, s, size=10, color=None, anchor="middle", weight=None,
              italic=False):
         s = str(s)
         if DEVANAGARI.search(s):
-            raise ValueError(
-                f"Devanagari is not allowed inside SVG labels (found {s!r}). "
-                "WeasyPrint does not compose matras in SVG text — put Hindi in "
-                "the caption instead.")
+            try:
+                from . import hindi_paths
+                self.raw(hindi_paths.render(
+                    s, x, y, size=size, color=color or C["ink"], anchor=anchor
+                ))
+                return
+            except (ImportError, KeyError) as exc:
+                raise ValueError(
+                    f"No pre-shaped Hindi SVG label is available for {s!r}; "
+                    "put Hindi in the Markdown caption/body instead.") from exc
         esc = (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
         fw = f' font-weight="{weight}"' if weight else ""
         fi = ' font-style="italic"' if italic else ""
