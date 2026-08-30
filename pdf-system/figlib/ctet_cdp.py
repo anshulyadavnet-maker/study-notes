@@ -264,6 +264,72 @@ def learning_theories_cdp(spec):
     return cv.svg()
 
 
+def paper2_dashboard_cdp(spec):
+    W, H = 452, 238
+    cv = Canvas(W, H, seed=_seed(spec, 9114))
+    cv.text(W / 2, 18, "Paper II CDP at a glance", size=10.0, weight=700, color=C["soft"])
+    cards = [("age 11–14", "elementary", C["blue"], C["blue_bg"]),
+             ("15 + 5 + 10", "30 questions", C["teal"], C["teal_bg"]),
+             ("think deeper", "support identity", C["purple"], C["purple_bg"])]
+    for x, (top, bottom, col, bg) in zip((76, 226, 376), cards):
+        _box(cv, x - 57, 49, 114, 59, top, col, bg, size=10.4 if x != 226 else 11.8)
+        cv.text(x, 96, bottom, size=7.8, color=col)
+    cv.arrow(135, 78, 165, 78, color=C["grey"], w=1.0)
+    cv.arrow(285, 78, 315, 78, color=C["grey"], w=1.0)
+    _box(cv, 63, 147, 326, 34, "observe → discuss → challenge → support", C["red"], C["red_bg"], size=8.9)
+    cv.text(W / 2, H - 8, "elementary learner + subject context + autonomy", size=8.4, color=C["ink"])
+    return cv.svg()
+
+
+def adolescence_cdp(spec):
+    W, H = 452, 252
+    cv = Canvas(W, H, seed=_seed(spec, 9115))
+    cv.text(W / 2, 18, "adolescence: change across connected domains", size=9.4, weight=700, color=C["soft"])
+    _box(cv, 165, 91, 122, 42, "learner", C["purple"], C["purple_bg"], size=10)
+    nodes = [("physical", 73, 64, C["red"], C["red_bg"]), ("cognitive", 379, 64, C["blue"], C["blue_bg"]),
+             ("identity", 73, 174, C["amber"], C["amber_bg"]), ("peer/social", 379, 174, C["green"], C["green_bg"])]
+    for lab, x, y, col, bg in nodes:
+        _box(cv, x - 52, y - 17, 104, 34, lab, col, bg, size=8.1)
+        cv.line(226 + (x - 226) * .25, 112 + (y - 112) * .25, x - (x - 226) * .22, y - (y - 112) * .22, color=col, w=1.0)
+    cv.text(W / 2, H - 8, "growth is variable; support dignity, voice and belonging", size=8.5, color=C["ink"])
+    return cv.svg()
+
+
+def peer_identity_cdp(spec):
+    W, H = 452, 242
+    cv = Canvas(W, H, seed=_seed(spec, 9116))
+    cv.text(W / 2, 18, "identity and self-concept are shaped in relationships", size=9.1, weight=700, color=C["soft"])
+    _box(cv, 166, 94, 120, 42, "self-concept", C["purple"], C["purple_bg"], size=9.2)
+    nodes = [("family", 74, 62, C["blue"], C["blue_bg"]), ("peers", 378, 62, C["green"], C["green_bg"]),
+             ("school", 74, 177, C["amber"], C["amber_bg"]), ("media", 378, 177, C["red"], C["red_bg"])]
+    for lab, x, y, col, bg in nodes:
+        _box(cv, x - 45, y - 17, 90, 34, lab, col, bg, size=8.4)
+        cv.line(226 + (x - 226) * .25, 115 + (y - 115) * .25, x - (x - 226) * .22, y - (y - 115) * .22, color=col, w=1.0)
+    cv.text(W / 2, H - 8, "respect + autonomy + feedback + belonging", size=8.5, color=C["ink"])
+    return cv.svg()
+
+
+def abstract_reasoning_cdp(spec):
+    W, H = 452, 228
+    cv = Canvas(W, H, seed=_seed(spec, 9117))
+    cv.text(W / 2, 18, "elementary-stage reasoning can move beyond the concrete", size=9.1, weight=700, color=C["soft"])
+    _flow(cv, ["concrete", "abstract", "hypothetical", "critical"], [C["blue"], C["green"], C["amber"], C["purple"]], y=88, x0=54, x1=398)
+    _box(cv, 100, 146, 252, 33, "represent → generalise → test → justify", C["red"], C["red_bg"], size=8.8)
+    cv.text(W / 2, H - 8, "do not skip support; extend thinking step by step", size=8.5, color=C["ink"])
+    return cv.svg()
+
+
+def paper2_assessment_cdp(spec):
+    W, H = 452, 236
+    cv = Canvas(W, H, seed=_seed(spec, 9118))
+    cv.text(W / 2, 18, "Paper II assessment: more than recall", size=9.4, weight=700, color=C["soft"])
+    _flow(cv, ["concept", "application", "reasoning", "reflection"], [C["blue"], C["green"], C["amber"], C["purple"]], y=88, x0=54, x1=398)
+    cv.arrow(350, 146, 102, 146, color=C["grey"], w=1.0)
+    cv.text(W / 2, 153, "feedback → revision → independent learning", size=8.5, weight=700, color=C["red"])
+    cv.text(W / 2, H - 8, "use subject evidence and learner explanation", size=8.6, color=C["ink"])
+    return cv.svg()
+
+
 REGISTRY = {
     "cdp-development-domains": development_domains,
     "cdp-heredity-environment": heredity_environment,
@@ -278,4 +344,9 @@ REGISTRY = {
     "cdp-teacher-response": teacher_response_cdp,
     "cdp-answer-ladder": answer_ladder_cdp,
     "cdp-learning-theories": learning_theories_cdp,
+    "cdp-paper2-dashboard": paper2_dashboard_cdp,
+    "cdp-adolescence": adolescence_cdp,
+    "cdp-peer-identity": peer_identity_cdp,
+    "cdp-abstract-reasoning": abstract_reasoning_cdp,
+    "cdp-paper2-assessment": paper2_assessment_cdp,
 }

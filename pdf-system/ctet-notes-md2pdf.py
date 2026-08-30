@@ -111,7 +111,12 @@ SECTION_STYLES = {
         "colour": "red",
     },
     "maths": {
-        "keywords": ("Mathematics", "गणित"),
+        "keywords": (
+            "Mathematics", "गणित", "Number System", "Integers", "Fractions",
+            "Ratio", "Algebra", "Geometry", "Symmetry", "Construction",
+            "Mensuration", "Data Handling", "Problem-Solving",
+            "Activity-Based", "Nature of Mathematics", "Language of Mathematics",
+        ),
         "label": "Mathematics",
         "colour": "blue",
     },
@@ -121,12 +126,23 @@ SECTION_STYLES = {
         "colour": "green",
     },
     "science": {
-        "keywords": ("Science", "विज्ञान"),
+        "keywords": (
+            "Science", "विज्ञान", "Food", "Materials", "Living World",
+            "Motion", "How Things Work", "Electric Current", "Magnets",
+            "Light", "Natural Phenomena", "Natural Resources", "Inquiry",
+            "Observation", "Experimentation", "Science Pedagogy",
+        ),
         "label": "Science",
         "colour": "red",
     },
     "sst": {
-        "keywords": ("Social Science", "Social Studies", "सामाजिक विज्ञान"),
+        "keywords": (
+            "Social Science", "Social Studies", "सामाजिक विज्ञान", "History",
+            "इतिहास", "Geography", "भूगोल", "Civics", "Civic", "नागरिक शास्त्र",
+            "Government", "Democracy", "Constitution", "Judiciary", "Social Justice",
+            "Diversity", "Media", "Gender", "Agriculture", "Map Skills",
+            "Historical Sources", "Social Science Pedagogy",
+        ),
         "label": "Social Studies / Social Science",
         "colour": "amber",
     },
