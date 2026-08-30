@@ -7,7 +7,10 @@ so a figure looks identical on every rebuild (reproducible, never random).
 HARD RULE: no Devanagari inside SVG <text>. WeasyPrint's SVG text path does not
 compose Devanagari matras reliably. Hindi labels used by figures are emitted as
 pre-shaped glyph outlines (SVG <path>) when a label is available in
-`hindi_paths.py`; captions/body text remain the preferred place for Hindi.\n\n`Canvas.text()` keeps the no-Devanagari-`<text>` rule and uses the path-backed\nlabels for the small set of tested Hindi labels.
+`hindi_paths.py`; captions/body text remain the preferred place for Hindi.
+
+`Canvas.text()` keeps the no-Devanagari-`<text>` rule and uses the path-backed
+labels for the small set of tested Hindi labels.
 """
 import math
 import random
