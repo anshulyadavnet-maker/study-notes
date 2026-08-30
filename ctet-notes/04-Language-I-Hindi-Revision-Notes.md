@@ -1,167 +1,163 @@
-# CTET Language I Hindi — हिंदी भाषा Revision Notes
+# CTET भाषा 1 हिंदी — हिंदी भाषा पुनरावृत्ति नोट्स
 
-> **Hindi-medium exam notes:** यह file CTET Language I के Hindi section के लिए है। इसमें comprehension, language proficiency, grammar, verbal ability और language pedagogy को short, visual और exam-oriented तरीके से रखा गया है।
+> **हिंदी-माध्यम परीक्षा-नोट्स:** यह फ़ाइल CTET भाषा 1 के हिंदी भाग के लिए है। इसमें अवबोधन, शब्द-भंडार, व्याकरण, मौखिक अभिव्यक्ति, पठन, लेखन और भाषा-विकास के शिक्षणशास्त्र को सरल, चित्रात्मक और परीक्षा-केंद्रित रूप में रखा गया है।
 >
-> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
+> **प्रामाणिक आधार:** CTET विस्तृत पाठ्यक्रम एवं परीक्षा-रूपरेखा
 >
-> **अभ्यास:** इन नोट्स को Hindi Language I अभ्यास प्रश्न बैंक (भाग 1 एवं 2) के साथ दोहराएँ।
+> **अभ्यास स्रोत:** हिंदी भाषा 1 अभ्यास प्रश्न-संग्रह (भाग 1 एवं भाग 2)
 
 ---
 
-## 1. Exam Profile (परीक्षा परिचय) और Syllabus Map (पाठ्यक्रम मानचित्र)
+## 1. :icon-exam: परीक्षा परिचय और पाठ्यक्रम मानचित्र
 
-### :icon-exam: Language I का structure (ढाँचा)
+### भाषा 1 हिंदी का ढाँचा
 
-| Unit (इकाई) | Focus (मुख्य फोकस) | Questions (प्रश्न) |
+| भाग | मुख्य केंद्र | प्रश्न |
 |---|---|---:|
-| Language Comprehension (भाषा-अवबोधन) | Unseen prose/poetry, comprehension, inference, grammar और verbal ability | 15 |
-| Pedagogy of Language Development (भाषा-विकास का शिक्षाशास्त्र) | Acquisition, LSRW, multilingual classroom, assessment और remedial teaching | 15 |
-| **Total (कुल)** | **Language I Hindi (प्रथम भाषा हिंदी)** | **30** |
+| भाषा-अवबोधन | अपठित गद्य/पद्य, मुख्य भाव, तथ्य, निष्कर्ष, शब्दार्थ और भाषिक योग्यता | 15 |
+| भाषा-विकास का शिक्षणशास्त्र | भाषा-अर्जन, चार भाषा-कौशल, बहुभाषी कक्षा, मूल्यांकन और उपचारात्मक शिक्षण | 15 |
+| **कुल** | **भाषा 1 हिंदी** | **30** |
 
 ```figure
 type: language-exam-dashboard
-caption: Language I Hindi combines comprehension, pedagogy and connected language skills
+caption: हिंदी भाषा 1 में अवबोधन, शिक्षणशास्त्र और चार भाषा-कौशल जुड़े हुए हैं
 ```
 
 ::: cols 3
-::: info 🎯 Language I (प्रथम भाषा)
-Medium of instruction से सम्बन्धित language proficiency पर focus।
+::: info 🎯 भाषा 1 का केंद्र
+शिक्षण-माध्यम से संबंधित भाषा-दक्षता और अर्थपूर्ण संचार।
 :::
 
-::: formula 📊 Question split (प्रश्न-विभाजन)
-15 Comprehension + 15 Pedagogy = 30 questions।
+::: formula 📊 प्रश्न-विभाजन
+15 भाषा-अवबोधन + 15 भाषा-विकास का शिक्षणशास्त्र = 30 प्रश्न।
 :::
 
-::: remember ✔ Core lens (मुख्य दृष्टि)
-भाषा को marks नहीं, meaning और communication के tool की तरह पढ़ें।
+::: remember ✔ मुख्य दृष्टि
+भाषा को केवल अंक नहीं, सोचने, समझने और संचार करने का साधन मानें।
 :::
 :::
 
-### Exam में क्या पूछा जाता है?
+### परीक्षा में पूछे जाने वाले क्षेत्र
 
-- गद्यांश/पद्यांश का मुख्य भाव और central idea।
-- Explicit detail और text-based fact।
-- Inference, prediction और conclusion।
-- शब्दार्थ, पर्यायवाची, विलोम और context-based vocabulary।
-- Grammar का वाक्य में प्रयोग।
-- Language acquisition और learning।
-- Listening, speaking, reading और writing।
-- Multilingual classroom और home language।
-- Errors, difficulties और disorders।
-- Assessment, teaching materials और remedial support।
+- अपठित गद्यांश और पद्यांश।
+- मुख्य भाव, शीर्षक, तथ्य, निष्कर्ष और लेखक का भाव।
+- संदर्भानुसार शब्दार्थ, पर्यायवाची और विलोम।
+- व्याकरण और भाषिक योग्यता।
+- भाषा-अर्जन और भाषा-अधिगम।
+- श्रवण, बोलना, पठन और लेखन।
+- बहुभाषी कक्षा और घरेलू भाषा।
+- भाषा की कठिनाइयाँ, त्रुटियाँ और विकार।
+- भाषा-मूल्यांकन, सामग्री और उपचारात्मक सहायता।
 
-::: formula 📌 Exam formula (परीक्षा सूत्र)
-Text समझें → evidence खोजें → question type पहचानें → पूरा वाक्य पढ़ें → context-based answer चुनें।
+::: formula 📌 परीक्षा सूत्र
+पाठ पढ़ें → संकेत खोजें → प्रश्न का प्रकार पहचानें → संदर्भ देखें → प्रमाण-आधारित उत्तर चुनें।
 :::
 
 ---
 
-## 2. :icon-book: Comprehension (भाषा-अवबोधन)
+## 2. :icon-book: भाषा-अवबोधन
 
-### 2.1 Unseen passage का approach
+### 2.1 गद्यांश पढ़ने की तीन अवस्थाएँ
 
-Passage पढ़ते समय तीन चरण रखें:
-
-1. **First reading:** Overall topic और tone समझें।
-2. **Second reading:** Keywords, facts, contrast और cause-effect mark करें।
-3. **Question reading:** पूछे गए शब्द—main idea, not, infer, meaning, title—पर ध्यान दें।
+1. **पहला पठन:** विषय, उद्देश्य और समग्र भाव समझें।
+2. **दूसरा पठन:** मुख्य शब्द, तथ्य, विरोध, कारण-परिणाम और दोहराए विचार रेखांकित करें।
+3. **प्रश्न-पठन:** मुख्य विचार, नहीं, निष्कर्ष, शब्दार्थ और शीर्षक जैसे संकेत शब्दों पर ध्यान दें।
 
 ```figure
 type: language-comprehension-ladder
-caption: comprehension moves from word clues and details to inference and evaluation
+caption: अवबोधन शब्द-संकेत और विवरण से मुख्य विचार, निष्कर्ष और मूल्यांकन तक बढ़ता है
 ```
 
-### 2.2 Question types
+### 2.2 प्रश्नों के प्रकार
 
-| Question type (प्रश्न प्रकार) | क्या देखना है | Common trap (सामान्य जाल) |
+| प्रश्न का प्रकार | क्या देखें | सामान्य भूल |
 |---|---|---|
-| Main idea (मुख्य विचार) | पूरे passage का central message | केवल एक detail चुनना |
-| Factual detail (तथ्य) | Passage में directly stated बात | Outside knowledge जोड़ना |
-| Inference (निष्कर्ष) | Clues + reasonable conclusion | Personal opinion लगाना |
-| Word meaning (शब्दार्थ) | Sentence का context | Dictionary का unrelated meaning |
-| Title (शीर्षक) | Short, central और inclusive title | बहुत छोटा/एक detail वाला title |
-| Tone (भाव/लहजा) | Writer का attitude | घटना को writer की भावना समझना |
-| Cause/effect (कारण/परिणाम) | “क्यों” और “क्या हुआ” | Sequence को cause मान लेना |
-| Not/Except | कौन-सी बात नहीं कही गई | जल्दी में first correct option |
+| मुख्य विचार | पूरे गद्यांश का केंद्रीय संदेश | केवल एक छोटा विवरण चुनना |
+| प्रत्यक्ष तथ्य | पाठ में सीधे दी गई बात | बाहर का ज्ञान जोड़ना |
+| निष्कर्ष | पाठ-संकेत और उचित तर्क | अपनी निजी राय लगाना |
+| शब्दार्थ | उसी वाक्य और संदर्भ का अर्थ | शब्दकोश का असंबंधित अर्थ |
+| शीर्षक | छोटा, केंद्रीय और पूरे पाठ को समेटने वाला | बहुत संकीर्ण शीर्षक |
+| लेखक का भाव | लेखक का दृष्टिकोण/लहजा | घटना को लेखक की भावना समझ लेना |
+| कारण-परिणाम | क्यों हुआ और क्या हुआ | केवल क्रम को कारण मानना |
+| नहीं/को छोड़कर | जो बात नहीं कही गई या अलग है | पहला सही विकल्प चुन लेना |
 
-### 2.3 Main idea और title
+### 2.3 मुख्य विचार और सहायक विवरण
 
-**Main idea** passage का वह central thought है जिसके चारों ओर बाकी details घूमती हैं।
+**मुख्य विचार** वह केंद्रीय बात है जिसके चारों ओर पूरा गद्यांश घूमता है। **सहायक विवरण** उस विचार को समझाने, प्रमाणित करने या उदाहरण देने का काम करते हैं।
 
-अच्छे title की features:
+**त्वरित जाँच:**
 
-- passage के पूरे content को cover करे;
-- बहुत broad या बहुत narrow न हो;
-- writer के main purpose को reflect करे;
-- केवल एक example पर आधारित न हो।
+- जो विकल्प केवल एक पंक्ति बताता है, वह विवरण हो सकता है।
+- जो विकल्प कई अनुच्छेदों को जोड़ता है, वह मुख्य विचार होने की संभावना रखता है।
+- बहुत व्यापक या पाठ से बाहर का विकल्प सही नहीं होता।
 
-### 2.4 Explicit fact और inference
-
-- **Explicit fact (प्रत्यक्ष तथ्य):** Text में साफ-साफ दिया गया है।
-- **Inference (निहित निष्कर्ष):** Text clues से logically निकाला जाता है।
+### 2.4 तथ्य और निष्कर्ष
 
 ```text
-Text clue + background understanding = reasonable inference
+प्रत्यक्ष तथ्य = पाठ में साफ़-साफ़ कही गई बात
+निष्कर्ष = पाठ-संकेत + पाठक का उचित तर्क
 ```
 
-**Example:**
+**उदाहरण:**
 
-> “रीना बार-बार खाली दरवाजे की ओर देख रही थी।”
+> “रीना बार-बार बंद दरवाज़े की ओर देख रही थी।”
 
-- Explicit fact: रीना दरवाजे की ओर देख रही थी।
-- Possible inference: वह किसी का इंतजार या चिंता कर रही हो सकती है।
+- प्रत्यक्ष तथ्य: रीना दरवाज़े की ओर देख रही थी।
+- संभावित निष्कर्ष: वह किसी की प्रतीक्षा कर रही हो सकती है।
 
-::: trap ⚠️ Passage trap (गद्यांश जाल)
-Inference passage evidence से बनाएं। अपनी personal story, moral opinion या outside fact को answer में न जोड़ें।
+निष्कर्ष पाठ-संकेत से समर्थित होना चाहिए; केवल कल्पना पर्याप्त नहीं है।
+
+### 2.5 संदर्भानुसार शब्दार्थ
+
+अपरिचित शब्द के लिए:
+
+1. पूरा वाक्य पढ़ें।
+2. पहले और बाद के वाक्य देखें।
+3. सकारात्मक/नकारात्मक भाव पहचानें।
+4. शब्द को प्रत्येक विकल्प के स्थान पर रखकर देखें।
+5. पाठ के अर्थ से सबसे उपयुक्त अर्थ चुनें।
+
+### 2.6 कविता का अवबोधन
+
+कविता में ध्यान दें:
+
+- वक्ता कौन है?
+- मुख्य भाव क्या है?
+- कौन-से बिंब या प्रतीक हैं?
+- पुनरावृत्ति और ध्वनि का क्या प्रभाव है?
+- शीर्षक और अंतिम पंक्तियों का संबंध क्या है?
+- शब्दों का शाब्दिक और निहित अर्थ क्या है?
+
+कविता को केवल पंक्ति-दर-पंक्ति शब्दार्थ न मानें; समग्र भाव और पाठ-संकेत देखें।
+
+::: trap ⚠️ गद्यांश का जाल
+उत्तर गद्यांश के प्रमाण से चुनें। अपनी निजी कहानी, नैतिक निर्णय या बाहर की जानकारी को पाठ का उत्तर न बनाएं।
 :::
-
-### 2.5 Vocabulary in context
-
-Word meaning के लिए:
-
-1. Word वाला पूरा sentence पढ़ें।
-2. पहले और बाद के clues देखें।
-3. Positive/negative tone समझें।
-4. Options को sentence में रखकर देखें।
-5. सबसे suitable contextual meaning चुनें।
-
-### 2.6 Poetry comprehension
-
-कविता में देखें:
-
-- speaker कौन है;
-- central emotion/भाव;
-- imagery और comparison;
-- repetition और sound;
-- message और title;
-- literal तथा implied meaning।
-
-Poem को हर line का केवल word-to-word translation मानना जरूरी नहीं। Overall भाव और textual clues देखें।
 
 ---
 
-## 3. :icon-list: Hindi Grammar (हिंदी व्याकरण) — Quick Core
+## 3. :icon-list: हिंदी व्याकरण — मूल आधार
 
-### 3.1 भाषा की basic units
+### 3.1 भाषा की इकाइयाँ
 
 ```text
-ध्वनि → वर्ण → अक्षर/शब्द → पद → वाक्य → अर्थ/संचार
+ध्वनि → वर्ण → शब्द → पद → वाक्य → अर्थ → संचार
 ```
 
-| Term (शब्द) | सरल अर्थ |
+| शब्द | सरल अर्थ |
 |---|---|
 | ध्वनि | बोलते समय सुनाई देने वाली आवाज़ |
 | वर्ण | ध्वनि की लिखित इकाई |
-| शब्द | अर्थ देने वाला वर्ण/ध्वनि-समूह |
+| शब्द | अर्थ देने वाला वर्ण-समूह |
 | पद | वाक्य में प्रयुक्त शब्द |
 | वाक्य | पूर्ण अर्थ देने वाला शब्द-समूह |
-| अर्थ | भाषा से समझ में आने वाला meaning |
+| अर्थ | भाषा से समझ में आने वाला भाव |
 
-### 3.2 संज्ञा (Noun)
+### 3.2 संज्ञा
 
 किसी व्यक्ति, स्थान, वस्तु, प्राणी, गुण, भाव या समूह के नाम को संज्ञा कहते हैं।
 
-| प्रकार | Example |
+| प्रकार | उदाहरण |
 |---|---|
 | व्यक्तिवाचक | राम, दिल्ली, गंगा |
 | जातिवाचक | लड़का, नदी, पक्षी |
@@ -169,38 +165,38 @@ Poem को हर line का केवल word-to-word translation मान�
 | द्रव्यवाचक | जल, सोना, दूध |
 | समूहवाचक | सेना, झुंड, सभा |
 
-### 3.3 सर्वनाम (Pronoun)
+### 3.3 सर्वनाम
 
-जो शब्द संज्ञा के स्थान पर प्रयुक्त हो, वह सर्वनाम है।
+जो शब्द संज्ञा के स्थान पर आता है, वह सर्वनाम है।
 
 ```text
-सीमा स्कूल गई। सीमा ने पुस्तक पढ़ी।
-→ सीमा स्कूल गई। उसने पुस्तक पढ़ी।
+सीमा विद्यालय गई। सीमा ने पुस्तक पढ़ी।
+→ सीमा विद्यालय गई। उसने पुस्तक पढ़ी।
 ```
 
-**वह, यह, मैं, तुम, हम, कौन, कोई, जो** आदि context के अनुसार सर्वनाम हो सकते हैं।
+**मैं, हम, तुम, वह, यह, कौन, कोई, जो** आदि संदर्भानुसार सर्वनाम हो सकते हैं।
 
-### 3.4 विशेषण (Adjective)
+### 3.4 विशेषण
 
 जो शब्द संज्ञा या सर्वनाम की विशेषता, संख्या या परिमाण बताए, वह विशेषण है।
 
 ```text
-सुंदर फूल      → सुंदर = गुणवाचक विशेषण
-तीन बच्चे      → तीन = संख्यावाचक विशेषण
-थोड़ा पानी     → थोड़ा = परिमाणवाचक विशेषण
+सुंदर फूल      → सुंदर = गुणवाचक
+तीन बच्चे      → तीन = संख्यावाचक
+थोड़ा पानी     → थोड़ा = परिमाणवाचक
 ```
 
-### 3.5 क्रिया (Verb)
+### 3.5 क्रिया
 
-जो शब्द कार्य, अवस्था या घटना का बोध कराए, वह क्रिया है।
+जो शब्द किसी काम, अवस्था या घटना का बोध कराए, वह क्रिया है।
 
 - बच्चा **खेलता है**।
 - पक्षी **उड़ रहे हैं**।
 - पानी **ठंडा है**।
 
-### 3.6 क्रिया-विशेषण (Adverb)
+### 3.6 क्रिया-विशेषण
 
-जो शब्द क्रिया की रीति, समय, स्थान या मात्रा बताए:
+जो शब्द क्रिया की रीति, समय, स्थान या मात्रा बताए, वह क्रिया-विशेषण है।
 
 - वह **धीरे** चलता है।
 - बच्चा **आज** आया।
@@ -214,605 +210,611 @@ Poem को हर line का केवल word-to-word translation मान�
 
 ```figure
 type: language-grammar-context
-caption: grammar becomes meaningful when learners notice form in context and use it to communicate
+caption: व्याकरण को संदर्भ में पहचानकर उसके अर्थ और संचार से जोड़ें
 ```
 
-### 3.8 लिंग (Gender)
+### 3.8 लिंग
 
-| लिंग | Example |
+| लिंग | उदाहरण |
 |---|---|
 | पुल्लिंग | लड़का, राजा, घोड़ा |
 | स्त्रीलिंग | लड़की, रानी, घोड़ी |
 
-कुछ शब्द context के अनुसार भी पहचाने जाते हैं। केवल ending देखकर हर शब्द का लिंग तय नहीं करें।
+केवल शब्द के अंत को देखकर हर शब्द का लिंग तय न करें; वाक्य-संदर्भ भी देखें।
 
-### 3.9 वचन (Number)
+### 3.9 वचन
 
-- **एकवचन:** एक व्यक्ति/वस्तु — बच्चा, पुस्तक।
+- **एकवचन:** एक व्यक्ति या वस्तु — बच्चा, पुस्तक।
 - **बहुवचन:** एक से अधिक — बच्चे, पुस्तकें।
 
-### 3.10 काल (Tense)
+### 3.10 काल
 
-| काल | Example |
+| काल | उदाहरण |
 |---|---|
-| वर्तमान काल | बच्चा पढ़ता है / पढ़ रहा है। |
-| भूतकाल | बच्चा पढ़ा / पढ़ रहा था। |
-| भविष्यत् काल | बच्चा पढ़ेगा। |
+| वर्तमान | बच्चा पढ़ता है / पढ़ रहा है। |
+| भूत | बच्चा पढ़ा / पढ़ रहा था। |
+| भविष्यत् | बच्चा पढ़ेगा। |
 
-Verb form और time clue दोनों देखें।
+क्रिया-रूप और समय-सूचक शब्द दोनों देखें।
 
-### 3.11 कारक (Case relation)
+### 3.11 कारक
 
 | कारक | सामान्य चिह्न/उदाहरण |
 |---|---|
-| कर्ता | ने — राम ने काम किया |
-| कर्म | को — सीता को बुलाओ |
-| करण | से/के द्वारा — कलम से लिखा |
-| संप्रदान | के लिए — बच्चे के लिए |
-| अपादान | से अलगाव — पेड़ से गिरा |
-| संबंध | का/के/की — राम की पुस्तक |
-| अधिकरण | में/पर — मेज पर पुस्तक |
+| कर्ता | ने — राम ने काम किया। |
+| कर्म | को — सीता को बुलाओ। |
+| करण | से/के द्वारा — कलम से लिखा। |
+| संप्रदान | के लिए — बच्चे के लिए। |
+| अपादान | से अलगाव — पेड़ से गिरा। |
+| संबंध | का/के/की — राम की पुस्तक। |
+| अधिकरण | में/पर — मेज पर पुस्तक। |
 | संबोधन | हे/अरे/ओ — हे मित्र! |
 
 ### 3.12 वाक्य के प्रकार
 
-| प्रकार | पहचान | Example |
+| प्रकार | पहचान | उदाहरण |
 |---|---|---|
 | विधानवाचक | कथन | आज मौसम सुहावना है। |
 | प्रश्नवाचक | प्रश्न | क्या तुम पढ़ते हो? |
 | आज्ञावाचक | आदेश/निवेदन | कृपया बैठिए। |
 | विस्मयादिबोधक | आश्चर्य/भाव | वाह! कितना सुंदर है! |
 | निषेधवाचक | नकार | वह आज नहीं आया। |
-| संयुक्त | दो स्वतंत्र clauses | राम आया और पुस्तक लाया। |
-| मिश्र | मुख्य + आश्रित clause | यदि पढ़ोगे तो सफल होगे। |
+| संयुक्त | दो स्वतंत्र उपवाक्य | राम आया और पुस्तक लाया। |
+| मिश्र | मुख्य और आश्रित उपवाक्य | यदि पढ़ोगे तो सफल होगे। |
 
 ### 3.13 शब्द-भंडार
 
 - **पर्यायवाची:** जल — पानी, नीर।
 - **विलोम:** दिन — रात; सत्य — असत्य।
-- **अनेक अर्थी:** “कल” = बीता दिन या आने वाला दिन।
-- **मुहावरा:** “आँखों का तारा” = बहुत प्रिय व्यक्ति।
-- **लोकोक्ति:** “एक और एक ग्यारह” = एकता में शक्ति।
+- **अनेकार्थी:** कल — बीता दिन या आने वाला दिन।
+- **मुहावरा:** आँखों का तारा — बहुत प्रिय व्यक्ति।
+- **लोकोक्ति:** एक और एक ग्यारह — एकता में शक्ति।
 - **उपसर्ग:** अ + योग्य = अयोग्य।
 - **प्रत्यय:** सुंदर + ता = सुंदरता।
 
-### Grammar exam rule
+### व्याकरण का परीक्षा-नियम
 
-Grammar को isolated definition की तरह नहीं, sentence context में पढ़ें। एक word का पद उसके use से बदल सकता है।
+व्याकरण को अकेली परिभाषा की तरह नहीं, वाक्य के अर्थ और प्रयोग के संदर्भ में पढ़ें। एक ही शब्द का पद उसके प्रयोग से बदल सकता है।
 
 ---
 
-## 4. :icon-brain: Language Acquisition और Learning (भाषा-अर्जन और अधिगम)
+## 4. :icon-brain: भाषा-अर्जन और भाषा-अधिगम
 
 ```figure
 type: language-acquisition-bridge
-caption: home language, context, interaction and support can bridge additional-language learning
+caption: घरेलू भाषा, संदर्भ, अंतःक्रिया और सहायता भाषा-अधिगम का सेतु बनाते हैं
 ```
 
-### 4.1 Acquisition बनाम learning
+### 4.1 अर्जन और अधिगम
 
-| Acquisition (अर्जन) | Learning (अधिगम) |
+| भाषा-अर्जन | भाषा-अधिगम |
 |---|---|
-| Natural exposure और interaction | Planned instruction और conscious practice |
-| Meaningful communication से develop | Rules, feedback और practice से support |
-| घर/समुदाय में भी होता है | School context में planned हो सकता है |
-| केवल grammar memorisation नहीं | केवल worksheet भी पर्याप्त नहीं |
+| स्वाभाविक संपर्क और बातचीत से विकास | योजनाबद्ध शिक्षण और अभ्यास से विकास |
+| घर और समुदाय में भी होता है | विद्यालय में व्यवस्थित रूप से कराया जा सकता है |
+| अर्थपूर्ण उपयोग पर आधारित | नियम, प्रतिक्रिया और कार्य से सहायता |
+| केवल व्याकरण रटना नहीं | केवल कार्यपत्रक भी पर्याप्त नहीं |
 
-दोनों एक-दूसरे के विरोधी नहीं हैं। Formal teaching meaningful exposure और use को support कर सकती है।
+दोनों एक-दूसरे के विरोधी नहीं हैं। विद्यालयी शिक्षण को स्वाभाविक संपर्क और अर्थपूर्ण उपयोग से जोड़ना चाहिए।
 
-### 4.2 Language as a tool
+### 4.2 भाषा एक साधन के रूप में
 
-Language से child:
+भाषा से बच्चा:
 
-- सोचता और ideas बनाता है;
-- feelings और experiences express करता है;
-- दूसरों के साथ interact करता है;
-- self-regulation और planning करता है;
-- अन्य subjects सीखता है।
+- सोचता और अर्थ बनाता है;
+- अनुभव, भावना और विचार व्यक्त करता है;
+- दूसरों के साथ संबंध बनाता है;
+- योजना और आत्म-नियमन करता है;
+- अन्य विषयों को समझता है।
 
-### 4.3 Home language
+### 4.3 घरेलू भाषा
 
-Home language:
+घरेलू भाषा:
 
-- prior knowledge का resource है;
-- identity और confidence support करती है;
-- नई language के लिए bridge बन सकती है;
-- translation, comparison और peer explanation में useful है।
+- पूर्व-ज्ञान और पहचान का संसाधन है;
+- नई भाषा के लिए सेतु बन सकती है;
+- शब्द-तुलना और सहपाठी-व्याख्या में उपयोगी है;
+- आत्मविश्वास और सहभागिता बढ़ाती है।
 
-Home language को “गलत” या “रुकावट” कहना inappropriate pedagogy है।
+घरेलू भाषा को गलत या बाधा कहना उचित भाषा-शिक्षण नहीं है।
+
+### 4.4 भाषा-त्रुटि का महत्व
+
+बच्चे का कोई नया या गलत रूप बोलना विकसित हो रहे भाषिक नियम का संकेत हो सकता है।
+
+- त्रुटि को स्थायी असफलता न मानें।
+- बच्चे को अपमानित न करें।
+- सही रूप का स्वाभाविक नमूना दें।
+- बार-बार आने वाली त्रुटि पर केंद्रित अभ्यास दें।
+- अर्थपूर्ण संचार को अनावश्यक रूप से न रोकें।
 
 ---
 
-## 5. :icon-list: LSRW Skills (भाषा के चार कौशल)
+## 5. :icon-list: चार भाषा-कौशल
 
 ```figure
 type: language-lsrw-cycle
-caption: listening, speaking, reading and writing develop through connected practice
+caption: श्रवण, बोलना, पठन और लेखन जुड़े हुए अभ्यास से विकसित होते हैं
 ```
 
-### 5.1 Listening (श्रवण)
+### 5.1 श्रवण
 
-Listening केवल sound सुनना नहीं; attention, comprehension और response भी है।
+श्रवण केवल आवाज़ सुनना नहीं; ध्यान देना, अर्थ समझना और उचित प्रतिक्रिया देना भी है।
 
-Activities:
+गतिविधियाँ:
 
-- story सुनकर main idea बताना;
-- audio से specific information निकालना;
-- prediction और gist questions;
-- instructions सुनकर action करना;
-- speaker का tone और purpose पहचानना।
+- कहानी सुनकर मुख्य भाव बताना;
+- निर्देश सुनकर कार्य करना;
+- किसी वार्ता से विशेष जानकारी निकालना;
+- वक्ता का भाव और उद्देश्य पहचानना;
+- अनुमान लगाकर बाद में उसकी जाँच करना।
 
-### 5.2 Speaking (वाचन/मौखिक अभिव्यक्ति)
+### 5.2 बोलना
 
-Speaking के लिए:
+बोलने के लिए:
 
-- pair work;
-- role play;
-- picture description;
-- story retelling;
-- group discussion;
-- presentation;
-- information-gap task;
+- जोड़ी में बातचीत;
+- भूमिका-अभिनय;
+- चित्र-वर्णन;
+- कहानी दोबारा सुनाना;
+- समूह-चर्चा;
+- सूचना-विनिमय;
+- प्रस्तुति;
 
-के अवसर दें। Mistake पर ridicule speaking confidence घटाता है।
+के अवसर दें। गलती पर हँसी या डाँट बोलने का आत्मविश्वास घटाती है।
 
-### 5.3 Reading (पठन)
+### 5.3 पठन
 
-Reading decoding + comprehension + interpretation है। Fluent pronunciation alone reading comprehension का proof नहीं है।
+पठन में अक्षर-पहचान, शब्द-पहचान, प्रवाह, अर्थ-निर्माण, निष्कर्ष और चिंतन शामिल हैं। केवल ऊँची आवाज़ में पढ़ लेना पठन-अवबोधन का प्रमाण नहीं है।
 
-### 5.4 Writing (लेखन)
+### 5.4 लेखन
 
-Writing में ideas, audience, purpose, organisation, vocabulary, grammar, spelling और revision शामिल हैं। केवल handwriting या spelling से पूरी writing ability judge नहीं करनी चाहिए।
+लेखन में विचार, उद्देश्य, पाठक, क्रम, शब्द-चयन, व्याकरण, वर्तनी, विराम-चिह्न और संशोधन शामिल हैं। केवल सुंदर लिखावट से अच्छी लेखन-क्षमता तय नहीं होती।
 
 ---
 
-## 6. Reading Pedagogy (पठन शिक्षाशास्त्र)
+## 6. :icon-book: पठन-शिक्षण
 
 ```figure
 type: language-reading-process
-caption: strategic readers predict, decode, connect, infer and reflect
+caption: अच्छा पाठक अनुमान, पठन, संबंध, निष्कर्ष और चिंतन की रणनीतियाँ अपनाता है
 ```
 
-### 6.1 Pre-reading, while-reading, post-reading
+### 6.1 पठन की अवस्थाएँ
 
-| Stage | Teacher activity |
+| अवस्था | शिक्षक का कार्य |
 |---|---|
-| Pre-reading | Title/picture से prediction, prior knowledge, purpose |
-| While-reading | Gist, details, questions, context clues, monitoring |
-| Post-reading | Summary, inference, evidence, response, connection |
+| पठन-पूर्व | शीर्षक/चित्र से अनुमान, पूर्व-ज्ञान और उद्देश्य |
+| पठन के समय | मुख्य भाव, विवरण, संकेत, प्रश्न और अर्थ-जाँच |
+| पठन के बाद | सारांश, निष्कर्ष, प्रमाण, चर्चा और प्रतिक्रिया |
 
-### 6.2 Phonics और decoding
+### 6.2 ध्वनि और अक्षर का संबंध
 
-- Phonics letters/letter groups को sounds से connect करती है।
-- Decoding reading का foundation है, पूरा comprehension नहीं।
-- Sound–symbol patterns को meaningful words और text में practise करें।
+- ध्वनि-पद्धति अक्षर/अक्षर-समूह को ध्वनि से जोड़ती है।
+- यह पठन का आधार है, पूरा अवबोधन नहीं।
+- ध्वनि-अभ्यास को अर्थपूर्ण शब्दों और वाक्यों से जोड़ें।
 
-### 6.3 Skimming और scanning
+### 6.3 पठन-रणनीतियाँ
 
-- **Skimming:** Main idea/gist के लिए तेज reading।
-- **Scanning:** Specific date, name, number या fact ढूँढना।
+- **पूर्वानुमान:** शीर्षक, चित्र और संकेत से संभावित अर्थ बनाना।
+- **सार-पठन:** मुख्य भाव जानने के लिए तेज़ पठन।
+- **खोज-पठन:** नाम, संख्या या विशेष तथ्य ढूँढना।
+- **निष्कर्ष:** पाठ-संकेत से निहित अर्थ निकालना।
+- **सारांश:** मुख्य बातों को अपने शब्दों में रखना।
+- **स्व-अवलोकन:** “क्या मुझे अर्थ समझ आ रहा है?” पूछना।
 
-### 6.4 Vocabulary strategies
+### 6.4 समझ की जाँच
 
-Unknown word पर:
+शिक्षक पूछ सकता है:
 
-1. Context clue देखें।
-2. Prefix/suffix या word part पहचानें।
-3. Sentence का tone देखें।
-4. आगे पढ़कर meaning confirm करें।
-5. जरूरत पर dictionary use करें।
-
-हर unfamiliar word पर reading रोकना strategic reading नहीं है।
-
-### 6.5 Inference और metacognition
-
-Teacher पूछ सकता है:
-
-- “कौन-सा clue तुम्हें इस conclusion तक ले गया?”
-- “तुम्हारी prediction क्यों बदली?”
-- “कौन-सी strategy ने help की?”
-
-इससे learner अपनी reading process plan, monitor और evaluate करना सीखता है।
+- “तुम्हें यह निष्कर्ष किस संकेत से मिला?”
+- “तुम्हारा अनुमान कब बदला?”
+- “अर्थ स्पष्ट न हो तो अगला कदम क्या होगा?”
+- “इस अनुच्छेद का सबसे महत्वपूर्ण वाक्य कौन-सा है?”
 
 ---
 
-## 7. Writing Pedagogy (लेखन शिक्षाशास्त्र)
+## 7. :icon-pencil: लेखन-शिक्षण
 
 ```figure
 type: language-writing-process
-caption: writing improves through planning, drafting, revising, editing and sharing
+caption: लेखन योजना, प्रारूप, संशोधन, संपादन और साझा करने की प्रक्रिया से सुधरता है
 ```
 
-### 7.1 Process writing
+### 7.1 लेखन-प्रक्रिया
 
 ```text
-Planning → drafting → revising → editing → sharing/publishing
+योजना → प्रारूप → संशोधन → संपादन → साझा करना
 ```
 
-- **Planning:** Ideas, audience, purpose और genre तय करें।
-- **Drafting:** Ideas को first version में लिखें।
-- **Revising:** Content, organisation और clarity सुधारें।
-- **Editing:** Grammar, spelling, punctuation और formatting देखें।
-- **Sharing:** Audience के साथ final text share करें।
+- **योजना:** विषय, उद्देश्य, पाठक और विचार तय करें।
+- **प्रारूप:** पहले विचारों को लिखें; हर पंक्ति तुरंत पूर्ण होना जरूरी नहीं।
+- **संशोधन:** विचारों का क्रम, स्पष्टता और विवरण सुधारें।
+- **संपादन:** व्याकरण, वर्तनी, विराम-चिह्न और रूप देखें।
+- **साझा करना:** उचित पाठक या समूह के साथ लेख साझा करें।
 
-### 7.2 Good writing prompt
+### 7.2 अर्थपूर्ण लेखन-कार्य
 
-अच्छे prompt में:
+- विद्यालय के कार्यक्रम की सूचना;
+- मित्र को निमंत्रण;
+- अनुभव का वर्णन;
+- कहानी का नया अंत;
+- डायरी-लेखन;
+- किसी गतिविधि की रिपोर्ट;
+- पोस्टर और नारा;
+- किसी काम के निर्देश;
+- स्थानीय व्यक्ति का साक्षात्कार-आधारित परिचय।
 
-- audience;
-- purpose;
-- genre;
-- context;
-- meaningful choice;
+### 7.3 लेखन पर प्रतिक्रिया
 
-होता है।
+अच्छी प्रतिक्रिया:
 
-**Example:** “विद्यालय के reading day के लिए parents को notice लिखिए।”
-
-### 7.3 Feedback
-
-Useful feedback:
-
-- specific;
-- respectful;
-- timely;
-- improvement-oriented;
-- revision के लिए actionable।
+- समय पर दी जाए;
+- विशिष्ट हो;
+- सम्मानजनक हो;
+- विचार और भाषा दोनों पर हो;
+- अगले संशोधन का स्पष्ट कदम बताए।
 
 ```text
-Weak: “सब गलत है।”
-Better: “मुख्य विचार स्पष्ट है; अब दूसरे paragraph को जोड़ने के लिए एक linking sentence लिखो।”
+कम उपयोगी: “सब गलत है।”
+अधिक उपयोगी: “मुख्य विचार स्पष्ट है; अब दोनों अनुच्छेदों को जोड़ने वाला एक वाक्य लिखो।”
 ```
 
-### 7.4 Peer और shared writing
+### 7.4 सहपाठी-समीक्षा
 
-- Shared writing teacher और learners को jointly compose कराती है।
-- Peer review criteria और respectful comments के साथ कराएँ।
-- Peer को “judge” नहीं, supportive reader बनाएं।
+- समीक्षा के लिए सरल जाँच-सूची दें।
+- लेखक के व्यक्तित्व पर नहीं, लेख पर टिप्पणी कराएँ।
+- प्रशंसा और सुधार—दोनों लिखवाएँ।
+- अंतिम निर्णय से पहले लेखक को संशोधन का अवसर दें।
 
 ---
 
-## 8. Grammar Teaching (व्याकरण शिक्षण)
+## 8. :icon-book: संदर्भ में व्याकरण-शिक्षण
 
-### 8.1 Grammar का role
+### 8.1 व्याकरण का उद्देश्य
 
-Grammar communication को clear और appropriate बनाती है। Grammar teaching का लक्ष्य केवल rules और labels memorise कराना नहीं है।
+व्याकरण भाषा को स्पष्ट, सही और संदर्भानुकूल बनाने में सहायता करती है। इसका उद्देश्य केवल परिभाषा और नाम रटाना नहीं है।
 
-### 8.2 Contextual grammar
+### 8.2 संदर्भ-आधारित क्रम
 
-```text
-Text/situation → form notice → meaning discuss → guided practice → communication
+```figure
+type: language-grammar-context
+caption: उदाहरण से रूप पहचानें, अर्थ समझें, अभ्यास करें और संचार में प्रयोग करें
 ```
 
-### 8.3 Suitable methods
+```text
+कहानी/संवाद → रूप पहचानें → अर्थ समझें → मार्गदर्शित अभ्यास → संचार में प्रयोग
+```
 
-- Story में verbs identify करना;
-- dialogue में pronouns notice करना;
-- picture से gender/number sentences बनाना;
-- real request से imperative sentences practise करना;
-- text revise करके punctuation improve करना;
-- एक ही grammar form को अलग contexts में use करना।
+### 8.3 उपयुक्त गतिविधियाँ
 
-### 8.4 Error correction
+- कहानी में क्रियाएँ पहचानना;
+- संवाद में सर्वनाम ढूँढना;
+- चित्र देखकर लिंग और वचन वाले वाक्य बनाना;
+- वास्तविक निवेदन से आज्ञार्थक वाक्य बनाना;
+- अनुच्छेद में विराम-चिह्न लगाना;
+- एक ही व्याकरणिक रूप को अलग संदर्भों में प्रयोग करना।
 
-- हर oral error पर communication interrupt न करें।
-- Gentle recast/model दें।
-- Pattern बार-बार हो तो focused practice दें।
-- Written work में केवल errors circle न करें; ideas और organisation पर भी feedback दें।
+### 8.4 त्रुटि-सुधार
+
+- हर मौखिक त्रुटि पर बातचीत रोकना जरूरी नहीं।
+- सही रूप का सहज नमूना दें।
+- बार-बार आने वाले नियम पर छोटा केंद्रित पाठ दें।
+- लिखित कार्य में केवल गलतियाँ घेरने के बजाय सुधार का तरीका बताएं।
 
 ---
 
-## 9. Multilingual और Inclusive Hindi Classroom
+## 9. :icon-book: बहुभाषी और समावेशी हिंदी कक्षा
 
 ```figure
 type: language-multilingual-classroom
-caption: home, school, community and media languages can contribute to shared meaning
+caption: घर, विद्यालय, समुदाय और मीडिया की भाषाएँ साझा अर्थ-निर्माण में योगदान दे सकती हैं
 ```
 
-### 9.1 Multilingual classroom
+### 9.1 बहुभाषी कक्षा
 
-Teacher को:
+शिक्षक को:
 
-- children की languages value करनी चाहिए;
-- bilingual word wall बनानी चाहिए;
-- translation और language comparison को resource बनाना चाहिए;
-- peer explanation allow करनी चाहिए;
-- school language में gradual support देना चाहिए;
-- accent या home language पर मजाक रोकना चाहिए।
+- बच्चों की सभी भाषाओं और बोलियों का सम्मान करना चाहिए;
+- द्विभाषी शब्द-दीवार बनानी चाहिए;
+- अनुवाद और भाषा-तुलना को संसाधन बनाना चाहिए;
+- सहपाठी-व्याख्या की अनुमति देनी चाहिए;
+- विद्यालयी भाषा के लिए क्रमिक सहायता देनी चाहिए;
+- भाषा या उच्चारण पर मजाक रोकना चाहिए।
 
-### 9.2 Language और identity
+### 9.2 भाषा और पहचान
 
-भाषा learner की identity, family और community से जुड़ी होती है। Home language को suppress करने से confidence और participation घट सकती है।
+भाषा बच्चे के परिवार, समुदाय, पहचान और अनुभव से जुड़ी होती है। घरेलू भाषा पर रोक लगाने से आत्मविश्वास और सहभागिता घट सकती है।
 
-### 9.3 Diverse learners
+### 9.3 विविध शिक्षार्थी
 
-- अलग language background;
-- dialect और बोलियाँ;
-- caste, gender, community;
-- disability;
-- socio-economic differences;
-- reading/writing pace;
+- अलग भाषा या बोली;
+- अलग पठन-लेखन गति;
+- दृष्टि, श्रवण या लेखन की कठिनाई;
+- सामाजिक-आर्थिक भिन्नता;
+- लिंग, जाति और समुदाय की विविधता;
+- बोलने की झिझक या परीक्षा-चिंता;
 
-को समझकर differentiated support दें।
+को समझकर अलग-अलग सहायता दें।
 
-### 9.4 Language difficulties और disorders
+### 9.4 कठिनाई और सहायता
 
-| Need | Possible support |
+| कठिनाई | उपयुक्त सहायता |
 |---|---|
-| Reading/decoding difficulty | Systematic phonics, multisensory practice, extra time |
-| Writing difficulty | Oral planning, organiser, sentence starters, assistive support |
-| Speech difficulty | Patient listening, modelling, specialist collaboration |
-| Hearing difficulty | Face learner, visual/written instructions, captions |
-| Visual difficulty | Accessible text, audio, tactile/large print material |
-| Anxiety | Pair rehearsal, safe environment, gradual speaking |
+| पठन/ध्वनि-पहचान में कठिनाई | बहु-संवेदी ध्वनि-अभ्यास, सरल पाठ, अतिरिक्त समय |
+| लेखन में कठिनाई | मौखिक योजना, चित्र-आयोजक, वाक्य-आरम्भ, सहायक साधन |
+| श्रवण में कठिनाई | सामने रहकर बोलना, लिखित निर्देश, दृश्य सामग्री |
+| दृष्टि में कठिनाई | बड़े अक्षर, श्रव्य पाठ, स्पर्शनीय सामग्री |
+| बोलने की झिझक | जोड़ी-अभ्यास, छोटा समूह, धीरे-धीरे प्रस्तुति |
 
-Difficulty को intelligence की कमी या laziness का proof न मानें।
+कठिनाई को बुद्धि की कमी या आलस्य का प्रमाण न मानें।
 
 ---
 
-## 10. :icon-check: Language Assessment (भाषा-मूल्यांकन)
+## 10. :icon-check: भाषा-मूल्यांकन
 
 ```figure
 type: language-assessment
-caption: language assessment observes skills, gives feedback and plans targeted support
+caption: भाषा-मूल्यांकन में प्रमाण देखकर प्रतिक्रिया और अगली सहायता तय की जाती है
 ```
 
-### 10.1 चारों skills का assessment
+### 10.1 चारों कौशल का मूल्यांकन
 
-| Skill | Evidence examples |
+| कौशल | प्रमाण के उदाहरण |
 |---|---|
-| Listening | Gist, detail, instruction-following, response |
-| Speaking | Clarity, turn-taking, vocabulary, interaction, explanation |
-| Reading | Decoding, fluency, comprehension, inference, strategy |
-| Writing | Ideas, organisation, grammar, vocabulary, spelling, revision |
+| श्रवण | मुख्य भाव, विवरण, निर्देश का पालन, प्रतिक्रिया |
+| बोलना | स्पष्टता, बारी, शब्द-चयन, बातचीत, व्याख्या |
+| पठन | अक्षर-पहचान, प्रवाह, अवबोधन, निष्कर्ष, रणनीति |
+| लेखन | विचार, क्रम, व्याकरण, शब्द-भंडार, संशोधन |
 
-### 10.2 Assessment types
+### 10.2 मूल्यांकन के प्रकार
 
-- **Formative assessment (अधिगम हेतु):** Learning के दौरान feedback और next step।
-- **Summative assessment (सारांशात्मक):** Unit/term के end पर achievement।
-- **Diagnostic assessment (नैदानिक):** Specific language difficulty identify करना।
-- **Portfolio (कार्य-संग्रह):** Drafts, revisions और growth।
-- **Rubric (मापदंड-सारणी):** Clear criteria और performance levels।
-- **Observation (अवलोकन):** Actual language use और participation।
+- **अधिगम हेतु मूल्यांकन:** सीखते समय प्रमाण लेकर अगला शिक्षण-कदम बदलना।
+- **अधिगम का मूल्यांकन:** इकाई या सत्र के अंत में उपलब्धि का सारांश।
+- **नैदानिक मूल्यांकन:** विशेष भाषिक कठिनाई या कौशल-अंतर पहचानना।
+- **कार्य-संग्रह:** प्रारूप, संशोधन और समय के साथ प्रगति दिखाना।
+- **मापदंड-सारणी:** बोलने/लेखन के स्पष्ट मानदंड और स्तर।
+- **अवलोकन:** वास्तविक भाषा-प्रयोग और सहभागिता देखना।
 
-### 10.3 Validity और reliability
+### 10.3 वैधता और विश्वसनीयता
 
-- Reading comprehension को केवल spelling से assess करना valid नहीं।
-- Speaking को केवल accent से judge नहीं करें।
-- Writing में केवल handwriting को पूरा score न दें।
-- Clear criteria और consistent scoring reliability बढ़ाते हैं।
+- पठन-अवबोधन को केवल वर्तनी से मापना वैध नहीं।
+- बोलने की क्षमता को केवल उच्चारण या एक विशेष लहजे से न आँकें।
+- लेखन को केवल लिखावट की सुंदरता से न आँकें।
+- स्पष्ट मानदंड और समान अंकन से विश्वसनीयता बढ़ती है।
 
----
+### 10.4 प्रभावी प्रतिक्रिया
 
-## 11. Textbooks, Multimedia और Teaching-Learning Materials
+प्रतिक्रिया में यह बताएं:
 
-### Textbook
-
-Textbook:
-
-- varied genres दे;
-- diverse experiences represent करे;
-- accessible language रखे;
-- comprehension और expression के tasks दे;
-- learner को question और discuss करने दे।
-
-Textbook useful है, लेकिन language learning का अकेला source नहीं।
-
-### Multimedia
-
-Audio/video का purposeful use:
-
-1. Pre-listening prediction;
-2. focused listening;
-3. pause और inference;
-4. pair discussion;
-5. written/oral response।
-
-केवल video चलाना language pedagogy नहीं है।
-
-### Multilingual resources
-
-- bilingual dictionary;
-- home-language story;
-- multilingual word wall;
-- peer translation;
-- local songs और oral narratives;
-- subtitles और audio support।
+1. क्या अच्छा है;
+2. कहाँ सुधार चाहिए;
+3. सुधार कैसे करना है;
+4. दोबारा प्रयास कब और किस रूप में होगा।
 
 ---
 
-## 12. Remedial Teaching (उपचारात्मक शिक्षण)
+## 11. :icon-recycle: पाठ्यपुस्तक, सामग्री और उपचारात्मक शिक्षण
 
-### Remedial cycle
+### 11.1 पाठ्यपुस्तक का उपयोग
+
+अच्छी भाषा-पुस्तक में:
+
+- अलग-अलग विधाओं के पाठ;
+- विविध परिवार, समुदाय और अनुभव;
+- अर्थपूर्ण प्रश्न;
+- श्रवण, बोलना, पठन और लेखन के कार्य;
+- भाषा-प्रयोग और रचनात्मक अभिव्यक्ति;
+- बच्चों को प्रश्न और चर्चा का अवसर;
+
+होना चाहिए। पाठ्यपुस्तक महत्वपूर्ण है, लेकिन भाषा सीखने का अकेला स्रोत नहीं।
+
+### 11.2 शिक्षण-सामग्री
+
+- चित्र और चित्र-कथा;
+- कहानी-पत्र;
+- बाल-पत्रिकाएँ;
+- स्थानीय सूचनाएँ और संकेत-पट्ट;
+- द्विभाषी शब्द-संग्रह;
+- श्रव्य सामग्री;
+- बड़े अक्षरों वाले पाठ;
+- बच्चों द्वारा बनाए गए लेख;
+- घरेलू और सामुदायिक कथाएँ।
+
+### 11.3 उपचारात्मक शिक्षण-चक्र
 
 ```text
-Observe → diagnose → targeted support → practise → reassess → adjust
+अवलोकन → निदान → लक्षित सहायता → अभ्यास → पुनर्मूल्यांकन → अगली योजना
 ```
 
-### Examples
+### 11.4 उदाहरण
 
-| Difficulty | Targeted support |
+| कठिनाई | लक्षित सहायता |
 |---|---|
-| Main idea नहीं समझना | Short paragraphs, guiding questions, think-aloud |
-| Context vocabulary weak | Picture, word parts, context clues, repeated use |
-| Reading slow | Paired reading, repeated reading, accessible text |
-| Writing शुरू नहीं कर पाना | Oral rehearsal, graphic organiser, sentence starter |
-| Tense errors | Meaningful dialogue, model sentences, focused revision |
-| Speaking anxiety | Pair talk, rehearsal, supportive audience |
+| मुख्य भाव समझ में नहीं आता | छोटे अनुच्छेद, मार्गदर्शक प्रश्न, सोचकर बोलना |
+| शब्दार्थ कमजोर | चित्र, संदर्भ-संकेत, शब्द-भाग, बार-बार प्रयोग |
+| पठन धीमा | जोड़ी-पठन, दोहराया पठन, सरल/बड़ा पाठ |
+| लेखन शुरू नहीं कर पाता | मौखिक योजना, चित्र-आयोजक, वाक्य-आरम्भ |
+| व्याकरणिक रूप बार-बार गलत | संवाद, नमूना वाक्य और केंद्रित संशोधन |
+| बोलने में चिंता | जोड़ी-अभ्यास, सुरक्षित श्रोता और क्रमिक प्रस्तुति |
 
-Remedial teaching extra punishment या same worksheet की repetition नहीं है।
+उपचारात्मक शिक्षण दंड या पूरे वर्ग को वही गृहकार्य देने का नाम नहीं है।
 
-::: trap ⚠️ Remedial trap (उपचारात्मक जाल)
-पहले diagnosis करें। बिना यह जाने कि difficulty decoding, vocabulary, inference, grammar या confidence में है, random homework देना effective remediation नहीं है।
+::: trap ⚠️ उपचारात्मक जाल
+पहले यह पता करें कि कठिनाई ध्वनि-पहचान, शब्दार्थ, अवबोधन, व्याकरण, लेखन-क्रम या आत्मविश्वास में कहाँ है। निदान के बिना दी गई अतिरिक्त कॉपी प्रभावी सहायता नहीं है।
 :::
 
 ---
 
-## 13. Most Appropriate Teacher Response (सबसे उपयुक्त शिक्षक प्रतिक्रिया)
+## 12. सबसे उपयुक्त शिक्षक-प्रतिक्रिया
 
-| Situation (स्थिति) | Best response (बेहतर प्रतिक्रिया) |
+| स्थिति | सर्वोत्तम प्रतिक्रिया |
 |---|---|
-| Child incomplete sentence बोलता है | Meaning समझकर natural correct model/recast दें |
-| Child home language में fluent है | Home language को bridge/resource बनाएं |
-| Child story का meaning नहीं समझता | Prediction, picture, discussion और evidence दें |
-| Child हर word पर रुकता है | Context और selective dictionary strategy सिखाएँ |
-| Child writing से डरता है | Oral planning, short draft और supportive feedback |
-| Child grammar error repeat करता है | Contextual examples और focused practice |
-| Child public speaking से anxious है | Pair rehearsal और low-risk participation |
-| Child dyslexia के कारण slow reader है | Multisensory support और extra time |
-| Child केवल spelling पर अच्छा score करता है | Comprehension और communication अलग assess करें |
-| Group में fluent child dominate करता है | Roles rotate और every learner को बोलने दें |
-| Textbook में stereotype है | Alternative texts और critical discussion दें |
+| बच्चा अधूरा वाक्य बोलता है | अर्थ समझकर सही रूप का सहज नमूना दें |
+| बच्चा घरेलू भाषा में समझाता है | उसे सेतु और संसाधन की तरह स्वीकार करें |
+| बच्चा कहानी का अर्थ नहीं समझता | चित्र, पूर्वानुमान, चर्चा और पाठ-संकेत दें |
+| बच्चा हर शब्द पर रुकता है | संदर्भ-संकेत और चुनिंदा शब्दकोश-प्रयोग सिखाएँ |
+| बच्चा लेखन से डरता है | मौखिक योजना, छोटा प्रारूप और सहायक प्रतिक्रिया दें |
+| बच्चा एक ही व्याकरणिक भूल दोहराता है | संदर्भयुक्त उदाहरण और केंद्रित अभ्यास दें |
+| बच्चा सबके सामने बोलने से घबराता है | पहले जोड़ी/छोटे समूह में अभ्यास कराएँ |
+| पढ़ने में विशेष कठिनाई है | बहु-संवेदी अभ्यास, सुगम पाठ और अतिरिक्त समय दें |
+| लिखित अंक कम, मौखिक समझ अच्छी है | अनेक प्रमाण और उत्तर देने के अलग तरीके देखें |
+| समूह में एक बच्चा ही बोलता है | भूमिकाएँ बदलें और बारी-बारी से बोलने दें |
+| पुस्तक में रूढ़ छवि है | विविध पाठ और आलोचनात्मक चर्चा जोड़ें |
+| घरेलू उच्चारण अलग है | सम्मानपूर्वक स्पष्टता पर काम करें; मजाक न करें |
 
-::: remember ✔ Golden language response
-Language को meaningful use में लाएँ, home language का सम्मान करें, error को evidence मानें और LSRW को integrated तरीके से develop करें।
+::: remember ✔ भाषा-शिक्षण का स्वर्णिम नियम
+अर्थपूर्ण भाषा-संपर्क + सुरक्षित अभिव्यक्ति + संदर्भयुक्त व्याकरण + चारों कौशल + निरंतर प्रतिक्रिया = मजबूत भाषा-अधिगम।
 :::
 
 ---
 
-## 14. Last-Minute Revision — 50 One-Liners
+## 13. 50 अंतिम समय के एक-पंक्ति तथ्य
 
-1. Language I medium-of-instruction proficiency से सम्बन्धित है।
-2. Language I में 15 comprehension और 15 pedagogy questions होते हैं।
-3. Comprehension में evidence-based answer चुनें।
-4. Main idea पूरे passage का central thought है।
-5. Detail passage में directly stated होती है।
-6. Inference clue और reasoning से बनती है।
-7. Context word meaning बदल सकता है।
-8. अच्छा title central और inclusive होता है।
-9. Tone writer का attitude बताता है।
-10. Poetry में speaker और central भाव देखें।
-11. Grammar को context में पढ़ें।
-12. संज्ञा नाम बताती है।
-13. सर्वनाम संज्ञा के स्थान पर आता है।
-14. विशेषण विशेषता बताता है।
-15. क्रिया action/state बताती है।
-16. क्रिया-विशेषण क्रिया की रीति/समय/स्थान/मात्रा बताता है।
-17. लिंग पुल्लिंग और स्त्रीलिंग में देखा जाता है।
-18. वचन एकवचन और बहुवचन होता है।
-19. काल वर्तमान, भूत और भविष्य से जुड़ा है।
-20. कारक शब्दों के बीच relation दिखाता है।
-21. पर्यायवाची समान/निकट अर्थ देते हैं।
-22. विलोम विपरीत अर्थ देते हैं।
-23. मुहावरे का meaning literal नहीं भी हो सकता।
-24. Acquisition meaningful exposure से develop होती है।
-25. Learning planned instruction से support हो सकती है।
-26. Home language learning resource है।
-27. Language thought और communication दोनों का tool है।
-28. LSRW = Listening, Speaking, Reading, Writing।
-29. Listening hearing से broader skill है।
-30. Speaking के लिए safe interaction चाहिए।
-31. Reading decoding और comprehension दोनों है।
-32. Skimming gist के लिए है।
-33. Scanning specific information के लिए है।
-34. Phonics sound-symbol connection है।
-35. Writing process planning से शुरू होती है।
-36. Revision writing quality improve करती है।
-37. Grammar communication serve करती है।
-38. Recast natural corrective feedback है।
-39. Multilingual classroom को resource मानें।
-40. Accent को intelligence का measure न बनाएं।
-41. Dyslexia reading difficulty से जुड़ी है।
-42. Language difficulty intelligence की कमी नहीं है।
-43. Formative assessment next teaching guide करती है।
-44. Diagnostic assessment specific gap identify करती है।
-45. Portfolio progress दिखाती है।
-46. Rubric criteria clear करती है।
-47. Validity intended language skill से जुड़ी है।
-48. Reliability scoring consistency है।
-49. Remedial teaching diagnosis के बाद होती है।
-50. Best language teacher communication, confidence और meaning को priority देता है।
+1. भाषा 1 में 30 प्रश्न होते हैं।
+2. भाषा-अवबोधन और भाषा-शिक्षणशास्त्र दोनों पर समान ध्यान दें।
+3. मुख्य विचार पूरे पाठ का केंद्रीय भाव है।
+4. प्रत्यक्ष तथ्य पाठ में साफ़ दिया जाता है।
+5. निष्कर्ष संकेत और तर्क से बनता है।
+6. शब्दार्थ संदर्भ से चुनें।
+7. अच्छा शीर्षक पूरे गद्यांश को समेटता है।
+8. लेखक का भाव उसके दृष्टिकोण से पहचाना जाता है।
+9. कविता में वक्ता और मुख्य भाव देखें।
+10. निजी राय को पाठ का प्रमाण न बनाएं।
+11. संज्ञा नाम बताती है।
+12. सर्वनाम संज्ञा के स्थान पर आता है।
+13. विशेषण विशेषता बताता है।
+14. क्रिया काम या अवस्था बताती है।
+15. क्रिया-विशेषण क्रिया की रीति, समय, स्थान या मात्रा बताता है।
+16. कारक शब्दों के बीच संबंध दिखाता है।
+17. पर्यायवाची समान या निकट अर्थ देते हैं।
+18. विलोम विपरीत अर्थ देते हैं।
+19. मुहावरे का अर्थ शाब्दिक नहीं भी हो सकता।
+20. उपसर्ग शब्द के आरम्भ में लगता है।
+21. प्रत्यय शब्द के अंत में लगता है।
+22. भाषा-अर्जन अर्थपूर्ण संपर्क से विकसित होता है।
+23. भाषा-अधिगम योजनाबद्ध अभ्यास से सहायता पाता है।
+24. घरेलू भाषा सीखने का संसाधन है।
+25. भाषा सोच और संचार का साधन है।
+26. श्रवण केवल सुनना नहीं, समझना और प्रतिक्रिया देना भी है।
+27. बोलने के लिए सुरक्षित वातावरण चाहिए।
+28. पठन में अक्षर-पहचान और अर्थ-निर्माण दोनों हैं।
+29. लेखन में योजना और संशोधन जरूरी हैं।
+30. पठन-पूर्व अनुमान उपयोगी है।
+31. सार-पठन मुख्य भाव के लिए है।
+32. खोज-पठन विशेष जानकारी के लिए है।
+33. ध्वनि-पद्धति अक्षर और ध्वनि का संबंध सिखाती है।
+34. लेखन-प्रक्रिया योजना से शुरू होती है।
+35. संशोधन लेख की स्पष्टता बढ़ाता है।
+36. व्याकरण को संदर्भ और संचार से जोड़ें।
+37. सही रूप का सहज नमूना देना उपयोगी प्रतिक्रिया है।
+38. त्रुटि भाषा-विकास की सूचना हो सकती है।
+39. बहुभाषी कक्षा में सभी भाषाओं का सम्मान करें।
+40. उच्चारण की विविधता बुद्धि का माप नहीं है।
+41. पठन-कठिनाई बुद्धि की कमी नहीं है।
+42. अधिगम हेतु मूल्यांकन अगला शिक्षण-कदम बताता है।
+43. नैदानिक मूल्यांकन विशेष अंतर पहचानता है।
+44. कार्य-संग्रह समय के साथ प्रगति दिखाता है।
+45. मापदंड-सारणी अंकन को स्पष्ट बनाती है।
+46. वैधता इच्छित कौशल को मापने से जुड़ी है।
+47. विश्वसनीयता अंकन की निरंतरता है।
+48. उपचारात्मक शिक्षण निदान के बाद होता है।
+49. सार्वजनिक अपमान भाषा-आत्मविश्वास घटाता है।
+50. अच्छा भाषा-शिक्षक अर्थ, सहभागिता और आत्मविश्वास को प्राथमिकता देता है।
 
 ---
 
-## 15. Rapid Comparison Table (त्वरित तुलना तालिका)
+## 14. त्वरित तुलना तालिका
 
-| Pair | Difference |
+| युग्म | अन्तर |
 |---|---|
-| Hearing / Listening | Sound receive करना / Meaningfully attend और respond करना |
-| Acquisition / Learning | Natural meaningful development / Planned conscious practice |
-| Decoding / Comprehension | Symbols को sounds में बदलना / Meaning बनाना |
-| Skimming / Scanning | Gist / Specific detail |
-| Grammar rule / Grammar use | Definition / Contextual communication |
-| Error / Carelessness | Developing language evidence / Context देखकर निर्णय |
-| Home language / School language | Prior identity और knowledge / Institutional language; bridge बनाएं |
-| Formative / Summative | During learning / End reporting |
-| Diagnostic / Remedial | Gap identify / Gap address |
-| Accommodation / Exemption | Access support / Learning opportunity हटाना |
+| ध्वनि / श्रवण | आवाज़ सुनाई देना / ध्यान देकर अर्थ और प्रतिक्रिया |
+| अर्जन / अधिगम | स्वाभाविक विकास / योजनाबद्ध अभ्यास |
+| प्रत्यक्ष तथ्य / निष्कर्ष | पाठ में सीधी बात / संकेत से निकली बात |
+| सार-पठन / खोज-पठन | मुख्य भाव / विशेष जानकारी |
+| अक्षर-पहचान / अवबोधन | शब्द पढ़ना / अर्थ समझना |
+| व्याकरण की परिभाषा / व्याकरण का प्रयोग | नियम का नाम / संचार में सही उपयोग |
+| त्रुटि / विकार | विकसित हो रहे नियम का संकेत / लगातार कठिनाई जिसे विशेष सहायता चाहिए |
+| घरेलू भाषा / विद्यालयी भाषा | घर और पहचान की भाषा / विद्यालय में प्रयुक्त भाषा; दोनों को सेतु बनाएं |
+| अधिगम हेतु / अधिगम का मूल्यांकन | सीखते समय सुधार / अंत में उपलब्धि का सारांश |
+| नैदानिक / उपचारात्मक | अंतर पहचानना / अंतर दूर करने की सहायता |
+| अनुकूल व्यवस्था / छूट | पहुँच का सहारा / सीखने का अवसर हटाना |
 
 ---
 
-## 16. Self-Check Questions (स्वयं-जाँच प्रश्न)
+## 15. स्वयं-जाँच प्रश्न
 
-1. Main idea और detail में क्या difference है?
-2. Inference text evidence से कैसे बनती है?
-3. Context-based word meaning क्यों जरूरी है?
-4. संज्ञा, सर्वनाम और विशेषण का example दीजिए।
-5. “राम ने पुस्तक पढ़ी” में “ने” क्या है?
-6. Acquisition और learning में अन्तर बताइए।
-7. Home language को resource कैसे बना सकते हैं?
-8. LSRW का full form और meaning लिखिए।
-9. Listening और hearing में क्या अन्तर है?
-10. Skimming और scanning का use बताइए।
-11. Phonics का purpose क्या है?
-12. Process writing के steps लिखिए।
-13. Grammar को context में क्यों सिखाना चाहिए?
-14. Recast क्या है?
-15. Multilingual classroom में teacher का best approach क्या है?
-16. Dyslexia वाले learner के लिए दो supports लिखिए।
-17. Formative और diagnostic assessment में अन्तर बताइए।
-18. Portfolio और rubric का use क्या है?
-19. Validity और reliability में difference बताइए।
-20. Most appropriate language-teacher response का sequence लिखिए।
+1. मुख्य विचार और विवरण में क्या अन्तर है?
+2. निष्कर्ष पाठ-संकेत से कैसे बनता है?
+3. शब्दार्थ के लिए संदर्भ क्यों जरूरी है?
+4. संज्ञा, सर्वनाम और विशेषण के उदाहरण लिखिए।
+5. “राम ने पुस्तक पढ़ी” में “ने” कौन-सा कारक-चिह्न है?
+6. अर्जन और अधिगम में अन्तर बताइए।
+7. घरेलू भाषा को कक्षा में संसाधन कैसे बनाएँगे?
+8. चार भाषा-कौशल कौन-से हैं?
+9. श्रवण और केवल सुनाई देने में क्या अन्तर है?
+10. बोलने की दो अर्थपूर्ण गतिविधियाँ लिखिए।
+11. सार-पठन और खोज-पठन का उपयोग बताइए।
+12. ध्वनि-पद्धति का उद्देश्य क्या है?
+13. लेखन-प्रक्रिया के चरण लिखिए।
+14. व्याकरण को संदर्भ में क्यों सिखाना चाहिए?
+15. सही रूप का सहज नमूना देना क्या है?
+16. बहुभाषी कक्षा में शिक्षक का उचित व्यवहार क्या होगा?
+17. पठन-कठिनाई वाले बच्चे के लिए दो सहायता लिखिए।
+18. अधिगम हेतु और नैदानिक मूल्यांकन में अन्तर बताइए।
+19. कार्य-संग्रह और मापदंड-सारणी का उपयोग क्या है?
+20. भाषा-शिक्षक की सबसे उपयुक्त प्रतिक्रिया का क्रम लिखिए।
 
-### Answer cues (उत्तर संकेत)
+### उत्तर संकेत
 
 ```text
-1. Central thought / directly stated information
-2. Clue + reasoning
-3. Sentence और passage meaning के कारण
-4. नाम / नाम की जगह / विशेषता
-5. कर्ता कारक का चिह्न
-6. Meaningful natural development / planned practice
-7. Bridge, bilingual resource, peer explanation
-8. Listening, Speaking, Reading, Writing
-9. Sound receive / attention, meaning, response
-10. Gist / specific detail
-11. Sound-symbol connection
-12. Planning → drafting → revising → editing → sharing
-13. Form और meaning connect करने के लिए
-14. Natural correct model देकर feedback
-15. Languages को resource मानना
-16. Multisensory, phonics, extra time
-17. Gap identify / ongoing improvement evidence
-18. Progress collection / criteria-based feedback
-19. Intended skill / consistency
-20. Observe → understand → support → practise → reassess
+1. केंद्रीय भाव / सहायक सूचना
+2. पाठ-संकेत और तर्क से
+3. वाक्य और पूरे पाठ का अर्थ जानने के लिए
+4. नाम / नाम के स्थान पर / विशेषता
+5. कर्ता कारक
+6. स्वाभाविक विकास / योजनाबद्ध अभ्यास
+7. सेतु, अनुवाद, तुलना और सहपाठी-व्याख्या
+8. श्रवण, बोलना, पठन, लेखन
+9. सुनना / ध्यान, अर्थ और प्रतिक्रिया
+10. जोड़ी-बातचीत, भूमिका-अभिनय, चित्र-वर्णन
+11. मुख्य भाव / विशेष तथ्य
+12. अक्षर और ध्वनि का संबंध
+13. योजना → प्रारूप → संशोधन → संपादन → साझा करना
+14. रूप, अर्थ और प्रयोग जोड़ने के लिए
+15. सही भाषिक रूप का सहज उदाहरण
+16. सभी भाषाओं का सम्मान और विद्यालयी भाषा का सेतु
+17. बहु-संवेदी अभ्यास, सरल पाठ, अतिरिक्त समय
+18. अगला शिक्षण सुधार / विशेष अंतर पहचान
+19. प्रगति / स्पष्ट मानदंड
+20. अर्थ समझें → सहायता दें → अभ्यास → पुनर्मूल्यांकन
 ```
 
 ---
 
-## 17. Final Exam Checklist (अंतिम परीक्षा सूची)
+## 16. अंतिम परीक्षा जाँच-सूची
 
-- [ ] Passage का main idea, detail और inference अलग कर सकते हैं।
-- [ ] Word meaning context से निकाल सकते हैं।
-- [ ] Poetry में भाव, speaker और title identify कर सकते हैं।
-- [ ] Core Hindi grammar revise की।
-- [ ] पर्यायवाची, विलोम, मुहावरे और वाक्य-प्रकार revise किए।
-- [ ] Acquisition और learning का difference clear है।
-- [ ] LSRW activities और assessment समझते हैं।
-- [ ] Reading strategies: prediction, skimming, scanning, inference।
-- [ ] Process writing और contextual grammar clear है।
-- [ ] Home language और multilingual classroom को resource मानते हैं।
-- [ ] Errors को diagnostic evidence की तरह पढ़ते हैं।
-- [ ] Language difficulties/disorders और classroom supports revise किए।
-- [ ] Formative, summative और diagnostic assessment अलग कर सकते हैं।
-- [ ] Textbook, multimedia और multilingual materials का purposeful use जानते हैं।
-- [ ] Remedial cycle याद है।
-- [ ] Teacher response में ridicule, punishment, labelling और forced silence से बचेंगे।
+- [ ] भाषा 1 का प्रश्न-विभाजन याद है।
+- [ ] मुख्य विचार, तथ्य, निष्कर्ष, शीर्षक और लेखक का भाव पहचान सकते हैं।
+- [ ] संदर्भानुसार शब्दार्थ निकाल सकते हैं।
+- [ ] कविता में वक्ता, भाव, बिंब और संदेश देख सकते हैं।
+- [ ] संज्ञा, सर्वनाम, विशेषण, क्रिया और क्रिया-विशेषण दोहरा लिए।
+- [ ] लिंग, वचन, काल, कारक और वाक्य-प्रकार दोहरा लिए।
+- [ ] पर्यायवाची, विलोम, मुहावरे, उपसर्ग और प्रत्यय दोहरा लिए।
+- [ ] भाषा-अर्जन और भाषा-अधिगम का अन्तर स्पष्ट है।
+- [ ] श्रवण, बोलना, पठन और लेखन के अर्थपूर्ण कार्य जानते हैं।
+- [ ] पठन-रणनीतियाँ: अनुमान, सार-पठन, खोज-पठन और निष्कर्ष।
+- [ ] लेखन-प्रक्रिया और संशोधन का महत्व समझते हैं।
+- [ ] व्याकरण को संदर्भ और संचार में सिखा सकते हैं।
+- [ ] घरेलू भाषा और बहुभाषी कक्षा को संसाधन मानते हैं।
+- [ ] भाषा-त्रुटि को सीखने का प्रमाण मानते हैं।
+- [ ] पठन/लेखन/श्रवण कठिनाइयों के लिए उचित सहायता जानते हैं।
+- [ ] अधिगम हेतु, अधिगम का और नैदानिक मूल्यांकन अलग कर सकते हैं।
+- [ ] पाठ्यपुस्तक, चित्र, श्रव्य सामग्री और स्थानीय पाठ का उद्देश्य जानते हैं।
+- [ ] उपचारात्मक चक्र याद है।
+- [ ] अपमान, दंड, जबरन मौन और उच्चारण-पक्षपात वाले विकल्पों से बचेंगे।
 
-::: formula 🎯 Final Language I rule (अंतिम भाषा नियम)
-भाषा को रटने की वस्तु नहीं, समझने, सोचने, बोलने, पढ़ने, लिखने और communicate करने का माध्यम मानकर तैयारी करें।
+::: formula 🎯 अंतिम हिंदी भाषा नियम
+भाषा को रटने की वस्तु नहीं, समझने, सोचने, बोलने, पढ़ने, लिखने और अर्थपूर्ण संचार का माध्यम मानकर उत्तर चुनें।
 :::
 
-**अनुशंसित अभ्यास:** Hindi Language I अभ्यास प्रश्न बैंक (भाग 1 एवं भाग 2)
+**अनुशंसित अभ्यास:** हिंदी भाषा 1 अभ्यास प्रश्न-संग्रह (भाग 1 एवं भाग 2)
