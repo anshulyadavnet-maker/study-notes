@@ -280,6 +280,7 @@ def main():
     CN = REPO_ROOT / "ctet-notes"
     if CN.exists():
         print("\n--- 7. CTET REVISION NOTES ------------------------")
+        # Blueprint
         run_notes([
             str(CN / '00-CTET-Revision-Notes-Blueprint.md'),
             "-o", str(OUT_DIR / 'CTET-Revision-Notes-Blueprint.pdf'),
@@ -287,11 +288,12 @@ def main():
             "--subtitle", "पाठ्यक्रम एवं सम्पूर्ण नोट्स रूपरेखा",
             "--badge", "CTET", "--toc"
         ])
+        # Paper I Subjects
         run_notes([
             str(CN / '01-CDP-Revision-Notes.md'),
             "-o", str(OUT_DIR / 'CTET-01-CDP-Revision-Notes.pdf'),
-            "--title", "बाल विकास एवं शिक्षाशास्त्र (CDP)",
-            "--subtitle", "CTET Paper I & II · सम्पूर्ण रिवीज़न नोट्स",
+            "--title", "बाल विकास एवं शिक्षाशास्त्र (CDP) — Paper I",
+            "--subtitle", "CTET Paper I (प्राथमिक स्तर) · सम्पूर्ण रिवीज़न नोट्स",
             "--badge", "CDP", "--toc"
         ])
         run_notes([
@@ -322,6 +324,44 @@ def main():
             "--subtitle", "CTET Paper I & II · Comprehensive Revision Notes",
             "--badge", "English", "--toc"
         ])
+        # Paper II Subjects
+        run_notes([
+            str(CN / '07-Paper-II-CDP-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-07-Paper-II-CDP-Revision-Notes.pdf'),
+            "--title", "बाल विकास एवं शिक्षाशास्त्र (CDP) — Paper II",
+            "--subtitle", "CTET Paper II (उच्च प्राथमिक स्तर 11–14 वर्ष) · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "Paper II CDP", "--toc"
+        ])
+        run_notes([
+            str(CN / '08-Paper-II-Mathematics-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-08-Paper-II-Mathematics-Revision-Notes.pdf'),
+            "--title", "गणित (Mathematics) — Paper II",
+            "--subtitle", "CTET Paper II (कक्षा 6–8) · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "Paper II Maths", "--toc"
+        ])
+        run_notes([
+            str(CN / '09-Paper-II-Science-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-09-Paper-II-Science-Revision-Notes.pdf'),
+            "--title", "विज्ञान (Science) — Paper II",
+            "--subtitle", "CTET Paper II (कक्षा 6–8) · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "Paper II Science", "--toc"
+        ])
+        run_notes([
+            str(CN / '10-Paper-II-Social-Science-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-10-Paper-II-Social-Science-Revision-Notes.pdf'),
+            "--title", "सामाजिक अध्ययन / सामाजिक विज्ञान — Paper II",
+            "--subtitle", "CTET Paper II (इतिहास, भूगोल, नागरिक शास्त्र + शिक्षाशास्त्र)",
+            "--badge", "Paper II SST", "--toc"
+        ])
+        run_notes([
+            str(CN / '11-Last-Minute-CTET-Revision-Sheets.md'),
+            "-o", str(OUT_DIR / 'CTET-11-Last-Minute-Revision-Sheets.pdf'),
+            "--title", "CTET Last-Minute Quick Revision Sheets",
+            "--subtitle", "Paper I & II · Tag Words, Formulas, Key Points & Mindmaps",
+            "--badge", "Last-Minute", "--toc"
+        ])
+
+        # Unified Complete Books
         run_notes([
             str(CN / '00-CTET-Revision-Notes-Blueprint.md'),
             str(CN / '01-CDP-Revision-Notes.md'),
@@ -329,10 +369,36 @@ def main():
             str(CN / '03-Paper-I-EVS-Revision-Notes.md'),
             str(CN / '04-Language-I-Hindi-Revision-Notes.md'),
             str(CN / '05-Language-II-English-Revision-Notes.md'),
+            str(CN / '11-Last-Minute-CTET-Revision-Sheets.md'),
             "-o", str(OUT_DIR / 'CTET-Paper-I-Complete-Revision-Notes.pdf'),
             "--title", "CTET Paper I सम्पूर्ण रिवीज़न नोट्स",
-            "--subtitle", "CDP · गणित · EVS · हिन्दी · English (सम्पूर्ण पाठ्यक्रम)",
+            "--subtitle", "CDP · गणित · EVS · हिन्दी · English + Last-Minute Sheets",
             "--badge", "Paper I Complete", "--toc", "--flow"
+        ])
+        run_notes([
+            str(CN / '00-CTET-Revision-Notes-Blueprint.md'),
+            str(CN / '07-Paper-II-CDP-Revision-Notes.md'),
+            str(CN / '08-Paper-II-Mathematics-Revision-Notes.md'),
+            str(CN / '09-Paper-II-Science-Revision-Notes.md'),
+            str(CN / '04-Language-I-Hindi-Revision-Notes.md'),
+            str(CN / '05-Language-II-English-Revision-Notes.md'),
+            str(CN / '11-Last-Minute-CTET-Revision-Sheets.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Maths-Science-Complete-Notes.pdf'),
+            "--title", "CTET Paper II गणित एवं विज्ञान सम्पूर्ण नोट्स",
+            "--subtitle", "CDP · गणित · विज्ञान · हिन्दी · English + Last-Minute Sheets",
+            "--badge", "Paper II Maths-Science", "--toc", "--flow"
+        ])
+        run_notes([
+            str(CN / '00-CTET-Revision-Notes-Blueprint.md'),
+            str(CN / '07-Paper-II-CDP-Revision-Notes.md'),
+            str(CN / '10-Paper-II-Social-Science-Revision-Notes.md'),
+            str(CN / '04-Language-I-Hindi-Revision-Notes.md'),
+            str(CN / '05-Language-II-English-Revision-Notes.md'),
+            str(CN / '11-Last-Minute-CTET-Revision-Sheets.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-II-Social-Science-Complete-Notes.pdf'),
+            "--title", "CTET Paper II सामाजिक विज्ञान सम्पूर्ण नोट्स",
+            "--subtitle", "CDP · SST · हिन्दी · English + Last-Minute Sheets",
+            "--badge", "Paper II SST", "--toc", "--flow"
         ])
 
     print("\n==================================================")
