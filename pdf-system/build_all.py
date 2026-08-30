@@ -294,6 +294,46 @@ def main():
             "--subtitle", "CTET Paper I & II · सम्पूर्ण रिवीज़न नोट्स",
             "--badge", "CDP", "--toc"
         ])
+        run_notes([
+            str(CN / '02-Paper-I-Mathematics-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-02-Paper-I-Mathematics-Revision-Notes.pdf'),
+            "--title", "गणित (Mathematics) — Paper I",
+            "--subtitle", "CTET Paper I · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "गणित", "--toc"
+        ])
+        run_notes([
+            str(CN / '03-Paper-I-EVS-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-03-Paper-I-EVS-Revision-Notes.pdf'),
+            "--title", "पर्यावरण अध्ययन (EVS) — Paper I",
+            "--subtitle", "CTET Paper I · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "EVS", "--toc"
+        ])
+        run_notes([
+            str(CN / '04-Language-I-Hindi-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-04-Language-I-Hindi-Revision-Notes.pdf'),
+            "--title", "हिन्दी भाषा (Language I)",
+            "--subtitle", "CTET Paper I & II · सम्पूर्ण रिवीज़न नोट्स",
+            "--badge", "हिन्दी", "--toc"
+        ])
+        run_notes([
+            str(CN / '05-Language-II-English-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-05-Language-II-English-Revision-Notes.pdf'),
+            "--title", "English Language (Language II)",
+            "--subtitle", "CTET Paper I & II · Comprehensive Revision Notes",
+            "--badge", "English", "--toc"
+        ])
+        run_notes([
+            str(CN / '00-CTET-Revision-Notes-Blueprint.md'),
+            str(CN / '01-CDP-Revision-Notes.md'),
+            str(CN / '02-Paper-I-Mathematics-Revision-Notes.md'),
+            str(CN / '03-Paper-I-EVS-Revision-Notes.md'),
+            str(CN / '04-Language-I-Hindi-Revision-Notes.md'),
+            str(CN / '05-Language-II-English-Revision-Notes.md'),
+            "-o", str(OUT_DIR / 'CTET-Paper-I-Complete-Revision-Notes.pdf'),
+            "--title", "CTET Paper I सम्पूर्ण रिवीज़न नोट्स",
+            "--subtitle", "CDP · गणित · EVS · हिन्दी · English (सम्पूर्ण पाठ्यक्रम)",
+            "--badge", "Paper I Complete", "--toc", "--flow"
+        ])
 
     print("\n==================================================")
     print("            BUILD COMPLETE                        ")
