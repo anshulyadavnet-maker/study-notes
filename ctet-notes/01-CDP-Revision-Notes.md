@@ -2,9 +2,9 @@
 
 > **Hindi-medium exam notes:** यह file Paper I के Primary Stage learners (लगभग 6–11 years) के लिए Child Development and Pedagogy का concept-based revision resource है। Important terms English में brackets के साथ दिए गए हैं ताकि MCQ wording आसानी से समझ आए।
 >
-> **Source:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
 >
-> **MCQ practice:** इस notes को `ctet-mcq/01-CDP-MCQ-Part-1.md` और `ctet-mcq/01-CDP-MCQ-Part-2.md` के साथ revise करें।
+> **अभ्यास:** इन नोट्स को CDP अभ्यास प्रश्न बैंक (भाग 1 एवं 2) के साथ दोहराएँ।
 
 ---
 
@@ -1135,4 +1135,4 @@ caption: a fast CDP decision ladder for choosing the most appropriate teacher re
 CTET CDP में best answer प्रायः वह है जो बच्चे की thinking को समझे, dignity बनाए रखे, diversity को accept करे, meaningful support दे और evidence के आधार पर next teaching plan करे।
 :::
 
-**Suggested practice source:** `ctet-mcq/01-CDP-MCQ-Part-1.md` और `ctet-mcq/01-CDP-MCQ-Part-2.md`
+**अनुशंसित अभ्यास:** CDP अभ्यास प्रश्न बैंक (भाग 1 एवं भाग 2)

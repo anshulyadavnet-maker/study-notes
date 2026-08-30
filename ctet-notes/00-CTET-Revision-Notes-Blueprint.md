@@ -2,15 +2,15 @@
 
 > **Audience:** Hindi-medium CTET students
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
 >
-> यह folder syllabus को दोहराने के लिए नहीं, बल्कि exam से पहले fast, concept-based और print-friendly revision के लिए बनाया जा रहा है। Detailed syllabus में कोई official change हो तो पहले उसी file और latest CTET bulletin को update/check किया जाएगा।
+> यह सम्पूर्ण पाठ्यक्रम को दोहराने के लिए नहीं, बल्कि परीक्षा से पहले fast, concept-based और संरचित revision के लिए बनाया गया है।
 
 ---
 
 ## 1. Revision Notes का उद्देश्य
 
-CTET revision notes में हर topic को short लेकिन complete form में दिया जाएगा:
+CTET revision notes में हर topic को short लेकिन complete form में दिया गया है:
 
 1. **Core concept / definition**
 2. **Important facts and rules**
@@ -63,7 +63,7 @@ CTET revision notes में हर topic को short लेकिन complete
 
 ## 3. Notes बनाने का Standard Format
 
-हर revision chapter/file का format:
+हर revision chapter का format:
 
 ```text
 1. Topic overview
@@ -79,7 +79,7 @@ CTET revision notes में हर topic को short लेकिन complete
 11. 10–20 self-check questions
 ```
 
-### Print-friendly rules
+### Key Presentation Rules
 
 - छोटे paragraphs और clear headings
 - Important facts के लिए tables
@@ -87,21 +87,6 @@ CTET revision notes में हर topic को short लेकिन complete
 - Hindi explanation के साथ standard English terms
 - Figures केवल learning value होने पर
 - हर topic के अंत में **Last-Minute Revision Box**
-- Revision notes के लिए `pdf-system/ctet-notes-md2pdf.py`
-- MCQ banks के लिए `pdf-system/mcqmdtopdf.py`
-
-### Revision notes PDF command
-
-```bash
-python3 pdf-system/ctet-notes-md2pdf.py \\
-  ctet-notes/00-CTET-Revision-Notes-Blueprint.md \\
-  -o PDF/CTET-Revision-Notes-Blueprint.pdf \\
-  --title "CTET Revision Notes" \\
-  --subtitle "Hindi-medium exam revision" \\
-  --badge "CTET" --toc --flow
-```
-
-`ctet-notes-md2pdf.py` में `SECTION_STYLES` mapping section keywords और colours control करती है। जब कोई नया notes section बनाया जाए, उसकी keyword और preferred colour उसी mapping में add करें; unknown headings के लिए generic style automatically लागू रहेगी।
 
 ---
 
@@ -311,52 +296,39 @@ Paper II CDP notes में 11–14 years learners पर focus रहेगा
 
 ---
 
-# PART D — Existing MCQ Source Map
+# PART D — Practice Question Bank Map
 
-Revision notes बनाते समय existing question banks को application practice के लिए use किया जाएगा:
+Revision notes के साथ-साथ प्रश्नों के अभ्यास हेतु उपलब्ध प्रश्न बैंक:
 
-| Source bank | Available practice |
+| Subject Module | Available Practice |
 |---|---|
-| `ctet-mcq/01-CDP-MCQ-Part-1.md` और `Part-2.md` | 200 CDP MCQs |
-| `ctet-mcq/02-Paper-I-Mathematics-*` | 200 Paper I Mathematics MCQs |
-| `ctet-mcq/03-Paper-I-EVS-*` | 200 Paper I EVS MCQs |
-| `ctet-mcq/04-Language-I-Hindi-*` | 200 Hindi Language I MCQs |
-| `ctet-mcq/05-Language-II-English-*` | 200 English Language II MCQs |
-| `ctet-mcq/05-Language-II-Punjabi-*` | 200 Punjabi + Hindi-help MCQs |
-| `ctet-mcq/06-Paper-II-Mathematics-*` | English + Hindi Mathematics MCQs |
-| `ctet-mcq/07-Paper-II-Science-*` | English + Hindi Science MCQs |
-| `ctet-mcq/08-Paper-II-Social-Science-*` | English + Hindi SST MCQs |
+| CDP प्रश्न बैंक (भाग 1 एवं भाग 2) | 200 CDP MCQs |
+| गणित Paper I प्रश्न बैंक | 200 Paper I Mathematics MCQs |
+| पर्यावरण अध्ययन EVS प्रश्न बैंक | 200 Paper I EVS MCQs |
+| हिन्दी भाषा Language I प्रश्न बैंक | 200 Hindi Language I MCQs |
+| English Language II प्रश्न बैंक | 200 English Language II MCQs |
+| Punjabi Language II प्रश्न बैंक | 200 Punjabi + Hindi-help MCQs |
+| गणित Paper II प्रश्न बैंक | English + Hindi Mathematics MCQs |
+| विज्ञान Paper II प्रश्न बैंक | English + Hindi Science MCQs |
+| सामाजिक विज्ञान Paper II प्रश्न बैंक | English + Hindi SST MCQs |
 
-> MCQs और revision notes अलग resources हैं: **notes concept समझाएँगे; MCQs recall, application और exam decision-making practise कराएँगे।**
+> **Notes vs MCQs:** नोट्स अवधारणाओं (concepts) को स्पष्ट करते हैं, जबकि प्रश्न बैंक recall, application और परीक्षा के निर्णय लेने का अभ्यास कराते हैं।
 
 ---
 
-# PART E — Planned Revision-Notes Files
+# PART E — Revision Notes Modules Structure
 
-```text
-ctet-notes/
-├── 00-CTET-Revision-Notes-Blueprint.md   ← यह file
-├── 01-CDP-Revision-Notes.md              ← first completed revision notes file
-├── 02-Paper-I-Mathematics-Revision-Notes.md
-├── 03-Paper-I-EVS-Revision-Notes.md
-├── 04-Language-I-Hindi-Revision-Notes.md     ← completed revision notes file
-├── 05-Language-II-English-Revision-Notes.md  ← completed revision notes file
-├── 06-Language-II-Punjabi-Revision-Notes.md
-├── 07-Paper-II-CDP-Revision-Notes.md          ← completed revision notes file
-├── 08-Paper-II-Mathematics-Revision-Notes.md
-├── 09-Paper-II-Science-Revision-Notes.md
-├── 10-Paper-II-Social-Science-Revision-Notes.md
-└── 11-Last-Minute-CTET-Revision-Sheets.md
-```
-
-### Recommended creation order
-
-1. Paper II CDP
-2. Paper II Social Science / Science / Mathematics — learner’s chosen option
-3. Paper I CDP
-4. Mathematics and EVS
-5. Language notes
-6. Last-minute mixed revision sheets
+1. **CTET Revision Notes Blueprint** (पाठ्यक्रम एवं सम्पूर्ण नोट्स रूपरेखा)
+2. **Child Development & Pedagogy (Paper I)** (प्राथमिक स्तर 6–11 वर्ष)
+3. **Mathematics (Paper I)** (प्राथमिक स्तर गणित विषय-वस्तु + शिक्षणशास्त्र)
+4. **Environmental Studies (EVS) (Paper I)** (6 थीम्स + पर्यावरण शिक्षणशास्त्र)
+5. **Language I Hindi** (हिन्दी भाषा अवबोधन, व्याकरण एवं भाषा शिक्षणशास्त्र)
+6. **Language II English** (English Comprehension, Grammar & Pedagogy)
+7. **Child Development & Pedagogy (Paper II)** (उच्च प्राथमिक स्तर 11–14 वर्ष)
+8. **Mathematics (Paper II)** (कक्षा 6–8 गणित विषय-वस्तु + शिक्षणशास्त्र)
+9. **Science (Paper II)** (कक्षा 6–8 विज्ञान + विज्ञान शिक्षणशास्त्र)
+10. **Social Science / Studies (Paper II)** (इतिहास, भूगोल, नागरिक शास्त्र + सामाजिक विज्ञान शिक्षणशास्त्र)
+11. **Last-Minute CTET Quick Revision Sheets** (Tag Words, Key Formulas & Summary Mindmaps)
 
 ---
 

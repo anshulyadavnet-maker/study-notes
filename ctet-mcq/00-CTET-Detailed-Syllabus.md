@@ -750,33 +750,21 @@ Focus areas:
 
 ---
 
-# 16. MCQ Folder की Planned Structure
+# 16. MCQ Question Bank Modules Structure
 
-इस folder में आगे question banks को इस structure में रखा जा सकता है:
+प्रश्न बैंक का विषय-वार एवं प्रश्न-वार संरचित ढाँचा:
 
-```text
-ctet-mcq/
-├── 00-CTET-Detailed-Syllabus.md   ← यह file
-├── 01-CDP-MCQ-Part-1.md
-├── 01-CDP-MCQ-Part-2.md
-├── 02-Paper-I-Mathematics-MCQ-Part-1.md
-├── 02-Paper-I-Mathematics-MCQ-Part-2.md
-├── 03-Paper-I-EVS-MCQ-Part-1.md
-├── 03-Paper-I-EVS-MCQ-Part-2.md
-├── 04-Language-I-Hindi-MCQ-Part-1.md
-├── 04-Language-I-Hindi-MCQ-Part-2.md
-├── 05-Language-II-English-MCQ-Part-1.md
-├── 05-Language-II-English-MCQ-Part-2.md
-├── 06-Paper-II-Mathematics-MCQ-Part-1.md
-├── 06-Paper-II-Mathematics-MCQ-Part-2.md
-├── 07-Paper-II-Science-MCQ-Part-1.md
-├── 07-Paper-II-Science-MCQ-Part-2.md
-├── 08-Paper-II-Social-Science-MCQ-Part-1.md
-├── 08-Paper-II-Social-Science-MCQ-Part-2.md
-├── 09-Pedagogy-Mixed-MCQ.md
-├── 10-CTET-Full-Mock-Tests.md
-└── 11-CTET-Answer-Key-Explanations.md
-```
+1. **CTET विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट**
+2. **CDP प्रश्न बैंक (भाग 1 एवं भाग 2)** (200 प्रश्न)
+3. **Paper I Mathematics प्रश्न बैंक (भाग 1 एवं भाग 2)** (200 प्रश्न)
+4. **Paper I EVS प्रश्न बैंक (भाग 1 एवं भाग 2)** (200 प्रश्न)
+5. **Language I Hindi प्रश्न बैंक (भाग 1 एवं भाग 2)** (200 प्रश्न)
+6. **Language II English प्रश्न बैंक (भाग 1 एवं भाग 2)** (200 प्रश्न)
+7. **Language II Punjabi प्रश्न बैंक (भाग 1 एवं भाग 2)** (200 प्रश्न)
+8. **Paper II Mathematics प्रश्न बैंक (English + Hindi)** (400 प्रश्न)
+9. **Paper II Science प्रश्न बैंक (English + Hindi)** (400 प्रश्न)
+10. **Paper II Social Science प्रश्न बैंक (English + Hindi)** (600 प्रश्न)
+11. **Pedagogy Mixed एवं सम्पूर्ण मॉक टेस्ट्स**
 
 ### Recommended MCQ format
 

@@ -2,9 +2,9 @@
 
 > **Hindi-medium exam notes:** यह file CTET Language I के Hindi section के लिए है। इसमें comprehension, language proficiency, grammar, verbal ability और language pedagogy को short, visual और exam-oriented तरीके से रखा गया है।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
 >
-> **Practice source:** [Hindi Language I MCQs — Part 1](../ctet-mcq/04-Language-I-Hindi-MCQ-Part-1.md) और [Part 2](../ctet-mcq/04-Language-I-Hindi-MCQ-Part-2.md)
+> **अभ्यास:** इन नोट्स को Hindi Language I अभ्यास प्रश्न बैंक (भाग 1 एवं 2) के साथ दोहराएँ।
 
 ---
 
@@ -815,4 +815,4 @@ Language को meaningful use में लाएँ, home language का स�
 भाषा को रटने की वस्तु नहीं, समझने, सोचने, बोलने, पढ़ने, लिखने और communicate करने का माध्यम मानकर तैयारी करें।
 :::
 
-**Suggested practice:** `ctet-mcq/04-Language-I-Hindi-MCQ-Part-1.md` और `ctet-mcq/04-Language-I-Hindi-MCQ-Part-2.md`
+**अनुशंसित अभ्यास:** Hindi Language I अभ्यास प्रश्न बैंक (भाग 1 एवं भाग 2)

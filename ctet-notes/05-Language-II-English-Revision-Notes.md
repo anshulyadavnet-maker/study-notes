@@ -2,9 +2,9 @@
 
 > **Hindi-medium learners के लिए:** यह file English Language II की तैयारी के लिए है। Concepts और strategy Hindi में समझाई गई हैं, जबकि examples, language forms और practice terms English में रखे गए हैं।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
 >
-> **Practice source:** [English Language II MCQs — Part 1](../ctet-mcq/05-Language-II-English-MCQ-Part-1.md) और [Part 2](../ctet-mcq/05-Language-II-English-MCQ-Part-2.md)
+> **अभ्यास:** इन नोट्स को English Language II अभ्यास प्रश्न बैंक (भाग 1 एवं 2) के साथ दोहराएँ।
 
 ---
 
@@ -884,4 +884,4 @@ Meaningful input + purposeful interaction + safe expression + contextual grammar
 English Language II में सबसे अच्छा answer वह होता है जो meaning, communication, learner confidence, multilingual support, contextual grammar और all four language skills को साथ develop करे।
 :::
 
-**Suggested practice:** `ctet-mcq/05-Language-II-English-MCQ-Part-1.md` और `ctet-mcq/05-Language-II-English-MCQ-Part-2.md`
+**अनुशंसित अभ्यास:** English Language II अभ्यास प्रश्न बैंक (भाग 1 एवं भाग 2)

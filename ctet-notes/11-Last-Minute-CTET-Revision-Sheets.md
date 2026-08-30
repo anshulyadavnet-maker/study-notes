@@ -1,10 +1,10 @@
 # CTET Last-Minute Revision Sheets — अंतिम समय की त्वरित पुनरावृत्ति
 
-> **Use this file in the last 24–48 hours:** यह detailed chapter notes का replacement नहीं, बल्कि fast recall और exam decision-making की compact sheet है। New topic शुरू करने के बजाय marked mistakes, formulas, tables और “most appropriate teacher response” revise करें।
+> **Use this file in the last 24–48 hours:** यह विस्तृत विषय नोट्स का विकल्प नहीं, बल्कि परीक्षा से ठीक पहले fast recall और exam decision-making की compact sheet है। New topic शुरू करने के बजाय marked mistakes, formulas, tables और “most appropriate teacher response” revise करें।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
 >
-> **Detailed notes:** इस folder की subject-wise files `01` से `10` तक और practice के लिए `ctet-mcq/` banks देखें।
+> **विस्तृत अध्ययन:** विस्तृत तैयारी के लिए विषय-वार सम्पूर्ण रिवीज़न नोट्स एवं अभ्यास प्रश्न बैंक देखें।
 
 ---
 
@@ -1057,4 +1057,4 @@ Diagnose → targeted support → guided practice → fade support → transfer 
 आपका लक्ष्य केवल answer याद करना नहीं है; question के पीछे का concept और classroom logic पहचानना है।
 :::
 
-**Further practice:** Subject-wise `ctet-mcq/` files और detailed `ctet-notes/` revision notes से केवल अपने marked weak areas revise करें।
+**पुनरावृत्ति सलाह:** विषय-वार प्रश्न बैंक और विस्तृत नोट्स से केवल अपने चिन्हित कमजोर बिंदुओं (weak areas) को दोहराएँ।

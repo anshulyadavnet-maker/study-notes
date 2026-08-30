@@ -2,9 +2,9 @@
 
 > **Hindi-medium exam notes:** यह file Paper II के Mathematics & Science option में आने वाले Science section (30 questions) के लिए बनाई गई है। Main explanation Hindi में है; जरूरी Science terms English में Hindi meaning के साथ दिए गए हैं। Focus Classes VI–VIII / Elementary Stage के concepts, daily-life application और science pedagogy पर है।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **आधार:** CTET आधिकारिक विस्तृत पाठ्यक्रम एवं परीक्षा ब्लूप्रिंट
 >
-> **Practice source:** [Paper II Science Content — Q001–Q100](../ctet-mcq/07-Paper-II-Science-MCQ-Part-1.md) और [Science Pedagogy — Q101–Q200](../ctet-mcq/07-Paper-II-Science-MCQ-Part-2.md)
+> **अभ्यास:** इन नोट्स को Paper II Science अभ्यास प्रश्न बैंक (भाग 1 एवं 2) के साथ दोहराएँ।
 
 ---
 
@@ -1365,4 +1365,4 @@ caption: Paper II Science में question से evidence और revised expl
 Science में claim से पहले evidence, experiment से पहले safety और answer से पहले condition देखें। Pedagogy में learner की idea सुनें, accessible inquiry दें, reasoning assess करें और evidence के आधार पर next teaching plan करें।
 :::
 
-**Suggested practice:** `ctet-mcq/07-Paper-II-Science-MCQ-Part-1.md` और `ctet-mcq/07-Paper-II-Science-MCQ-Part-2.md`
+**अनुशंसित अभ्यास:** Paper II Science अभ्यास प्रश्न बैंक (भाग 1 एवं भाग 2)
