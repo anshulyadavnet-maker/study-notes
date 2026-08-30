@@ -30,6 +30,11 @@ _ICONS = {
     "pie": ('<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v8.5h8.5"/>', "#b83280"),
     "divide": ('<circle cx="12" cy="12" r="9"/><path d="M8 12h8"/><circle cx="12" cy="8.6" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="15.4" r="1.1" fill="currentColor" stroke="none"/>', "#0b6f78"),
     "tree": ('<circle cx="12" cy="4.5" r="2.4"/><circle cx="6.5" cy="14" r="2.4"/><circle cx="17.5" cy="14" r="2.4"/><path d="M10.4 6.2 8 11.8M13.6 6.2 16 11.8"/>', "#127a4d"),
+    "water": ('<path d="M12 3C9.5 7 5.5 10.4 5.5 14.2a6.5 6.5 0 0 0 13 0C18.5 10.4 14.5 7 12 3z"/><path d="M9.2 15.5c.5 1.1 1.4 1.7 2.8 1.8"/>', "#1668c4"),
+    "food": ('<path d="M12 20.5S5 16.4 5 10.3A3.8 3.8 0 0 1 12 8a3.8 3.8 0 0 1 7 2.3c0 6.1-7 10.2-7 10.2z"/><path d="M12 8c-.3-2.2.6-3.8 2.6-5"/>', "#c02b3a"),
+    "home": ('<path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5v9h13v-9M9.5 19.5v-5h5v5"/>', "#a8620a"),
+    "travel": ('<circle cx="12" cy="8" r="4"/><path d="M12 22s7-6.1 7-12a7 7 0 0 0-14 0c0 5.9 7 12 7 12z"/><circle cx="12" cy="8" r="1" fill="currentColor" stroke="none"/>', "#6b3fa0"),
+    "recycle": ('<path d="m8 5 2-3 2 3M10 2v6M16 19l-2 3-2-3M14 22v-6M5 14l-4-1 2-3M1 13l7-4"/>', "#127a4d"),
 
     # ── exam / study ────────────────────────────────────────────────
     "exam": ('<path d="M6 2.5h9l4 4v15H6z"/><path d="M15 2.5v4h4"/><path d="M9 12h7M9 15.5h7M9 8.5h3"/>', "#1668c4"),

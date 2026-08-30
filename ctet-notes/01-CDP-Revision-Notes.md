@@ -1,4 +1,4 @@
-# CTET Child Development and Pedagogy — Paper I Revision Notes
+# CTET Child Development and Pedagogy (बाल विकास एवं शिक्षाशास्त्र) — Paper I Revision Notes (पुनरावृत्ति नोट्स)
 
 > **Hindi-medium exam notes:** यह file Paper I के Primary Stage learners (लगभग 6–11 years) के लिए Child Development and Pedagogy का concept-based revision resource है। Important terms English में brackets के साथ दिए गए हैं ताकि MCQ wording आसानी से समझ आए।
 >
@@ -8,16 +8,16 @@
 
 ---
 
-## 1. Exam Profile और Syllabus Map
+## 1. Exam Profile (परीक्षा परिचय) और Syllabus Map (पाठ्यक्रम मानचित्र)
 
-### Paper I CDP का structure
+### Paper I CDP का structure (ढाँचा)
 
-| Unit | Official broad focus | Questions |
+| Unit (इकाई) | Official broad focus (आधिकारिक मुख्य फोकस) | Questions (प्रश्न) |
 |---|---|---:|
-| Child Development | Primary school child का development और learning से relationship | 15 |
-| Inclusive Education | Diverse learners और Children with Special Needs | 5 |
-| Learning and Pedagogy | Children कैसे सोचते, सीखते और classroom में respond करते हैं | 10 |
-| **Total** | **Child Development and Pedagogy** | **30** |
+| Child Development (बाल विकास) | Primary school child का development और learning से relationship | 15 |
+| Inclusive Education (समावेशी शिक्षा) | Diverse learners और Children with Special Needs | 5 |
+| Learning and Pedagogy (अधिगम एवं शिक्षाशास्त्र) | Children कैसे सोचते, सीखते और classroom में respond करते हैं | 10 |
+| **Total (कुल)** | **Child Development and Pedagogy (बाल विकास एवं शिक्षाशास्त्र)** | **30** |
 
 ```figure
 type: cdp-exam-dashboard
@@ -38,18 +38,18 @@ Child-centred + inclusive + evidence-based + developmentally suitable।
 :::
 :::
 
-### Age और question nature
+### Age (आयु) और question nature (प्रश्नों की प्रकृति)
 
 - Paper I CDP का focus लगभग **6–11 years** के primary school child पर रहता है।
 - Questions केवल definitions नहीं पूछते; **classroom application**, child response, teacher response और learning evidence भी पूछते हैं।
 - “Most appropriate” option सामान्यतः child-centred, inclusive, evidence-based और developmentally suitable होता है।
 - किसी एक theory को हर child या हर classroom पर mechanically apply नहीं करना चाहिए।
 
-::: formula 📌 Exam formula
+::: formula 📌 Exam formula (परीक्षा सूत्र)
 Concept समझें → बच्चे की thinking पहचानें → context देखें → inclusive support चुनें → assessment evidence से next step तय करें।
 :::
 
-### इस chapter के learning outcomes
+### इस chapter (अध्याय) के learning outcomes (अधिगम परिणाम)
 
 Revision के बाद learner को सक्षम होना चाहिए कि वह:
 
@@ -63,65 +63,65 @@ Revision के बाद learner को सक्षम होना चाह�
 
 ---
 
-## 2. Growth, Development, Maturation और Learning
+## 2. Growth (वृद्धि), Development (विकास), Maturation (परिपक्वता) और Learning (अधिगम)
 
 ```figure
 type: cdp-development-domains
 caption: development has interacting physical, cognitive, social-emotional and language domains
 ```
 
-### 2.1 Basic concepts
+### 2.1 Basic concepts (मूल अवधारणाएँ)
 
-| Term | अर्थ | Educational implication |
+| Term (शब्द) | अर्थ | Educational implication (शैक्षिक निहितार्थ) |
 |---|---|---|
-| **Growth** | शरीर के आकार, height, weight आदि में मुख्यतः quantitative change | Growth development का एक भाग है, पूरा development नहीं। |
-| **Development** | Physical, cognitive, social, emotional और language क्षेत्रों में quantitative और qualitative change | Child को whole person की तरह देखें। |
-| **Maturation** | Biological readiness के कारण होने वाला natural unfolding | केवल age देखकर readiness तय न करें; environment और practice भी देखें। |
-| **Learning** | Experience, practice, interaction और instruction से behaviour/knowledge/skill में relatively lasting change | Meaningful activity और feedback आवश्यक हैं। |
-| **Readiness** | किसी task के लिए physical, cognitive, emotional और prior-experience preparation | Readiness को fixed gate न बनाएं; support देकर readiness build की जा सकती है। |
+| **Growth (वृद्धि)** | शरीर के आकार, height, weight आदि में मुख्यतः quantitative change | Growth development का एक भाग है, पूरा development नहीं। |
+| **Development (विकास)** | Physical, cognitive, social, emotional और language क्षेत्रों में quantitative और qualitative change | Child को whole person की तरह देखें। |
+| **Maturation (परिपक्वता)** | Biological readiness के कारण होने वाला natural unfolding | केवल age देखकर readiness तय न करें; environment और practice भी देखें। |
+| **Learning (अधिगम)** | Experience, practice, interaction और instruction से behaviour/knowledge/skill में relatively lasting change | Meaningful activity और feedback आवश्यक हैं। |
+| **Readiness (तत्परता)** | किसी task के लिए physical, cognitive, emotional और prior-experience preparation | Readiness को fixed gate न बनाएं; support देकर readiness build की जा सकती है। |
 
-### 2.2 Development के dimensions
+### 2.2 Development के dimensions (आयाम)
 
-- **Physical:** शरीर, motor coordination, health और physical growth।
-- **Cognitive:** attention, memory, reasoning, problem-solving और concept formation।
-- **Language:** सुनना, बोलना, vocabulary, reading और writing।
-- **Social:** peers, family, teacher और group के साथ interaction।
-- **Emotional:** feelings पहचानना, regulate करना, empathy और self-confidence।
-- **Moral:** fairness, rules, intentions और दूसरों के perspectives समझना।
+- **Physical (शारीरिक):** शरीर, motor coordination, health और physical growth।
+- **Cognitive (संज्ञानात्मक):** attention, memory, reasoning, problem-solving और concept formation।
+- **Language (भाषिक):** सुनना, बोलना, vocabulary, reading और writing।
+- **Social (सामाजिक):** peers, family, teacher और group के साथ interaction।
+- **Emotional (भावनात्मक):** feelings पहचानना, regulate करना, empathy और self-confidence।
+- **Moral (नैतिक):** fairness, rules, intentions और दूसरों के perspectives समझना।
 
 ये dimensions अलग-अलग boxes नहीं हैं। Language discussion cognition को support कर सकती है; emotional safety participation को improve कर सकती है; peer interaction social और cognitive दोनों learning को support कर सकती है।
 
-::: trap ⚠️ Common trap
+::: trap ⚠️ Common trap (सामान्य जाल)
 “Development = केवल height और weight बढ़ना” गलत है। Development बहुआयामी (multidimensional) और context-sensitive process है।
 :::
 
 ---
 
-## 3. Development के प्रमुख Principles
+## 3. Development के प्रमुख Principles (विकास के प्रमुख सिद्धांत)
 
-### 3.1 Continuity और sequence
+### 3.1 Continuity (निरंतरता) और sequence (क्रम)
 
 - Development सामान्यतः **continuous** होता है, लेकिन हर skill एक ही speed से नहीं बढ़ती।
 - Development में सामान्य sequence हो सकता है, पर exact age और pace में individual variation रहती है।
 - Earlier experience later learning को influence कर सकता है, लेकिन development पूरी तरह predetermined नहीं होता।
 
-### 3.2 General to specific
+### 3.2 General to specific (सामान्य से विशिष्ट)
 
 बच्चा अक्सर पहले broad या general movement करता है और फिर controlled, specific movement सीखता है। उदाहरण: पूरे हाथ की movement से धीरे-धीरे pencil control विकसित होना।
 
-### 3.3 Cephalocaudal principle
+### 3.3 Cephalocaudal principle (शीर्ष से पैर का सिद्धांत)
 
 Development सामान्यतः **head to toe** direction में आगे बढ़ता है। बच्चा पहले head control और बाद में legs का control विकसित करता है।
 
-### 3.4 Proximodistal principle
+### 3.4 Proximodistal principle (केंद्र से बाहर का सिद्धांत)
 
 Development शरीर के **centre से बाहरी अंगों** की ओर बढ़ता है। Shoulder और arm control के बाद fingers का refined control विकसित होता है।
 
-### 3.5 Simple to complex
+### 3.5 Simple to complex (सरल से जटिल)
 
 Simple responses और skills धीरे-धीरे complex coordination, reasoning और language structures में बदलते हैं। Teacher को task को छोटे meaningful steps में बाँटना चाहिए।
 
-### 3.6 Individual differences
+### 3.6 Individual differences (व्यक्तिगत भिन्नताएँ)
 
 सभी बच्चे:
 
@@ -131,36 +131,36 @@ Simple responses और skills धीरे-धीरे complex coordination, r
 
 Individual difference का implication **differentiated support** है, permanent labelling नहीं।
 
-### 3.7 Development is integrated
+### 3.7 Development is integrated (विकास समेकित है)
 
 एक domain का development दूसरे domains को influence कर सकता है। उदाहरण: emotional safety से speaking बढ़ सकती है; language से reasoning communicate करना आसान हो सकता है।
 
-### 3.8 Heredity और environment दोनों
+### 3.8 Heredity (वंशानुक्रम) और environment (वातावरण) दोनों
 
 Biological potential और experience दोनों development को shape करते हैं। “केवल heredity” या “केवल environment” वाला answer सामान्यतः incomplete होता है।
 
-### 3.9 Development context-dependent है
+### 3.9 Development context-dependent (संदर्भ-निर्भर) है
 
 Family, community, language, school, peers, culture, nutrition, opportunity और social expectations development के अनुभवों को influence करते हैं।
 
-::: remember 🔑 याद रखें
+::: remember 🔑 याद रखें (महत्वपूर्ण)
 Principles को rigid timetable की तरह नहीं पढ़ना है। CTET में सही option प्रायः “general pattern + individual variation + supportive teaching” को साथ रखता है।
 :::
 
 ---
 
-## 4. Heredity और Environment
+## 4. Heredity (वंशानुक्रम) और Environment (वातावरण)
 
 ```figure
 type: cdp-heredity-environment
 caption: development emerges through the interaction of biological potential and experience
 ```
 
-### 4.1 Heredity
+### 4.1 Heredity (वंशानुक्रम)
 
 Heredity से biological characteristics और potential का कुछ आधार मिलता है। उदाहरण: कुछ physical traits, biological maturation और कुछ predispositions। लेकिन heredity किसी child की final achievement को अकेले तय नहीं करती।
 
-### 4.2 Environment
+### 4.2 Environment (वातावरण)
 
 Environment में शामिल हैं:
 
@@ -172,7 +172,7 @@ Environment में शामिल हैं:
 - culture, community और media;
 - safety, inclusion और resources।
 
-### 4.3 सही educational view
+### 4.3 सही educational view (शैक्षिक दृष्टिकोण)
 
 ```text
 Biological potential + experiences + interaction + opportunity
@@ -194,23 +194,23 @@ Heredity का अर्थ “intelligence fixed है” नहीं है
 
 ---
 
-## 5. Socialisation और Child का Social World
+## 5. Socialisation (समाजीकरण) और Child का Social World (सामाजिक संसार)
 
-### 5.1 Socialisation क्या है?
+### 5.1 Socialisation (समाजीकरण) क्या है?
 
 Socialisation वह process है जिसमें child language, norms, values, roles, communication patterns और social expectations सीखता है। यह केवल घर में नहीं, school, peers, media और wider community में भी होती है।
 
-### 5.2 प्रमुख agents
+### 5.2 प्रमुख agents (प्रमुख कारक)
 
-| Agent | Child पर प्रभाव |
+| Agent (कारक) | Child पर प्रभाव |
 |---|---|
-| Family | भाषा, care, values, identity और प्रारम्भिक interaction |
-| Teacher | expectations, classroom norms, feedback और inclusion |
-| Peers | cooperation, competition, friendship और perspective-taking |
-| Community | culture, occupations, beliefs और local knowledge |
-| Media | roles, representations, language और social messages |
+| Family (परिवार) | भाषा, care, values, identity और प्रारम्भिक interaction |
+| Teacher (शिक्षक) | expectations, classroom norms, feedback और inclusion |
+| Peers (सहपाठी) | cooperation, competition, friendship और perspective-taking |
+| Community (समुदाय) | culture, occupations, beliefs और local knowledge |
+| Media (मीडिया) | roles, representations, language और social messages |
 
-### 5.3 Teacher की भूमिका
+### 5.3 Teacher (शिक्षक) की भूमिका
 
 - सभी children के experiences को सुनना;
 - stereotypes और discriminatory comments को challenge करना;
@@ -219,7 +219,7 @@ Socialisation वह process है जिसमें child language, norms, va
 - home language और community knowledge को resource मानना;
 - low expectations और permanent labels से बचना।
 
-### 5.4 Hidden curriculum
+### 5.4 Hidden curriculum (अप्रत्यक्ष पाठ्यचर्या)
 
 **Hidden curriculum** वे indirect values, norms और roles हैं जो school की routine, seating, language, examples और role allocation से बच्चे सीखते हैं।
 
@@ -230,49 +230,49 @@ Socialisation वह process है जिसमें child language, norms, va
 - textbook में leaders केवल men और care work केवल women को दिखाना;
 - कुछ languages को “good” और दूसरी languages को “wrong” कहना।
 
-::: question 🎯 Classroom check
+::: question 🎯 Classroom check (कक्षा-जाँच)
 क्या हमारी examples, seating, questions, responsibilities और praise सभी learners को equal dignity और opportunity दे रहे हैं?
 :::
 
 ---
 
-## 6. Piaget का Cognitive Development Theory
+## 6. Piaget का Cognitive Development Theory (संज्ञानात्मक विकास सिद्धांत)
 
 ```figure
 type: cdp-piaget-stages
 caption: Piaget's broad stages show changing forms of cognitive reasoning
 ```
 
-### 6.1 मुख्य concepts
+### 6.1 मुख्य concepts (मुख्य अवधारणाएँ)
 
-- **Schema:** किसी object, event या action के बारे में mental structure।
-- **Adaptation:** नई information के अनुसार understanding adjust करना।
-- **Assimilation:** नई घटना को existing schema में fit करना।
-- **Accommodation:** नई information के कारण existing schema बदलना।
-- **Equilibration:** existing understanding और new experience के बीच balance बनाना।
-- **Active learner:** Child knowledge को simply receive नहीं करता; वह experience से meaning construct करता है।
+- **Schema (मानसिक संरचना):** किसी object, event या action के बारे में mental structure।
+- **Adaptation (अनुकूलन):** नई information के अनुसार understanding adjust करना।
+- **Assimilation (समावेशन):** नई घटना को existing schema में fit करना।
+- **Accommodation (अनुकूल व्यवस्था):** नई information के कारण existing schema बदलना।
+- **Equilibration (संतुलन):** existing understanding और new experience के बीच balance बनाना।
+- **Active learner (सक्रिय शिक्षार्थी):** Child knowledge को simply receive नहीं करता; वह experience से meaning construct करता है।
 
-### 6.2 Piaget stages — quick table
+### 6.2 Piaget stages (चरण) — quick table (त्वरित तालिका)
 
-| Stage | Approx. age | प्रमुख features | Classroom संकेत |
+| Stage (चरण) | Approx. age (लगभग आयु) | प्रमुख features (मुख्य विशेषताएँ) | Classroom संकेत (कक्षा संकेत) |
 |---|---:|---|---|
-| Sensorimotor | 0–2 | Senses और actions; object permanence की शुरुआत | Infant experiences और action-based learning |
-| Preoperational | 2–7 | Symbolic thought, language, pretend play; egocentrism; conservation में difficulty | Concrete examples, role play, multiple viewpoints की gradual practice |
-| Concrete operational | 7–11 | Conservation, classification, seriation, reversibility; concrete logic | Objects, diagrams, examples और hands-on reasoning |
-| Formal operational | 11+ | Abstract, hypothetical और systematic reasoning की बढ़ती क्षमता | “What if?”, hypothesis और abstract relationships |
+| Sensorimotor (संवेदी-गामक) | 0–2 | Senses और actions; object permanence की शुरुआत | Infant experiences और action-based learning |
+| Preoperational (पूर्व-संक्रियात्मक) | 2–7 | Symbolic thought, language, pretend play; egocentrism; conservation में difficulty | Concrete examples, role play, multiple viewpoints की gradual practice |
+| Concrete operational (मूर्त-संक्रियात्मक) | 7–11 | Conservation, classification, seriation, reversibility; concrete logic | Objects, diagrams, examples और hands-on reasoning |
+| Formal operational (औपचारिक-संक्रियात्मक) | 11+ | Abstract, hypothetical और systematic reasoning की बढ़ती क्षमता | “What if?”, hypothesis और abstract relationships |
 
 > Ages approximate हैं। हर child एक ही date पर stage features नहीं दिखाता। Context, language और task support performance को बदल सकते हैं।
 
-### 6.3 Important terms
+### 6.3 Important terms (महत्वपूर्ण शब्द)
 
-- **Object permanence:** Object दिखाई न देने पर भी उसके अस्तित्व को समझना।
-- **Egocentrism:** दूसरे व्यक्ति के perspective को समझने में difficulty; इसका अर्थ selfishness नहीं।
-- **Conservation:** Shape बदलने पर quantity same रह सकती है, यह समझना।
-- **Reversibility:** मानसिक रूप से किसी action को reverse कर पाना।
-- **Classification:** Objects को common properties के आधार पर groups में रखना।
-- **Seriation:** Objects को size, length या किसी order में arrange करना।
+- **Object permanence (वस्तु स्थायित्व):** Object दिखाई न देने पर भी उसके अस्तित्व को समझना।
+- **Egocentrism (अहंकेन्द्रिता):** दूसरे व्यक्ति के perspective को समझने में difficulty; इसका अर्थ selfishness नहीं।
+- **Conservation (संरक्षण-बोध):** Shape बदलने पर quantity same रह सकती है, यह समझना।
+- **Reversibility (प्रतिवर्तनीयता):** मानसिक रूप से किसी action को reverse कर पाना।
+- **Classification (वर्गीकरण):** Objects को common properties के आधार पर groups में रखना।
+- **Seriation (क्रमबद्धता):** Objects को size, length या किसी order में arrange करना।
 
-### 6.4 Classroom implications
+### 6.4 Classroom implications (कक्षा में निहितार्थ)
 
 - Child को active materials और experiences दें।
 - Concrete से pictorial और फिर symbolic representation की ओर बढ़ें।
@@ -280,7 +280,7 @@ caption: Piaget's broad stages show changing forms of cognitive reasoning
 - Multiple strategies और child explanations को value करें।
 - केवल wrong answer पर correction न दें; underlying schema समझें।
 
-### 6.5 Piaget को लेकर traps
+### 6.5 Piaget को लेकर traps (सामान्य जाल)
 
 - Stages को rigid, identical और irreversible timetable न समझें।
 - “Concrete operational child कभी abstract नहीं सोच सकता” absolute statement है।
@@ -289,21 +289,21 @@ caption: Piaget's broad stages show changing forms of cognitive reasoning
 
 ---
 
-## 7. Vygotsky: Social Constructivism और ZPD
+## 7. Vygotsky: Social Constructivism (सामाजिक रचनावाद) और ZPD (निकटस्थ विकास क्षेत्र)
 
 ```figure
 type: cdp-zpd-scaffold
 caption: temporary scaffolding can move assisted performance toward independence
 ```
 
-### 7.1 Core ideas
+### 7.1 Core ideas (मुख्य विचार)
 
 - Learning एक **social और cultural activity** है।
 - Language और cultural tools thinking को mediate करते हैं।
 - Child पहले social interaction में skill करता है और धीरे-धीरे उसे internalise करता है।
 - Teacher, parent या peer **More Knowledgeable Other (MKO)** हो सकता है।
 
-### 7.2 Zone of Proximal Development (ZPD)
+### 7.2 Zone of Proximal Development (निकटस्थ विकास क्षेत्र, ZPD)
 
 ZPD वह gap/zone है जो child:
 
@@ -313,7 +313,7 @@ ZPD वह gap/zone है जो child:
 
 ZPD में task child के current independent level से थोड़ा आगे होता है, लेकिन support के साथ achievable होता है।
 
-### 7.3 Scaffolding
+### 7.3 Scaffolding (सहारा/अस्थायी सहायता)
 
 Scaffolding temporary support है, जैसे:
 
@@ -328,11 +328,11 @@ Scaffolding temporary support है, जैसे:
 
 Competence बढ़ने पर support धीरे-धीरे **fade** किया जाना चाहिए। Teacher child का पूरा task हमेशा खुद नहीं करता।
 
-### 7.4 Private speech
+### 7.4 Private speech (निजी वाणी)
 
 बच्चा task करते समय खुद से बोलता है—यह self-regulation और thinking को organise करने में मदद कर सकता है। इसे केवल “बच्चा disturbance कर रहा है” कहकर रोकना appropriate नहीं है।
 
-### 7.5 Vygotsky-based response
+### 7.5 Vygotsky-based response (Vygotsky-आधारित प्रतिक्रिया)
 
 यदि child किसी problem को hint से solve कर पाता है, teacher को:
 
@@ -344,16 +344,16 @@ Competence बढ़ने पर support धीरे-धीरे **fade** क
 
 ---
 
-## 8. Piaget और Vygotsky — Comparison
+## 8. Piaget और Vygotsky — Comparison (तुलना)
 
-| Point | Piaget | Vygotsky |
+| Point (बिंदु) | Piaget | Vygotsky |
 |---|---|---|
-| Child | Active constructor | Socially supported active learner |
-| Main focus | Cognitive structures और stages | Social interaction, language और culture |
-| Development–learning | Development readiness को influence करता है | Guided learning development को आगे ले जा सकती है |
-| Teacher | Facilitate discovery और activity | Scaffold और mediate learning |
-| Peer role | Useful, पर theory का primary centre नहीं | Peer/MKO learning में central हो सकता है |
-| Language | Cognitive development से connected | Thinking को mediate करने वाला cultural tool |
+| Child | Active constructor (सक्रिय ज्ञान-निर्माता) | Socially supported active learner (सामाजिक सहारे वाला सक्रिय शिक्षार्थी) |
+| Main focus (मुख्य फोकस) | Cognitive structures (संज्ञानात्मक संरचनाएँ) और stages (चरण) | Social interaction (सामाजिक अंतःक्रिया), language (भाषा) और culture (संस्कृति) |
+| Development–learning (विकास–अधिगम) | Development readiness को influence करता है | Guided learning development को आगे ले जा सकती है |
+| Teacher (शिक्षक) | Discovery (खोज) और activity (गतिविधि) को facilitate (सुविधाजनक) करना | Scaffolding (सहारा) देना और learning mediate (अधिगम में मध्यस्थता) करना |
+| Peer role (सहपाठी की भूमिका) | Useful (उपयोगी), पर theory का primary centre (मुख्य केंद्र) नहीं | Peer/MKO learning (सहपाठी/MKO अधिगम) में central (केंद्रीय) हो सकता है |
+| Language (भाषा) | Cognitive development (संज्ञानात्मक विकास) से connected (जुड़ा) | Thinking को mediate (मध्यस्थित) करने वाला cultural tool (सांस्कृतिक साधन) |
 
 ::: remember 🔑 Exam distinction
 “Independent और assisted performance के बीच का क्षेत्र” = **ZPD**। “Existing schema में नई information fit करना” = **Assimilation**।
@@ -364,23 +364,23 @@ type: cdp-theory-map
 caption: Piaget, Vygotsky, Kohlberg and Bruner offer different lenses for understanding a child
 ```
 
-::: info 🧠 Theory map कैसे पढ़ें
+::: info 🧠 Theory map (सिद्धांत मानचित्र) कैसे पढ़ें
 एक ही classroom child को अलग lenses से समझा जा सकता है: schema और reasoning के लिए Piaget, social support के लिए Vygotsky, moral reasoning के लिए Kohlberg और spiral/discovery learning के लिए Bruner। Question के context के अनुसार lens चुनें।
 :::
 
 ---
 
-## 9. Kohlberg: Moral Development
+## 9. Kohlberg: Moral Development (नैतिक विकास)
 
 Kohlberg ने moral reasoning को broad levels में समझाया। CTET में moral dilemma और child के reasoning basis पर questions आ सकते हैं।
 
-| Level | Reasoning का आधार | Example |
+| Level (स्तर) | Reasoning का आधार | Example (उदाहरण) |
 |---|---|---|
-| Pre-conventional | Punishment, reward, personal consequence | “मैं rule मानूँगा ताकि punishment न मिले।” |
-| Conventional | Approval, good child image, rules और social order | “सब मुझे अच्छा समझें और व्यवस्था बनी रहे।” |
-| Post-conventional | Rights, justice, ethical principles और critical examination | “Rule को justice और human rights की कसौटी पर भी देखना चाहिए।” |
+| Pre-conventional (पूर्व-परंपरागत) | Punishment (दंड), reward (पुरस्कार), personal consequence (व्यक्तिगत परिणाम) | “मैं rule मानूँगा ताकि punishment न मिले।” |
+| Conventional (परंपरागत) | Approval (स्वीकृति), good child image (अच्छे बच्चे की छवि), rules (नियम) और social order (सामाजिक व्यवस्था) | “सब मुझे अच्छा समझें और व्यवस्था बनी रहे।” |
+| Post-conventional (उत्तर-परंपरागत) | Rights (अधिकार), justice (न्याय), ethical principles (नैतिक सिद्धांत) और critical examination (आलोचनात्मक जाँच) | “Rule को justice और human rights की कसौटी पर भी देखना चाहिए।” |
 
-### Classroom implications
+### Classroom implications (कक्षा में निहितार्थ)
 
 - Moral development केवल rules memorise कराने से नहीं होता।
 - Moral dilemmas पर discussion, reasons और different perspectives उपयोगी हैं।
@@ -393,17 +393,17 @@ Kohlberg theory से यह निष्कर्ष नहीं निका
 
 ---
 
-## 10. Bruner और Progressive Education
+## 10. Bruner और Progressive Education (प्रगतिशील शिक्षा)
 
-### 10.1 Bruner के useful ideas
+### 10.1 Bruner के useful ideas (मुख्य विचार)
 
-- **Discovery learning:** Learner relationships और patterns explore करके meaning बनाता है।
-- **Spiral curriculum:** Important concepts को बढ़ती complexity के साथ बार-बार revisit करना।
-- **Enactive mode:** Action और manipulation के माध्यम से समझना।
-- **Iconic mode:** Pictures, diagrams और visual representations।
-- **Symbolic mode:** Language, symbols और abstract notation।
+- **Discovery learning (खोज द्वारा अधिगम):** Learner relationships और patterns explore करके meaning बनाता है।
+- **Spiral curriculum (सर्पिल पाठ्यचर्या):** Important concepts को बढ़ती complexity के साथ बार-बार revisit करना।
+- **Enactive mode (क्रियात्मक स्तर):** Action और manipulation के माध्यम से समझना।
+- **Iconic mode (चित्रात्मक स्तर):** Pictures, diagrams और visual representations।
+- **Symbolic mode (प्रतीकात्मक स्तर):** Language, symbols और abstract notation।
 
-### 10.2 Progressive / child-centred education
+### 10.2 Progressive (प्रगतिशील) / child-centred (बाल-केंद्रित) education (शिक्षा)
 
 Child-centred classroom में:
 
@@ -414,68 +414,68 @@ Child-centred classroom में:
 - collaboration और democratic participation होती है;
 - एक fixed method को हर child पर impose नहीं किया जाता।
 
-### 10.3 Teacher-centred बनाम child-centred
+### 10.3 Teacher-centred (शिक्षक-केंद्रित) बनाम child-centred (बाल-केंद्रित)
 
-| Teacher-centred | Child-centred |
+| Teacher-centred (शिक्षक-केंद्रित) | Child-centred (बाल-केंद्रित) |
 |---|---|
-| Teacher बोलता, child सुनता | Learner explores, discusses और explains |
-| One correct method | Multiple strategies और reasoning |
-| Error = failure | Error = evidence और next step |
-| Rote recall | Understanding और application |
-| Fixed pace | Differentiated support |
+| Teacher बोलता, child सुनता (शिक्षक-केंद्रित) | Learner explores (खोजता), discusses (चर्चा करता) और explains (समझाता) |
+| One correct method (एक सही विधि) | Multiple strategies (अनेक रणनीतियाँ) और reasoning (तर्क) |
+| Error = failure (त्रुटि = असफलता) | Error = evidence (त्रुटि = प्रमाण) और next step (अगला कदम) |
+| Rote recall (रटकर स्मरण) | Understanding (समझ) और application (अनुप्रयोग) |
+| Fixed pace (निश्चित गति) | Differentiated support (विभेदित सहायता) |
 
-### 10.4 Learning theories — visual quick revision
+### 10.4 Learning theories (अधिगम सिद्धांत) — visual quick revision (दृश्य त्वरित पुनरावृत्ति)
 
 ```figure
 type: cdp-learning-theories
 caption: Thorndike, Pavlov, Skinner and Bandura connect theory names with classroom mechanisms
 ```
 
-#### :icon-cat|1.5: Thorndike — Trial-and-error learning
+#### :icon-cat|1.5: Thorndike — Trial-and-error learning (प्रयास एवं भूल द्वारा अधिगम)
 
 - Puzzle-box cat example को **mechanism समझने** के लिए पढ़ें, literal classroom method की तरह नहीं।
-- **Law of Effect:** satisfying consequence वाले response की संभावना बढ़ सकती है।
-- **Law of Exercise:** practice से connections strengthen हो सकते हैं, लेकिन meaningful practice जरूरी है।
-- **Law of Readiness:** learner की readiness और situation को consider करना चाहिए।
+- **Law of Effect (प्रभाव का नियम):** satisfying consequence वाले response की संभावना बढ़ सकती है।
+- **Law of Exercise (अभ्यास का नियम):** practice से connections strengthen हो सकते हैं, लेकिन meaningful practice जरूरी है।
+- **Law of Readiness (तत्परता का नियम):** learner की readiness और situation को consider करना चाहिए।
 
-#### :icon-dog|1.5: Pavlov — Classical conditioning
+#### :icon-dog|1.5: Pavlov — Classical conditioning (शास्त्रीय अनुबंधन)
 
 - एक neutral stimulus को repeated pairing के बाद response से जोड़ा जा सकता है।
 - Classic example: food के साथ bell pairing के बाद dog का salivation response।
 - Classroom में safe routines और positive associations उपयोगी हो सकते हैं; fear-based conditioning ethical teaching नहीं है।
 
-#### :icon-target|1.5: Skinner — Operant conditioning
+#### :icon-target|1.5: Skinner — Operant conditioning (क्रियाप्रसूत अनुबंधन)
 
 - Behaviour के बाद आने वाला consequence future behaviour को influence कर सकता है।
-- **Reinforcement** desired response की probability बढ़ा सकता है; positive reinforcement का अर्थ specific encouragement/reward है।
+- **Reinforcement (पुनर्बलन)** desired response की probability बढ़ा सकता है; positive reinforcement का अर्थ specific encouragement/reward है।
 - हर correct answer पर mechanical reward देना learning का substitute नहीं है।
 
-#### :icon-brain|1.5: Bandura — Social learning
+#### :icon-brain|1.5: Bandura — Social learning (सामाजिक अधिगम)
 
 - Learner observation, model, imitation, feedback और self-efficacy से सीख सकता है।
 - Teacher का respectful behaviour भी बच्चों के लिए model बनता है।
 - केवल imitation पर्याप्त नहीं; learner को reasoning और independent practice भी चाहिए।
 
 ::: cols 2
-::: remember ✔ Fast distinction
+::: remember ✔ Fast distinction (त्वरित अंतर)
 Thorndike = trial and error · Pavlov = stimulus association · Skinner = consequence/reinforcement · Bandura = observation/model.
 :::
 
-::: trap ⚠️ Theory trap
+::: trap ⚠️ Theory trap (सिद्धांत-जाल)
 इन theories को “हर learning की complete explanation” न मानें। CTET में mechanism को classroom context, learner agency और ethics के साथ पढ़ें।
 :::
 :::
 
 ---
 
-## 11. Constructivism और Meaning-making
+## 11. Constructivism (रचनावाद) और Meaning-making (अर्थ-निर्माण)
 
 ```figure
 type: cdp-learning-cycle
 caption: prior ideas, experience, discussion and reflection support new understanding
 ```
 
-### 11.1 Constructivist view
+### 11.1 Constructivist view (रचनावादी दृष्टिकोण)
 
 - Knowledge teacher से सीधे transfer नहीं होती।
 - Learner prior knowledge और experience के आधार पर meaning construct करता है।
@@ -483,13 +483,13 @@ caption: prior ideas, experience, discussion and reflection support new understa
 - Discussion, activity, evidence और reflection conceptual change में सहायता करते हैं।
 - Teacher का काम केवल answer बताना नहीं, learning environment design करना है।
 
-### 11.2 Constructivist lesson cycle
+### 11.2 Constructivist lesson cycle (रचनावादी पाठ-चक्र)
 
 ```text
 Prior idea → activity/experience → discussion → evidence → reflection → revised understanding
 ```
 
-### 11.3 Teacher strategies
+### 11.3 Teacher strategies (शिक्षक की रणनीतियाँ)
 
 - “तुम पहले से क्या जानते हो?”
 - “तुमने यह तरीका क्यों चुना?”
@@ -497,7 +497,7 @@ Prior idea → activity/experience → discussion → evidence → reflection �
 - “कौन-सा evidence तुम्हारे answer को support करता है?”
 - “यदि condition बदल जाए तो क्या होगा?”
 
-### 11.4 Rote learning की limitation
+### 11.4 Rote learning (रटकर सीखना) की limitation (सीमा)
 
 Rote learning short-term recall दे सकती है, लेकिन learner:
 
@@ -508,31 +508,31 @@ Rote learning short-term recall दे सकती है, लेकिन lear
 
 ---
 
-## 12. Intelligence: Critical और Multidimensional View
+## 12. Intelligence (बुद्धि): Critical (आलोचनात्मक) और Multidimensional (बहुआयामी) View (दृष्टिकोण)
 
-### 12.1 Intelligence को fixed न मानें
+### 12.1 Intelligence को fixed (स्थिर) न मानें
 
 - Intelligence केवल एक IQ score नहीं है।
 - Performance task, language, opportunity, culture, motivation और emotional state से भी प्रभावित हो सकती है।
 - Growth-oriented view मानता है कि appropriate teaching, effort, strategy और feedback से performance improve हो सकती है।
 - “Weak child” या “born intelligent” जैसे permanent labels harmful हैं।
 
-### 12.2 Multiple intelligences — classroom संकेत
+### 12.2 Multiple intelligences (बहु-बुद्धि) — classroom संकेत (कक्षा संकेत)
 
-| Domain | Possible classroom strength |
+| Domain (क्षेत्र) | Possible classroom strength (संभावित कक्षा-क्षमता) |
 |---|---|
-| Linguistic | Story, explanation, reading, writing, word use |
-| Logical-mathematical | Pattern, reasoning, classification, problem-solving |
-| Spatial | Map, diagram, visualisation, design |
-| Bodily-kinaesthetic | Movement, manipulation, role play, practical work |
-| Musical | Rhythm, pitch, sound patterns |
-| Interpersonal | Cooperation, peer understanding, group work |
-| Intrapersonal | Self-reflection, goal setting, self-awareness |
-| Naturalistic | Plants, animals, environment और classification |
+| Linguistic (भाषिक) | Story, explanation, reading, writing, word use |
+| Logical-mathematical (तार्किक-गणितीय) | Pattern, reasoning, classification, problem-solving |
+| Spatial (स्थानिक) | Map, diagram, visualisation, design |
+| Bodily-kinaesthetic (शारीरिक-गतिक) | Movement, manipulation, role play, practical work |
+| Musical (संगीतात्मक) | Rhythm, pitch, sound patterns |
+| Interpersonal (अंतरवैयक्तिक) | Cooperation, peer understanding, group work |
+| Intrapersonal (अंतर्वैयक्तिक) | Self-reflection, goal setting, self-awareness |
+| Naturalistic (प्राकृतिक) | Plants, animals, environment और classification |
 
 > Multiple intelligence का educational implication है varied opportunities देना; इसका अर्थ यह नहीं कि हर child को एक rigid label दे दिया जाए।
 
-### 12.3 Gifted और creative learners
+### 12.3 Gifted (प्रतिभाशाली) और creative (सृजनात्मक) learners (शिक्षार्थी)
 
 - Gifted learner को केवल extra repetitive worksheets न दें।
 - Enrichment, open-ended investigation, higher challenge, research और creative production दें।
@@ -541,9 +541,9 @@ Rote learning short-term recall दे सकती है, लेकिन lear
 
 ---
 
-## 13. Language और Thought
+## 13. Language (भाषा) और Thought (विचार)
 
-### 13.1 Language as a tool
+### 13.1 Language as a tool (भाषा एक साधन के रूप में)
 
 Language से child:
 
@@ -555,7 +555,7 @@ Language से child:
 
 Language और thought related हैं, लेकिन thought केवल school language में possible नहीं है। Home language knowledge और identity का resource है।
 
-### 13.2 Multilingual classroom
+### 13.2 Multilingual classroom (बहुभाषी कक्षा)
 
 Best approach:
 
@@ -566,7 +566,7 @@ Best approach:
 - learner को meaning express करने के multiple modes दें;
 - धीरे-धीरे school language की vocabulary और structures build करें।
 
-### 13.3 Language errors
+### 13.3 Language errors (भाषाई त्रुटियाँ)
 
 Child का error:
 
@@ -579,9 +579,9 @@ Teacher gentle recast, contextual model, focused practice और meaningful comm
 
 ---
 
-## 14. Gender, Diversity और Individual Differences
+## 14. Gender (लिंग), Diversity (विविधता) और Individual Differences (व्यक्तिगत भिन्नताएँ)
 
-### 14.1 Gender as a social construct
+### 14.1 Gender as a social construct (सामाजिक निर्मिति)
 
 Gender roles और expectations society, culture, family, media और school practices से shape होते हैं। इसलिए:
 
@@ -590,7 +590,7 @@ Gender roles और expectations society, culture, family, media और school p
 - caregiving को केवल girls/women से जोड़ना hidden curriculum है;
 - सभी learners को सभी roles और resources का equal access चाहिए।
 
-### 14.2 Diversity के dimensions
+### 14.2 Diversity के dimensions (विविधता के आयाम)
 
 - Language
 - Caste और community
@@ -604,9 +604,9 @@ Gender roles और expectations society, culture, family, media और school p
 
 Diversity को classroom problem नहीं, learning resource की तरह use करें।
 
-### 14.3 Equality और equity
+### 14.3 Equality (समानता) और equity (न्यायसंगत समान अवसर)
 
-| Equality | Equity |
+| Equality (समानता) | Equity (न्यायसंगत समान अवसर) |
 |---|---|
 | सभी को समान चीज देना | Need के अनुसार support देना |
 | Same worksheet for all | Suitable scaffold/response mode |
@@ -614,24 +614,24 @@ Diversity को classroom problem नहीं, learning resource की तर
 
 Equity का अर्थ expectations घटाना नहीं; meaningful access और fair opportunity देना है।
 
-::: example ✅ Classroom example
+::: example ✅ Classroom example (कक्षा उदाहरण)
 यदि visual impairment वाला learner diagram से concept समझ रहा है, तो tactile model, verbal description या accessible response दें। यह learning goal बदलना नहीं, access barrier हटाना है।
 :::
 
 ---
 
-## 15. Inclusive Education और Children with Special Needs
+## 15. Inclusive Education (समावेशी शिक्षा) और Children with Special Needs (विशेष आवश्यकता वाले बच्चे)
 
 ```figure
 type: cdp-inclusion-udl
 caption: inclusive teaching offers multiple ways to access, engage with and show learning
 ```
 
-### 15.1 Inclusive education
+### 15.1 Inclusive education (समावेशी शिक्षा)
 
 Inclusive education का अर्थ है कि diverse learners shared classroom में meaningful participation और learning opportunities पाएँ। Inclusion केवल child को classroom में बैठाना नहीं; barriers हटाना और support देना भी है।
 
-### 15.2 Barrier removal
+### 15.2 Barrier removal (बाधाओं को हटाना)
 
 Barriers हो सकते हैं:
 
@@ -644,35 +644,35 @@ Barriers हो सकते हैं:
 - peer ridicule;
 - unsuitable assessment।
 
-### 15.3 Accommodation और modification
+### 15.3 Accommodation (अनुकूल व्यवस्था) और modification (संशोधन)
 
-| Accommodation | Modification |
+| Accommodation (अनुकूल व्यवस्था) | Modification (संशोधन) |
 |---|---|
 | Access या response का तरीका बदलना | Learning expectation/content का level या nature बदलना |
 | Example: extra time, reader, tactile diagram, oral response | Example: अलग/कम learning outcome तय करना |
 | Intended goal सामान्यतः वही रहता है | Goal या content बदल सकता है |
 
-### 15.4 Common learning difficulties
+### 15.4 Common learning difficulties (सामान्य अधिगम कठिनाइयाँ)
 
-| Difficulty | मुख्य area | Support |
+| Difficulty (कठिनाई) | मुख्य area (क्षेत्र) | Support (सहायता) |
 |---|---|---|
-| Dyslexia | Reading/decoding | Systematic multisensory reading, phonics, extra time |
-| Dysgraphia | Writing/transcription | Organiser, assistive technology, alternative response, writing support |
-| Dyscalculia | Number/mathematical learning | Concrete materials, visual models, stepwise practice |
-| ADHD-related difficulty | Attention/self-regulation | Short steps, visible goals, movement breaks, routine |
-| Autism spectrum needs | Communication, flexibility, sensory/social participation | Predictable routine, visual schedule, clear communication, individual support |
-| Hearing difficulty | Access to oral input | Face learner, written/visual support, captions |
-| Visual impairment | Access to visual material | Tactile/enlarged material, verbal description, reader/assistive support |
+| Dyslexia (पठन-कठिनाई) | Reading/decoding | Systematic multisensory reading, phonics, extra time |
+| Dysgraphia (लेखन-कठिनाई) | Writing/transcription | Organiser, assistive technology, alternative response, writing support |
+| Dyscalculia (गणितीय-अधिगम कठिनाई) | Number/mathematical learning | Concrete materials, visual models, stepwise practice |
+| ADHD-related difficulty (ध्यान-संबंधी कठिनाई) | Attention/self-regulation | Short steps, visible goals, movement breaks, routine |
+| Autism spectrum needs (ऑटिज़्म स्पेक्ट्रम आवश्यकताएँ) | Communication, flexibility, sensory/social participation | Predictable routine, visual schedule, clear communication, individual support |
+| Hearing difficulty (श्रवण-कठिनाई) | Access to oral input | Face learner, written/visual support, captions |
+| Visual impairment (दृष्टिबाधिता) | Access to visual material | Tactile/enlarged material, verbal description, reader/assistive support |
 
 > Diagnosis केवल teacher के अनुमान या एक test से नहीं करनी चाहिए। Appropriate specialist और family collaboration आवश्यक हो सकती है।
 
-### 15.5 IEP और assistive technology
+### 15.5 IEP (व्यक्तिगत शिक्षा योजना) और assistive technology (सहायक तकनीक)
 
-- **IEP (Individualised Education Plan):** Individual goals, support, responsible persons और progress review का plan।
-- **Assistive technology:** Screen reader, audio material, enlarged text, speech-to-text, alternative input आदि।
+- **IEP (Individualised Education Plan / व्यक्तिगत शिक्षा योजना):** Individual goals, support, responsible persons और progress review का plan।
+- **Assistive technology (सहायक तकनीक):** Screen reader, audio material, enlarged text, speech-to-text, alternative input आदि।
 - Support child को dependent बनाने के लिए नहीं, participation और independence बढ़ाने के लिए होना चाहिए।
 
-### 15.6 Disadvantaged और deprived backgrounds
+### 15.6 Disadvantaged (वंचित) और deprived (अभावग्रस्त) backgrounds (पृष्ठभूमियाँ)
 
 - Low expectations न रखें।
 - School-based materials और peer support दें।
@@ -682,7 +682,7 @@ Barriers हो सकते हैं:
 
 ---
 
-## 16. Learning और Pedagogy
+## 16. Learning (अधिगम) और Pedagogy (शिक्षाशास्त्र)
 
 ### 16.1 Children कैसे सोचते और सीखते हैं?
 
@@ -696,7 +696,7 @@ Children:
 - cognition और emotion दोनों के साथ सीखते हैं;
 - language के माध्यम से reasoning communicate करते हैं।
 
-### 16.2 Child as problem solver
+### 16.2 Child as problem solver (समस्या-समाधानकर्ता)
 
 Problem-solving task में learner को:
 
@@ -709,7 +709,7 @@ Problem-solving task में learner को:
 
 Teacher को child का पूरा problem solve करने के बजाय prompts, representations और feedback देना चाहिए।
 
-### 16.3 Child as scientific investigator
+### 16.3 Child as scientific investigator (वैज्ञानिक अन्वेषक)
 
 Scientific investigator:
 
@@ -720,7 +720,7 @@ Scientific investigator:
 - conclusion बनाता है;
 - evidence के आधार पर idea revise करता है।
 
-### 16.4 Learning as a social activity
+### 16.4 Learning as a social activity (सामाजिक गतिविधि के रूप में अधिगम)
 
 Peer discussion, cooperative work, role play और collaborative problem-solving से:
 
@@ -732,7 +732,7 @@ Peer discussion, cooperative work, role play और collaborative problem-solvin
 
 Group work तभी effective है जब roles, shared goal और individual accountability हों।
 
-### 16.5 School performance में failure के कारण
+### 16.5 School performance (विद्यालयी प्रदर्शन) में failure (असफलता) के कारण
 
 Poor performance को केवल “low intelligence” से explain करना गलत है। Possible factors:
 
@@ -747,13 +747,13 @@ Poor performance को केवल “low intelligence” से explain क�
 
 ---
 
-## 17. Cognition, Emotion और Motivation
+## 17. Cognition (संज्ञान), Emotion (भावना) और Motivation (अभिप्रेरणा)
 
-### 17.1 Cognition
+### 17.1 Cognition (संज्ञान)
 
 Cognition में attention, perception, memory, reasoning, problem-solving, planning और metacognition शामिल हैं।
 
-### 17.2 Emotion
+### 17.2 Emotion (भावना)
 
 Emotion learning को influence करती है:
 
@@ -762,16 +762,16 @@ Emotion learning को influence करती है:
 - Teacher को error पर humiliation नहीं करना चाहिए।
 - Feedback behaviour और next step पर हो, identity पर नहीं।
 
-### 17.3 Motivation
+### 17.3 Motivation (अभिप्रेरणा)
 
-| Type | Example |
+| Type (प्रकार) | Example (उदाहरण) |
 |---|---|
-| Intrinsic motivation | Curiosity या mastery के आनंद के लिए task करना |
-| Extrinsic motivation | Reward, grade या punishment से बचने के लिए task करना |
-| Mastery orientation | Improvement और understanding पर focus |
-| Performance orientation | दूसरों से बेहतर दिखने पर focus |
+| Intrinsic motivation (आंतरिक अभिप्रेरणा) | Curiosity या mastery के आनंद के लिए task करना |
+| Extrinsic motivation (बाह्य अभिप्रेरणा) | Reward, grade या punishment से बचने के लिए task करना |
+| Mastery orientation (दक्षता-केंद्रित दृष्टिकोण) | Improvement और understanding पर focus |
+| Performance orientation (प्रदर्शन-केंद्रित दृष्टिकोण) | दूसरों से बेहतर दिखने पर focus |
 
-### 17.4 Self-efficacy
+### 17.4 Self-efficacy (स्व-प्रभावकारिता)
 
 Self-efficacy का अर्थ है learner का belief कि वह task कर सकता है। इसे बढ़ाने के लिए:
 
@@ -782,11 +782,11 @@ Self-efficacy का अर्थ है learner का belief कि वह tas
 - effort और improvement की recognition;
 - meaningful choice।
 
-### 17.5 Attribution
+### 17.5 Attribution (कारण-निर्धारण)
 
 यदि child कहता है “मैं strategy बदलकर improve कर सकता हूँ,” तो यह controllable और growth-oriented attribution है। “मैं हमेशा incapable हूँ” fixed attribution है, जिसे teacher को challenge और support करना चाहिए।
 
-### 17.6 Anxiety
+### 17.6 Anxiety (चिंता)
 
 Anxiety वाले learner के लिए:
 
@@ -804,20 +804,20 @@ caption: intrinsic and extrinsic motivation can be shaped by purpose, choice and
 ```
 
 ::: cols 2
-::: tip 💡 Motivation booster
+::: tip 💡 Motivation booster (अभिप्रेरणा बढ़ाने का उपाय)
 Meaningful goal + achievable challenge + specific feedback = better persistence।
 :::
 
-::: trap ⚠️ Motivation trap
+::: trap ⚠️ Motivation trap (अभिप्रेरणा-जाल)
 Public comparison, fear और केवल rewards पर निर्भरता को intrinsic motivation न समझें।
 :::
 :::
 
 ---
 
-## 18. Errors और Alternative Conceptions
+## 18. Errors (त्रुटियाँ) और Alternative Conceptions (वैकल्पिक धारणाएँ)
 
-### 18.1 Error का meaning
+### 18.1 Error का meaning (त्रुटि का अर्थ)
 
 Error यह बता सकती है कि learner:
 
@@ -826,13 +826,13 @@ Error यह बता सकती है कि learner:
 - कौन-सा prerequisite नहीं समझा;
 - language या representation से कहाँ अटका है।
 
-### 18.2 Teacher response cycle
+### 18.2 Teacher response cycle (शिक्षक प्रतिक्रिया-चक्र)
 
 ```text
 Child response → error pattern → reasoning पूछें → diagnosis → targeted support → re-check
 ```
 
-### 18.3 Effective response
+### 18.3 Effective response (प्रभावी प्रतिक्रिया)
 
 - “तुम हमेशा गलत करते हो” नहीं।
 - “तुमने ऐसा कैसे सोचा?” पूछें।
@@ -846,51 +846,51 @@ Error को simply correct answer से replace करना learning नह�
 
 ---
 
-## 19. Assessment और Evaluation
+## 19. Assessment (मूल्यांकन) और Evaluation (आकलन)
 
 ```figure
 type: cdp-assessment-loop
 caption: formative assessment connects teaching, observation, diagnosis, feedback and adaptation
 ```
 
-### 19.1 Assessment for learning बनाम assessment of learning
+### 19.1 Assessment for learning (अधिगम हेतु मूल्यांकन) बनाम assessment of learning (अधिगम का मूल्यांकन)
 
-| Assessment for learning | Assessment of learning |
+| Assessment for learning (अधिगम हेतु मूल्यांकन) | Assessment of learning (अधिगम का मूल्यांकन) |
 |---|---|
 | Learning के दौरान होती है | Learning period के बाद achievement report करती है |
 | Feedback और next teaching guide करती है | Grade, certificate या overall judgement दे सकती है |
 | Formative purpose | Summative purpose |
 | Example: concept check से grouping बदलना | Example: term-end achievement test |
 
-### 19.2 Assessment types
+### 19.2 Assessment types (मूल्यांकन के प्रकार)
 
-- **Formative assessment:** Ongoing evidence और feedback।
-- **Summative assessment:** Unit/term/course के end पर overall achievement।
-- **Diagnostic assessment:** Specific gap, misconception या prerequisite identify करना।
-- **School-Based Assessment:** School/classroom context में planned evidence collection।
-- **CCE:** Continuous और comprehensive view—learning को समय के साथ और multiple aspects से देखना।
+- **Formative assessment (रचनात्मक/निर्माणात्मक मूल्यांकन):** Ongoing evidence और feedback।
+- **Summative assessment (सारांशात्मक मूल्यांकन):** Unit/term/course के end पर overall achievement।
+- **Diagnostic assessment (नैदानिक मूल्यांकन):** Specific gap, misconception या prerequisite identify करना।
+- **School-Based Assessment (विद्यालय-आधारित मूल्यांकन):** School/classroom context में planned evidence collection।
+- **CCE (सतत एवं व्यापक मूल्यांकन):** Continuous और comprehensive view—learning को समय के साथ और multiple aspects से देखना।
 
-### 19.3 Useful tools
+### 19.3 Useful tools (उपयोगी उपकरण)
 
-| Tool | क्या दिखाता है |
+| Tool (उपकरण) | क्या दिखाता है |
 |---|---|
-| Observation | Actual behaviour, participation और strategy |
-| Anecdotal record | Specific significant classroom incident |
-| Checklist | Defined behaviours की presence/absence |
-| Rubric | Criteria और performance levels |
-| Portfolio | Dated work, drafts, feedback और progress |
-| Concept map | Connections और conceptual gaps |
-| Exit ticket | Lesson के बाद immediate understanding |
-| Interview | Learner की reasoning और language |
+| Observation (अवलोकन) | Actual behaviour, participation और strategy |
+| Anecdotal record (घटना-वृत्तांत) | Specific significant classroom incident |
+| Checklist (जाँच-सूची) | Defined behaviours की presence/absence |
+| Rubric (मापदंड-सारणी) | Criteria और performance levels |
+| Portfolio (कार्य-संग्रह) | Dated work, drafts, feedback और progress |
+| Concept map (अवधारणा-मानचित्र) | Connections और conceptual gaps |
+| Exit ticket (त्वरित निकास-जाँच) | Lesson के बाद immediate understanding |
+| Interview (साक्षात्कार) | Learner की reasoning और language |
 
-### 19.4 Validity और reliability
+### 19.4 Validity (वैधता) और reliability (विश्वसनीयता)
 
-- **Validity:** Assessment वही skill/understanding measure करे जिसे measure करने का उद्देश्य है।
-- **Reliability:** Comparable conditions में scoring/results reasonably consistent हों।
+- **Validity (वैधता):** Assessment वही skill/understanding measure करे जिसे measure करने का उद्देश्य है।
+- **Reliability (विश्वसनीयता):** Comparable conditions में scoring/results reasonably consistent हों।
 - यदि comprehension assess करनी है तो केवल handwriting से score करना valid नहीं हो सकता।
 - यदि reasoning assess करनी है तो केवल memorised definition पर्याप्त नहीं।
 
-### 19.5 Effective feedback
+### 19.5 Effective feedback (प्रभावी प्रतिपुष्टि)
 
 Effective feedback:
 
@@ -906,9 +906,9 @@ Example:
 
 ---
 
-## 20. Readiness, Critical Thinking और Questions बनाना
+## 20. Readiness (तत्परता), Critical Thinking (आलोचनात्मक चिंतन) और Questions (प्रश्न) बनाना
 
-### 20.1 Readiness question
+### 20.1 Readiness question (तत्परता जाँचने वाला प्रश्न)
 
 Readiness या prior knowledge जानने वाला प्रश्न:
 
@@ -916,7 +916,7 @@ Readiness या prior knowledge जानने वाला प्रश्न
 - “क्या तुम कोई example दे सकते हो?”
 - “इस problem को शुरू करने के लिए कौन-सी information चाहिए?”
 
-### 20.2 Critical-thinking question
+### 20.2 Critical-thinking question (आलोचनात्मक चिंतन प्रश्न)
 
 Critical thinking वाले questions:
 
@@ -926,11 +926,11 @@ Critical thinking वाले questions:
 - “दो strategies में कौन-सी situation में अधिक useful है और क्यों?”
 - “क्या इस rule की कोई limitation है?”
 
-### 20.3 Open-ended question
+### 20.3 Open-ended question (खुले उत्तर वाला प्रश्न)
 
 Open-ended question में एक से अधिक possible response या reasoning हो सकती है। इससे creativity, explanation और thinking process visible होती है।
 
-### 20.4 Good question की features
+### 20.4 Good question की features (अच्छे प्रश्न की विशेषताएँ)
 
 - Clear learning purpose
 - Age-appropriate language
@@ -941,23 +941,23 @@ Open-ended question में एक से अधिक possible response य�
 
 ---
 
-## 21. “Most Appropriate Teacher Response” Cheat Sheet
+## 21. “Most Appropriate Teacher Response” (सबसे उपयुक्त शिक्षक प्रतिक्रिया) Cheat Sheet (त्वरित तालिका)
 
-| Situation | Best direction |
+| Situation (स्थिति) | Best direction (सही दिशा) |
 |---|---|
-| Child wrong answer देता है | Reasoning पूछें; error analyse करें |
-| Child slow learner है | Small steps, scaffold, practice, feedback |
-| Child fast finish करता है | Enrichment और deeper challenge |
-| Child home language में fluent है | Home language को bridge/resource बनाएं |
-| Child speaking से डरता है | Safe, low-risk pair/group rehearsal |
-| Gender-biased role allocation | Roles rotate करें; equal access दें |
-| Common misconception | Prior idea elicit, evidence और representation use करें |
-| Child hint से task करता है | ZPD में scaffold दें, धीरे fade करें |
-| Learner disability के कारण access issue | Accommodation/assistive support दें |
-| Low score लेकिन oral understanding strong है | Multiple evidence और response modes देखें |
-| Group में एक child dominate करता है | Clear roles और turn-taking structures |
-| Learner gifted है | Open investigation, creativity और depth |
-| Parent “naturally weak” कहता है | Low expectations reject; evidence और support plan |
+| Child wrong answer (गलत उत्तर) देता है | Reasoning पूछें; error analyse करें |
+| Child slow learner (धीमा शिक्षार्थी) है | Small steps, scaffold, practice, feedback |
+| Child fast finish (जल्दी पूरा) करता है | Enrichment और deeper challenge |
+| Child home language (घरेलू भाषा) में fluent (प्रवीण) है | Home language को bridge/resource बनाएं |
+| Child speaking (बोलने) से डरता है | Safe, low-risk pair/group rehearsal |
+| Gender-biased role allocation (लिंग-पक्षपाती भूमिका-वितरण) | Roles rotate करें; equal access दें |
+| Common misconception (सामान्य गलत धारणा) | Prior idea elicit, evidence और representation use करें |
+| Child hint (संकेत) से task करता है | ZPD में scaffold दें, धीरे fade करें |
+| Learner disability (दिव्यांगता) के कारण access issue (पहुँच की समस्या) | Accommodation/assistive support दें |
+| Low score (कम अंक) लेकिन oral understanding (मौखिक समझ) strong (मजबूत) है | Multiple evidence और response modes देखें |
+| Group में एक child dominate (प्रभुत्व) करता है | Clear roles और turn-taking structures |
+| Learner gifted (प्रतिभाशाली) है | Open investigation, creativity और depth |
+| Parent “naturally weak” (स्वाभाविक रूप से कमजोर) कहता है | Low expectations reject; evidence और support plan |
 
 ```figure
 type: cdp-teacher-response
@@ -970,9 +970,9 @@ Understand the child → respect diversity → make thinking visible → provide
 
 ---
 
-## 22. Common Traps और Correct Approach
+## 22. Common Traps (सामान्य जाल) और Correct Approach (सही दृष्टिकोण)
 
-| Trap option | क्यों गलत? | Better approach |
+| Trap option (जाल विकल्प) | क्यों गलत? | Better approach (बेहतर दृष्टिकोण) |
 |---|---|---|
 | Intelligence जन्म से fixed है | Growth और environment ignore करता है | Development potential और learning opportunity देखें |
 | सभी children को same method दें | Individual differences ignore करता है | Varied methods और differentiation |
@@ -987,7 +987,7 @@ Understand the child → respect diversity → make thinking visible → provide
 
 ---
 
-## 23. Last-Minute Revision Sheet — 50 One-Liners
+## 23. Last-Minute Revision Sheet (अंतिम समय पुनरावृत्ति पत्र) — 50 One-Liners (एक-पंक्ति तथ्य)
 
 1. Development growth से broader concept है।
 2. Development physical, cognitive, social, emotional और language dimensions में होता है।
@@ -1042,9 +1042,9 @@ Understand the child → respect diversity → make thinking visible → provide
 
 ---
 
-## 24. Rapid Comparison Table
+## 24. Rapid Comparison Table (त्वरित तुलना तालिका)
 
-| याद रखने वाला pair | Difference |
+| याद रखने वाला pair (युग्म) | Difference (अंतर) |
 |---|---|
 | Growth / Development | Quantitative physical change / Whole multidimensional change |
 | Maturation / Learning | Biological readiness / Experience-based change |
@@ -1061,7 +1061,7 @@ Understand the child → respect diversity → make thinking visible → provide
 
 ---
 
-## 25. Self-Check Questions
+## 25. Self-Check Questions (स्वयं-जाँच प्रश्न)
 
 1. Development को multidimensional क्यों कहा जाता है?
 2. Cephalocaudal और proximodistal principles में क्या difference है?
@@ -1084,7 +1084,7 @@ Understand the child → respect diversity → make thinking visible → provide
 19. Validity और reliability में अन्तर बताइए।
 20. “Most appropriate teacher response” चुनते समय किन चार चीजों को check करना चाहिए?
 
-### Self-check answer cues
+### Self-check answer cues (उत्तर संकेत)
 
 ```text
 1. अनेक domains में change
@@ -1111,7 +1111,7 @@ Understand the child → respect diversity → make thinking visible → provide
 
 ---
 
-## 26. Final Exam Checklist
+## 26. Final Exam Checklist (अंतिम परीक्षा सूची)
 
 - [ ] Development के principles revise किए।
 - [ ] Piaget stages और key terms compare किए।
@@ -1131,7 +1131,7 @@ type: cdp-answer-ladder
 caption: a fast CDP decision ladder for choosing the most appropriate teacher response
 ```
 
-::: formula 🎯 Last-minute rule
+::: formula 🎯 Last-minute rule (अंतिम समय नियम)
 CTET CDP में best answer प्रायः वह है जो बच्चे की thinking को समझे, dignity बनाए रखे, diversity को accept करे, meaningful support दे और evidence के आधार पर next teaching plan करे।
 :::
 
