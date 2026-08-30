@@ -342,7 +342,7 @@ ctet-notes/
 ├── 04-Language-I-Hindi-Revision-Notes.md     ← completed revision notes file
 ├── 05-Language-II-English-Revision-Notes.md  ← completed revision notes file
 ├── 06-Language-II-Punjabi-Revision-Notes.md
-├── 07-Paper-II-CDP-Revision-Notes.md
+├── 07-Paper-II-CDP-Revision-Notes.md          ← completed revision notes file
 ├── 08-Paper-II-Mathematics-Revision-Notes.md
 ├── 09-Paper-II-Science-Revision-Notes.md
 ├── 10-Paper-II-Social-Science-Revision-Notes.md
