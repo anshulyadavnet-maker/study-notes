@@ -1,1060 +1,988 @@
-# CTET Last-Minute Revision Sheets — अंतिम समय की त्वरित पुनरावृत्ति
+# CTET अंतिम समय पुनरावृत्ति पत्र
 
-> **Use this file in the last 24–48 hours:** यह detailed chapter notes का replacement नहीं, बल्कि fast recall और exam decision-making की compact sheet है। New topic शुरू करने के बजाय marked mistakes, formulas, tables और “most appropriate teacher response” revise करें।
+> **उपयोग:** यह पत्र परीक्षा से पहले अंतिम 24–48 घंटों में तेज़ पुनरावृत्ति के लिए है। विस्तृत अध्यायों का स्थान लेने के लिए नहीं, बल्कि सूत्र, मुख्य अवधारणाएँ, सामान्य भूलें और सही शिक्षक-प्रतिक्रिया याद करने के लिए इसका उपयोग करें।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **प्रामाणिक स्रोत:** [CTET विस्तृत पाठ्यक्रम एवं परीक्षा-रूपरेखा](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
 >
-> **Detailed notes:** इस folder की subject-wise files `01` से `10` तक और practice के लिए `ctet-mcq/` banks देखें।
+> **विस्तृत नोट्स:** इस फ़ोल्डर की विषयवार पुनरावृत्ति फ़ाइलें और अभ्यास के लिए `ctet-mcq/` प्रश्न-संग्रह देखें।
 
 ---
 
-## 1. :icon-exam: CTET Master Dashboard (मुख्य परीक्षा डैशबोर्ड)
+## 1. :icon-exam: CTET मुख्य परीक्षा पटल
 
 ```figure
 type: cdp-exam-dashboard
-caption: CTET revision में paper, age group, question split और learner-centred response lens याद रखें
+caption: CTET पुनरावृत्ति में पेपर, आयु-समूह, प्रश्न-विभाजन और शिक्षार्थी-केंद्रित दृष्टि याद रखें
 ```
-
-### Exam facts (परीक्षा के पक्के तथ्य)
-
-| Point (बिंदु) | याद रखें |
-|---|---|
-| Each paper (प्रत्येक paper) | 150 MCQs, 150 marks |
-| Correct answer (सही उत्तर) | 1 mark |
-| Negative marking | नहीं |
-| Duration (समय) | 2 hours 30 minutes |
-| Paper I | Classes I–V / Primary Stage |
-| Paper II | Classes VI–VIII / Elementary Stage |
-| Language I | Medium of instruction से related proficiency |
-| Language II | Language elements, communication और comprehension |
-| Language condition | Language II, Language I से अलग होनी चाहिए |
-| Paper II choice | Mathematics & Science **या** Social Studies/Social Science |
-
-### Paper I structure (Paper I का ढाँचा)
-
-| Section | Questions |
-|---|---:|
-| Child Development and Pedagogy | 30 |
-| Mathematics | 30 |
-| Environmental Studies | 30 |
-| Language I | 30 |
-| Language II | 30 |
-| **Total** | **150** |
-
-### Paper II structure (Paper II का ढाँचा)
-
-| Section | Questions |
-|---|---:|
-| Child Development and Pedagogy | 30 |
-| Mathematics & Science **or** Social Studies/Social Science | 60 |
-| Language I | 30 |
-| Language II | 30 |
-| **Total** | **150** |
-
-::: formula 🎯 One-minute rule (एक मिनट नियम)
-150 questions और 150 minutes का average लगभग 1 minute/question है। कठिन question पर अटकें नहीं; mark करके आगे बढ़ें और अंत में लौटें। Negative marking नहीं है, इसलिए कोई question blank न छोड़ें।
-:::
-
-### CTET का universal answer lens (सार्वभौमिक उत्तर-दृष्टि)
-
-```text
-Child/learner की thinking → context → inclusion → evidence → next learning step
-```
-
-**Most appropriate** option सामान्यतः:
-
-- child-centred;
-- inclusive और dignified;
-- activity/inquiry-based;
-- reasoning और communication को value करने वाला;
-- formative evidence से teaching adapt करने वाला;
-- age-appropriate और conceptually meaningful;
-
-होता है।
-
-**सावधान रहें:** punishment, public comparison, fixed labels, rote-only teaching, one-method instruction, forced silence, unsafe activity और unsupported claim वाले options से।
-
----
-
-## 2. :icon-timer: Exam-Day Strategy (परीक्षा-दिन रणनीति)
-
-### तीन-pass method (तीन चरणों की विधि)
-
-1. **Pass 1 — Sure questions:** जो immediately clear हैं, पहले करें।
-2. **Pass 2 — Think questions:** Diagram, passage, calculation और pedagogy questions ध्यान से करें।
-3. **Pass 3 — Review:** Marked questions, NOT/EXCEPT, units, signs, scale और answer recording check करें।
-
-### Wording alerts (प्रश्न के संकेत शब्द)
-
-| Word | क्या करें |
-|---|---|
-| **NOT / incorrect** | चारों options check करें; जल्दी में सही statement न चुनें |
-| **Most appropriate** | Best pedagogical fit चुनें, केवल possible option नहीं |
-| **According to the passage/source** | बाहर का knowledge न जोड़ें |
-| **Why / best reason** | Mechanism या evidence दें; superficial effect नहीं |
-| **Except** | जो अलग है उसे पहचानें |
-| **Always / never / only** | Absolute wording को critically जाँचें |
-| **First step** | पहले diagnosis/observation/understanding, फिर intervention |
-
-### Last 10-minute check (अंतिम 10 मिनट)
-
-- [ ] कोई question unattempted तो नहीं?
-- [ ] NOT/EXCEPT वाले answers फिर देखे?
-- [ ] Maths में sign, unit और calculation check किए?
-- [ ] Science में condition, direction और safety check की?
-- [ ] SST में source, chronology, map scale और institution function check किए?
-- [ ] Language में passage evidence और grammar context check किया?
-- [ ] CDP में age group, inclusion और child dignity check की?
-
----
-
-# SHEET A — CDP (Paper I + Paper II)
-
-## 3. :icon-brain: CDP Core Concepts (मुख्य अवधारणाएँ)
 
 ```figure
-type: cdp-answer-ladder
-caption: CDP question में observe, understand, support और reassess का ladder याद रखें
+type: hindi-labels-ctet
+caption: कुछ हिंदी शब्दों को SVG पाठ के बजाय पूर्व-आकारित सदिश अक्षर-आकृतियों से बनाया गया है
 ```
 
-### Development, growth, maturation और learning
+### परीक्षा के पक्के तथ्य
 
-| Term | One-line meaning |
+| बिंदु | याद रखें |
 |---|---|
-| Growth (वृद्धि) | Height, weight और size में mainly quantitative change |
-| Development (विकास) | Physical, cognitive, social, emotional और language change |
-| Maturation (परिपक्वता) | Biological readiness का natural unfolding |
-| Learning (अधिगम) | Experience, interaction, practice और instruction से relatively lasting change |
-| Readiness (तत्परता) | Task के लिए prior knowledge, physical, cognitive और emotional preparation |
+| प्रत्येक पेपर | 150 बहुविकल्पीय प्रश्न, 150 अंक |
+| सही उत्तर | 1 अंक |
+| ऋणात्मक अंकन | नहीं |
+| समय | 2 घंटे 30 मिनट |
+| पेपर 1 | कक्षा 1–5 / प्राथमिक स्तर |
+| पेपर 2 | कक्षा 6–8 / उच्च-प्राथमिक स्तर |
+| भाषा 1 | शिक्षण-माध्यम से संबंधित दक्षता |
+| भाषा 2 | भाषा-तत्त्व, संचार और अवबोधन |
+| भाषा की शर्त | भाषा 2, भाषा 1 से अलग होनी चाहिए |
+| पेपर 2 का विकल्प | गणित एवं विज्ञान **या** सामाजिक अध्ययन/सामाजिक विज्ञान |
 
-### Development principles
+### पेपर 1 का ढाँचा
 
-- Development continuous हो सकता है, पर pace अलग होती है।
-- Development multidimensional और integrated है।
-- General to specific और simple to complex progression हो सकती है।
-- **Cephalocaudal:** head → toe।
-- **Proximodistal:** centre → outward।
-- Heredity और environment interact करते हैं।
-- Culture, language, family, school, health, peers और opportunity development को shape करते हैं।
-- Age norm rigid judgement नहीं है।
+| भाग | प्रश्न |
+|---|---:|
+| बाल विकास एवं शिक्षाशास्त्र | 30 |
+| गणित | 30 |
+| पर्यावरण अध्ययन | 30 |
+| भाषा 1 | 30 |
+| भाषा 2 | 30 |
+| **कुल** | **150** |
 
-### Socialisation और hidden curriculum
+### पेपर 2 का ढाँचा
 
-- Family, peers, teacher, community और media socialisation agents हैं।
-- Child language, norms, roles, values और expectations सीखता है।
-- Hidden curriculum seating, examples, praise, discipline और roles से indirect messages देती है।
-- “Boys handle apparatus, girls only record” gendered hidden curriculum का example है।
+| भाग | प्रश्न |
+|---|---:|
+| बाल विकास एवं शिक्षाशास्त्र | 30 |
+| गणित एवं विज्ञान **या** सामाजिक अध्ययन/सामाजिक विज्ञान | 60 |
+| भाषा 1 | 30 |
+| भाषा 2 | 30 |
+| **कुल** | **150** |
+
+::: formula 🎯 एक मिनट का नियम
+150 प्रश्न और 150 मिनट का औसत लगभग 1 मिनट प्रति प्रश्न है। कठिन प्रश्न पर अटकें नहीं; उसे चिह्नित करके आगे बढ़ें और अंत में लौटें। ऋणात्मक अंकन नहीं है, इसलिए कोई प्रश्न खाली न छोड़ें।
+:::
+
+### सही विकल्प चुनने की सार्वभौमिक दृष्टि
+
+```text
+शिक्षार्थी की सोच → संदर्भ → समावेशन → प्रमाण → अगला अधिगम-कदम
+```
+
+सबसे उपयुक्त विकल्प सामान्यतः वह होता है जो:
+
+- बाल-केंद्रित हो;
+- गरिमा और विविधता का सम्मान करे;
+- गतिविधि, खोज और तर्क को महत्व दे;
+- रटने के बजाय समझ और अनुप्रयोग बढ़ाए;
+- मूल्यांकन के प्रमाण से अगली शिक्षण-योजना बदले;
+- आयु और संदर्भ के अनुकूल हो।
+
+**सावधान:** दंड, सार्वजनिक तुलना, स्थायी लेबल, जबरन चुप्पी, एक ही विधि, असुरक्षित गतिविधि और बिना प्रमाण के दावे वाले विकल्पों से।
 
 ---
 
-## 4. :icon-book: Thinkers in One View (प्रमुख विचारक — एक नज़र में)
+## 2. परीक्षा-दिन रणनीति
 
-| Thinker/theory | Key word | Fast classroom clue |
+### तीन चरणों की विधि
+
+1. **पहला चरण:** तुरंत स्पष्ट और निश्चित प्रश्न पहले हल करें।
+2. **दूसरा चरण:** गणना, आरेख, गद्यांश और शिक्षणशास्त्र वाले प्रश्न ध्यान से करें।
+3. **तीसरा चरण:** चिह्नित प्रश्न, नहीं/को छोड़कर, इकाइयाँ, चिह्न, मापनी और उत्तर दर्ज करने की जाँच करें।
+
+### प्रश्न-भाषा के संकेत
+
+| संकेत | क्या करें |
+|---|---|
+| **नहीं / गलत** | चारों विकल्प पढ़ें; सही कथन देखकर रुकें नहीं |
+| **सबसे उपयुक्त** | केवल संभव नहीं, सर्वोत्तम शैक्षिक विकल्प चुनें |
+| **गद्यांश/स्रोत के अनुसार** | बाहर का अनुमान न जोड़ें |
+| **क्यों** | कारण या तंत्र खोजें; केवल परिणाम नहीं |
+| **को छोड़कर** | जो अलग है उसे पहचानें |
+| **हमेशा / कभी नहीं / केवल** | पूर्ण कथन को सावधानी से जाँचें |
+| **पहला कदम** | पहले अवलोकन/निदान, फिर सहायता/हस्तक्षेप |
+
+### अंतिम जाँच
+
+- [ ] कोई प्रश्न अनुत्तरित नहीं।
+- [ ] सभी नहीं/को छोड़कर वाले प्रश्न फिर पढ़े।
+- [ ] गणित में चिह्न, इकाई और गणना जाँची।
+- [ ] विज्ञान में स्थिति, दिशा, शर्त और सुरक्षा जाँची।
+- [ ] सामाजिक विज्ञान में स्रोत, कालक्रम, मानचित्र-मापनी और संस्था का कार्य जाँचा।
+- [ ] भाषा में गद्यांश का प्रमाण और संदर्भ जाँचा।
+- [ ] बाल विकास में आयु, संदर्भ, गरिमा और समावेशन जाँचा।
+
+---
+
+# पत्र A — बाल विकास एवं शिक्षाशास्त्र
+
+## 3. :icon-brain: मूल अवधारणाएँ
+
+### वृद्धि, विकास, परिपक्वता और अधिगम
+
+| शब्द | एक-पंक्ति अर्थ |
+|---|---|
+| वृद्धि | ऊँचाई, भार और आकार में मुख्यतः मात्रात्मक परिवर्तन |
+| विकास | शारीरिक, संज्ञानात्मक, सामाजिक, भावनात्मक और भाषिक परिवर्तन |
+| परिपक्वता | जैविक तत्परता का स्वाभाविक विकास |
+| अधिगम | अनुभव, अभ्यास, अंतःक्रिया और शिक्षण से अपेक्षाकृत स्थायी परिवर्तन |
+| तत्परता | किसी कार्य के लिए पूर्व-ज्ञान, शारीरिक, संज्ञानात्मक और भावनात्मक तैयारी |
+
+### विकास के सिद्धांत
+
+- विकास सतत हो सकता है, लेकिन गति सभी की समान नहीं होती।
+- विकास बहुआयामी और एक-दूसरे से जुड़ा हुआ है।
+- सामान्य से विशिष्ट और सरल से जटिल की ओर प्रगति हो सकती है।
+- **शीर्ष-पाद सिद्धांत:** सिर से पैर की ओर विकास।
+- **केंद्र-बाह्य सिद्धांत:** शरीर के केंद्र से बाहरी अंगों की ओर विकास।
+- वंशानुक्रम और वातावरण मिलकर विकास को आकार देते हैं।
+- परिवार, भाषा, संस्कृति, स्वास्थ्य, विद्यालय, सहपाठी और अवसर महत्वपूर्ण हैं।
+- आयु-मानक को कठोर निर्णय या स्थायी लेबल न बनाएं।
+
+### समाजीकरण और अप्रत्यक्ष पाठ्यचर्या
+
+- परिवार, शिक्षक, सहपाठी, समुदाय और मीडिया समाजीकरण के प्रमुख कारक हैं।
+- बच्चा भाषा, मूल्य, भूमिकाएँ, नियम और अपेक्षाएँ सीखता है।
+- बैठने की व्यवस्था, उदाहरण, प्रशंसा, अनुशासन और काम बाँटने से अप्रत्यक्ष संदेश जाते हैं।
+- “लड़के उपकरण चलाएँ, लड़कियाँ केवल लिखें”—लिंग-आधारित अप्रत्यक्ष पाठ्यचर्या है।
+
+---
+
+## 4. प्रमुख विचारक — एक नज़र में
+
+| विचारक | मुख्य विचार | प्रश्न में संकेत |
 |---|---|---|
-| **Piaget** | Schema, assimilation, accommodation, stages | Active child, cognitive structures, concrete → abstract |
-| **Vygotsky** | ZPD, scaffolding, MKO, language | Social interaction, assisted performance, gradual independence |
-| **Kohlberg** | Moral reasoning levels | Punishment/reward → approval/rules → rights/justice |
-| **Bruner** | Enactive, iconic, symbolic; spiral curriculum | Discover, represent, revisit with increasing complexity |
-| **Thorndike** | Trial and error, Law of Effect | Consequence and practice strengthen connections |
-| **Pavlov** | Classical conditioning | Stimulus association |
-| **Skinner** | Operant conditioning, reinforcement | Consequence influences behaviour |
-| **Bandura** | Observation, modelling, self-efficacy | Learner observes and learns from models |
-| **Constructivism** | Active meaning-making | Prior ideas + experience + discussion + evidence |
+| पियाजे | मानसिक ढाँचा, आत्मसातीकरण, समायोजन, संज्ञानात्मक चरण | सक्रिय बच्चा और संज्ञानात्मक विकास |
+| वायगोत्स्की | निकटस्थ विकास क्षेत्र, सहारा, भाषा और सामाजिक अंतःक्रिया | सहायता से कार्य, सहपाठी और क्रमिक स्वतंत्रता |
+| कोहलबर्ग | नैतिक तर्क के स्तर | दंड/पुरस्कार से न्याय/अधिकार तक |
+| ब्रूनर | क्रियात्मक, चित्रात्मक, प्रतीकात्मक; सर्पिल पाठ्यचर्या | खोज और बढ़ती जटिलता के साथ पुनरावृत्ति |
+| थॉर्नडाइक | प्रयास एवं भूल, प्रभाव का नियम | अभ्यास और परिणाम |
+| पावलॉव | शास्त्रीय अनुबंधन | उद्दीपक का संबंध |
+| स्किनर | क्रियाप्रसूत अनुबंधन, पुनर्बलन | परिणाम से व्यवहार की संभावना |
+| बंडूरा | अनुकरण, आदर्श और स्व-प्रभावकारिता | देखकर सीखना और आत्मविश्वास |
+| रचनावाद | पूर्व-ज्ञान और अनुभव से अर्थ-निर्माण | बच्चा सक्रिय अर्थ-निर्माता |
 
-### Piaget keywords
+### पियाजे के चरण
 
-- **Schema:** mental framework।
-- **Assimilation:** नई information को existing schema में fit करना।
-- **Accommodation:** नई information के कारण schema बदलना।
-- **Equilibration:** understanding में balance बनाना।
-- **Egocentrism:** दूसरे perspective को समझने में difficulty; selfishness नहीं।
-- **Conservation:** form बदलने पर quantity same रह सकती है।
-- Stages broad guides हैं, rigid boxes नहीं।
-
-| Stage | Approx. age | Keyword |
+| चरण | लगभग आयु | मुख्य पहचान |
 |---|---:|---|
-| Sensorimotor | 0–2 | Action and senses |
-| Preoperational | 2–7 | Symbolic thought, egocentrism |
-| Concrete operational | 7–11 | Conservation, classification, concrete logic |
-| Formal operational | 11+ | Abstract, hypothetical, systematic reasoning |
+| संवेदी-गामक | 0–2 | इंद्रिय और क्रिया; वस्तु-स्थायित्व |
+| पूर्व-संक्रियात्मक | 2–7 | प्रतीकात्मक सोच, कल्पना, दृष्टिकोण की कठिनाई |
+| मूर्त-संक्रियात्मक | 7–11 | संरक्षण, वर्गीकरण, क्रमबद्धता, मूर्त तर्क |
+| औपचारिक-संक्रियात्मक | 11+ | अमूर्त, काल्पनिक और व्यवस्थित तर्क की बढ़ती संभावना |
 
-### Vygotsky keywords
+- **मानसिक ढाँचा:** ज्ञान का मानसिक प्रारूप।
+- **आत्मसातीकरण:** नई जानकारी को पुराने ढाँचे में मिलाना।
+- **समायोजन:** नई जानकारी के कारण ढाँचे में बदलाव।
+- **संतुलन:** पुराने और नए अनुभवों के बीच मानसिक संतुलन।
+- चरण अनुमानित हैं; हर बच्चा हर कार्य में एक ही स्तर नहीं दिखाता।
 
-- **ZPD:** independent performance और assisted performance के बीच का क्षेत्र।
-- **Scaffolding:** temporary prompt, hint, model, diagram, checklist या peer support।
-- **MKO:** teacher, parent, peer या expert।
-- Competence बढ़ने पर scaffold fade करें।
-- Private speech planning और self-regulation support कर सकती है।
+### वायगोत्स्की के संकेत
 
-### Kohlberg levels
+- **निकटस्थ विकास क्षेत्र:** बच्चा जो अकेले कर सकता है और उचित सहायता से कर सकता है, उनके बीच का क्षेत्र।
+- **सहारा:** संकेत, नमूना, आरेख, जाँच-सूची, प्रश्न या सहपाठी सहायता।
+- **अधिक जानकार व्यक्ति:** शिक्षक, अभिभावक, सहपाठी या विशेषज्ञ।
+- क्षमता बढ़ने पर सहारा धीरे-धीरे कम करें।
+- स्वयं से बोलना योजना और आत्म-नियमन में सहायता कर सकता है।
 
-| Level | Reasoning |
-|---|---|
-| Pre-conventional | Punishment/reward और personal consequence |
-| Conventional | Approval, rules, social order, good-child image |
-| Post-conventional | Rights, justice और ethical principles |
+### कोहलबर्ग के नैतिक स्तर
 
-::: trap ⚠️ Theory trap
-Theory का नाम देखकर answer न चुनें। Mechanism + learner age + classroom context + teacher response को साथ पढ़ें।
+- पूर्व-परंपरागत: दंड, पुरस्कार और व्यक्तिगत परिणाम।
+- परंपरागत: स्वीकृति, नियम, अच्छा बच्चा और सामाजिक व्यवस्था।
+- उत्तर-परंपरागत: अधिकार, न्याय और नैतिक सिद्धांत।
+
+::: trap ⚠️ सिद्धांत-जाल
+विचारक का नाम देखकर विकल्प न चुनें। कार्यविधि, आयु, संदर्भ और शिक्षक की प्रतिक्रिया—चारों पढ़ें।
 :::
 
 ---
 
-## 5. :icon-target: Paper I CDP vs Paper II CDP (त्वरित अन्तर)
+## 5. पेपर 1 और पेपर 2 बाल विकास में अन्तर
 
-| Paper I | Paper II |
+| पेपर 1 | पेपर 2 |
 |---|---|
-| लगभग 6–11 years | लगभग 11–14 years |
-| Primary Stage | Elementary Stage |
-| Play, foundational learning, concrete readiness | Adolescence, identity, peer influence, autonomy |
-| Basic language/concept support | Subject language, abstract/hypothetical reasoning |
-| Guided participation | Scaffold + increasing independence |
-| Early socialisation | Self-concept, self-esteem, peer world |
+| लगभग 6–11 वर्ष, प्राथमिक स्तर | लगभग 11–14 वर्ष, उच्च-प्राथमिक स्तर |
+| खेल, आधारभूत भाषा और मूर्त तत्परता | किशोरावस्था, पहचान, सहपाठी और स्वायत्तता |
+| प्रारम्भिक सामाजिक विकास | आत्म-अवधारणा, आत्म-सम्मान और सामाजिक दबाव |
+| ठोस उदाहरणों पर अधिक सहारा | अमूर्त/काल्पनिक तर्क की बढ़ती संभावना |
+| मार्गदर्शित सहभागिता | सहारा के साथ बढ़ती स्वतंत्रता |
 
-**Important:** Broad theories दोनों papers में हैं; application age और classroom context के अनुसार बदलती है।
+### पेपर 2 किशोरावस्था दृष्टि
 
-### Paper II adolescent lens
-
-- Adolescence को “problem age” न मानें।
-- Physical, cognitive, emotional और social changes में variation होती है।
-- Identity, belonging, body image, peer acceptance और self-esteem participation को influence कर सकते हैं।
-- Learner को privacy, dignity, voice और age-appropriate autonomy दें।
-- 11–14 years का अर्थ यह नहीं कि हर learner हर task में fully abstract या independent होगा।
+- किशोरावस्था को “समस्या आयु” न मानें।
+- शारीरिक, संज्ञानात्मक, भावनात्मक और सामाजिक गति अलग हो सकती है।
+- पहचान, अपनापन, शरीर-छवि, सहपाठी-स्वीकृति और आत्म-सम्मान सहभागिता को प्रभावित कर सकते हैं।
+- निजता, गरिमा, आवाज़ और आयु-उपयुक्त विकल्प दें।
+- 11–14 वर्ष का अर्थ यह नहीं कि हर शिक्षार्थी हर कार्य में पूर्णतः स्वतंत्र या अमूर्त विचारक होगा।
 
 ---
 
-## 6. :icon-check: Inclusion, Motivation और Assessment — Flash Card
+## 6. समावेशन, प्रेरणा और मूल्यांकन
 
-### Inclusion (समावेशन)
+### समावेशन
 
-- Inclusion = access + participation + support + dignity।
-- Same seat/worksheet बिना support inclusion नहीं।
-- **Accommodation:** access/response mode बदलना; goal सामान्यतः same।
-- **Modification:** goal/content/level बदलना।
-- Dyslexia = reading; dysgraphia = writing; dyscalculia = mathematics।
-- Gifted learner को enrichment, depth और open challenge दें; extra copying नहीं।
-- Home language resource है, deficit नहीं।
+- समावेशन = पहुँच + सहभागिता + सहायता + गरिमा।
+- एक ही सीट या कार्यपत्रक देना पर्याप्त नहीं।
+- **अनुकूल व्यवस्था:** पहुँच या उत्तर देने का तरीका बदलना; लक्ष्य सामान्यतः वही।
+- **पाठ्यक्रम संशोधन:** लक्ष्य, विषय-वस्तु या अपेक्षित स्तर बदलना।
+- पठन-कठिनाई, लेखन-कठिनाई और गणितीय कठिनाई को आलस्य न मानें।
+- प्रतिभाशाली शिक्षार्थी को गहराई, शोध और खुली चुनौती दें।
+- घरेलू भाषा सीखने का संसाधन है।
 
-### Motivation (अभिप्रेरणा)
+### प्रेरणा
 
-- Intrinsic = interest/mastery के लिए।
-- Extrinsic = reward/grade/punishment से जुड़ी।
-- Self-efficacy = “मैं यह task कर सकता हूँ” belief।
-- Specific strategy feedback self-efficacy बढ़ाती है।
-- Public comparison और humiliation anxiety बढ़ा सकते हैं।
+- आंतरिक: रुचि और दक्षता के लिए सीखना।
+- बाह्य: पुरस्कार, अंक या दंड से जुड़ी प्रेरणा।
+- स्व-प्रभावकारिता: “मैं यह कार्य कर सकता हूँ” का विश्वास।
+- रणनीति और प्रगति पर विशिष्ट प्रतिक्रिया दें।
+- सार्वजनिक तुलना और अपमान से चिंता बढ़ सकती है।
 
-### Assessment (मूल्यांकन)
+### मूल्यांकन
 
-| Type | पहचान |
+| प्रकार | पहचान |
 |---|---|
-| Formative / for learning | During learning; feedback से next teaching बदलती है |
-| Summative / of learning | End पर achievement report |
-| Diagnostic | Specific misconception/skill/language gap identify |
-| School-Based Assessment | School/classroom context में planned evidence |
-| CCE | Continuous + comprehensive evidence |
+| अधिगम हेतु | सीखते समय प्रमाण; अगली शिक्षण-योजना बदलती है |
+| अधिगम का | इकाई/सत्र के अंत में उपलब्धि का सारांश |
+| नैदानिक | विशेष भूल, धारणा या कौशल-अंतर पहचानना |
+| विद्यालय-आधारित | विद्यालय/कक्षा में योजनाबद्ध प्रमाण-संग्रह |
+| सतत एवं व्यापक | समय के साथ अनेक पक्षों से विकास देखना |
 
-- **Validity:** intended skill measure करना।
-- **Reliability:** scoring/result consistency।
-- Observation, interview, checklist, rubric, portfolio और exit ticket useful tools हैं।
+- **वैधता:** वही कौशल मापना जिसका उद्देश्य है।
+- **विश्वसनीयता:** समान प्रदर्शन को लगातार समान मानदंड से अंक देना।
+- उपयोगी साधन: अवलोकन, बातचीत, जाँच-सूची, मापदंड-सारणी, कार्य-संग्रह और निकास-पर्ची।
 
-### CDP teacher-response ladder
+### बाल विकास उत्तर-सीढ़ी
 
 ```text
-Observe → ask “कैसे/क्यों?” → understand context → diagnose
-→ scaffold/support → allow reattempt → reassess
+देखें → “कैसे/क्यों?” पूछें → संदर्भ समझें → निदान करें
+→ उपयुक्त सहारा दें → दोबारा प्रयास → पुनर्मूल्यांकन
 ```
 
 ---
 
-# SHEET B — Paper I Mathematics (कक्षा I–V स्तर)
+# पत्र B — पेपर 1 गणित
 
-## 7. :icon-calc: Paper I Maths Formula and Fact Card
+## 7. :icon-calc: सूत्र और तथ्य
 
-```figure
-type: number-line-ctet
-caption: number line पर right side value बड़ी होती है; representation से number sense मजबूत होता है
-```
+### संख्या और संक्रियाएँ
 
-### Numbers and operations
+- अंकित मान = अंक स्वयं का मान।
+- स्थानीय मान = स्थान के अनुसार मान।
+- 1 न अभाज्य है, न भाज्य।
+- 2 एकमात्र सम अभाज्य संख्या है।
+- गुणनखंड ठीक-ठीक भाग देता है; गुणज गुणा से बनता है।
+- 2, 5, 10 की विभाज्यता अंतिम अंक से देखें।
+- 3 और 9 की विभाज्यता अंकों के योग से देखें।
+- उत्तरवर्ती = 1 जोड़ना; पूर्ववर्ती = 1 घटाना।
+- शेषफल भाजक से छोटा होता है।
+- गुणा = समान समूह/सरणी/बार-बार जोड़ना।
+- भाग = समान बाँटना/समूह बनाना।
 
-- Face value = digit itself।
-- Place value = position-based value।
-- 1 न prime है, न composite।
-- 2 only even prime number है।
-- Factor exactly divide करता है; multiple multiplication से बनता है।
-- 2, 5, 10: last digit देखें।
-- 3, 9: digit sum देखें।
-- Successor = +1; predecessor = −1।
-- Remainder हमेशा divisor से छोटा होता है।
-- Multiplication = equal groups/arrays/repeated addition।
-- Division = equal sharing/grouping/inverse of multiplication।
+### भिन्न और दशमलव
 
-### Fractions and decimals
+- अंश = चुने गए भाग।
+- हर = कुल समान भाग।
+- भिन्नों की तुलना में समान आकार का पूर्ण आवश्यक है।
+- समान हर में बड़ा अंश → बड़ी भिन्न।
+- `3/4 = 6/8` समतुल्य भिन्न हैं।
+- असमान हर में समान हर बनाएं।
+- `0.7 = 0.70`; दशमलव स्थानीय मान का विस्तार है।
 
-- Numerator = selected parts।
-- Denominator = total equal parts।
-- Equal whole के बिना fraction comparison गलत हो सकती है।
-- Same denominator: larger numerator → larger fraction।
-- `3/4 = 6/8` equivalent fractions हैं।
-- Unlike fractions में common denominator बनाएँ।
-- `0.7 = 0.70`; decimal place value extension है।
-- Fraction add करते समय numerator और denominator दोनों को अलग-अलग add करना सामान्य misconception है।
+### ज्यामिति और मापन
 
-### Geometry and measurement
-
-| Concept | Quick fact/formula |
+| अवधारणा | तथ्य/सूत्र |
 |---|---|
-| Triangle | 3 sides, 3 vertices |
-| Quadrilateral | 4 sides; angle sum basic level पर 360° |
-| Square | 4 equal sides, 4 right angles |
-| Rectangle | Opposite sides equal, 4 right angles |
-| Cube | 6 faces, 12 edges, 8 vertices |
-| Perimeter | Boundary length |
-| Area | Covered surface |
-| Rectangle perimeter | `2(l+b)` |
-| Rectangle area | `l×b` |
-| `1 m` | `100 cm` |
-| `1 kg` | `1000 g` |
-| `1 L` | `1000 mL` |
-| `1 hour` | `60 minutes` |
-| `₹1` | `100 paise` |
+| त्रिभुज | 3 भुजाएँ, 3 शीर्ष |
+| चतुर्भुज | 4 भुजाएँ; कोणों का योग 360° |
+| वर्ग | 4 बराबर भुजाएँ, 4 समकोण |
+| आयत | सामने की भुजाएँ बराबर, 4 समकोण |
+| घन | 6 फलक, 12 किनारे, 8 शीर्ष |
+| परिमाप | सीमा की कुल लंबाई |
+| क्षेत्रफल | ढके हुए भाग का माप |
+| आयत का परिमाप | `2(लंबाई + चौड़ाई)` |
+| आयत का क्षेत्रफल | `लंबाई × चौड़ाई` |
+| 1 मीटर | 100 सेंटीमीटर |
+| 1 किलोग्राम | 1000 ग्राम |
+| 1 लीटर | 1000 मिलीलीटर |
+| 1 घंटा | 60 मिनट |
+| ₹1 | 100 पैसे |
 
-### Data and patterns
+### गणित शिक्षण
 
-- Pattern में rule पहचानें, केवल next term नहीं।
-- Bar graph में title, category, scale और labels पढ़ें।
-- Pictograph में key/legend check करें।
-- Community maths: market, time, money, cooking, travel, measure।
-
-### Paper I Maths pedagogy
-
-- Concrete → pictorial → abstract।
-- Child की alternative strategy को सुनें और compare कराएँ।
-- Error = current thinking का evidence।
-- Maths केवल formula नहीं; reasoning, representation, estimation और communication भी है।
-- “तुमने कैसे किया?” best diagnostic prompt है।
-- Same concept के multiple entry points दें।
-- Formula याद है पर apply नहीं करता तो context और representation बदलें।
-
-::: remember ✔ Maths pedagogy clue
-Only one method, speed ranking, public punishment और rote formula वाले options से बचें। Concept + child strategy + representation + feedback चुनें।
-:::
+- ठोस वस्तु → चित्र/आरेख → प्रतीक/सूत्र।
+- बच्चे की वैकल्पिक विधि सुनें और तुलना कराएँ।
+- त्रुटि को वर्तमान सोच का प्रमाण मानें।
+- गणित = तर्क + निरूपण + अनुमान + संचार + समस्या-समाधान।
+- “तुमने कैसे किया?” सबसे उपयोगी नैदानिक प्रश्न है।
+- एक ही विधि, गति-प्रतियोगिता और सार्वजनिक अपमान से बचें।
 
 ---
 
-# SHEET C — Paper I EVS (पर्यावरण अध्ययन)
+# पत्र C — पेपर 1 पर्यावरण अध्ययन
 
-## 8. :icon-tree: EVS Theme Card (मुख्य themes)
+## 8. :icon-tree: मुख्य विषय और दृष्टि
 
 ```figure
 type: integrated-evs
-caption: EVS में natural, social, cultural, language और mathematical perspectives एक theme में connect हो सकते हैं
+caption: पर्यावरण अध्ययन में प्राकृतिक, सामाजिक, सांस्कृतिक, भाषिक और गणितीय पक्ष जुड़ते हैं
 ```
 
-### Six core themes
-
-| Theme | Fast revision lens |
+| विषय | त्वरित पुनरावृत्ति |
 |---|---|
-| Family and Friends | Relationships, work, play, animals, plants, diversity |
-| Food | Sources, habits, nutrients, cooking, health, culture |
-| Shelter | House, local materials, climate, region, needs |
-| Water | Sources, uses, cycle, purification, conservation |
-| Travel | Routes, directions, transport, people, places, movement |
-| Things We Make and Do | Materials, tools, occupations, skills, local work |
+| परिवार और मित्र | संबंध, काम, खेल, पशु, पौधे और विविधता |
+| भोजन | स्रोत, आदत, पोषक तत्त्व, पकाना और स्वास्थ्य |
+| आश्रय | घर, स्थानीय पदार्थ, जलवायु और आवश्यकता |
+| जल | स्रोत, उपयोग, चक्र, शुद्धिकरण और संरक्षण |
+| यात्रा | मार्ग, दिशा, परिवहन, लोग और स्थान |
+| हम क्या बनाते और करते हैं | पदार्थ, औजार, व्यवसाय, कौशल और स्थानीय काम |
 
-### EVS one-minute facts
+### पर्यावरण अध्ययन के पक्के तथ्य
 
-- EVS केवल Science या केवल Social Science नहीं; integrated subject है।
-- Immediate environment से start करें।
-- Families diverse होती हैं; one family model को universal न बनाएं।
-- Household care work भी work है।
-- Food habits culture, climate, access और availability से influence हो सकती हैं।
-- Balanced diet = varied nutrients suitable quantity में।
-- Water cycle: evaporation → condensation → precipitation → collection।
-- Filtration visible particles हटा सकती है; potable water की guarantee नहीं।
-- Shelter को climate, material, livelihood और local needs से connect करें।
-- Travel map में route, direction, landmark और distance देखें।
-- Object को material → maker → process → use → reuse/recycle से पढ़ें।
+- पर्यावरण अध्ययन केवल विज्ञान या केवल सामाजिक विज्ञान नहीं है।
+- बच्चे के निकट वातावरण से शुरुआत करें।
+- परिवारों के ढाँचे अलग हो सकते हैं; एक ढाँचे को आदर्श न बनाएं।
+- घर का देखभाल-कार्य भी काम है।
+- भोजन की आदतें संस्कृति, जलवायु और उपलब्धता से प्रभावित हो सकती हैं।
+- संतुलित आहार में अलग-अलग पोषक तत्त्व उपयुक्त मात्रा में होते हैं।
+- जल-चक्र: वाष्पीकरण → संघनन → वर्षण → संग्रह।
+- छानना और कीटाणु-नाशन एक नहीं हैं।
+- स्वच्छ दिखाई देने वाला जल आवश्यक नहीं कि पीने योग्य हो।
+- घर को जलवायु, पदार्थ, काम और स्थानीय जरूरत से जोड़ें।
+- वस्तु को पदार्थ → बनाने वाला → प्रक्रिया → उपयोग → पुनःउपयोग से पढ़ें।
 
-### EVS pedagogy flash card
+### पर्यावरण अध्ययन शिक्षण-चक्र
 
 ```text
-Child experience → observation → question → activity → discussion
-→ explanation → reflection → responsible action
+बच्चे का अनुभव → अवलोकन → प्रश्न → गतिविधि → चर्चा
+→ व्याख्या → चिंतन → जिम्मेदार कार्य
 ```
 
-- Observation और inference अलग रखें।
-- Activity का clear learning purpose हो।
-- Field visit = purpose + safety + record + post-visit analysis।
-- Project = question + evidence + communication + reflection; copied homework नहीं।
-- Local knowledge को respect करें, evidence से examine भी करें।
-- Assessment में drawing, model, oral explanation, notebook, observation और project evidence लें।
-
-::: trap ⚠️ EVS trap
-Teacher facts dictate करे, child experience ignore करे, activity केवल decoration हो या EVS को isolated Biology बना दे—ऐसे options गलत दिशा दिखाते हैं।
-:::
+- गतिविधि का स्पष्ट सीखने का उद्देश्य हो।
+- क्षेत्र-भ्रमण में उद्देश्य, सुरक्षा, अभिलेख और बाद की चर्चा हो।
+- परियोजना = प्रश्न + प्रमाण + संचार + चिंतन; नकल किया हुआ गृहकार्य नहीं।
+- स्थानीय ज्ञान का सम्मान करें और प्रमाण के साथ जाँचें।
+- चित्र, मॉडल, मौखिक व्याख्या, कार्य-पुस्तिका और परियोजना—सभी प्रमाण हो सकते हैं।
 
 ---
 
-# SHEET D — Language I Hindi (हिंदी भाषा)
+# पत्र D — भाषा 1 हिंदी
 
-## 9. :icon-book: Hindi Comprehension और Grammar Card
+## 9. :icon-book: अवबोधन और व्याकरण
 
 ```figure
 type: language-comprehension-ladder
-caption: passage understanding word clues और details से inference और evaluation तक बढ़ती है
+caption: अवबोधन शब्द-संकेत और विवरण से निष्कर्ष और मूल्यांकन तक बढ़ता है
 ```
 
-### Comprehension method
+### गद्यांश हल करने की विधि
 
 ```text
-Topic/tone → main idea → details → clues → inference → answer evidence
+विषय/भाव → मुख्य विचार → विवरण → संकेत → निष्कर्ष → प्रमाण सहित उत्तर
 ```
 
-- Main idea पूरे passage का central thought।
-- Detail directly stated information।
-- Inference = clue + logical conclusion।
-- Title central, concise और पूरे passage को cover करे।
-- Tone writer का attitude/भाव।
-- शब्दार्थ context से चुनें।
-- कविता में speaker, भाव, imagery, repetition और message देखें।
-- Passage के बाहर की assumption न जोड़ें।
+- मुख्य विचार = पूरे गद्यांश का केंद्रीय भाव।
+- तथ्य = गद्यांश में सीधे दिया गया कथन।
+- निष्कर्ष = संकेत और तर्क से निकली बात।
+- अच्छा शीर्षक पूरे गद्यांश को समेटता है।
+- शब्दार्थ वाक्य और संदर्भ से निकालें।
+- कविता में वक्ता, भाव, बिंब, दोहराव और संदेश देखें।
+- गद्यांश के बाहर की जानकारी या निजी राय न जोड़ें।
 
-### Hindi grammar quick table
+### हिंदी व्याकरण
 
-| Topic | Flash rule/example |
+| विषय | त्वरित याद |
 |---|---|
 | संज्ञा | व्यक्ति, स्थान, वस्तु, भाव आदि का नाम |
-| सर्वनाम | संज्ञा के स्थान पर — वह, यह, मैं |
-| विशेषण | संज्ञा/सर्वनाम की विशेषता — सुंदर, तीन |
-| क्रिया | कार्य/अवस्था — पढ़ना, जाना, है |
-| क्रिया-विशेषण | क्रिया की रीति/समय/स्थान/मात्रा — धीरे, आज |
-| लिंग | पुल्लिंग / स्त्रीलिंग |
-| वचन | एकवचन / बहुवचन |
-| काल | वर्तमान / भूत / भविष्य |
-| कारक | शब्दों का relation — ने, को, से, में |
-| पर्यायवाची | समान/निकट अर्थ |
+| सर्वनाम | संज्ञा के स्थान पर आने वाला शब्द |
+| विशेषण | संज्ञा/सर्वनाम की विशेषता बताने वाला शब्द |
+| क्रिया | काम, अवस्था या घटना बताने वाला शब्द |
+| क्रिया-विशेषण | क्रिया की रीति, समय, स्थान या मात्रा बताने वाला शब्द |
+| लिंग | पुल्लिंग और स्त्रीलिंग |
+| वचन | एकवचन और बहुवचन |
+| काल | वर्तमान, भूत और भविष्य |
+| कारक | शब्दों के बीच संबंध; ने, को, से, में आदि |
+| पर्यायवाची | समान या निकट अर्थ |
 | विलोम | विपरीत अर्थ |
-| मुहावरा | Contextual/non-literal meaning |
-| उपसर्ग | Word beginning — अ+योग्य |
-| प्रत्यय | Word ending — सुंदर+ता |
+| मुहावरा | संदर्भानुसार विशेष/गैर-शाब्दिक अर्थ |
+| उपसर्ग | शब्द के आरम्भ में लगने वाला अंश |
+| प्रत्यय | शब्द के अंत में लगने वाला अंश |
 
-### Language I pedagogy
+### भाषा शिक्षण
 
-- Language thought, identity और communication का tool है।
-- Acquisition meaningful exposure और interaction से होती है।
-- Home language को bridge/resource मानें।
-- LSRW integrated रूप से develop करें।
-- Grammar को context और communication में सिखाएँ।
-- Language error developing rule का evidence हो सकती है।
-- Reading = decoding + comprehension; loud reading alone enough नहीं।
-- Writing process: plan → draft → revise → edit → share।
-- Remedial support diagnosis के बाद दें।
+- भाषा सोच, पहचान और संचार का साधन है।
+- भाषा-अर्जन अर्थपूर्ण संपर्क से होता है।
+- घरेलू भाषा को सेतु बनाएं।
+- श्रवण, बोलना, पठन और लेखन को साथ विकसित करें।
+- व्याकरण को वाक्य और संचार के संदर्भ में सिखाएँ।
+- त्रुटि विकसित हो रहे भाषिक नियम का प्रमाण हो सकती है।
+- पठन = अक्षर-पहचान + अर्थ-निर्माण; केवल ऊँची आवाज़ में पढ़ना पर्याप्त नहीं।
+- लेखन-चक्र: योजना → प्रारूप → संशोधन → संपादन → साझा करना।
 
 ---
 
-# SHEET E — Language II English (द्वितीय भाषा अंग्रेज़ी)
+# पत्र E — भाषा 2 अंग्रेज़ी
 
-## 10. :icon-book: English Quick Card
+## 10. अंग्रेज़ी भाषा का त्वरित पत्र
 
 ```figure
 type: language-lsrw-cycle
-caption: listening, speaking, reading और writing connected practice से develop होते हैं
+caption: श्रवण, बोलना, पठन और लेखन जुड़े हुए अभ्यास से विकसित होते हैं
 ```
 
-### Comprehension
+> अंग्रेज़ी भाषा के उदाहरण और वाक्य अंग्रेज़ी में रहेंगे, क्योंकि उन्हीं का अर्थ और प्रयोग पूछा जाता है। व्याख्या हिंदी में पढ़ें।
 
-- First read: topic, purpose, tone।
-- Second read: keywords, contrast, cause-effect, repeated ideas।
-- **Skimming:** gist/main idea।
-- **Scanning:** specific fact/name/date।
-- **Inference:** text clue + reasoning।
-- Vocabulary: context + prefix/suffix + sentence fit।
-- NOT/EXCEPT carefully read करें।
+### अवबोधन
 
-### Grammar flash rules
+- पहली बार: विषय, उद्देश्य और भाव समझें।
+- दूसरी बार: मुख्य शब्द, विरोध, कारण-परिणाम और दोहराए विचार देखें।
+- सार-पठन = मुख्य विचार के लिए।
+- खोज-पठन = नाम, तिथि या विशेष तथ्य के लिए।
+- निष्कर्ष = पाठ-संकेत + तर्क।
+- शब्दार्थ = वाक्य-संदर्भ + आसपास के संकेत।
+- नहीं/को छोड़कर वाले प्रश्न सावधानी से पढ़ें।
 
-| Topic | Quick reminder |
+### अंग्रेज़ी व्याकरण की त्वरित याद
+
+| विषय | नियम/उदाहरण |
 |---|---|
-| Subject–verb | He plays; They play; Each child has |
-| Article | a/an sound पर; the particular/known noun |
-| Tense | now → continuous; yesterday → past; since/for → perfect context |
-| Preposition | at exact time; on day/surface; in month/year/inside |
-| Conjunction | and addition; but contrast; because reason; if condition |
-| Modal | can ability; may possibility/permission; should advice; must necessity |
-| Voice | Active doer focus; passive receiver focus |
-| Prefix/suffix | beginning/end of word |
-| Phrasal verb | look after = take care of; give up = stop |
+| कर्ता-क्रिया मेल | He plays; They play; Each child has |
+| उपपद | a/an उच्चारण पर; the निश्चित वस्तु पर |
+| काल | now से चल रहा कार्य; yesterday से भूतकाल |
+| संबंधबोधक | at समय-बिंदु; on दिन/सतह; in महीना/अंदर |
+| संयोजक | and जोड़; but विरोध; because कारण; if शर्त |
+| सहायक क्रिया | can क्षमता; may संभावना/अनुमति; should सलाह; must आवश्यकता |
+| वाच्य | कर्तृवाच्य में करने वाला; कर्मवाच्य में प्राप्तकर्ता प्रमुख |
+| उपसर्ग/प्रत्यय | शब्द के आरम्भ/अंत में जुड़ने वाले अंश |
+| वाक्यांशीय क्रिया | look after = देखभाल करना; give up = छोड़ देना |
 
-### Language II pedagogy
+### भाषा 2 का शिक्षण
 
-- Acquisition और learning दोनों useful हैं।
-- Comprehensible input + meaningful interaction दें।
-- Home language और multilingual resources को value करें।
-- Speaking के लिए safe pair/group practice दें।
-- Accent को intelligence का measure न बनाएं; intelligibility पर focus करें।
-- Phonics sound–symbol relation सिखाती है, पूरी comprehension नहीं।
-- Grammar form, meaning और use से connect करें।
-- Recast = correct form का natural model।
-- Dyslexia के लिए multisensory reading, phonics, accessible text और extra time।
-- Writing में ideas और organisation को spelling/handwriting के साथ assess करें।
+- समझने योग्य भाषा-इनपुट और अर्थपूर्ण बातचीत दें।
+- घरेलू भाषा को नई भाषा सीखने का सेतु बनाएं।
+- बोलने के लिए जोड़ी और छोटे समूह का सुरक्षित अभ्यास दें।
+- उच्चारण की विविधता को बुद्धि का माप न बनाएं।
+- ध्वनि-पद्धति अक्षर और ध्वनि का संबंध सिखाती है; यह पूरी अवबोधन नहीं है।
+- व्याकरण के रूप, अर्थ और प्रयोग को जोड़ें।
+- लेखन में विचार, क्रम, भाषा और संशोधन देखें; केवल लिखावट नहीं।
+- पढ़ने की कठिनाई के लिए ध्वनि-अभ्यास, बहु-संवेदी सामग्री और अतिरिक्त समय दें।
 
 ---
 
-# SHEET F — Paper II CDP (Elementary Stage)
+# पत्र F — पेपर 2 बाल विकास एवं शिक्षाशास्त्र
 
-## 11. :icon-brain: Paper II CDP Flash Sheet
+## 11. :icon-brain: उच्च-प्राथमिक शिक्षार्थी की दृष्टि
 
 ```figure
 type: cdp-paper2-dashboard
-caption: Paper II CDP में 11–14 years learner, adolescence, reasoning, identity और supported autonomy पर focus है
+caption: पेपर 2 में 11–14 वर्ष, किशोरावस्था, पहचान, तर्क और सहारे के साथ स्वायत्तता महत्वपूर्ण है
 ```
 
-### Paper II-specific keywords
+### पेपर 2 के विशेष शब्द
 
-- Age: लगभग 11–14 years।
-- Stage: Classes VI–VIII।
-- Adolescence: transition, variation, identity और peer world।
-- Self-concept/self-esteem: feedback, success, relationships, culture और identity से shape।
-- Peer influence: belonging/collaboration भी, pressure/exclusion भी।
-- Cognitive growth: abstract, hypothetical, systematic reasoning की बढ़ती possibility।
-- Subject language: variable, evidence, hypothesis, source, democracy, ratio आदि।
-- Autonomy: choice और responsibility के अवसर, लेकिन scaffold अभी भी जरूरी।
+- लगभग 11–14 वर्ष और कक्षा 6–8।
+- किशोरावस्था = परिवर्तन, विविधता, पहचान और सहपाठी-संसार।
+- आत्म-अवधारणा/आत्म-सम्मान = प्रतिक्रिया, सफलता, संबंध, संस्कृति और पहचान से बनते हैं।
+- सहपाठी प्रभाव सकारात्मक भी हो सकता है और नकारात्मक भी।
+- अमूर्त, काल्पनिक और व्यवस्थित तर्क की संभावना बढ़ सकती है।
+- विषय-भाषा: चर, प्रमाण, परिकल्पना, स्रोत, अनुपात, संविधान आदि।
+- विकल्प और जिम्मेदारी दें, पर उचित सहारा समाप्त न करें।
 
-### Paper II best response
+### पेपर 2 में सही शिक्षक-प्रतिक्रिया
 
-- Adolescent को childish या fully mature adult—दोनों extreme रूपों में न देखें।
-- Privacy और dignity protect करें।
-- Peer culture को structured learning resource बनाएं।
-- Abstract task में representation और scaffold दें।
-- Learner “मैं weak हूँ” कहे तो growth feedback और achievable steps दें।
-- Oral reasoning strong और written score low हो तो multiple evidence लें।
-- Gifted learner को depth, research, generalisation और independent enquiry दें।
-- Inclusion subject concept हटाना नहीं; access और participation बढ़ाना है।
-
-### Paper II subject application
-
-| Subject | Learner से क्या करवाएँ |
-|---|---|
-| Mathematics | Strategy, representation, generalisation, justification |
-| Science | Prediction, fair test, evidence, explanation, revision |
-| Social Science | Source/map, perspective, cause, argument, civic reasoning |
-| Language | Academic vocabulary, argument, comprehension, communication |
+- किशोर को छोटा बच्चा या पूर्ण वयस्क—दोनों अतियों में न देखें।
+- निजता, गरिमा और सुरक्षित प्रश्न-स्थान दें।
+- सहपाठी-संसार को सहयोगी अधिगम में बदलें।
+- अमूर्त कार्य में ठोस उदाहरण, आरेख और सहारा दें।
+- “मैं कमजोर हूँ” पर प्रगति और रणनीति की प्रतिक्रिया दें।
+- मौखिक तर्क अच्छा और लिखित अंक कम हों तो अनेक प्रमाण लें।
+- प्रतिभाशाली शिक्षार्थी को गहराई, शोध और स्वतंत्र खोज दें।
+- समावेशन का अर्थ विषय-वस्तु हटाना नहीं, पहुँच बढ़ाना है।
 
 ---
 
-# SHEET G — Paper II Mathematics (कक्षा VI–VIII)
+# पत्र G — पेपर 2 गणित
 
-## 12. :icon-calc: Paper II Maths Formula Card
+## 12. :icon-calc: सूत्र-पत्र
+
+```figure
+type: integer-line-paper2
+point: -3
+other: 2
+caption: संख्या रेखा पर दाईं ओर का पूर्णांक बड़ा होता है
+```
+
+### संख्या पद्धति
+
+- संख्या रेखा पर दायाँ = बड़ा; बायाँ = छोटा।
+- परम मान = शून्य से दूरी।
+- योगात्मक प्रतिलोम का योग शून्य।
+- समान चिह्न वाले पूर्णांकों का गुणा/भाग धनात्मक।
+- अलग चिह्न वाले पूर्णांकों का गुणा/भाग ऋणात्मक।
+- महत्तम समापवर्तक = सबसे बड़ा सामान्य गुणनखंड।
+- लघुत्तम समापवर्त्य = सबसे छोटा सामान्य गुणज।
+- दो धनात्मक संख्याओं के लिए: `महत्तम समापवर्तक × लघुत्तम समापवर्त्य = दोनों संख्याओं का गुणनफल`।
+- परिमेय संख्या = `p/q`, जहाँ `p और q` पूर्णांक और `q ≠ 0`।
+
+### भिन्न, अनुपात और बीजगणित
+
+- अंश = चुने गए भाग; हर = कुल समान भाग।
+- अनुपात क्रम पर निर्भर होता है।
+- समतुल्य अनुपात में दोनों पद समान गुणक से बदलें।
+- इकाई विधि: पहले एक इकाई का मान, फिर आवश्यक इकाइयों का मान।
+- समानुपात में दोनों अनुपात बराबर होते हैं।
+- सजातीय पदों का चर-भाग और घात समान होता है।
+- समीकरण में दोनों पक्षों पर एक ही क्रिया करें।
+- प्रतिरूप से सामान्य पद और नियम निकालें।
 
 ```figure
 type: algebra-balance-paper2
-caption: equation में दोनों sides पर same operation करने से balance बना रहता है
+caption: समीकरण के दोनों पक्षों पर एक ही क्रिया करने से संतुलन बना रहता है
 ```
 
-### Number system
+### ज्यामिति और क्षेत्रमिति
 
-- Integer number line: right = greater; left = smaller।
-- Absolute value = zero से distance।
-- Additive inverse का sum 0।
-- Same signs का product/division positive; different signs negative।
-- HCF = greatest common factor; LCM = least common multiple।
-- `HCF × LCM = product` of two positive numbers।
-- `a⁰=1` for non-zero `a`; `aᵐ×aⁿ=aᵐ⁺ⁿ`।
-- Rational number = `p/q`, `q≠0`।
-
-### Fraction, ratio, algebra
-
-- Fraction denominator total equal parts; numerator selected parts।
-- Ratio order-sensitive है।
-- Equivalent ratio में both terms same factor से बदलें।
-- Unitary method: first one-unit value, then required value।
-- Direct proportion: quantities same factor में साथ बदलें।
-- Like terms का variable part/exponent same।
-- “5 less than x” = `x−5`; “5 less than 2x” = `2x−5`।
-- Equation में both sides पर same operation।
-- Pattern से nth term/general rule निकालें।
-
-### Geometry and mensuration
-
-| Concept | Formula/fact |
+| अवधारणा | सूत्र/तथ्य |
 |---|---|
-| Triangle angle sum | 180° |
-| Quadrilateral angle sum | 360° |
-| Complementary | Sum 90° |
-| Supplementary | Sum 180° |
-| Vertically opposite | Equal |
-| Rectangle perimeter | `2(l+b)` |
-| Rectangle area | `l×b` |
-| Square perimeter | `4s` |
-| Square area | `s²` |
-| Triangle area | `1/2×base×height` |
-| Parallelogram area | `base×height` |
-| Trapezium area | `1/2×(sum of parallel sides)×height` |
-| Circle area | `πr²` |
-| Circle circumference | `2πr` |
-| Cuboid volume | `l×b×h` |
-| Cube volume | `s³` |
-| Cube surface area | `6s²` |
-| Cuboid surface area | `2(lb+bh+hl)` |
+| त्रिभुज के कोणों का योग | 180° |
+| चतुर्भुज के कोणों का योग | 360° |
+| पूरक कोण | योग 90° |
+| सम्पूरक कोण | योग 180° |
+| शीर्षाभिमुख कोण | बराबर |
+| आयत का परिमाप | `2(लंबाई + चौड़ाई)` |
+| आयत का क्षेत्रफल | `लंबाई × चौड़ाई` |
+| वर्ग का परिमाप | `4 × भुजा` |
+| वर्ग का क्षेत्रफल | `भुजा²` |
+| त्रिभुज का क्षेत्रफल | `1/2 × आधार × ऊँचाई` |
+| समांतर चतुर्भुज का क्षेत्रफल | `आधार × संगत ऊँचाई` |
+| वृत्त का क्षेत्रफल | `πr²` |
+| वृत्त की परिधि | `2πr` |
+| घनाभ का आयतन | `लंबाई × चौड़ाई × ऊँचाई` |
+| घन का आयतन | `भुजा³` |
 
-### Unit traps
+- परिमाप = सीमा; क्षेत्रफल = अंदर का ढका भाग; आयतन = घेरा हुआ स्थान।
+- परिमाप में रैखिक इकाई, क्षेत्रफल में वर्ग इकाई, आयतन में घन इकाई।
+- `1 मी² = 10,000 सेमी²`; `1 मी³ = 10,00,000 सेमी³`।
+- कोणों में संगत ऊँचाई लंबवत होनी चाहिए।
+- मानचित्र/आलेख में मापनी और निर्देशांक जाँचें।
 
-- Perimeter: linear units।
-- Area: square units।
-- Volume: cubic units।
-- `1 m² = 10,000 cm²`।
-- `1 m³ = 1,000,000 cm³`।
-- Triangle height corresponding base पर perpendicular होनी चाहिए।
+### गणित शिक्षण
 
-### Data handling
-
-- Mean = sum ÷ number of observations।
-- Median = ordered data का middle।
-- Mode = most frequent।
-- Range = maximum − minimum।
-- Graph में title, scale, key, labels और units check करें।
-- Truncated scale small difference को exaggerate कर सकती है।
-
-### Maths pedagogy
-
-- Concrete/visual model से abstract symbols तक bridge।
-- Error analysis → diagnosis → targeted representation → re-check।
-- Multiple solutions compare कराएँ।
-- Mathematical language explicitly teach करें।
-- Community maths में quantities और assumptions clear रखें।
-- Remedial = same difficult worksheet की अधिक quantity नहीं।
+- ठोस/दृश्य निरूपण से प्रतीक और सूत्र तक जाएँ।
+- वैकल्पिक विधियाँ सुनें, तुलना कराएँ और कारण पूछें।
+- त्रुटि → निदान → उपयुक्त निरूपण → पुनःजाँच।
+- समुदाय के बाजार, समय, मापन और धन से जोड़ें।
+- उपचारात्मक शिक्षण केवल वही कठिन कार्यपत्रक अधिक मात्रा में देना नहीं है।
 
 ---
 
-# SHEET H — Paper II Science (कक्षा VI–VIII)
+# पत्र H — पेपर 2 विज्ञान
 
-## 13. :icon-target: Science Content Flash Sheet
+## 13. :icon-target: विज्ञान विषय-वस्तु
 
 ```figure
 type: inquiry-cycle-science2
-caption: question, prediction, test, evidence और explanation science inquiry का core cycle है
+caption: प्रश्न, अनुमान, परीक्षण, प्रमाण और व्याख्या विज्ञान की जाँच-प्रक्रिया का मूल चक्र है
 ```
 
-### Food and materials
+### भोजन और पदार्थ
 
-- Carbohydrate: major energy source।
-- Protein: growth and repair।
-- Roughage: bowel movement support।
-- Vitamin C deficiency: scurvy; Vitamin D: rickets; iodine: goitre; iron: anaemia।
-- Iodine + starch → blue-black।
-- Soluble/insoluble property से separation।
-- Filtration: insoluble solid + liquid।
-- Evaporation: dissolved solid recover करना।
-- Magnet: iron filings + sand।
-- Melting ice: generally reversible physical change।
-- Burning/rusting: chemical change examples।
-- Rusting में oxygen और moisture important।
+- कार्बोहाइड्रेट = प्रमुख ऊर्जा स्रोत।
+- प्रोटीन = वृद्धि और ऊतक-मरम्मत।
+- रेशा = पाचन और मल-त्याग में सहायता।
+- विटामिन C की कमी = स्कर्वी; विटामिन D = रिकेट्स; आयोडीन = घेंघा; लौह = रक्ताल्पता।
+- आयोडीन से स्टार्च नीला-काला दिखाई देता है।
+- पदार्थों के गुण देखकर पृथक्करण-विधि चुनें।
+- छानना = अघुलनशील ठोस और द्रव अलग करना।
+- वाष्पीकरण = घुले ठोस को प्राप्त करना।
+- बर्फ का पिघलना सामान्यतः प्रतिवर्ती भौतिक परिवर्तन है।
+- कागज का जलना और लोहे का जंग लगना रासायनिक परिवर्तन के उदाहरण हैं।
+- जंग के लिए ऑक्सीजन और नमी महत्वपूर्ण हैं।
 
-### Living world
+### जीव-जगत
 
-- Photosynthesis: carbon dioxide + water + light + chlorophyll → food + oxygen।
-- Stomata: gas exchange और transpiration।
-- Xylem: water/minerals; phloem: prepared food।
-- Pollination: anther → stigma।
-- Germination: water, air, suitable temperature।
-- Small intestine: digestion completion और nutrient absorption।
-- Lungs: gas exchange; heart: pumping; kidneys: filtration/excretion।
-- Producer, consumer, decomposer अलग roles हैं।
-- Food-chain arrow food/energy transfer की direction दिखाता है।
-- Adaptation habitat और function के context में देखें।
+- प्रकाश-संश्लेषण: कार्बन डाइऑक्साइड + जल + प्रकाश + हरितलवक → भोजन + ऑक्सीजन।
+- रंध्र = गैस-विनिमय और वाष्पोत्सर्जन।
+- जाइलम = जल और खनिज; फ्लोएम = बना हुआ भोजन।
+- परागण = परागकण का पुंकेसर से वर्तिकाग्र तक जाना।
+- अंकुरण के लिए जल, वायु और उपयुक्त तापमान।
+- छोटी आंत = पाचन की पूर्णता और पोषक तत्त्वों का अवशोषण।
+- फेफड़े = गैस-विनिमय; हृदय = रक्त-पंप; वृक्क = निस्यंदन/उत्सर्जन।
+- उत्पादक, उपभोक्ता और अपघटक की भूमिकाएँ अलग हैं।
+- आहार-श्रृंखला का तीर भोजन/ऊर्जा के स्थानांतरण की दिशा बताता है।
+- अनुकूलन को आवास और कार्य के संदर्भ में समझें।
 
-### Motion, electricity, magnets
+### गति, विद्युत और चुम्बक
 
-- Speed = distance ÷ time।
-- Distance-time graph horizontal line = rest; constant slope = uniform motion।
-- Force speed, direction या shape बदल सकता है।
-- Friction relative motion को oppose करता है।
-- Gravity attractive force है।
-- Closed circuit = complete conducting path।
-- Copper conductor; rubber/plastic insulators।
-- Like magnetic poles repel; unlike attract।
-- Compass Earth’s magnetic field से north-south align होती है।
-- Fuse excess current पर melt होकर circuit break करती है।
+- चाल = दूरी ÷ समय।
+- दूरी-समय आलेख में क्षैतिज रेखा = विराम; स्थिर ढलान = समान गति।
+- बल चाल, दिशा या आकार बदल सकता है।
+- घर्षण सापेक्ष गति का विरोध करता है।
+- गुरुत्वाकर्षण आकर्षण बल है।
+- बंद परिपथ = पूर्ण चालक मार्ग।
+- ताँबा सुचालक; रबर और प्लास्टिक कुचालक।
+- समान चुम्बकीय ध्रुव दूर धकेलते हैं; विपरीत ध्रुव आकर्षित करते हैं।
+- कम्पास की सुई पृथ्वी के चुम्बकीय क्षेत्र से उत्तर-दक्षिण दिशा में आती है।
+- फ्यूज अधिक धारा पर पिघलकर परिपथ तोड़ता है।
 
-### Light, sky and resources
+### प्रकाश, आकाश और संसाधन
 
-- Luminous object अपना light emit करता है।
-- Opaque object shadow बना सकता है।
-- Angle of incidence = angle of reflection; angles normal से measure होते हैं।
-- Moon reflected sunlight से visible है।
-- Moon phases visible sunlit portion बदलने से होती हैं।
-- Rotation → day/night; revolution + axial tilt → seasons।
-- Weather short-term; climate long-term pattern।
-- Evaporation → condensation → precipitation → collection।
-- Humus soil fertility और moisture retention improve करता है।
-- Renewable resources replenish हो सकते हैं, unlimited नहीं।
-- Reduce → reuse → repair → recycle → safe disposal।
+- प्रकाशमान वस्तु अपना प्रकाश देती है।
+- अपारदर्शी वस्तु छाया बना सकती है।
+- आपतन कोण = परावर्तन कोण; कोण अभिलंब से मापें।
+- चन्द्रमा परावर्तित सूर्य-प्रकाश से दिखाई देता है।
+- चन्द्र-कला दिखाई देने का कारण दिखाई देने वाले प्रकाशित भाग का बदलना है।
+- घूर्णन → दिन-रात; परिक्रमण + अक्ष का झुकाव → ऋतुएँ।
+- मौसम अल्पकालीन; जलवायु दीर्घकालीन प्रतिरूप।
+- जल-चक्र: वाष्पीकरण → संघनन → वर्षण → संग्रह।
+- ह्यूमस मृदा की उर्वरता और जल-धारण बढ़ा सकता है।
+- नवीकरणीय संसाधन भी असीमित नहीं होते।
+- घटाएँ → पुनः उपयोग → मरम्मत → पुनर्चक्रण → सुरक्षित निपटान।
 
-### Science pedagogy card
+### विज्ञान शिक्षण
 
-```text
-Question → predict → plan/fair test → observe/measure → record
-→ discuss evidence → explain → revise/new question
-```
-
-- Observation ≠ inference।
-- Independent variable change; dependent variable measure; controlled variables same रखें।
-- Practical work में safety first।
-- Model reality का simplified representation है; limitation बताएं।
-- Unexpected result को erase न करें; procedure/data check करें।
-- Cognitive = concept/reasoning; psychomotor = practical skill; affective = attitude/responsibility।
-- Misconception पर prior idea elicit, evidence/model दें और re-check करें।
+- अवलोकन और निष्कर्ष अलग रखें।
+- स्वतंत्र चर बदला जाता है; आश्रित चर मापा जाता है; नियंत्रित चर समान रखे जाते हैं।
+- प्रयोग से पहले सुरक्षा और निष्पक्ष तुलना देखें।
+- मॉडल वास्तविकता का सरल निरूपण है; उसकी सीमा बताएं।
+- अपेक्षित परिणाम न आए तो परिणाम मिटाएँ नहीं; विधि और आँकड़े जाँचें।
+- संज्ञानात्मक = अवधारणा/तर्क; क्रियात्मक = प्रयोग-कौशल; भावात्मक = दृष्टिकोण/जिम्मेदारी।
 
 ---
 
-# SHEET I — Paper II Social Science (सामाजिक विज्ञान)
+# पत्र I — पेपर 2 सामाजिक विज्ञान
 
-## 14. :icon-book: History Flash Timeline (इतिहास त्वरित समयरेखा)
+## 14. :icon-book: इतिहास की त्वरित समयरेखा
 
 ```figure
 type: history-timeline-sst
-caption: chronology को source, context, continuity और change के साथ पढ़ें
+caption: कालक्रम को स्रोत, संदर्भ, निरंतरता और परिवर्तन के साथ पढ़ें
 ```
 
-### Early India
-
 ```text
-Earliest societies → farmers/herders → Harappan cities → early states
-→ new ideas (Buddhism/Jainism) → Mauryan Empire → trade/cultural contacts
-→ political/cultural developments
+प्रारम्भिक समाज → किसान और पशुपालक → प्रथम नगर → प्रारम्भिक राज्य
+→ नए विचार → मौर्य साम्राज्य → व्यापार और सांस्कृतिक सम्पर्क
+→ क्षेत्रीय राज्य → दिल्ली सल्तनत → मुगल साम्राज्य
+→ औपनिवेशिक विस्तार → प्रतिरोध और सुधार → राष्ट्रवादी आन्दोलन
+→ स्वतंत्रता/विभाजन → संविधान और राष्ट्र-निर्माण
 ```
 
-- Archaeology = material remains का study।
-- Harappan clues: planned streets, drainage, bricks, seals, craft, trade।
-- Surplus production cities और specialised work support कर सकता है।
-- Buddhism: Gautama Buddha; Jainism: Mahavira, ahimsa।
-- Ashokan inscriptions: ruler’s messages, dhamma, welfare; official viewpoint भी।
-- Trade routes goods, people, ideas, technology और culture move कराते हैं।
-- Aryabhata: mathematics और astronomy; Nalanda: learning centre।
+### इतिहास के पक्के तथ्य
 
-### Medieval India
+- पुरातत्त्व = भौतिक अवशेषों का अध्ययन।
+- हड़प्पा सभ्यता के संकेत: नियोजित नगर, नालियाँ, ईंटें, मुहरें, शिल्प और व्यापार।
+- अधिशेष उत्पादन नगर और विशेष काम को सहारा दे सकता है।
+- बौद्ध धर्म = गौतम बुद्ध; जैन धर्म = महावीर और अहिंसा।
+- अशोक के अभिलेख शासक के संदेश, धम्म और कल्याण की जानकारी देते हैं; शासकीय दृष्टिकोण भी दिखाते हैं।
+- व्यापारिक मार्ग वस्तुओं के साथ विचार, लोग, तकनीक और संस्कृति भी ले जाते हैं।
+- आर्यभट = गणित और खगोल; नालंदा = शिक्षा का केंद्र।
+- इक्ता = राजस्व-अधिकार और प्रशासनिक/सैन्य जिम्मेदारी से जुड़ी व्यवस्था।
+- मनसबदारी = मुगल पद और सेवा-व्यवस्था।
+- स्थापत्य में पदार्थ, तकनीक, श्रम, संरक्षक, उद्देश्य और संदर्भ देखें।
+- भक्ति और सूफी परम्पराएँ स्थानीय भाषा, भक्ति और सामाजिक संपर्क से जुड़ी हैं।
+- कम्पनी की शक्ति व्यापार, सेना, कूटनीति, राजस्व और राजनीति से बढ़ी।
+- भू-राजस्व व्यवस्थाओं ने किसान, जमींदार, साहूकार और ग्रामीण समाज को प्रभावित किया।
+- जनजातीय प्रतिरोध को भूमि, वन, जीविका और बाहरी नियंत्रण के संदर्भ में पढ़ें।
+- 1857 का विद्रोह अनेक सैन्य, राजनीतिक, आर्थिक, सामाजिक और क्षेत्रीय कारणों से जुड़ा था।
+- फुले और अम्बेडकर को शिक्षा, समानता, गरिमा और जाति-विरोध के संदर्भ में पढ़ें।
+- राष्ट्रवादी आन्दोलन किसी एक व्यक्ति या घटना की कहानी नहीं; अनेक समूह और विधियाँ शामिल थीं।
 
-- Delhi Sultanate dynasties: Mamluk/Slave, Khalji, Tughlaq, Sayyid, Lodi।
-- Iqta: revenue assignment/administrative-military responsibility।
-- Mughal mansabdari: rank/service system।
-- Jagir को simple land ownership synonym न समझें।
-- Sulh-i-kul: universal peace/tolerance के context में।
-- Architecture: material + technique + labour + patronage + purpose + context।
-- Bhakti/Sufi traditions: devotion, local language और social-cultural interaction।
-- Regional culture static नहीं; languages, communities, politics, beliefs और art के interaction से बदलती है।
-
-### Colonial India और nationalism
-
-- Company power: trade + military + diplomacy + revenue + political intervention।
-- Plassey 1757: Bengal में Company influence बढ़ने का context।
-- Revenue settlements ने peasants, zamindars, moneylenders और rural society को affect किया।
-- Tribal resistance: land, forest, livelihood और outside control के context में।
-- 1857 revolt: military, political, economic, social और regional causes।
-- Reform: women’s education, widow remarriage, caste critique, social customs।
-- Phule: anti-caste और education; Ambedkar: equality, dignity, rights।
-- National movement: diverse groups, methods, negotiations और mass participation।
-- Independence के साथ Partition, displacement और nation-building भी पढ़ें।
-
-### Source checklist
+### स्रोत-जाँच
 
 ```text
-Who made it? → When? → For whom? → Why? → What does it show?
-→ What is missing? → Which other source can corroborate it?
+किसने बनाया? → कब? → किसके लिए? → क्यों?
+→ क्या दिखाता है? → क्या अनुपस्थित है? → दूसरे स्रोत से पुष्टि?
 ```
 
 ---
 
-## 15. :icon-travel: Geography Flash Card (भूगोल त्वरित कार्ड)
+## 15. :icon-travel: भूगोल का त्वरित पत्र
 
 ```figure
 type: map-skills-sst
-caption: map में locate, scale, symbols, direction और spatial pattern को साथ पढ़ें
+caption: मानचित्र में स्थान, दिशा, मापनी, संकेत और स्थानिक प्रतिरूप को साथ पढ़ें
 ```
 
-- Geography = space, place, environment, resources और human relationships।
-- Rotation → day/night।
-- Revolution + tilted axis → seasons।
-- Equator = 0° latitude।
-- Prime Meridian = 0° longitude।
-- Latitude = east-west parallel lines।
-- Longitude = pole-to-pole meridians।
-- Globe curved Earth का 3-D model; map flat representation।
-- Scale = map distance : ground distance relation।
-- Legend/key = symbols/colours का meaning।
-- Weather short-term; climate long-term।
-- Atmosphere = gases surrounding Earth।
-- Wind generally high pressure → low pressure।
-- Water cycle: evaporation → condensation → precipitation → runoff/infiltration।
-- Settlement location: water, relief, soil, climate, work, transport, safety।
-- Transport people/goods move करता है; communication information share करती है।
-- Resource value technology, knowledge, access और demand से बदल सकता है।
-- Human resources = knowledge, skill, health, labour, creativity।
-- Agriculture = soil + water + climate + labour + technology + market।
-- Sustainability = present needs meet करना, future possibilities protect करना।
+- भूगोल = स्थान, क्षेत्र, पर्यावरण, संसाधन और मानव-संबंधों का अध्ययन।
+- घूर्णन → दिन-रात।
+- परिक्रमण और अक्ष का झुकाव → ऋतुएँ।
+- भूमध्य रेखा = 0° अक्षांश।
+- प्रधान मध्याह्न रेखा = 0° देशान्तर।
+- अक्षांश = पूर्व-पश्चिम समानान्तर रेखाएँ।
+- देशान्तर = ध्रुव से ध्रुव तक जाने वाली रेखाएँ।
+- ग्लोब = पृथ्वी का त्रि-आयामी मॉडल; मानचित्र = समतल निरूपण।
+- मापनी = मानचित्र दूरी और वास्तविक दूरी का संबंध।
+- संकेत-सूची = मानचित्र के प्रतीकों/रंगों का अर्थ।
+- मौसम अल्पकालीन; जलवायु दीर्घकालीन।
+- वायु सामान्यतः अधिक दाब से कम दाब की ओर जाती है।
+- जल-चक्र में वाष्पीकरण, संघनन, वर्षण और बहाव/अवशोषण आते हैं।
+- बस्ती का स्थान जल, भू-आकृति, मृदा, काम और परिवहन से प्रभावित होता है।
+- संसाधन का मूल्य तकनीक, ज्ञान, पहुँच और मांग से बदल सकता है।
+- कृषि = मृदा + जल + जलवायु + श्रम + तकनीक + बाजार।
+- सततता = वर्तमान जरूरत पूरी करते हुए भविष्य की संभावना सुरक्षित रखना।
 
-### Map protocol
+### मानचित्र-पठन क्रम
 
 ```text
-Title/purpose → north/orientation → legend → scale → grid
-→ location/distance → pattern → explanation
+शीर्षक/उद्देश्य → उत्तर दिशा → संकेत-सूची → मापनी → ग्रिड
+→ स्थान/दूरी → प्रतिरूप → व्याख्या
 ```
 
 ---
 
-## 16. :icon-target: Civics Flash Card (नागरिक शास्त्र त्वरित कार्ड)
+## 16. :icon-target: नागरिक शास्त्र का त्वरित पत्र
 
 ```figure
 type: government-levels-sst
-caption: citizens, government levels और public services participation और accountability से जुड़े हैं
+caption: नागरिक, सरकार के स्तर और सार्वजनिक सेवाएँ सहभागिता तथा जवाबदेही से जुड़ी हैं
 ```
 
-### Diversity and equality
+### विविधता और समानता
 
-- Diversity = difference; hierarchy नहीं।
-- Prejudice = evidence के बिना pre-judgement।
-- Stereotype = fixed oversimplified belief।
-- Discrimination = unequal treatment/opportunity denial।
-- Equality = equal dignity, status और protection।
-- Equity = barrier/need के अनुसार fair support।
+- विविधता = अंतर; ऊँच-नीच नहीं।
+- पूर्वाग्रह = पर्याप्त जानकारी के बिना बना निर्णय।
+- रूढ़ छवि = किसी समूह के बारे में स्थिर और अत्यधिक सरल धारणा।
+- भेदभाव = असमान व्यवहार या अवसर से वंचित करना।
+- समानता = समान गरिमा, दर्जा और कानूनी सुरक्षा।
+- न्यायसंगत समानता = जरूरत और बाधा के अनुसार उचित सहायता।
 
-### Government and democracy
+### सरकार और लोकतंत्र
 
-- Government laws/policies, services, revenue, rights, security और public decisions से जुड़ी है।
-- Union, State और Local levels की responsibilities अलग हो सकती हैं।
-- Gram Sabha = village adult voters का participatory forum।
-- Municipality = urban local body।
-- Democracy = participation + representation + political equality + rights + accountability।
-- Opposition government को question और scrutinise करती है।
-- Accountability: questions, debate, reports, media, courts, elections और public participation।
+- सरकार कानून, नीति, सेवा, राजस्व, अधिकार और सार्वजनिक निर्णय से जुड़ी है।
+- संघ, राज्य और स्थानीय स्तरों के कार्य अलग हो सकते हैं।
+- ग्राम सभा = गाँव के वयस्क मतदाताओं का सहभागी मंच।
+- नगरपालिका = शहरी स्थानीय निकाय।
+- लोकतंत्र = सहभागिता + प्रतिनिधित्व + राजनीतिक समानता + अधिकार + जवाबदेही।
+- विपक्ष प्रश्न, निगरानी और वैकल्पिक दृष्टिकोण देता है।
+- जवाबदेही के साधन: प्रश्न, बहस, रिपोर्ट, मीडिया, न्यायालय, चुनाव और जन-सहभागिता।
 
-### Media, gender और Constitution
+### मीडिया, लिंग और संविधान
 
-- Media literacy: producer, purpose, evidence, audience, framing और missing voices।
-- Gender roles social/cultural processes से shape होते हैं।
-- Unpaid care work social value रखता है।
-- Constitution rights, institutions, powers और values का framework है।
-- Values: justice, liberty, equality, fraternity, democracy, secularism।
-- Parliament representation, law-making और executive accountability से जुड़ा है।
+- मीडिया पढ़ते समय निर्माता, उद्देश्य, प्रमाण, श्रोता, प्रस्तुति और अनुपस्थित आवाज़ पूछें।
+- लिंग-भूमिकाएँ सामाजिक और सांस्कृतिक प्रक्रियाओं से बनती हैं।
+- बिना वेतन का देखभाल-कार्य भी सामाजिक मूल्य रखता है।
+- संविधान अधिकार, संस्थाएँ, शक्तियाँ और मूल्यों का ढाँचा है।
+- मूल मूल्य: न्याय, स्वतंत्रता, समानता, बंधुता, लोकतंत्र और धर्मनिरपेक्षता।
+- संसद प्रतिनिधित्व, कानून-निर्माण और कार्यपालिका की जवाबदेही से जुड़ी है।
 
-### Judiciary and social justice
+### न्यायपालिका और सामाजिक न्याय
 
-- Judiciary law interpret करती है और disputes/remedies देती है।
-- Broad structure: District Courts → High Courts → Supreme Court।
-- Judicial independence और rule of law important हैं।
-- PIL public interest issues का legal route हो सकती है।
-- Marginalisation = systematic disadvantage/exclusion।
-- Affirmative measures substantive equality और historical disadvantage address कर सकती हैं।
+```figure
+type: judiciary-sst
+caption: न्यायालयों के विभिन्न स्तर विवाद, अपील और उपचार का संस्थागत मार्ग देते हैं
+```
 
-### SST pedagogy
+- न्यायपालिका कानून की व्याख्या करती और विवादों में उपचार देती है।
+- जिला न्यायालय → उच्च न्यायालय → सर्वोच्च न्यायालय का व्यापक ढाँचा याद रखें।
+- न्यायिक स्वतंत्रता और विधि का शासन महत्वपूर्ण हैं।
+- जनहित याचिका सार्वजनिक हित के प्रश्नों का कानूनी मार्ग हो सकती है।
+- हाशियाकरण = व्यवस्थित सामाजिक, आर्थिक या राजनीतिक वंचना।
+- विशेष उपाय ऐतिहासिक वंचना और वास्तविक समानता को बढ़ा सकते हैं।
 
-- History: chronology + source + context + cause/consequence + perspectives।
-- Geography: map + scale + spatial pattern + human-environment relation।
-- Civics: institution + function + rights + participation + accountability।
-- Controversial issue में norms, background, evidence और respectful discussion दें।
-- Project = clear question + sources/data + ethics + analysis + communication + reflection।
+### सामाजिक विज्ञान शिक्षण
+
+- इतिहास: कालक्रम + स्रोत + संदर्भ + कारण/परिणाम + दृष्टिकोण।
+- भूगोल: मानचित्र + मापनी + स्थानिक प्रतिरूप + मानव-पर्यावरण संबंध।
+- नागरिक शास्त्र: संस्था + कार्य + अधिकार + सहभागिता + जवाबदेही।
+- विवादित विषय में पृष्ठभूमि, प्रमाण, नियम और सम्मानजनक चर्चा दें।
+- परियोजना = प्रश्न + स्रोत/आँकड़े + नैतिकता + विश्लेषण + संचार + चिंतन।
 
 ---
 
-# SHEET J — Universal Pedagogy and Trap Buster
+# पत्र J — सार्वभौमिक शिक्षण-दृष्टि
 
-## 17. :icon-check: Most Appropriate Teacher Response — 20 Fast Rules
+## 17. :icon-check: सबसे उपयुक्त शिक्षक-प्रतिक्रिया — 20 नियम
 
-1. पहले child की strategy/idea पूछें।
-2. Wrong answer को fixed inability न मानें।
-3. “तुमने कैसे किया?” diagnostic prompt है।
-4. Public humiliation नहीं; private specific feedback दें।
-5. Punishment learning का substitute नहीं।
-6. Home language को bridge/resource बनाएं।
-7. Disability में access support दें, unnecessary goal removal नहीं।
-8. Gifted learner को depth/enrichment दें, copying नहीं।
-9. Group roles rotate करें।
-10. Gender stereotype को challenge करें।
-11. Teacher पूरा task करके learner की agency न छीनें।
-12. Scaffold दें और competence बढ़ने पर fade करें।
-13. Prior knowledge elicit करें।
-14. Concrete/visual representation से abstract concept connect करें।
-15. Activity का clear learning purpose हो।
-16. Assessment evidence से next teaching बदलें।
-17. Diagnosis के बिना remedial worksheet न दें।
-18. Source/map/data की limitation discuss करें।
-19. Experiment से पहले safety और fair test देखें।
-20. Fresh task से transfer/relearning re-check करें।
+1. पहले बच्चे की विधि या विचार पूछें।
+2. गलत उत्तर को स्थायी अक्षमता न मानें।
+3. “तुमने कैसे किया?” नैदानिक प्रश्न है।
+4. सार्वजनिक अपमान नहीं; निजी और विशिष्ट प्रतिक्रिया दें।
+5. दंड सीखने का विकल्प नहीं।
+6. घरेलू भाषा को सेतु बनाएं।
+7. दिव्यांगता में पहुँच-सहायता दें; बिना कारण लक्ष्य न हटाएँ।
+8. प्रतिभाशाली शिक्षार्थी को गहराई और संवर्धन दें।
+9. समूह में भूमिकाएँ बदलते रहें।
+10. लिंग-रूढ़ि को चुनौती दें।
+11. शिक्षक पूरा कार्य करके बच्चे की स्वतंत्रता न छीनें।
+12. सहारा दें और क्षमता बढ़ने पर धीरे-धीरे हटाएँ।
+13. पूर्व-ज्ञान पहले जानें।
+14. ठोस/दृश्य निरूपण से अमूर्त अवधारणा जोड़ें।
+15. गतिविधि का स्पष्ट सीखने का उद्देश्य हो।
+16. मूल्यांकन के प्रमाण से अगली शिक्षण-योजना बदलें।
+17. निदान के बिना उपचारात्मक कार्य न दें।
+18. स्रोत, मानचित्र और आँकड़ों की सीमा पर चर्चा करें।
+19. प्रयोग से पहले सुरक्षा और निष्पक्ष तुलना देखें।
+20. नई स्थिति में समझ का स्थानांतरण फिर जाँचें।
 
-### Wrong option signals (गलत विकल्प के संकेत)
+### गलत विकल्प के संकेत
 
-| Signal | Problem |
+| संकेत | समस्या |
 |---|---|
-| “Always/never/only” | Individual/context variation ignore |
-| “Punish/label/compare publicly” | Dignity और motivation harm |
-| “Teacher tells answer immediately” | Thinking और independence कम |
-| “Same method/task for all” | Diversity ignore |
-| “Home language ban” | Prior knowledge और identity को barrier बनाना |
-| “Activity for fun only” | Learning purpose missing |
-| “One test proves ability” | Varied evidence missing |
-| “Unsafe experiment” | Safety और ethics missing |
-| “Copy the textbook” | Inquiry/meaning missing |
-| “Lower expectation automatically” | Access को ability समझना |
+| हमेशा/कभी नहीं/केवल | संदर्भ और विविधता की अनदेखी |
+| दंड/लेबल/सार्वजनिक तुलना | गरिमा और प्रेरणा को नुकसान |
+| शिक्षक तुरंत उत्तर बता दे | सोच और स्वतंत्रता कम |
+| सबके लिए एक ही विधि | व्यक्तिगत भिन्नता की अनदेखी |
+| घरेलू भाषा पर रोक | पूर्व-ज्ञान और पहचान को बाधा बनाना |
+| बिना उद्देश्य गतिविधि | सीखने का प्रमाण नहीं |
+| एक ही परीक्षा से क्षमता तय करना | अनेक प्रमाणों की अनदेखी |
+| असुरक्षित प्रयोग | सुरक्षा और नैतिकता का अभाव |
+| पुस्तक की नकल | जाँच और अर्थ-निर्माण का अभाव |
+| कठिनाई पर लक्ष्य तुरंत कम करना | पहुँच और क्षमता को एक मानना |
 
 ---
 
-## 18. :icon-steps: Universal Learning Cycles (याद रखने वाले चक्र)
+## 18. याद रखने वाले अधिगम-चक्र
 
-### CDP cycle
+### बाल विकास चक्र
 
 ```text
-Observe → ask → understand → support → reattempt → reassess
+देखें → पूछें → समझें → सहायता दें → फिर प्रयास → पुनर्मूल्यांकन
 ```
 
-### Maths problem-solving
+### गणित समस्या-समाधान
 
 ```text
-Read → represent → choose relation/formula → solve → check
+पढ़ें → निरूपित करें → संबंध/सूत्र चुनें → हल करें → जाँचें
 ```
 
-### Science inquiry
+### विज्ञान जाँच-चक्र
 
 ```text
-Question → predict → test → evidence → explain → revise
+प्रश्न → अनुमान → परीक्षण → प्रमाण → व्याख्या → संशोधन
 ```
 
-### Social Science enquiry
+### सामाजिक विज्ञान जाँच-चक्र
 
 ```text
-Question → source/data → compare → interpret → argue → qualify/revise
+प्रश्न → स्रोत/आँकड़े → तुलना → व्याख्या → तर्क → संशोधन
 ```
 
-### Language comprehension
+### भाषा अवबोधन
 
 ```text
-Read for gist → find detail → infer → check context → answer with evidence
+मुख्य भाव → विवरण → संकेत → निष्कर्ष → प्रमाण सहित उत्तर
 ```
 
-### Remedial teaching
+### उपचारात्मक शिक्षण
 
 ```text
-Diagnose → targeted support → guided practice → fade support → transfer check
+निदान → लक्षित सहायता → मार्गदर्शित अभ्यास → सहारा कम करना → स्थानांतरण-जाँच
 ```
 
 ---
 
-# SHEET K — 60 Ultra-Fast Mixed Facts (मिश्रित त्वरित तथ्य)
+## 19. 60 अति-त्वरित मिश्रित तथ्य
 
-1. CTET में negative marking नहीं है।
-2. Paper I target age लगभग 6–11 years है।
-3. Paper II target age लगभग 11–14 years है।
-4. Language II, Language I से अलग होनी चाहिए।
-5. Development growth से broader है।
-6. Heredity और environment interact करते हैं।
-7. ZPD independent और assisted performance के बीच है।
-8. Scaffolding temporary support है।
-9. Assimilation schema में fit है।
-10. Accommodation schema change है।
-11. Piaget stages rigid labels नहीं हैं।
-12. Kohlberg moral reasoning basis पर focus करते हैं।
-13. Bruner spiral curriculum में ideas revisit होते हैं।
-14. Home language learning resource है।
-15. Inclusion meaningful participation और barrier removal है।
-16. Accommodation access बदलती है, goal जरूरी नहीं।
-17. Diagnostic assessment specific gap identify करती है।
-18. Formative assessment next teaching guide करती है।
-19. Validity intended skill measurement है।
-20. Reliability scoring consistency है।
-21. 1 prime नहीं है।
-22. 2 only even prime है।
-23. HCF greatest common factor है।
-24. LCM least common multiple है।
-25. Integer number line पर right side greater है।
-26. Fraction denominator total equal parts है।
-27. Ratio order-sensitive है।
-28. Equation में both sides पर same operation करें।
-29. Perimeter boundary है।
-30. Area covered surface है।
-31. Volume space occupied है।
-32. Graph scale पढ़ना आवश्यक है।
-33. EVS integrated subject है।
-34. EVS immediate environment से शुरू करें।
-35. Filtration और disinfection same नहीं हैं।
-36. Water cycle में evaporation और condensation आते हैं।
-37. EVS project copied homework नहीं है।
-38. Observation और inference अलग हैं।
-39. Science में prediction testable expectation है।
-40. Fair test में one factor change करें।
-41. Photosynthesis में CO₂ और water raw materials हैं।
-42. Xylem water/minerals transport करता है।
-43. Food-chain arrow energy transfer दिखाता है।
-44. Speed = distance/time।
-45. Closed circuit complete path है।
-46. Like magnetic poles repel करते हैं।
-47. Reflection में incidence angle = reflection angle।
-48. Weather short-term है।
-49. Resource renewable होने पर भी unlimited नहीं।
-50. History source का author/purpose देखें।
-51. Chronology sequence बताती है, पूरी causation नहीं।
-52. Latitude parallels हैं।
-53. Longitude poles पर meet करती हैं।
-54. Map legend symbols explain करती है।
-55. Democracy participation और accountability मांगती है।
-56. Media source, purpose और missing voices check करें।
-57. Constitution rights और institutions का framework है।
-58. Judiciary law और remedies से जुड़ी है।
-59. Diversity difference है, hierarchy नहीं।
-60. Best CTET answer child-centred, inclusive, evidence-based और context-appropriate होता है।
-
----
-
-## 19. :icon-timer: Final 30-Minute Plan (अंतिम 30 मिनट की योजना)
-
-### Minute 0–10: Recall
-
-- Exam pattern और no-negative-marking।
-- Paper I/Paper II age group।
-- Your chosen language और Paper II option।
-- CDP theories और answer ladder।
-
-### Minute 10–20: Formula/fact scan
-
-- Maths signs, fractions, ratio, equations, units, area/volume।
-- Science cycles, circuit, food, plants, motion, resources।
-- SST timeline, source questions, map protocol, civics institutions।
-- Language passage method और grammar traps।
-
-### Minute 20–30: Strategy scan
-
-- NOT/EXCEPT wording।
-- Child response: observe → diagnose → support → re-check।
-- No punishment, labelling, rote-only, public comparison।
-- कोई नया chapter नहीं; calm mind, complete attempt।
+1. CTET में ऋणात्मक अंकन नहीं है।
+2. पेपर 1 की लक्षित आयु लगभग 6–11 वर्ष है।
+3. पेपर 2 की लक्षित आयु लगभग 11–14 वर्ष है।
+4. भाषा 2, भाषा 1 से अलग होनी चाहिए।
+5. विकास, वृद्धि से व्यापक है।
+6. वंशानुक्रम और वातावरण साथ काम करते हैं।
+7. निकटस्थ विकास क्षेत्र अकेले और सहायता से किए जाने वाले कार्य के बीच है।
+8. सहारा अस्थायी सहायता है।
+9. आत्मसातीकरण नई जानकारी को पुराने मानसिक ढाँचे में मिलाना है।
+10. समायोजन मानसिक ढाँचे में बदलाव है।
+11. पियाजे के चरण कठोर डिब्बे नहीं हैं।
+12. कोहलबर्ग नैतिक तर्क के आधार पर स्तर बताते हैं।
+13. ब्रूनर सर्पिल पाठ्यचर्या पर जोर देते हैं।
+14. घरेलू भाषा सीखने का संसाधन है।
+15. समावेशन का अर्थ पहुँच, सहभागिता और गरिमा है।
+16. अनुकूल व्यवस्था में लक्ष्य सामान्यतः वही रहता है।
+17. नैदानिक मूल्यांकन विशेष अंतर पहचानता है।
+18. अधिगम हेतु मूल्यांकन अगली शिक्षण-योजना बदलता है।
+19. वैधता इच्छित कौशल मापने से जुड़ी है।
+20. विश्वसनीयता अंकन की निरंतरता है।
+21. 1 अभाज्य नहीं है।
+22. 2 एकमात्र सम अभाज्य है।
+23. महत्तम समापवर्तक सबसे बड़ा सामान्य गुणनखंड है।
+24. लघुत्तम समापवर्त्य सबसे छोटा सामान्य गुणज है।
+25. संख्या रेखा पर दाईं ओर संख्या बड़ी है।
+26. भिन्न का हर कुल समान भाग बताता है।
+27. अनुपात क्रम पर निर्भर है।
+28. समीकरण में दोनों पक्षों पर समान क्रिया करें।
+29. परिमाप सीमा है।
+30. क्षेत्रफल अंदर का ढका भाग है।
+31. आयतन घेरा हुआ स्थान है।
+32. आलेख की मापनी पढ़ना जरूरी है।
+33. पर्यावरण अध्ययन एकीकृत विषय है।
+34. पर्यावरण अध्ययन बच्चे के निकट वातावरण से शुरू होती है।
+35. छानना और कीटाणु-नाशन समान नहीं हैं।
+36. जल-चक्र में वाष्पीकरण और संघनन आते हैं।
+37. परियोजना नकल किया हुआ गृहकार्य नहीं है।
+38. अवलोकन और निष्कर्ष अलग हैं।
+39. विज्ञान में अनुमान का परीक्षण किया जा सकता है।
+40. निष्पक्ष परीक्षण में एक प्रमुख चर बदलें।
+41. प्रकाश-संश्लेषण में कार्बन डाइऑक्साइड और जल कच्चे पदार्थ हैं।
+42. जाइलम जल और खनिज पहुँचाता है।
+43. आहार-श्रृंखला का तीर ऊर्जा-स्थानांतरण बताता है।
+44. चाल = दूरी ÷ समय।
+45. बंद परिपथ पूर्ण चालक मार्ग है।
+46. समान चुम्बकीय ध्रुव दूर धकेलते हैं।
+47. आपतन कोण और परावर्तन कोण बराबर होते हैं।
+48. मौसम अल्पकालीन स्थिति है।
+49. नवीकरणीय संसाधन भी असीमित नहीं।
+50. इतिहास में स्रोत का लेखक और उद्देश्य देखें।
+51. कालक्रम क्रम बताता है; पूरी कारण-व्याख्या नहीं।
+52. अक्षांश समानान्तर रेखाएँ हैं।
+53. देशान्तर ध्रुवों पर मिलती हैं।
+54. मानचित्र की संकेत-सूची प्रतीकों का अर्थ बताती है।
+55. लोकतंत्र में सहभागिता और जवाबदेही जरूरी हैं।
+56. मीडिया का स्रोत, उद्देश्य और अनुपस्थित आवाज़ देखें।
+57. संविधान अधिकार और संस्थाओं का ढाँचा है।
+58. न्यायपालिका कानून और उपचार से जुड़ी है।
+59. विविधता अंतर है, ऊँच-नीच नहीं।
+60. सर्वोत्तम CTET विकल्प बाल-केंद्रित, समावेशी, प्रमाण-आधारित और संदर्भानुकूल होता है।
 
 ---
 
-## 20. :icon-check: Final Exam Checklist (अंतिम परीक्षा सूची)
+## 20. अंतिम 30 मिनट की योजना
 
-### Before the exam (परीक्षा से पहले)
+### पहले 10 मिनट: स्मरण
 
-- [ ] Admit card और required documents check किए।
-- [ ] Opted languages और Paper II subject choice confirm है।
-- [ ] Travel/time plan बनाया।
-- [ ] Sleep, water और light revision रखी।
-- [ ] Last-minute new material avoid किया।
+- परीक्षा प्रारूप, समय और ऋणात्मक अंकन।
+- अपने पेपर, चुनी हुई भाषाएँ और पेपर 2 का विकल्प।
+- बाल विकास के विचारक और उत्तर-सीढ़ी।
 
-### During the exam (परीक्षा के दौरान)
+### अगले 10 मिनट: सूत्र और तथ्य
 
-- [ ] Instructions ध्यान से पढ़ीं।
-- [ ] Easy questions पहले किए।
-- [ ] Average 1 minute/question याद रखा।
-- [ ] Difficult questions mark करके आगे बढ़े।
-- [ ] हर question attempt किया क्योंकि negative marking नहीं है।
-- [ ] Question wording: NOT, EXCEPT, most appropriate check की।
-- [ ] Maths/Science में units, signs, conditions check कीं।
-- [ ] Language में passage evidence check किया।
-- [ ] CDP में age, context, dignity और inclusion check किया।
-- [ ] Final review में answer recording/check पूरा किया।
+- गणित: चिह्न, भिन्न, अनुपात, समीकरण, इकाई, क्षेत्रफल और आयतन।
+- विज्ञान: भोजन, पौधे, गति, परिपथ, प्रकाश, जल और संसाधन।
+- सामाजिक विज्ञान: समयरेखा, स्रोत, मानचित्र-मापनी, संस्था और अधिकार।
+- भाषा: गद्यांश की प्रमाण-विधि और व्याकरण-संदर्भ।
 
-::: formula 🎯 Final CTET mantra (अंतिम मंत्र)
-**Concept समझो → evidence देखो → child की thinking पढ़ो → inclusive option चुनो → answer complete करो।**
+### अंतिम 10 मिनट: रणनीति
 
-आपका लक्ष्य केवल answer याद करना नहीं है; question के पीछे का concept और classroom logic पहचानना है।
+- नहीं/को छोड़कर वाले प्रश्न।
+- बाल विकास में आयु और संदर्भ।
+- गलत उत्तर पर कारण पूछना।
+- कोई नया अध्याय नहीं।
+- शांत रहें और हर प्रश्न पूरा करें।
+
+---
+
+## 21. :icon-check: अंतिम परीक्षा जाँच-सूची
+
+### परीक्षा से पहले
+
+- [ ] प्रवेश-पत्र और आवश्यक दस्तावेज जाँच लिए।
+- [ ] चुनी हुई भाषाएँ और विषय-विकल्प सही हैं।
+- [ ] आने-जाने और समय की योजना है।
+- [ ] पर्याप्त नींद, जल और हल्की पुनरावृत्ति की।
+- [ ] नया और भारी विषय शुरू नहीं किया।
+
+### परीक्षा के दौरान
+
+- [ ] निर्देश ध्यान से पढ़े।
+- [ ] निश्चित प्रश्न पहले हल किए।
+- [ ] कठिन प्रश्न चिह्नित करके आगे बढ़े।
+- [ ] कोई प्रश्न खाली नहीं छोड़ा।
+- [ ] प्रश्न की भाषा और नहीं/को छोड़कर जाँचा।
+- [ ] गणित/विज्ञान में इकाइयाँ, चिह्न और शर्तें जाँचीं।
+- [ ] भाषा में उत्तर गद्यांश के प्रमाण पर रखा।
+- [ ] बाल विकास में बाल-केंद्रित और समावेशी विकल्प चुना।
+- [ ] अंतिम जाँच में उत्तर दर्ज करने की गलती नहीं छोड़ी।
+
+::: formula 🎯 अंतिम CTET मंत्र
+**अवधारणा समझें → प्रमाण देखें → शिक्षार्थी की सोच पढ़ें → समावेशी विकल्प चुनें → उत्तर पूरा करें।**
+
+आपको केवल उत्तर याद नहीं करना है; प्रश्न के पीछे का विषय और कक्षा-तर्क पहचानना है।
 :::
 
-**Further practice:** Subject-wise `ctet-mcq/` files और detailed `ctet-notes/` revision notes से केवल अपने marked weak areas revise करें।
+**आगे का अभ्यास:** विषयवार `ctet-mcq/` प्रश्न-संग्रह और `ctet-notes/` की विस्तृत पुनरावृत्ति फ़ाइलों में केवल अपने चिह्नित कमजोर भाग दोहराएँ।
