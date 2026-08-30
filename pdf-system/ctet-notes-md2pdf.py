@@ -111,7 +111,12 @@ SECTION_STYLES = {
         "colour": "red",
     },
     "maths": {
-        "keywords": ("Mathematics", "गणित"),
+        "keywords": (
+            "Mathematics", "गणित", "Number System", "Integers", "Fractions",
+            "Ratio", "Algebra", "Geometry", "Symmetry", "Construction",
+            "Mensuration", "Data Handling", "Problem-Solving",
+            "Activity-Based", "Nature of Mathematics", "Language of Mathematics",
+        ),
         "label": "Mathematics",
         "colour": "blue",
     },
