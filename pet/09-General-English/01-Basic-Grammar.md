@@ -1,80 +1,187 @@
 # General English — Basic Grammar
 
-> **PET | General English | English-first Notes**
+> **PET Detailed Notes | English-first | StudyHub Point**
 >
-> **StudyHub Point:** Learn the rule → see the example → identify the error → practise.
+> **Learning sequence:** Concept → Rule → Examples → Common Errors → Exam Tip → Practice
+>
+> **Hindi Help:** कठिन या confusing points पर ही short Hindi support दिया जाएगा। बाकी explanation English में रहेगा।
 
-## 1. Parts of Speech
+---
 
-Parts of speech classify words according to their function in a sentence.
+# 1. Parts of Speech
 
-| Part of Speech | Main Function | Example |
+Parts of speech are categories of words based on the **work/function they perform in a sentence**. A word should be identified from its context, not from its dictionary label alone.
+
+| Part of Speech | Function | Examples |
 |---|---|---|
-| Noun | Names a person, place, thing, or idea | teacher, Delhi, honesty |
-| Pronoun | Replaces a noun | he, she, they |
-| Adjective | Describes a noun/pronoun | honest, beautiful |
-| Verb | Shows action or state | run, write, is |
-| Adverb | Modifies a verb, adjective, or adverb | quickly, very |
-| Preposition | Shows relationship | in, on, at, between |
-| Conjunction | Joins words/clauses | and, but, because |
+| Noun | Names a person, place, thing, animal, or idea | teacher, Delhi, honesty |
+| Pronoun | Replaces/refers to a noun | he, she, they |
+| Adjective | Modifies a noun/pronoun | honest, tall, three |
+| Verb | Expresses action, occurrence, or state | run, write, seem |
+| Adverb | Modifies a verb, adjective, adverb, or clause | quickly, very, often |
+| Preposition | Shows relationship | in, on, between |
+| Conjunction | Connects words/phrases/clauses | and, but, because |
 | Interjection | Expresses sudden feeling | Oh!, Alas! |
-| Article | Introduces a noun | a, an, the |
+| Article | Marks a noun as general/specific | a, an, the |
+
+::: concept
+**Context matters:**
+
+- **Fast** is an adjective in “a fast car”.
+- **Fast** is an adverb in “He runs fast”.
+
+The same word can perform different grammatical functions in different sentences.
+:::
 
 ::: tip
-**Exam Tip:** First identify the word's function in the sentence. The same word can belong to different parts of speech in different contexts.
+**Exam Tip:** First identify the word's function in the sentence. Do not classify a word only by its form.
 
 **Hindi Help:** Part of Speech = sentence में word का grammatical function.
 :::
 
-## 2. Noun
+---
 
-A **noun** is a word used to name a person, place, animal, thing, or idea.
+# 2. Noun
 
-### Common Types
+A **noun** is a word that names a person, place, thing, animal, substance, quality, state, or idea.
 
-- **Proper Noun:** Rahul, India, Monday
-- **Common Noun:** boy, country, day
-- **Collective Noun:** team, crowd, committee
-- **Abstract Noun:** honesty, beauty, courage
-- **Material Noun:** gold, water, milk
-- **Countable Noun:** book, apple, student
-- **Uncountable Noun:** information, advice, furniture
+## 2.1 Types of Nouns
+
+### Proper Noun
+A specific name of a person, place, institution, day, month, etc.
+
+Examples: **Ravi, India, Delhi, Monday, January**
+
+### Common Noun
+A general name.
+
+Examples: **boy, country, city, day**
+
+### Collective Noun
+A word referring to a group considered as a unit.
+
+Examples: **team, committee, crowd, army**
+
+### Abstract Noun
+Names a quality, state, feeling, or idea.
+
+Examples: **honesty, beauty, courage, childhood**
+
+### Material Noun
+Names a substance/material.
+
+Examples: **gold, silver, water, milk**
+
+### Countable and Uncountable Nouns
+
+**Countable:** book, apple, student, chair  
+**Uncountable:** advice, information, furniture, luggage, water
 
 ::: warning
-Do not assume that every noun can be made plural. Words such as **advice, information, furniture, and luggage** are normally uncountable in standard English.
+Do not normally use **advices, informations, furnitures, luggages** in standard English.
+
+Correct:
+- a piece of advice
+- some information
+- a piece of furniture
 :::
+
+## 2.2 Number
+
+- **Singular:** book, child, woman
+- **Plural:** books, children, women
+
+### Important irregular plurals
+
+| Singular | Plural |
+|---|---|
+| man | men |
+| woman | women |
+| child | children |
+| foot | feet |
+| tooth | teeth |
+| mouse | mice |
+| person | people |
+
+::: trap
+Some nouns ending in **-s** are singular in meaning: **news, mathematics, politics** (depending on context).
+
+Example: **The news is** shocking.
+:::
+
+## 2.3 Possessive Nouns
+
+Possession can be shown with **'s** or **s'**.
+
+- Rahul's book
+- the boys' bags
+- the children's toys
 
 ::: example
-1. **Ravi** is a **student**. → Proper + Common Noun
-2. **Honesty** is a virtue. → Abstract Noun
-3. The **team** won the match. → Collective Noun
+**Ravi's car** = the car belonging to Ravi.  
+**The girls' school** = the school associated with the girls.
 :::
 
-## 3. Pronoun
+---
 
-A **pronoun** is used in place of a noun to avoid unnecessary repetition.
+# 3. Pronoun
 
-### Important Types
+A **pronoun** is a word used in place of a noun or noun phrase, or to refer to an entity already understood from context.
 
-- Personal: I, we, you, he, she, it, they
-- Possessive: mine, yours, his, hers, ours, theirs
-- Reflexive: myself, yourself, himself, herself, themselves
-- Demonstrative: this, that, these, those
-- Relative: who, whom, whose, which, that
-- Interrogative: who, whom, whose, which, what
-- Indefinite: someone, anyone, nobody, each, several
+## 3.1 Types of Pronouns
+
+| Type | Examples |
+|---|---|
+| Personal | I, we, you, he, she, it, they |
+| Possessive | mine, yours, his, hers, ours, theirs |
+| Reflexive | myself, yourself, himself, herself, themselves |
+| Demonstrative | this, that, these, those |
+| Relative | who, whom, whose, which, that |
+| Interrogative | who, whom, whose, which, what |
+| Indefinite | someone, anyone, nobody, each, several |
+| Reciprocal | each other, one another |
+
+## 3.2 Antecedent Agreement
+
+A pronoun should normally agree with its antecedent in **number, person, and appropriate grammatical form**.
+
+- Riya finished **her** work.
+- The students finished **their** work.
+
+::: warning
+Do not choose a pronoun merely because the nearest noun “looks right”. Identify the actual antecedent first.
+:::
+
+## 3.3 Who / Whom / Whose
+
+- **Who** → subject/person performing an action.
+- **Whom** → object/person receiving an action in formal usage.
+- **Whose** → possession.
+
+Example:
+
+- **Who** called you?
+- **Whom** did you meet?
+- **Whose** book is this?
 
 ::: tip
-**Quick Check:** Ask whether the pronoun agrees with its antecedent in **number and person**.
+A useful formal test: if the answer would be **he/she**, use **who**; if it would be **him/her**, **whom** may be appropriate.
 :::
 
-## 4. Adjective
+---
 
-An **adjective** describes or gives more information about a noun or pronoun.
+# 4. Adjective
 
-Examples: a **smart** student, a **large** building, **three** books.
+An **adjective** describes, identifies, or gives information about a noun or pronoun.
 
-### Degrees of Comparison
+Examples:
+
+- a **smart** student
+- a **large** building
+- **three** books
+- **this** book
+
+## 4.1 Degrees of Comparison
 
 | Degree | Example |
 |---|---|
@@ -82,217 +189,740 @@ Examples: a **smart** student, a **large** building, **three** books.
 | Comparative | taller |
 | Superlative | tallest |
 
+Other patterns:
+
+- beautiful → more beautiful → most beautiful
+- good → better → best
+- bad → worse → worst
+- little → less → least
+- many/much → more → most
+
 ::: warning
-Use the comparative degree when comparing **two** things and the superlative degree when comparing **three or more** in the usual exam pattern.
+Avoid double comparison in standard exam English:
+
+❌ more better  
+❌ most tallest  
+✅ better  
+✅ tallest
 :::
 
-## 5. Verb
+::: tip
+Comparative forms are generally used to compare **two**, while superlative forms identify the highest/lowest degree within a group.
+:::
+
+---
+
+# 5. Verb
 
 A **verb** expresses an action, occurrence, or state.
 
-Examples: run, study, write, become, is, seem.
+Examples: **run, study, write, become, is, seem**.
 
-### Main Ideas
+## 5.1 Main Verb
 
-- **Main/Lexical Verb:** carries the main meaning.
-- **Auxiliary Verb:** helps the main verb — be, have, do.
-- **Modal Auxiliary:** expresses ability, possibility, permission, obligation, etc. — can, may, must, should, will.
+Carries the principal meaning.
+
+> She **writes** every day.
+
+## 5.2 Auxiliary Verb
+
+Helps another verb.
+
+- **be:** am, is, are, was, were, been, being
+- **have:** have, has, had
+- **do:** do, does, did
+
+## 5.3 Modal Auxiliary
+
+Expresses ability, possibility, permission, obligation, advice, prediction, etc.
+
+Examples: **can, could, may, might, must, shall, should, will, would**.
 
 ::: remember
-**Be + V-ing** commonly forms a continuous construction.  
-**Have/has/had + V3** commonly forms a perfect construction.  
-**Do/does/did + V1** is used in many questions, negatives, and emphatic constructions.
+After a modal, use the **base form (V1)**:
+
+- He **can swim**.
+- You **should study**.
+- They **must leave**.
+
+Not: ❌ can swims / ❌ should studied
 :::
 
-## 6. Adverb
+## 5.4 Transitive and Intransitive Verbs
 
-An **adverb** modifies a verb, an adjective, another adverb, or sometimes an entire clause.
+**Transitive verb:** normally takes an object.
 
-Examples:
+> She **opened the door**.
 
-- He runs **quickly**. → modifies a verb
-- She is **very** intelligent. → modifies an adjective
-- He runs **quite** quickly. → modifies an adverb
+**Intransitive verb:** does not take a direct object in the same construction.
 
-Common types include adverbs of manner, time, place, frequency, and degree.
+> The baby **slept**.
+
+::: concept
+The same verb may be transitive in one sentence and intransitive in another depending on usage.
+:::
+
+## 5.5 Verb Forms
+
+| Form | Example |
+|---|---|
+| V1 | go |
+| V2 | went |
+| V3 | gone |
+| V-ing | going |
+| V1+s/es | goes |
+
+::: trap
+After **did**, use V1:
+
+❌ Did he went?  
+✅ Did he go?
+:::
+
+---
+
+# 6. Adverb
+
+An **adverb** can modify a verb, adjective, another adverb, or an entire clause.
+
+### Examples
+
+- He runs **quickly**. → verb
+- She is **very** intelligent. → adjective
+- He runs **quite** quickly. → adverb
+- **Fortunately**, nobody was hurt. → whole clause
+
+## 6.1 Common Types
+
+- **Manner:** slowly, carefully, quickly
+- **Time:** now, yesterday, soon
+- **Place:** here, there, everywhere
+- **Frequency:** always, often, never, rarely
+- **Degree:** very, quite, too, almost
 
 ::: trick
-**Easy identification:** Ask **how, when, where, or to what extent?** But always confirm the word's function from the sentence.
+Ask **How? When? Where? How often? To what extent?** as a quick clue—but confirm the word's grammatical function from context.
 :::
-
-## 7. Preposition
-
-A **preposition** shows the relationship of a noun/pronoun with another word.
-
-Examples: in, on, at, by, for, from, to, with, between, among.
-
-### High-Frequency Usage
-
-| Preposition | Typical use | Example |
-|---|---|---|
-| at | specific point/time | at 5 p.m. |
-| on | day/date/surface | on Monday; on the table |
-| in | month/year/period/inside | in July; in 2026; in the room |
-| between | two people/things | between A and B |
-| among | more than two / group | among the students |
-| since | starting point of time | since Monday |
-| for | duration | for two hours |
 
 ::: warning
-**Since** generally points to a starting point; **for** generally expresses duration.
+Not every word ending in **-ly** is an adverb, and not every adverb ends in **-ly**.
+
+Examples: **friendly** is commonly an adjective; **fast** can be an adverb.
 :::
 
-## 8. Conjunction
+---
+
+# 7. Preposition
+
+A **preposition** shows a relationship involving time, place, direction, cause, manner, or another relation.
+
+Examples: **in, on, at, by, for, from, to, with, between, among, under, over**.
+
+## 7.1 Prepositions of Time
+
+| Preposition | Common use | Example |
+|---|---|---|
+| at | exact time | at 5 p.m. |
+| on | day/date | on Monday; on 15 August |
+| in | month/year/long period | in July; in 2026 |
+| since | starting point | since Monday |
+| for | duration | for two hours |
+| by | deadline/not later than | by 6 p.m. |
+| during | within a period/event | during the meeting |
+
+## 7.2 Prepositions of Place
+
+- **in** → inside an area/space
+- **on** → surface
+- **at** → point/location
+- **under** → lower than and often directly below
+- **above** → higher than
+- **between** → relation involving two or separately identified entities
+- **among** → within a group
+
+::: warning
+**Since** generally marks a starting point; **for** generally marks duration.
+
+- since Monday
+- for three days
+:::
+
+## 7.3 Commonly Confused Prepositions
+
+### In / Into
+- **in** → position/state inside
+- **into** → movement from outside to inside
+
+> The child is **in** the room.  
+> The child went **into** the room.
+
+### By / With
+- **by** → agent/method/means in common constructions
+- **with** → instrument/tool or accompaniment
+
+> The poem was written **by** Tagore.  
+> He cut it **with** a knife.
+
+### Beside / Besides
+- **beside** → next to
+- **besides** → in addition to
+
+::: trick
+**Besides = “in addition”**.  
+**Beside = “next to”.**
+:::
+
+---
+
+# 8. Conjunction
 
 A **conjunction** connects words, phrases, or clauses.
 
-### Types
+## 8.1 Coordinating Conjunctions
 
-- **Coordinating:** and, but, or, nor, for, so, yet
-- **Subordinating:** because, although, if, when, unless, while
-- **Correlative:** either...or, neither...nor, not only...but also
+**FANBOYS:** For, And, Nor, But, Or, Yet, So.
 
-::: example
-**Although** it was raining, we went outside.  
-**Either** Ravi **or** Mohan will lead the team.
+> I wanted to go, **but** it was raining.
+
+## 8.2 Subordinating Conjunctions
+
+Examples: **because, although, if, when, unless, while, before, after, since**.
+
+> **Although** it was raining, we went outside.
+
+## 8.3 Correlative Conjunctions
+
+Common pairs:
+
+- either...or
+- neither...nor
+- both...and
+- not only...but also
+- whether...or
+
+::: warning
+Keep paired conjunctions balanced where the construction requires parallel elements.
+
+> She likes **both singing and dancing**.
 :::
 
-## 9. Articles
+---
 
-English has three articles:
+# 9. Articles
 
-- **a** — before a singular countable noun with a consonant sound.
-- **an** — before a singular countable noun with a vowel sound.
-- **the** — for a specific/identified noun or certain established uses.
+English articles are **a, an, and the**. The choice depends mainly on whether the noun is countable/singular, specific, and on the sound that follows.
+
+## 9.1 A
+
+Use **a** before a singular countable noun when the following sound is a consonant sound.
+
+- a book
+- a university
+- a European country
+
+## 9.2 An
+
+Use **an** before a singular countable noun when the following sound is a vowel sound.
+
+- an apple
+- an hour
+- an honest man
+- an MBA
 
 ::: trick
-Choose **a/an by sound, not simply by spelling**.
+**A/An depends on sound, not spelling.**
 
-Examples: **an hour**, **an honest man**, but **a university**, **a European**.
+**a university** → /juː.../ consonant sound  
+**an hour** → silent h; vowel sound
 :::
 
-## 10. Tense
+## 9.3 The
 
-Tense shows the time or aspect of an action/state.
+Use **the** when the listener/reader can identify the specific noun from context or shared knowledge, and in a number of established constructions.
 
-### Basic 12-Tense Framework
+Examples:
+
+- I saw a dog. **The dog** was barking.
+- **The sun** rises in the east.
+- **The Ganga**
+- **the Himalayas**
+
+## 9.4 Zero Article
+
+Sometimes no article is used, especially with plural/uncountable nouns used in a general sense.
+
+> **Books** are useful.  
+> **Water** is essential for life.
+
+::: warning
+Do not add **the** before every geographical or institutional name. Article use depends on the name and construction.
+:::
+
+---
+
+# 10. Tense
+
+Tense/aspect helps express when an event occurs and how it is viewed.
+
+## 10.1 The 12-Tense Framework
 
 | Time | Simple | Continuous | Perfect | Perfect Continuous |
 |---|---|---|---|---|
-| Present | V1 / s-es | am/is/are + V-ing | has/have + V3 | has/have been + V-ing |
+| Present | V1 / V1+s/es | am/is/are + V-ing | has/have + V3 | has/have been + V-ing |
 | Past | V2 | was/were + V-ing | had + V3 | had been + V-ing |
 | Future | will + V1 | will be + V-ing | will have + V3 | will have been + V-ing |
 
-::: formula
-**Remember the verb patterns:**
+## 10.2 Present Simple
 
-Present Simple → **V1 / V1+s/es**  
-Past Simple → **V2**  
-Perfect → **have/has/had + V3**  
-Continuous → **be + V-ing**
-:::
+**Structure:** Subject + V1/V1+s-es
+
+### Uses
+- habits/routines
+- repeated actions
+- general truths
+- facts
+- schedules in suitable contexts
+
+Examples:
+
+- He **goes** to school every day.
+- The sun **rises** in the east.
 
 ::: warning
-After **did**, use the base form: **Did he go?** not **Did he went?**
+With **he/she/it** or a singular third-person subject, the present simple verb generally takes **-s/-es**.
+
+❌ He go to school.  
+✅ He goes to school.
 :::
 
-## 11. Subject–Verb Agreement
+## 10.3 Present Continuous
 
-The verb must agree with the subject in person and number according to the grammatical structure of the sentence.
+**Structure:** Subject + am/is/are + V-ing
 
-### Important Rules
+Uses:
+- action happening around now
+- temporary situations
+- arranged near-future situations in appropriate contexts
 
-1. A singular subject generally takes a singular verb in the present simple.
-   - He **works** hard.
-2. A plural subject generally takes a plural verb.
-   - They **work** hard.
-3. Words between the subject and verb do not normally change the agreement.
-   - The quality of these products **is** good.
-4. With **either...or / neither...nor**, agreement is commonly determined by the nearer subject in standard exam usage.
-   - Neither the teacher nor the students **are** ready.
-5. **Each, every, everyone, everybody, someone, nobody** normally take singular verbs.
-   - Everyone **is** ready.
+> She **is studying** now.
+
+## 10.4 Present Perfect
+
+**Structure:** Subject + has/have + V3
+
+Common uses:
+- completed action with present relevance
+- experiences
+- situations extending to the present in suitable contexts
+
+> I **have finished** my work.
 
 ::: trap
-**Exam Trap:** Do not choose the verb according to the nearest noun automatically. First identify the grammatical subject.
+Do not normally combine a finished past-time marker such as **yesterday** with the present perfect in standard exam constructions.
+
+❌ I have seen him yesterday.  
+✅ I saw him yesterday.
 :::
 
-## 12. Active and Passive Voice — Basic Concept
+## 10.5 Present Perfect Continuous
 
-### Active Voice
+**Structure:** has/have been + V-ing
+
+> She **has been studying for two hours**.
+
+## 10.6 Past Simple
+
+**Structure:** V2
+
+Used for completed past events, often with a definite past-time reference.
+
+> They **visited** Agra last year.
+
+## 10.7 Past Continuous
+
+**Structure:** was/were + V-ing
+
+> I **was reading** when he called.
+
+## 10.8 Past Perfect
+
+**Structure:** had + V3
+
+Used to show an earlier past action in relation to another past reference point.
+
+> The train **had left** before we reached the station.
+
+## 10.9 Past Perfect Continuous
+
+**Structure:** had been + V-ing
+
+> He **had been working** for three hours before the break.
+
+## 10.10 Future Simple
+
+**Structure:** will + V1
+
+> I **will call** you tomorrow.
+
+## 10.11 Future Continuous
+
+**Structure:** will be + V-ing
+
+> This time tomorrow, I **will be travelling**.
+
+## 10.12 Future Perfect
+
+**Structure:** will have + V3
+
+> By Friday, she **will have completed** the work.
+
+## 10.13 Future Perfect Continuous
+
+**Structure:** will have been + V-ing
+
+> By June, he **will have been teaching** for ten years.
+
+::: formula
+**Pattern memory:**
+
+- Continuous → **BE + V-ing**
+- Perfect → **HAVE + V3**
+- Perfect Continuous → **HAVE + BEEN + V-ing**
+- After **will** → **V1**
+- After **did** → **V1**
+:::
+
+---
+
+# 11. Subject–Verb Agreement
+
+The verb must agree with the grammatical subject according to number and person.
+
+## 11.1 Basic Rule
+
+- He **works** hard.
+- They **work** hard.
+
+## 11.2 Ignore Intervening Phrases
+
+The words between subject and verb do not normally change the agreement.
+
+> The quality **of these products is** good.
+
+The subject is **quality**, not products.
+
+## 11.3 Each / Every / Everyone etc.
+
+These normally take singular verbs:
+
+- Each student **has** a book.
+- Everyone **is** ready.
+- Every child **needs** care.
+
+## 11.4 Either...or / Neither...nor
+
+In common standard exam constructions, the verb generally agrees with the nearer subject.
+
+> Neither the teacher nor the students **are** ready.
+
+> Neither the students nor the teacher **is** ready.
+
+## 11.5 Along With / As Well As / Together With
+
+These expressions do not normally make the main subject plural.
+
+> The teacher, along with the students, **is** present.
+
+## 11.6 There is / There are
+
+Agreement follows the grammatical subject that follows in the construction.
+
+> There **is** a book on the table.  
+> There **are** two books on the table.
+
+::: trap
+**Nearest noun ≠ automatically the subject.** Identify the real subject before selecting the verb.
+:::
+
+---
+
+# 12. Active and Passive Voice
+
+## 12.1 Active Voice
+
 The subject performs the action.
 
-> The teacher **checked** the answer.
+> The teacher **checked the answer**.
 
-### Passive Voice
-The subject receives the action.
+## 12.2 Passive Voice
 
-> The answer **was checked** by the teacher.
+The grammatical subject receives the action.
 
-::: remember
-Basic passive pattern: **Object + appropriate form of BE + V3 + (by + agent)**.
+> The answer **was checked by the teacher**.
 
-Not every sentence can be converted naturally into passive voice. The verb normally needs a suitable object.
+## 12.3 Basic Conversion Steps
+
+1. Identify the object of the active sentence.
+2. Move the object to the subject position of the passive sentence.
+3. Choose the appropriate form of **be**.
+4. Use the **past participle (V3)**.
+5. Add the agent with **by** when it is useful/required.
+6. Preserve the tense and meaning.
+
+::: formula
+**Active:** Subject + Verb + Object  
+**Passive:** Object + appropriate BE + V3 + (by + Subject)
 :::
 
-## 13. Direct and Indirect Speech — Basic Concept
+## 12.4 Common Patterns
 
-### Direct Speech
-The speaker's exact words are quoted.
+| Active | Passive |
+|---|---|
+| writes | is/am/are written |
+| wrote | was/were written |
+| is writing | is/am/are being written |
+| has written | has/have been written |
+| had written | had been written |
+| will write | will be written |
+| can write | can be written |
+
+::: warning
+A normal passive transformation requires a suitable object/transitive construction. Do not force a passive form for every intransitive verb.
+:::
+
+---
+
+# 13. Direct and Indirect Speech
+
+## 13.1 Direct Speech
+
+The speaker's words are reported as a quotation.
 
 > He said, “I am tired.”
 
-### Indirect Speech
-The statement is reported without quoting the exact words.
+## 13.2 Indirect Speech
+
+The meaning is reported without quoting the exact words.
 
 > He said that he was tired.
 
+## 13.3 What to Check During Conversion
+
+1. Reporting verb
+2. Pronouns
+3. Tense/backshift where required
+4. Time/place expressions
+5. Sentence type
+6. Connector such as **that, if/whether**, or appropriate question word
+
+### Common changes in traditional exam grammar
+
+| Direct | Common indirect equivalent |
+|---|---|
+| now | then |
+| today | that day |
+| tomorrow | the next day |
+| yesterday | the previous day |
+| here | there |
+| this | that |
+| these | those |
+
+::: warning
+Do not change every tense mechanically. The reporting context, reporting verb, time reference, and whether the statement remains true can affect the appropriate form.
+:::
+
+## 13.4 Statements
+
+> He said, “I am busy.”  
+> He said that he was busy.
+
+## 13.5 Questions
+
+> He said, “Are you ready?”  
+> He asked whether I was ready.
+
+::: trap
+In an indirect question, use **statement word order**:
+
+❌ He asked where was I going.  
+✅ He asked where I was going.
+:::
+
+## 13.6 Commands / Requests
+
+> The teacher said to me, “Open the book.”  
+> The teacher told me to open the book.
+
+The exact reporting verb depends on whether the original sentence expresses an order, request, advice, warning, etc.
+
+---
+
+# 14. Common Grammar Errors
+
+| Incorrect | Correct | Rule |
+|---|---|---|
+| He do his work. | He does his work. | 3rd-person singular |
+| Did he went? | Did he go? | did + V1 |
+| She is more better. | She is better. | avoid double comparison |
+| He is an university student. | He is a university student. | sound-based article |
+| I have seen him yesterday. | I saw him yesterday. | finished past time |
+| Everyone are ready. | Everyone is ready. | singular indefinite pronoun |
+| She is good in English. | She is good at English. | standard collocation |
+| He discussed about the issue. | He discussed the issue. | discuss + object |
+
 ::: tip
-For conversion questions, check **reporting verb + pronoun + tense/backshift + time/place words + sentence type** together. Do not change words mechanically.
+For error detection, check in this order:
+
+**Subject–Verb → Tense → Article → Preposition → Pronoun → Modifier → Word usage**
 :::
 
-## 14. Quick Revision
+---
 
-- Noun → names
-- Pronoun → replaces a noun
-- Adjective → describes
-- Verb → action/state
-- Adverb → modifies
-- Preposition → relationship
-- Conjunction → joins
-- Article → a/an/the
-- **a/an** → sound matters
-- **did + V1**
-- **has/have/had + V3**
-- **be + V-ing**
-- Subject controls subject–verb agreement
-- Active → doer-focused
-- Passive → receiver-focused
+# 15. Hindi Help — Quick Grammar Map
 
-::: practice
-### Practice Set
-
-1. Identify the noun in: **Honesty is the best policy.**
-2. Choose the correct article: **He is ___ honest man.**
-3. Choose the correct form: **She did not ___ to school.**
-4. Identify the adverb: **The child answered quickly.**
-5. Choose the correct verb: **Everyone ___ ready. (is/are)**
-6. Identify the preposition: **The book is on the table.**
-7. Identify the conjunction: **I stayed home because it was raining.**
-8. Change into passive voice: **The teacher praised the student.**
-
-### Answers
-
-1. **Honesty**  
-2. **an**  
-3. **go**  
-4. **quickly**  
-5. **is**  
-6. **on**  
-7. **because**  
-8. **The student was praised by the teacher.**
-:::
+| English Term | Short Hindi Help |
+|---|---|
+| Noun | नाम बताने वाला word |
+| Pronoun | Noun के स्थान/संदर्भ में आने वाला word |
+| Adjective | Noun/Pronoun की विशेषता बताता है |
+| Verb | Action/State बताता है |
+| Adverb | Verb/Adjective/Adverb को modify करता है |
+| Preposition | संबंध/स्थान/समय आदि बताता है |
+| Conjunction | words/clauses को जोड़ता है |
+| Article | noun के general/specific reference को mark करता है |
+| Tense | time/aspect की grammatical expression |
+| Voice | action में subject/object की grammatical भूमिका |
+| Narration | कही गई बात को report करने का तरीका |
 
 ::: remember
-**PET Revision Rule:** Learn the rule, test it on an example, then solve an error-detection question. Grammar becomes reliable through application, not memorisation alone.
+**Hindi Help is a support, not the main lesson.** PET English notes should be studied primarily through English examples and rules.
+:::
+
+---
+
+# 16. Chapter Revision Sheet
+
+### Must Remember
+
+- Parts of Speech are identified by **function and context**.
+- Countable nouns can normally be counted; uncountable nouns behave differently.
+- Pronouns should have a clear and appropriate antecedent.
+- Comparative and superlative forms should not be doubled.
+- After a modal → **V1**.
+- After **did** → **V1**.
+- Continuous → **BE + V-ing**.
+- Perfect → **HAVE + V3**.
+- A/An → **sound**, not spelling.
+- **Since** → starting point; **for** → duration.
+- **Between** and **among** depend on the relationship/context, not simply a mechanical number rule.
+- Subject–verb agreement depends on the grammatical subject.
+- Passive voice generally requires a suitable transitive construction.
+- Indirect questions use statement word order.
+
+---
+
+# 17. Practice Set — Basic Grammar
+
+::: practice
+### A. Identify the Correct Option
+
+**1.** Which word is an abstract noun?  
+A. table  
+B. honesty  
+C. teacher  
+D. Delhi
+
+**2.** Choose the correct article:  
+He is ___ honest man.  
+A. a  B. an  C. the  D. no article
+
+**3.** Choose the correct form:  
+She did not ___ to school.  
+A. went  B. goes  C. go  D. going
+
+**4.** Choose the correct verb:  
+Everyone ___ ready.  
+A. are  B. were  C. is  D. have
+
+**5.** Choose the correct preposition:  
+She has lived here ___ 2020.  
+A. for  B. since  C. during  D. by
+
+**6.** Choose the correct sentence.  
+A. He can swims.  
+B. He can swim.  
+C. He can swimming.  
+D. He can swam.
+
+**7.** Identify the adverb:  
+The child answered quickly.  
+A. child  B. answered  C. quickly  D. the
+
+**8.** Choose the correct sentence.  
+A. Did she went there?  
+B. Did she goes there?  
+C. Did she go there?  
+D. Did she going there?
+
+**9.** Choose the correct form:  
+The quality of these products ___ good.  
+A. are  B. were  C. is  D. have
+
+**10.** Choose the correct article:  
+He studies at ___ university.  
+A. an  B. a  C. the  D. no article
+
+**11.** Choose the correct form:  
+By Friday, she ___ the work.  
+A. completes  
+B. completed  
+C. will have completed  
+D. has completing
+
+**12.** Choose the correct indirect question.  
+A. He asked where was I going.  
+B. He asked where I was going.  
+C. He asked where am I going.  
+D. He asked where I going was.
+
+**13.** Choose the correct sentence.  
+A. She is more better than me.  
+B. She is better than me.  
+C. She is most better than me.  
+D. She is very better than me.
+
+**14.** Choose the correct preposition:  
+He cut the paper ___ a knife.  
+A. by  B. with  C. from  D. at
+
+**15.** Change into passive voice:  
+The teacher praised the student.  
+A. The student praised the teacher.  
+B. The student was praised by the teacher.  
+C. The student is praised by the teacher.  
+D. The student had praised the teacher.
+:::
+
+### Answer Key
+
+| Q | Ans | Key Point |
+|---:|:---:|---|
+| 1 | B | Abstract noun |
+| 2 | B | vowel sound in **honest** |
+| 3 | C | did + V1 |
+| 4 | C | everyone → singular verb |
+| 5 | B | since + starting point |
+| 6 | B | modal + V1 |
+| 7 | C | modifies the verb |
+| 8 | C | did + V1 |
+| 9 | C | subject = quality |
+| 10 | B | consonant sound /juː/ |
+| 11 | C | future perfect |
+| 12 | B | indirect question word order |
+| 13 | B | no double comparison |
+| 14 | B | instrument → with |
+| 15 | B | past simple passive |
+
+::: remember
+**Detailed Notes Rule:** Do not stop after reading the answer. For every wrong question, return to the relevant rule, identify the mistake, and solve a new example.
 :::
