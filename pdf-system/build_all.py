@@ -21,6 +21,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 MD2PDF = HERE / "md2pdf.py"
 MCQ2PDF = HERE / "mcqmdtopdf.py"
 NOTES2PDF = HERE / "ctet-notes-md2pdf.py"
+PET2PDF = HERE / "pet-notes-md2pdf.py"
 
 def run(cmd_args):
     cmd = [sys.executable, str(MD2PDF)] + cmd_args
@@ -47,6 +48,16 @@ def run_notes(cmd_args):
     if res.returncode != 0:
         print(f"  [ERROR] Command failed with code {res.returncode}")
     return res.returncode
+
+def run_pet(cmd_args):
+    runner = PET2PDF if PET2PDF.exists() else MD2PDF
+    cmd = [sys.executable, str(runner)] + cmd_args
+    print(f"\n[RUN PET] {' '.join(cmd_args)}")
+    res = subprocess.run(cmd, cwd=str(REPO_ROOT))
+    if res.returncode != 0:
+        print(f"  [ERROR] Command failed with code {res.returncode}")
+    return res.returncode
+
 
 def main():
     print("==================================================")
@@ -432,6 +443,60 @@ def main():
             "--subtitle", "CDP · SST · हिन्दी · English + Last-Minute Sheets",
             "--badge", "Paper II SST", "--toc", "--flow"
         ])
+
+    # 8. UPSSSC PET REVISION NOTES
+    PET = REPO_ROOT / "pet"
+    if PET.exists():
+        print("\n--- 8. UPSSSC PET REVISION NOTES ------------------")
+        if (PET / '00-PET-Complete-Syllabus.md').exists():
+            run_pet([
+                str(PET / '00-PET-Complete-Syllabus.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-Complete-Syllabus.pdf'),
+                "--title", "UPSSSC PET सम्पूर्ण पाठ्यक्रम एवं रणनीति",
+                "--subtitle", "आधिकारिक पाठ्यक्रम एवं विषयवार अंक विभाजन (100 अंक · 15 विषय)",
+                "--badge", "PET 2026", "--toc"
+            ])
+        ENG = PET / "09-General-English"
+        if ENG.exists():
+            run_pet([
+                str(ENG / '01-Basic-Grammar.md'),
+                "-o", str(OUT_DIR / 'PET-09-General-English-01-Basic-Grammar.pdf'),
+                "--title", "General English — Basic Grammar",
+                "--subtitle", "UPSSSC PET 2026 Detailed Notes · Part A to E",
+                "--badge", "General English", "--toc"
+            ])
+            run_pet([
+                str(ENG / '02-Vocabulary.md'),
+                "-o", str(OUT_DIR / 'PET-09-General-English-02-Vocabulary.pdf'),
+                "--title", "General English — Vocabulary",
+                "--subtitle", "UPSSSC PET 2026 Detailed Notes · Synonyms, Antonyms, Idioms & OWS",
+                "--badge", "General English", "--toc"
+            ])
+            run_pet([
+                str(ENG / '03-Sentence-Ability.md'),
+                "-o", str(OUT_DIR / 'PET-09-General-English-03-Sentence-Ability.pdf'),
+                "--title", "General English — Sentence Ability",
+                "--subtitle", "UPSSSC PET 2026 Detailed Notes · Spotting Errors, Improvement & Fillers",
+                "--badge", "General English", "--toc"
+            ])
+            run_pet([
+                str(ENG / '04-Reading-Comprehension.md'),
+                "-o", str(OUT_DIR / 'PET-09-General-English-04-Reading-Comprehension.pdf'),
+                "--title", "General English — Reading Comprehension",
+                "--subtitle", "UPSSSC PET 2026 Detailed Notes · Unseen Passages & PYQ Strategy",
+                "--badge", "General English", "--toc"
+            ])
+            # Unified Complete English Book
+            run_pet([
+                str(ENG / '01-Basic-Grammar.md'),
+                str(ENG / '02-Vocabulary.md'),
+                str(ENG / '03-Sentence-Ability.md'),
+                str(ENG / '04-Reading-Comprehension.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-General-English-COMPLETE.pdf'),
+                "--title", "UPSSSC PET General English",
+                "--subtitle", "सम्पूर्ण अंग्रेजी नोट्स — Grammar, Vocabulary, Sentence Ability & Comprehension",
+                "--badge", "PET English Complete", "--toc", "--flow"
+            ])
 
     print("\n==================================================")
     print("            BUILD COMPLETE                        ")

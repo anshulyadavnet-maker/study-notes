@@ -3,7 +3,7 @@
 pet-notes-md2pdf.py — PET revision-note Markdown -> styled PDF.
 
 PET-specific wrapper around the common StudyHub Point Markdown/SVG pipeline.
-The Markdown content should use the fixed PET note grammar documented in
+The Markdown content uses the fixed PET note grammar documented in
 pet/00-PET-Notes-Style-Guide.md.
 
 Supported semantic boxes:
@@ -29,15 +29,55 @@ Figures and icons remain compatible with md2pdf.py:
 
 import argparse
 import html
+import os
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 
-import md2pdf as pipeline
+import md2pdf as pipeline  # noqa: E402
+
+try:
+    from watermark import auto_watermark_pdf
+except Exception:
+    auto_watermark_pdf = None
+
+# ---------------------------------------------------------------------------
+# Branding & Social Links
+SOCIAL_LINKS = [
+    {
+        "platform": "Instagram",
+        "handle": "@studyhub.point",
+        "url": "https://www.instagram.com/studyhub.point/",
+        "cls": "instagram",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#E1306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>',
+    },
+    {
+        "platform": "YouTube",
+        "handle": "@studyhub.points",
+        "url": "https://www.youtube.com/@studyhub.points",
+        "cls": "youtube",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#FF0000"></polygon></svg>',
+    },
+    {
+        "platform": "Telegram",
+        "handle": "studyhub_point",
+        "url": "https://t.me/studyhub_point",
+        "cls": "telegram",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#0088cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>',
+    },
+    {
+        "platform": "Website",
+        "handle": "studyhubpoint",
+        "url": "https://studyhubpoint.anshulyadav.net/",
+        "cls": "website",
+        "icon": '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#127a4d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>',
+    },
+]
 
 # ---------------------------------------------------------------------------
 # PET semantic theme
@@ -153,10 +193,153 @@ body.pet-document .callout > .callout-title {
   border-bottom:1pt dashed currentColor;
   padding-bottom:1mm;
 }
+
+/* Cover & Back cover styling */
+.pet-cover {
+  page-break-before:avoid;
+  page-break-after:always;
+  min-height:92vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:15mm 10mm;
+  box-sizing:border-box;
+}
+.pet-cover .kicker {
+  font-size:11pt;
+  font-weight:800;
+  letter-spacing:.12em;
+  color:#1769aa;
+  text-transform:uppercase;
+  margin-bottom:4mm;
+}
+.pet-cover h1 {
+  font-size:26pt;
+  line-height:1.2;
+  color:#12385a;
+  margin:2mm 0 4mm;
+}
+.pet-cover .rule {
+  width:32mm;
+  height:3pt;
+  background:#1769aa;
+  margin:3mm auto 5mm;
+  border-radius:2pt;
+}
+.pet-cover .sub {
+  font-size:14pt;
+  color:#4b5563;
+  margin-bottom:6mm;
+}
+.pet-cover .meta {
+  font-size:10pt;
+  color:#6b7280;
+  margin-bottom:6mm;
+}
+.pet-cover .badge {
+  display:inline-block;
+  background:#eef6ff;
+  color:#1769aa;
+  border:1pt solid #1769aa;
+  padding:2mm 5mm;
+  border-radius:3mm;
+  font-weight:700;
+  font-size:11pt;
+  margin-bottom:8mm;
+}
+.pet-cover .cover-social {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:2.5mm;
+  margin-top:6mm;
+}
+.pet-cover .social-pill {
+  display:inline-flex;
+  align-items:center;
+  gap:1.5mm;
+  padding:1.5mm 3.5mm;
+  border:1pt solid #d1d5db;
+  border-radius:20mm;
+  background:#ffffff;
+  color:#374151;
+  font-size:8.5pt;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.pet-back-cover {
+  page-break-before:always;
+  min-height:85vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:15mm 10mm;
+  box-sizing:border-box;
+}
+.pet-back-cover .bc-card {
+  width:100%;
+  max-width:160mm;
+  border:1.5pt solid #d4dbe4;
+  border-radius:4mm;
+  padding:8mm 8mm;
+  background:#ffffff;
+  box-shadow:0 1.5mm 0 rgba(0,0,0,.04);
+  text-align:center;
+}
+.pet-back-cover .bc-logo {
+  font-size:18pt;
+  font-weight:800;
+  color:#12385a;
+  letter-spacing:.05em;
+}
+.pet-back-cover .bc-tagline {
+  font-size:10pt;
+  color:#4b5563;
+  margin:2mm 0 4mm;
+}
+.pet-back-cover .bc-rule {
+  width:25mm;
+  height:2pt;
+  background:#1769aa;
+  margin:2mm auto 4mm;
+  border-radius:1pt;
+}
+.pet-back-cover .bc-heading {
+  font-size:11pt;
+  font-weight:700;
+  color:#1f2937;
+  margin-bottom:4mm;
+}
+.pet-back-cover .bc-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:2.5mm;
+  margin:3mm 0 5mm;
+}
+.pet-back-cover .bc-item {
+  display:flex;
+  align-items:center;
+  gap:2.5mm;
+  padding:2mm 3mm;
+  border:1pt solid #e5e7eb;
+  border-radius:2mm;
+  background:#f9fafb;
+  text-decoration:none;
+  color:#1f2937;
+  text-align:left;
+}
+.pet-back-cover .bc-platform { font-size:9.5pt;font-weight:700;line-height:1.2; }
+.pet-back-cover .bc-handle { font-size:8pt;color:#4b5563;line-height:1.3; }
+.pet-back-cover .bc-footer {
+  display:flex;justify-content:center;gap:3mm;margin-top:5mm;
+  color:#6b7280;font-size:8.5pt;
+}
 """
 
-# Fixed PET heading classification. Order matters: specific data-analysis and
-# subject terms are checked before generic terms.
 PET_RULES = [
     ("pet-history", ("भारतीय इतिहास", "History")),
     ("pet-movement", ("राष्ट्रीय आंदोलन", "National Movement")),
@@ -207,12 +390,7 @@ def decorate_headings(h):
 
 
 def convert_pet_boxes(md):
-    """Convert PET semantic boxes to stable HTML before Markdown parsing.
-
-    We intentionally use a separate `::: type` grammar rather than relying on
-    raw HTML in every note, so authors can focus on content while the renderer
-    owns all colours, borders, spacing and typography.
-    """
+    """Convert PET semantic boxes to stable HTML before Markdown parsing."""
     allowed = {
         "concept": "Core Concept",
         "trick": "⚡ Trick",
@@ -255,8 +433,7 @@ def convert_pet_boxes(md):
     return "\n".join(out)
 
 
-def render_markdown(md):
-    # Reuse the common renderer's SVG/icon/figure preprocessing exactly.
+def render_markdown(md, prefix=""):
     md = convert_pet_boxes(md)
     md = pipeline.convert_icons(md)
     md = pipeline.convert_figures(md)
@@ -269,59 +446,197 @@ def render_markdown(md):
             output_format="html5",
         )
     except Exception:
-        # Keep a clear failure rather than silently producing an unstyled PDF.
         raise
     rendered = pipeline.colour_blockquotes(rendered)
     rendered = pipeline.convert_tasks(rendered)
     rendered = decorate_headings(rendered)
+    if prefix:
+        rendered = pipeline.prefix_ids(rendered, prefix)
     return rendered
 
 
-def build_document(markdown_text, title, subtitle="", badge="PET"):
-    body = render_markdown(markdown_text)
-    today = __import__("datetime").date.today().strftime("%d %B %Y")
-    cover = f'''<section class="pet-cover"><div style="text-align:center;padding-top:45mm;">
-      <div style="font-size:12pt;font-weight:800;letter-spacing:.12em;">STUDYHUB POINT</div>
-      <h1 style="font-size:30pt;margin:8mm 0 4mm;">{html.escape(title)}</h1>
-      <div style="font-size:15pt;">{html.escape(subtitle)}</div>
-      <div style="margin-top:12mm;font-size:12pt;font-weight:700;">{html.escape(badge)}</div>
-      <div style="margin-top:8mm;font-size:9pt;">Updated: {today}</div>
-    </div></section>'''
-    return cover + '<main class="pet-document">' + body + '</main>'
-
-
-def main(argv=None):
-    p = argparse.ArgumentParser(description="PET Markdown notes to styled PDF")
-    p.add_argument("input", help="Markdown file")
-    p.add_argument("-o", "--output", required=True, help="Output PDF")
-    p.add_argument("--title", default="UPSSSC PET Notes")
-    p.add_argument("--subtitle", default="Complete Syllabus & Revision Notes")
-    p.add_argument("--badge", default="PET 2026")
-    args = p.parse_args(argv)
-
-    src = Path(args.input)
-    out = Path(args.output)
-    if not src.exists():
-        p.error(f"Input not found: {src}")
-    if not pipeline.WEASYPRINT_AVAILABLE:
-        p.error("WeasyPrint is required for PET PDF rendering")
-
-    text = src.read_text(encoding="utf-8")
-    document = build_document(text, args.title, args.subtitle, args.badge)
-
-    # Reuse the common style.css and font configuration from the existing
-    # renderer. PET_CSS is layered last so PET owns the semantic theme.
-    base_css = pipeline.CSS_FILE.read_text(encoding="utf-8") if pipeline.CSS_FILE.exists() else ""
-    css = base_css + "\n" + PET_CSS
-    from weasyprint import HTML, CSS
-    from weasyprint.text.fonts import FontConfiguration
-    font_config = FontConfiguration()
-    out.parent.mkdir(parents=True, exist_ok=True)
-    HTML(string=f'<body class="pet-document">{document}</body>', base_url=str(src.parent.resolve())).write_pdf(
-        str(out), stylesheets=[CSS(string=css)], font_config=font_config
+def social_pills():
+    return "".join(
+        f'<a href="{s["url"]}" target="_blank" class="social-pill {s["cls"]}">'
+        f'{s["icon"]}<span>{html.escape(s["platform"])} · {html.escape(s["handle"])}</span></a>'
+        for s in SOCIAL_LINKS
     )
-    print(f"✓ PET PDF: {out}")
+
+
+def build_cover(title, subtitle, meta, badge="PET 2026"):
+    meta_html = "".join(f"<div>{html.escape(x)}</div>" for x in meta if x)
+    return f"""<section class="cover pet-cover">
+  <div class="kicker">Study Notes · UPSSSC PET 2026</div>
+  <h1>{html.escape(title)}</h1>
+  <div class="rule"></div>
+  {f'<div class="sub">{html.escape(subtitle)}</div>' if subtitle else ''}
+  <div class="meta">{meta_html}</div>
+  {f'<div class="badge">{html.escape(badge)}</div>' if badge else ''}
+  <div class="cover-social">{social_pills()}</div>
+</section>"""
+
+
+def build_back_cover():
+    cards = "".join(
+        f'''<a href="{s["url"]}" target="_blank" class="bc-item {s["cls"]}">
+          <div class="bc-icon">{s["icon"]}</div>
+          <div class="bc-text">
+            <span class="bc-platform">{html.escape(s["platform"])}</span>
+            <span class="bc-handle">{html.escape(s["handle"])}</span>
+          </div>
+        </a>'''
+        for s in SOCIAL_LINKS
+    )
+    return f"""<section class="pet-back-cover">
+  <div class="bc-card">
+    <div class="bc-logo">StudyHub Point</div>
+    <div class="bc-tagline">आपकी सफलता, हमारा संकल्प · Best Wishes for Your UPSSSC PET Preparation!</div>
+    <div class="bc-rule"></div>
+    <div class="bc-heading">हमारे साथ जुड़ें / Connect with Us</div>
+    <div class="bc-grid">{cards}</div>
+    <div class="bc-footer">
+      <span>📚 UPSSSC PET Notes</span><span>•</span><span>🎯 Syllabus & PYQ-based Preparation</span>
+    </div>
+  </div>
+</section>"""
+
+
+def render_pet_pdf(files, output, title, subtitle="", author="", badge="PET 2026",
+                   show_toc=True, show_cover=True, show_back_cover=True,
+                   flow=False, extra_css=None, watermark=True,
+                   watermark_scale=1.0, watermark_opacity=0.08):
+    if not files:
+        raise SystemExit("No Markdown files found.")
+
+    pipeline._OPTS["qcols"] = False
+    body = []
+    for i, f in enumerate(files, 1):
+        print(f"    - {f.name}")
+        pfx = f"ch{i:02d}" if len(files) > 1 else ""
+        body.append(render_markdown(f.read_text(encoding="utf-8"), prefix=pfx))
+    content = "\n".join(body)
+
+    parts = []
+    if show_cover:
+        meta = [author, f"{len(files)} अध्याय-फ़ाइल" if len(files) > 1 else "",
+                date.today().strftime("%d %B %Y")]
+        parts.append(build_cover(title, subtitle, meta, badge))
+
+    if show_toc:
+        t = pipeline.build_toc(content)
+        if t:
+            parts.append(t)
+
+    parts.append(content)
+
+    if show_back_cover:
+        parts.append(build_back_cover())
+
+    document = (
+        f'<!DOCTYPE html><html lang="hi"><head><meta charset="utf-8">'
+        f'<style>{PET_CSS}</style>'
+        f'<title>{html.escape(title)}</title></head>'
+        f'<body class="pet-document">{"".join(parts)}</body></html>'
+    )
+
+    output = Path(output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    debug = output.with_suffix(".debug.html")
+    debug.write_text(document, encoding="utf-8")
+
+    print("  rendering PET notes PDF ...")
+    rendered = False
+    if getattr(pipeline, "WEASYPRINT_AVAILABLE", False):
+        try:
+            from weasyprint import HTML, CSS
+            from weasyprint.text.fonts import FontConfiguration
+            font_config = FontConfiguration()
+            sheets = [
+                CSS(filename=str(pipeline.CSS_FILE), font_config=font_config),
+                CSS(string=PET_CSS, font_config=font_config),
+            ]
+            if flow:
+                sheets.append(CSS(
+                    string="h1{page-break-before:auto;margin-top:9mm;}"
+                           "h1:first-of-type{margin-top:0;}",
+                    font_config=font_config,
+                ))
+            if extra_css:
+                sheets.append(CSS(filename=str(extra_css), font_config=font_config))
+
+            HTML(string=document, base_url=str(pipeline.HERE)).write_pdf(
+                str(output), stylesheets=sheets, font_config=font_config
+            )
+            rendered = True
+        except Exception as err:
+            print(f"  ! WeasyPrint failed ({err}), falling back to Headless Browser...")
+
+    if not rendered:
+        pipeline.render_pdf_with_browser(document, output, pipeline.CSS_FILE, extra_css=extra_css, flow=flow)
+
+    debug.unlink(missing_ok=True)
+
+    if watermark and auto_watermark_pdf is not None:
+        auto_watermark_pdf(output, scale=watermark_scale, opacity=watermark_opacity)
+
+    size_mb = output.stat().st_size / 1024 / 1024
+    try:
+        print(f"  ✔ {output}  ({size_mb:.2f} MB)")
+    except UnicodeEncodeError:
+        print(f"  [OK] {output}  ({size_mb:.2f} MB)")
+    return output
+
+
+def main():
+    p = argparse.ArgumentParser(description="PET Markdown notes to styled PDF")
+    p.add_argument("inputs", nargs="+", help="Markdown files and/or folders")
+    p.add_argument("-o", "--output", help="Output PDF path")
+    p.add_argument("--title")
+    p.add_argument("--subtitle", default="")
+    p.add_argument("--author", default="")
+    p.add_argument("--badge", default="PET 2026")
+    p.add_argument("--toc", action="store_true", help="include a contents page")
+    p.add_argument("--no-toc", action="store_true")
+    p.add_argument("--no-cover", action="store_true")
+    p.add_argument("--no-back-cover", action="store_true")
+    p.add_argument("--flow", action="store_true", help="allow sections to continue on the same page")
+    p.add_argument("--css", help="optional additional CSS file")
+    p.add_argument("--no-watermark", action="store_true", help="disable watermark on pages")
+    p.add_argument("--watermark-scale", type=float, default=1.0, help="watermark scale relative to page width")
+    p.add_argument("--watermark-opacity", type=float, default=0.08, help="watermark opacity (0.0 to 1.0)")
+    args = p.parse_args()
+
+    files = pipeline.collect(args.inputs)
+    if not files:
+        raise SystemExit("No Markdown files found.")
+
+    title = args.title or files[0].stem.replace("-", " ").replace("_", " ")
+    output = args.output or str(files[0].with_suffix(".pdf"))
+    show_toc = args.toc or (len(files) > 1 and not args.no_toc)
+
+    print(f"  reading {len(files)} file(s)")
+    render_pet_pdf(
+        files=files,
+        output=output,
+        title=title,
+        subtitle=args.subtitle,
+        author=args.author,
+        badge=args.badge,
+        show_toc=show_toc and not args.no_toc,
+        show_cover=not args.no_cover,
+        show_back_cover=not args.no_back_cover,
+        flow=args.flow,
+        extra_css=args.css,
+        watermark=not args.no_watermark,
+        watermark_scale=args.watermark_scale,
+        watermark_opacity=args.watermark_opacity,
+    )
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
     main()
