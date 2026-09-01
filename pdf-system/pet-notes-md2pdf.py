@@ -9,6 +9,12 @@ import argparse, html, re, sys
 from datetime import date
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 HERE=Path(__file__).resolve().parent
 if str(HERE) not in sys.path: sys.path.insert(0,str(HERE))
 import md2pdf as pipeline
@@ -120,7 +126,12 @@ def render_pet_pdf(files,output,title,subtitle='',author='',badge='PET 2026',sho
         except Exception as e: print(f'! WeasyPrint failed: {e}; using browser fallback')
     if not rendered: pipeline.render_pdf_with_browser(document,output,pipeline.CSS_FILE,extra_css=extra_css,flow=flow)
     if watermark and auto_watermark_pdf: auto_watermark_pdf(output,scale=watermark_scale,opacity=watermark_opacity)
-    print(f'✔ {output} ({output.stat().st_size/1024/1024:.2f} MB)'); return output
+    mb = output.stat().st_size / 1024 / 1024
+    try:
+        print(f'✔ {output} ({mb:.2f} MB)')
+    except UnicodeEncodeError:
+        print(f'[OK] {output} ({mb:.2f} MB)')
+    return output
 
 def main():
     p=argparse.ArgumentParser(description='PET Markdown notes to styled PDF'); p.add_argument('inputs',nargs='+'); p.add_argument('-o','--output'); p.add_argument('--title'); p.add_argument('--subtitle',default=''); p.add_argument('--author',default=''); p.add_argument('--badge',default='PET 2026'); p.add_argument('--toc',action='store_true'); p.add_argument('--no-toc',action='store_true'); p.add_argument('--no-cover',action='store_true'); p.add_argument('--no-back-cover',action='store_true'); p.add_argument('--flow',action='store_true'); p.add_argument('--css'); p.add_argument('--no-watermark',action='store_true'); p.add_argument('--watermark-scale',type=float,default=1.0); p.add_argument('--watermark-opacity',type=float,default=.08); a=p.parse_args()
