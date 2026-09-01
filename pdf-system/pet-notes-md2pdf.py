@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """StudyHub Point PET Markdown -> PDF renderer.
 
-Fixes PET semantic boxes by rendering their body as Markdown before wrapping it
-in HTML. This preserves **bold**, *italic*, lists, tables, code, blockquotes,
-and supports both multiline and single-line ::: box syntax.
+Semantic PET boxes are rendered as Markdown first, then wrapped in stable
+HTML. This preserves bold/italic text, lists, tables, code and blockquotes.
+Both multiline and single-line ::: box syntax are supported.
 """
 import argparse, html, re, sys
 from datetime import date
@@ -41,22 +41,17 @@ body.pet-document h4.pet-heading{padding:1.5mm 2.5mm;border-left:3pt solid #9a65
 body.pet-document table{page-break-inside:avoid}.pet-back-cover{page-break-before:always;min-height:85vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:15mm 10mm;box-sizing:border-box}.bc-card{width:100%;max-width:160mm;border:1.5pt solid #d4dbe4;border-radius:4mm;padding:8mm;background:#fff;text-align:center}.bc-logo{font-size:18pt;font-weight:800;color:#12385a}.bc-tagline{font-size:10pt;color:#4b5563;margin:2mm 0 4mm}.bc-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin:4mm 0}.bc-item{display:block;padding:2mm 3mm;border:1pt solid #e5e7eb;border-radius:2mm;background:#f9fafb;text-decoration:none;color:#1f2937;text-align:left}.bc-platform{font-size:9.5pt;font-weight:700}.bc-handle{font-size:8pt;color:#4b5563}
 '''
 
-ALLOWED={
-"concept":"Core Concept","trick":"⚡ Trick","tip":"💡 Exam Tip","warning":"⚠ Warning","example":"Example","formula":"Formula","remember":"🔑 Remember","pyq":"PYQ Focus","practice":"Practice","fact":"Important Fact","trap":"⚠ Trap",
-}
+ALLOWED={"concept":"Core Concept","trick":"⚡ Trick","tip":"💡 Exam Tip","warning":"⚠ Warning","example":"Example","formula":"Formula","remember":"🔑 Remember","pyq":"PYQ Focus","practice":"Practice","fact":"Important Fact","trap":"⚠ Trap"}
 PET_RULES=[("pet-history",("भारतीय इतिहास","History")),("pet-movement",("राष्ट्रीय आंदोलन","National Movement")),("pet-geography",("भूगोल","Geography")),("pet-economy",("भारतीय अर्थव्यवस्था","Indian Economy")),("pet-polity",("संविधान","लोक प्रशासन","Indian Constitution","Public Administration")),("pet-science",("सामान्य विज्ञान","General Science")),("pet-maths",("प्रारम्भिक अंकगणित","Arithmetic")),("pet-hindi",("सामान्य हिन्दी","Hindi")),("pet-english",("General English","English")),("pet-reasoning",("तर्क एवं तर्कशक्ति","Reasoning")),("pet-current",("सामयिकी","Current Affairs")),("pet-awareness",("सामान्य जागरूकता","General Awareness")),("pet-passage",("अपठित हिन्दी गद्यांश","Hindi Passage"))]
-
 
 def _markdown_html(md):
     import markdown
     md=pipeline.convert_icons(md); md=pipeline.convert_figures(md); md=pipeline.split_adjacent_blockquotes(md)
     return markdown.markdown(md,extensions=["tables","fenced_code","sane_lists","attr_list"],output_format="html5")
 
-
 def _render_box(kind,title,body):
     rendered=_markdown_html(body.strip()) if body.strip() else ""
     return f'<div class="pet-box pet-{kind}"><p class="pet-box-title">{html.escape(title)}</p>{rendered}</div>'
-
 
 def convert_pet_boxes(md):
     """Parse multiline and single-line ::: semantic boxes safely."""
@@ -67,20 +62,17 @@ def convert_pet_boxes(md):
         line=lines[i]
         m=single.match(line.strip())
         if m and m.group(1).lower() in ALLOWED:
-            kind=m.group(1).lower(); rest=m.group(2).strip()
-            out.append(_render_box(kind,ALLOWED[kind],rest)); i+=1; continue
+            kind=m.group(1).lower(); rest=m.group(2).strip(); out.append(_render_box(kind,ALLOWED[kind],rest)); i+=1; continue
         m=opener.match(line.strip())
         if m and m.group(1).lower() in ALLOWED:
-            kind=m.group(1).lower(); title=m.group(2).strip() if m.group(2) else ALLOWED[kind]
-            body=[]; i+=1
-            while i<len(lines) and lines[i].strip()!=':::':
-                body.append(lines[i]); i+=1
+            kind=m.group(1).lower(); title=m.group(2).strip() if m.group(2) else ALLOWED[kind]; body=[]; i+=1
+            while i<len(lines) and lines[i].strip()!=':::': body.append(lines[i]); i+=1
             if i<len(lines) and lines[i].strip()==':::': i+=1
             out.append(_render_box(kind,title,'\n'.join(body))); continue
         out.append(line); i+=1
     return '\n'.join(out)
 
-HEADING_RE=re.compile(r'<h([1-4])([^>]*)>(.*?)</h\\1>',re.S); TAG_RE=re.compile(r'<[^>]+>')
+HEADING_RE=re.compile(r'<h([1-4])([^>]*)>(.*?)</h\1>',re.S); TAG_RE=re.compile(r'<[^>]+>')
 def heading_class(text):
     low=html.unescape(TAG_RE.sub('',text)).casefold()
     for cls,keys in PET_RULES:
@@ -88,20 +80,16 @@ def heading_class(text):
     return 'pet-general'
 def decorate_headings(h):
     def repl(m):
-        level,attrs,inner=m.groups(); cls='pet-heading '+heading_class(inner)
-        cm=re.search(r'\bclass="([^"]*)"',attrs)
+        level,attrs,inner=m.groups(); cls='pet-heading '+heading_class(inner); cm=re.search(r'\bclass="([^"]*)"',attrs)
         attrs=(attrs[:cm.start(1)]+cm.group(1)+' '+cls+attrs[cm.end(1):]) if cm else attrs+f' class="{cls}"'
         return f'<h{level}{attrs}>{inner}</h{level}>'
     return HEADING_RE.sub(repl,h)
 
 def render_markdown(md,prefix=''):
-    md=convert_pet_boxes(md)
-    rendered=_markdown_html(md)
-    rendered=pipeline.colour_blockquotes(rendered); rendered=pipeline.convert_tasks(rendered); rendered=decorate_headings(rendered)
+    md=convert_pet_boxes(md); rendered=_markdown_html(md); rendered=pipeline.colour_blockquotes(rendered); rendered=pipeline.convert_tasks(rendered); rendered=decorate_headings(rendered)
     return pipeline.prefix_ids(rendered,prefix) if prefix else rendered
 
-def social_pills():
-    return ''.join(f'<a href="{u}" class="social-pill" target="_blank">{html.escape(p)} · {html.escape(h)}</a>' for p,h,u in SOCIAL_LINKS)
+def social_pills(): return ''.join(f'<a href="{u}" class="social-pill" target="_blank">{html.escape(p)} · {html.escape(h)}</a>' for p,h,u in SOCIAL_LINKS)
 def build_cover(title,subtitle,meta,badge):
     mh=''.join(f'<div>{html.escape(x)}</div>' for x in meta if x)
     return f'<section class="pet-cover"><div class="kicker">Study Notes · UPSSSC PET 2026</div><h1>{html.escape(title)}</h1><div class="rule"></div><div class="sub">{html.escape(subtitle)}</div><div class="meta">{mh}</div><div class="badge">{html.escape(badge)}</div><div class="cover-social">{social_pills()}</div></section>'
@@ -110,8 +98,7 @@ def build_back_cover():
     return f'<section class="pet-back-cover"><div class="bc-card"><div class="bc-logo">StudyHub Point</div><div class="bc-tagline">आपकी सफलता, हमारा संकल्प · Best Wishes for Your UPSSSC PET Preparation!</div><div class="bc-grid">{cards}</div></div></section>'
 
 def render_pet_pdf(files,output,title,subtitle='',author='',badge='PET 2026',show_toc=True,show_cover=True,show_back_cover=True,flow=False,extra_css=None,watermark=True,watermark_scale=1.0,watermark_opacity=.08):
-    pipeline._OPTS['qcols']=False
-    body=[]
+    pipeline._OPTS['qcols']=False; body=[]
     for i,f in enumerate(files,1): body.append(render_markdown(f.read_text(encoding='utf-8'),f'ch{i:02d}' if len(files)>1 else ''))
     content='\n'.join(body); parts=[]
     if show_cover: parts.append(build_cover(title,subtitle,[author,f'{len(files)} अध्याय-फ़ाइल' if len(files)>1 else '',date.today().strftime('%d %B %Y')],badge))
