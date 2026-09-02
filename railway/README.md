@@ -6,12 +6,27 @@
 
 1. [Statistics / सांख्यिकी](./01-Statistics-Notes.md) — data और frequency table, mean, median, mode, grouped data, histogram, bar diagram, pie chart, ogive, missing frequency, shortcuts, traps और Railway-pattern solved practice.
 
-## आगे जोड़े जाने वाले chapters
+## आगे जोड़े जाने वाले Railway Maths chapters
+
+> **स्पष्टता:** नीचे दिए गए topics Statistics के हिस्से नहीं हैं। ये Railway Maths के अलग-अलग chapters हैं।
 
 - Number System और Simplification
 - Percentage, Ratio और Average
 - Profit-Loss, Simple/Compound Interest
 - Time and Work, Time-Speed-Distance
 - Data Interpretation और Probability
+
+### Statistics में क्या-क्या शामिल है?
+
+`01-Statistics-Notes.md` में Statistics के मुख्य topics हैं:
+
+- Data, observation और frequency distribution
+- Mean (माध्य), Median (मध्यका) और Mode (बहुलक)
+- Grouped data, class mark और cumulative frequency
+- Histogram, bar diagram, pie chart, ogive और frequency polygon
+- Missing frequency और mean correction
+- Statistical graphs की reading और comparison
+
+> **Data Interpretation** Statistics से जुड़ा हुआ है, लेकिन Railway Maths में इसे अलग chapter रखना अधिक उपयोगी है। **Probability** Statistics से संबंधित mathematics है, पर इसका अलग concept और formula-set होता है।
 
 > Notes को सरल Hindi-English मिश्रित भाषा, formulas, tables, examples और quick-revision format में तैयार किया जा रहा है।
