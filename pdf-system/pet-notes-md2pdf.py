@@ -36,10 +36,11 @@ body.pet-document{background:#fffdf8;color:#20242b}
 .pet-cover .kicker{font-size:11pt;font-weight:800;letter-spacing:.12em;color:#1769aa;text-transform:uppercase;margin-bottom:4mm}
 .pet-cover h1{font-size:26pt;line-height:1.2;color:#12385a;margin:2mm 0 4mm}.pet-cover .rule{width:32mm;height:3pt;background:#1769aa;margin:3mm auto 5mm}.pet-cover .sub{font-size:14pt;color:#4b5563;margin-bottom:6mm}.pet-cover .meta{font-size:10pt;color:#6b7280;margin-bottom:6mm}.pet-cover .badge{display:inline-block;background:#eef6ff;color:#1769aa;border:1pt solid #1769aa;padding:2mm 5mm;border-radius:3mm;font-weight:700;font-size:11pt}
 .cover-social{display:flex;flex-wrap:wrap;justify-content:center;gap:2.5mm;margin-top:7mm}.social-pill{display:inline-block;padding:1.5mm 3.5mm;border:1pt solid #d1d5db;border-radius:20mm;background:#fff;color:#374151;font-size:8.5pt;font-weight:600;text-decoration:none}
-body.pet-document h1.pet-heading{margin-top:7mm;padding:4mm 5mm;border-radius:3mm;border-left:7pt solid #1769aa;background:#eef6ff;color:#12385a;box-shadow:0 .8mm 0 rgba(23,105,170,.12)}
-body.pet-document h2.pet-heading{margin-top:5mm;padding:2.8mm 3.5mm;border:1pt solid #d4dbe4;border-left:5pt solid #1769aa;border-radius:2mm;background:#f7faff;color:#18324b}
-body.pet-document h3.pet-heading{margin-top:3.5mm;padding:2mm 3mm;border-left:4pt solid #0b7377;border-bottom:1pt solid #d4e5e5;background:#f3fbfb;border-radius:0 1.5mm 1.5mm 0}
-body.pet-document h4.pet-heading{padding:1.5mm 2.5mm;border-left:3pt solid #9a6500;background:#fff9ec;border-radius:0 1.5mm 1.5mm 0}
+body.pet-document h1,body.pet-document h1.pet-heading{page-break-before:auto !important;break-before:auto !important;page-break-after:avoid !important;break-after:avoid !important;margin-top:7mm;padding:4mm 5mm;border-radius:3mm;border-left:7pt solid #1769aa;background:#eef6ff;color:#12385a;box-shadow:0 .8mm 0 rgba(23,105,170,.12)}
+body.pet-document h1:first-of-type,body.pet-document h1.pet-heading:first-of-type{margin-top:0;page-break-before:avoid !important;break-before:avoid !important}
+body.pet-document h2,body.pet-document h2.pet-heading{page-break-before:auto !important;break-before:auto !important;page-break-after:avoid !important;break-after:avoid !important;margin-top:5mm;padding:2.8mm 3.5mm;border:1pt solid #d4dbe4;border-left:5pt solid #1769aa;border-radius:2mm;background:#f7faff;color:#18324b}
+body.pet-document h3,body.pet-document h3.pet-heading{page-break-before:auto !important;break-before:auto !important;page-break-after:avoid !important;break-after:avoid !important;margin-top:3.5mm;padding:2mm 3mm;border-left:4pt solid #0b7377;border-bottom:1pt solid #d4e5e5;background:#f3fbfb;border-radius:0 1.5mm 1.5mm 0}
+body.pet-document h4,body.pet-document h4.pet-heading{page-break-before:auto !important;break-before:auto !important;page-break-after:avoid !important;break-after:avoid !important;padding:1.5mm 2.5mm;border-left:3pt solid #9a6500;background:#fff9ec;border-radius:0 1.5mm 1.5mm 0}
 .pet-box{margin:3.5mm 0;padding:3.2mm 4mm;border:1pt solid #cfd6de;border-left:5pt solid #64748b;border-radius:2.2mm;page-break-inside:avoid;box-shadow:0 .6mm 0 rgba(30,41,59,.035)}
 .pet-box .pet-box-title{margin:0 0 1.5mm;font-weight:800;font-size:10.5pt}.pet-box p:last-child{margin-bottom:0}
 .pet-concept{border-left-color:#1769aa;background:#f1f7fd}.pet-trick{border-left-color:#a45c00;background:#fff7e8}.pet-tip{border-left-color:#0b7377;background:#effafa}.pet-warning{border-left-color:#b52e3c;background:#fff1f2}.pet-example{border-left-color:#5667a8;background:#f4f5ff}.pet-formula{border-left-color:#1769aa;background:#edf5ff}.pet-remember{border-left-color:#157347;background:#effaf3}.pet-pyq{border-left-color:#7a4e9e;background:#f8f2fc}.pet-practice{border-left-color:#236a8b;background:#f0f8fb}.pet-fact{border-left-color:#8a6100;background:#fff9ed}.pet-trap{border-left-color:#c27a16;background:#fff6df}
@@ -124,7 +125,7 @@ def render_pet_pdf(files,output,title,subtitle='',author='',badge='PET 2026',sho
             if extra_css: sheets.append(CSS(filename=str(extra_css),font_config=fc))
             HTML(string=document,base_url=str(pipeline.HERE)).write_pdf(str(output),stylesheets=sheets,font_config=fc); rendered=True
         except Exception as e: print(f'! WeasyPrint failed: {e}; using browser fallback')
-    if not rendered: pipeline.render_pdf_with_browser(document,output,pipeline.CSS_FILE,extra_css=extra_css,flow=flow)
+    if not rendered: pipeline.render_pdf_with_browser(document,output,pipeline.CSS_FILE,extra_css=extra_css,flow=True)
     if watermark and auto_watermark_pdf: auto_watermark_pdf(output,scale=watermark_scale,opacity=watermark_opacity)
     mb = output.stat().st_size / 1024 / 1024
     try:
