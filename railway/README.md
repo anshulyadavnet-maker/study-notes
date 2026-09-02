@@ -29,4 +29,22 @@
 
 > **Data Interpretation** Statistics से जुड़ा हुआ है, लेकिन Railway Maths में इसे अलग chapter रखना अधिक उपयोगी है। **Probability** Statistics से संबंधित mathematics है, पर इसका अलग concept और formula-set होता है।
 
+## PDF में print करने का सही तरीका
+
+यह chapter **notes** है, इसलिए इसके लिए general notes renderer इस्तेमाल करें:
+
+```bash
+python3 pdf-system/md2pdf.py \
+  railway/01-Statistics-Notes.md \
+  -o PDF/Railway-Statistics-Notes.pdf \
+  --title "Railway Maths — Statistics" \
+  --subtitle "RRB NTPC • Group D • ALP • Technician • RPF" \
+  --badge "Exam-Oriented Notes" \
+  --toc --flow
+```
+
+- `pdf-system/md2pdf.py` formulas, tables, callout boxes और vector SVG figures के लिए सबसे उपयुक्त है।
+- `pdf-system/mcqmdtopdf.py` MCQ question banks के लिए है; इस notes chapter के लिए इसे इस्तेमाल न करें।
+- `--qcols` न लगाएँ—notes को one-column layout में print करना formulas, tables और figures के लिए अधिक साफ़ रहेगा।
+
 > Notes को सरल Hindi-English मिश्रित भाषा, formulas, tables, examples और quick-revision format में तैयार किया जा रहा है।
