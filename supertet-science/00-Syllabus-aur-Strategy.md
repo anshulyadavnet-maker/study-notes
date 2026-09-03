@@ -28,7 +28,7 @@
 | [01-Primary-Level-Science-Notes.md](./01-Primary-Level-Science-Notes.md) | Primary (8 प्रश्न / 24 अंक) | आधिकारिक 12 अंश → 10 अध्याय: परिभाषा → उदाहरण → तालिकाएँ → दैनिक जीवन अनुप्रयोग → लघु अभ्यास |
 | [02-Junior-Level-Science-Notes.md](./02-Junior-Level-Science-Notes.md) | Junior "विज्ञान एवं गणित" (90-खण्ड) | आधिकारिक **22 विषयवस्तु-बिंदु → 22 अध्याय (1:1)**, हर अध्याय में facts-tables + चित्र + लघु अभ्यास |
 
-> 📌 आकृतियाँ ` ```figure ` blocks से हैं → PDF के लिए `pdf-system/md2pdf.py` (WeasyPrint + figlib) चाहिए; `md2pdf-hb.py` figures को placeholder दिखाता है। Solved Question Bank व PDF इस चरण में नहीं बनाई गईं (अगले चरण में बन सकती हैं)।
+> 📌 आकृतियाँ ` ```figure ` blocks से हैं → PDF **अपने local env में** `python3 pdf-system/md2pdf.py` (WeasyPrint + figlib) से बनाएँ — इस repo से कोई PDF generate नहीं किया जाता। `md2pdf-hb.py` केवल fallback है (figures placeholder दिखाता है)। Solved Question Bank इस चरण में नहीं बनाया गया (बाद में Markdown में बन सकता है)।
 
 ---
 

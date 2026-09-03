@@ -44,7 +44,7 @@ Reasoning की SuperTET-केंद्रित सामग्री तै�
 | Primary विज्ञान Notes (10 अध्याय — 12 आधिकारिक अंश) | [supertet-science/01-Primary-Level-Science-Notes.md](./supertet-science/01-Primary-Level-Science-Notes.md) |
 | Junior विज्ञान Notes (22 अध्याय — 22 आधिकारिक बिंदु, 1:1) | [supertet-science/02-Junior-Level-Science-Notes.md](./supertet-science/02-Junior-Level-Science-Notes.md) |
 
-> 📌 Primary: **8 प्रश्न / 24 अंक**। Junior: "विज्ञान एवं गणित" 90-खण्ड में विज्ञान-भाग (official split नहीं; ~40–50 मानें)। Solved QB व PDF इस चरण में नहीं — अगले चरण में बन सकते हैं।
+> 📌 Primary: **8 प्रश्न / 24 अंक**। Junior: "विज्ञान एवं गणित" 90-खण्ड में विज्ञान-भाग (official split नहीं; ~40–50 मानें)। Solved QB इस चरण में नहीं (बाद में बन सकता है); **PDFs इस repo से नहीं बनतीं — local env में `md2pdf.py` से बनाएँ**।
 
 ## Revised working pattern — दोनों levels
 
