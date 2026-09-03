@@ -17,6 +17,8 @@ Mean सभी observations को use करता है, median middle positi
 | **RPF Constable / SI** | average, percentage और chart | short methods |
 
 > Railway भर्ती के अलग-अलग notifications में प्रश्नों का weightage बदल सकता है। ऊपर की table topic-priority guide है, official question-count guarantee नहीं।
+>
+> **CBT-2 scope warning:** यह Mathematics के केवल **Statistics** chapter के notes हैं। अकेले इन notes से RRB NTPC UG CBT-2 clear नहीं किया जा सकता; Maths के बाकी chapters, General Intelligence & Reasoning और General Awareness की अलग तैयारी भी जरूरी है।
 
 > :icon-key: **Railway exam का one-line rule:** Data को पहले order/frequency table में व्यवस्थित करें, फिर central tendency या graph का सही formula चुनें।
 
