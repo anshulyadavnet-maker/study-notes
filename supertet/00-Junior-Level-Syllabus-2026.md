@@ -1,445 +1,238 @@
-# UP SUPER TET 2026 — Junior / Upper Primary Level (कक्षा 6–8)
+# UP SUPER TET 2026 — Junior / Upper Primary Level (कक्षा 6–8) | आधिकारिक सिलेबस व संरचना
 
-> **Working syllabus updated:** 2 सितम्बर 2026<br>
-> **Target:** उच्च प्राथमिक विद्यालय सहायक अध्यापक भर्ती परीक्षा — कक्षा 6–8
+> **अद्यतन:** 3 सितम्बर 2026<br>
+> **आधार:** UPESSC (उत्तर प्रदेश शिक्षा सेवा चयन आयोग) की आधिकारिक **"संरचना व विषय वस्तु"** — उच्च प्राथमिक विद्यालय सहायक अध्यापक (कक्षा 6–8) भर्ती परीक्षा 2026।
+> **शब्दशः प्रति:** [UP_Junior_6_8_New_Syllabus_2026.md](./UP_Junior_6_8_New_Syllabus_2026.md)
 
-## 1. Junior level का नया exam structure
+---
 
-नई UP Super TET 2026 syllabus information में Upper Primary paper को Primary paper से अलग दो sections में रखा गया है। सभी अभ्यर्थियों के लिए General Knowledge का section अनिवार्य है। इसके बाद post/teaching subject के अनुसार एक selected subject section चुनना होगा।
+## 1. परीक्षा संरचना एवं निर्देश (आधिकारिक)
 
-| बिंदु | Junior / Upper Primary pattern |
-|---|---:|
-| कुल प्रश्न | **120** |
-| कुल अंक | **360** |
-| परीक्षा अवधि | **120 मिनट / 2 घंटे** |
-| सही उत्तर | **+3 अंक** |
-| गलत उत्तर | **−1 अंक** |
-| प्रश्न का प्रकार | MCQ — 4 विकल्प, 1 सही उत्तर |
-| प्रश्नपत्र की भाषा | Hindi और English |
+- सहायक अध्यापक पद हेतु **एक प्रश्न पत्र** होगा, जिसके **दो खण्ड** होंगे:
 
-> **महत्वपूर्ण:** उपलब्ध सूचना में सही उत्तर पर 3 अंक और गलत उत्तर पर 1 अंक की कटौती बताई गई है। अंतिम UPESSC recruitment notification में कोई बदलाव हो तो वही मान्य होगा।
+| खण्ड | विषय वस्तु | प्रश्न |
+| :---: | :--- | :---: |
+| **प्रथम खण्ड** (अनिवार्य) | सामान्य ज्ञान / समसामयिक घटनाएँ / तार्किक ज्ञान | 30 |
+| **द्वितीय खण्ड** (वैकल्पिक) | (क) भाषा / (ख) सामाजिक अध्ययन / (ग) विज्ञान एवं गणित — **किसी एक का चयन** | 90 |
+| **कुल योग** | | **120 प्रश्न (360 अंक)** |
 
-## 2. Junior subject-wise distribution
+### अन्य नियम (आधिकारिक)
 
-| Section | विषय | प्रश्न | अंक |
-|---|---|---:|---:|
-| Section 1 | General Knowledge / General Studies | 30 | 90 |
-| Section 2 | Selected Teaching Subject | 90 | 270 |
-| **कुल** |  | **120** | **360** |
-
-### Selected Teaching Subject कैसे चुनें?
-
-| Teaching post / category | 90 प्रश्नों का subject |
+| बिंदु | नियम |
 |---|---|
-| Language Teacher | हिन्दी **या** अंग्रेजी **या** संस्कृत — कोई एक |
-| Social Studies Teacher | Social Studies |
-| Science & Mathematics Teacher | Science और Mathematics |
+| परीक्षा की अवधि | **02:00 घण्टे अर्थात् 120 मिनट** |
+| प्रश्नों की संख्या | **120** |
+| नकारात्मक अंकन | गलत उत्तर पर **01 अंक** घटाया जायेगा |
+| प्रश्न का प्रकार व अंक | MCQ — 4 विकल्प, 1 सही उत्तर; प्रत्येक प्रश्न **03 अंक** -> कुल = 120 × 3 = **360 अंक** |
+| प्रश्न पत्र की भाषा | अंग्रेजी एवं हिन्दी **दोनों** भाषाओं में |
 
-> **Preparation rule:** जिस teaching post के लिए आवेदन करना है, उसी selected subject में गहराई से तैयारी करें। Science & Mathematics category के लिए Science और Mathematics दोनों पढ़ना होगा।
+### विषय चयन का नियम (आधिकारिक)
 
-## 3. Syllabus level
+- **द्वितीय खण्ड** में अभ्यर्थी को **(क) भाषा**, **(ख) सामाजिक अध्ययन** तथा **(ग) विज्ञान एवं गणित** में से **किसी एक** का चयन करना अनिवार्य है।
+- **भाषा शिक्षक हेतु:** **संस्कृत, हिन्दी अथवा अंग्रेजी** में से किसी एक का चयन अनिवार्य है।
 
-- Academic subjects का स्तर उपलब्ध syllabus information के अनुसार **कक्षा 12 तक** रखा गया है।
-- Teaching/professional preparation में **D.El.Ed level** के concepts उपयोगी रहेंगे।
-- Junior paper में subject section के 90 प्रश्न सबसे बड़ा भाग हैं; इसलिए केवल सामान्य GK पढ़ना पर्याप्त नहीं होगा।
+| Teaching post / category | द्वितीय खण्ड का विषय |
+|---|---|
+| भाषा शिक्षक | संस्कृत **या** हिन्दी **या** अंग्रेजी — कोई एक |
+| सामाजिक अध्ययन शिक्षक | सामाजिक अध्ययन |
+| विज्ञान एवं गणित शिक्षक | विज्ञान एवं गणित (दोनों) |
 
----
-
-## 4. Section 1 — General Knowledge / General Studies (30 प्रश्न)
-
-### General Knowledge के प्रमुख क्षेत्र
-
-- राष्ट्रीय और अंतरराष्ट्रीय समसामयिक घटनाएँ
-- भारतीय इतिहास
-- भारतीय राष्ट्रीय आंदोलन
-- भारतीय भूगोल
-- भारतीय राजव्यवस्था और शासन
-- भारतीय संविधान
-- राजनीतिक व्यवस्था और पंचायती राज
-- आर्थिक और सामाजिक विकास
-- सतत विकास (Sustainable Development)
-- गरीबी और जनसंख्या से जुड़े मुद्दे
-- पर्यावरण और पारिस्थितिकी
-- जैव-विविधता और जलवायु परिवर्तन
-- सामान्य विज्ञान
-
-### Syllabus summary में दिए गए reasoning topics
-
-Available Junior syllabus summary में General Knowledge के साथ निम्न reasoning areas भी सूचीबद्ध हैं। इन्हें common section की तैयारी में शामिल रखें और final notification से exact placement verify करें:
-
-- Analogies / समानता
-- Assertion and Reason / कथन एवं कारण
-- Binary Logic
-- Classification / वर्गीकरण
-- Clocks and Calendars
-- Coded Inequalities
-- Coding-Decoding
-
-**GK tip:** Static GK के लिए facts को History, Geography, Polity, Science, Culture और UP-specific headings में अलग-अलग revise करें। Current Affairs में national, international और Uttar Pradesh—तीनों levels रखें।
+> 🔑 **तैयारी का नियम:** जिस post के लिए आवेदन कर रहे हैं, केवल उसी subject में गहराई से तैयारी करें। **विज्ञान एवं गणित** वाले अभ्यर्थियों को दोनों विषय पढ़ने होंगे।
 
 ---
 
-# 5. Section 2A — Language Teacher subject
+## 2. प्रथम खण्ड — सामान्य ज्ञान / समसामयिक घटनाएँ / तार्किक ज्ञान (अनिवार्य, 30 प्रश्न)
 
-Language Teacher के लिए अभ्यर्थी हिन्दी, अंग्रेजी या संस्कृत में से **कोई एक** subject चुनेंगे। Selected language से 90 प्रश्नों की तैयारी करनी होगी।
+> 📌 **आधिकारिक पाठ्यक्रम:**
 
-## 5.1 हिन्दी
+1. राष्ट्रीय और अंतर्राष्ट्रीय महत्व की समसामयिक घटनाएँ।
+2. भारत का इतिहास एवं भारतीय राष्ट्रीय आन्दोलन।
+3. भारत का भूगोल।
+4. भारतीय राजनीति एवं शासन — संविधान, राजनीतिक व्यवस्था, पंचायती राज, लोकनीति, आधिकारिक प्रकरण आदि।
+5. आर्थिक और सामाजिक विकास — सतत विकास, गरीबी, अन्तर्विष्ट जनसांख्यिकीय, सामाजिक क्षेत्र के इनिशियेटिव आदि।
+6. पर्यावरण एवं पारिस्थितिकी सम्बन्धी सामान्य विषय, जैव विविधता एवं जलवायु परिवर्तन।
+7. सामान्य विज्ञान।
+8. **तार्किक ज्ञान:** Analogies, assertion and reason, binary logic, classification, clocks and calendars, coded inequalities, coding-decoding.
 
-- हिन्दी भाषा और साहित्य का इतिहास
-- हिन्दी व्याकरण
-- अपठित गद्यांश
-- अपठित पद्यांश
-- प्रमुख लेखक और कवि
-- महत्वपूर्ण रचनाएँ
-- भाषा-विकास और साहित्यिक परंपराएँ
-- शब्द-ज्ञान, वाक्य-रचना और comprehension
-
-### हिन्दी preparation tips
-
-- काल, वाच्य, संधि, समास, कारक, उपसर्ग-प्रत्यय और वर्तनी के rules को examples के साथ पढ़ें।
-- प्रमुख लेखक–रचना और कवि–कृति की comparison table बनाइए।
-- प्रत्येक दिन एक prose और एक poetry passage का भावार्थ, inference और vocabulary अभ्यास करें।
-
-## 5.2 English
-
-- History of English language and literature
-- English grammar
-- Unseen passages
-- Reading comprehension
-- Prominent writers and poets
-- Important works
-- Vocabulary, sentence usage और language application
-
-### English preparation tips
-
-- Parts of speech, tense, subject-verb agreement, articles, prepositions, voice, narration और punctuation revise करें।
-- लेखक–रचना और literary terms की one-line notebook बनाइए।
-- Passage में answer चुनते समय केवल सामान्य ज्ञान नहीं, passage में दिए evidence को प्राथमिकता दें।
-
-## 5.3 संस्कृत
-
-- संस्कृत भाषा और साहित्य का इतिहास
-- संस्कृत व्याकरण
-- अपठित गद्यांश और पद्यांश
-- प्रमुख लेखक और कवि
-- महत्वपूर्ण रचनाएँ
-- शब्दरूप, धातुरूप और विभक्ति का अभ्यास
-- सन्धि, समास, लकार और अनुवाद
-
-### संस्कृत preparation tips
-
-- शब्दरूप और धातुरूप को chart में लिखकर daily oral revision करें।
-- सन्धि-विच्छेद, समास-विग्रह और विभक्ति-प्रयोग के छोटे practice sets हल करें।
-- प्रमुख संस्कृत रचनाओं के लेखक और विषय की table तैयार करें।
+**तैयारी की नज़र:**
+- Static GK को **इतिहास -> भूगोल -> राजनीति/संविधान -> अर्थव्यवस्था -> पर्यावरण -> सामान्य विज्ञान** headings में बाँटकर revise करें।
+- Current Affairs में national + international दोनों रखें; उत्तर प्रदेश की बड़ी घटनाएँ भी जोड़ें (प्रश्नों में "प्रदेश" angle आ सकता है)।
+- Reasoning की **सूची यहाँ छोटी (8 topics)** है — analogy, coding-decoding, classification, clock-calendar, inequalities, binary logic, assertion-reason पर नियमित practice काफी है।
 
 ---
 
-# 6. Section 2B — Social Studies Teacher subject
+## 3. द्वितीय खण्ड (क) — भाषा शिक्षक (90 प्रश्न)
 
-Social Studies subject में History, Geography, Civics, Economy, Environment और Uttar Pradesh-specific content एक साथ पढ़ना होगा।
+### 3.1 हिन्दी
 
-## 6.1 प्राचीन इतिहास
+> 📌 **आधिकारिक पाठ्यक्रम:**
+1. हिन्दी साहित्य एवं भाषा का इतिहास।
+2. व्याकरण।
+3. अपठित गद्यांश तथा पद्यांश।
+4. प्रमुख लेखकों / कवियों का सामान्य परिचय एवं उनकी रचनाएँ।
 
-- इतिहास के स्रोत
-- प्रागैतिहासिक संस्कृतियाँ
-- ताम्रपाषाण संस्कृति
-- वैदिक संस्कृति
-- प्रारम्भिक भारतीय राज्य और राजवंश
-- प्राचीन समाज, अर्थव्यवस्था और संस्कृति
+**तैयारी की नज़र:** संधि, समास, कारक, काल, वाच्य, उपसर्ग-प्रत्यय, वर्तनी — नियमों के साथ examples; **लेखक–रचना / कवि–कृति** की comparison table बनाएँ; रोज़ एक गद्यांश और एक पद्यांश का अभ्यास करें।
 
-## 6.2 मध्यकालीन इतिहास
+### 3.2 English
 
-- मौर्य साम्राज्य
-- गुप्त काल
-- राजपूत इतिहास
-- दिल्ली सल्तनत
-- मुगल साम्राज्य
-- मध्यकालीन प्रशासन, समाज और संस्कृति
+> 📌 **आधिकारिक पाठ्यक्रम:**
+1. History of English Literature and Language.
+2. Grammar.
+3. Unseen Passage.
+4. Writers / Poets general introduction and their work.
 
-## 6.3 आधुनिक इतिहास
+**तैयारी की नज़र:** Parts of speech, tense, subject-verb agreement, articles, prepositions, voice, narration, punctuation revise करें; writers/poets व उनके works की one-line notebook बनाएँ; passage में उत्तर passage के evidence से चुनें।
 
-- यूरोपीय शक्तियों का आगमन
-- ब्रिटिश शासन की स्थापना और विस्तार
-- भारतीय पुनर्जागरण
-- राष्ट्रवाद का विकास
-- भारतीय स्वतंत्रता आंदोलन
-- स्वतंत्रता और विभाजन
+### 3.3 संस्कृत
 
-## 6.4 भारतीय समाज और शासन
+> 📌 **आधिकारिक पाठ्यक्रम:**
+1. संस्कृत भाषा एवं साहित्य के इतिहास की जानकारी।
+2. व्याकरण।
+3. अपठित गद्यांश / पद्यांश।
+4. प्रमुख लेखकों / कवियों का सामान्य परिचय एवं उनकी कृतियाँ।
 
-- ग्रामीण और शहरी समाज
-- स्थानीय स्वशासन
-- जिला प्रशासन
-- भारतीय संविधान
-- केंद्र और राज्य सरकार
-- लोकतंत्र और नागरिकता
-- शासन में नागरिकों की भूमिका
-
-## 6.5 राष्ट्रीय और अंतरराष्ट्रीय विषय
-
-- राष्ट्रीय सुरक्षा
-- भारत की विदेश नीति
-- यातायात और सड़क सुरक्षा
-- राष्ट्रीय संस्थाएँ और समसामयिक मुद्दे
-
-## 6.6 सामान्य भूगोल
-
-- पृथ्वी और सौरमंडल
-- ग्लोब और मानचित्र
-- पृथ्वी की गतियाँ
-- मानचित्र-निर्माण
-- पृथ्वी के चार मंडल: स्थलमंडल, जलमंडल, वायुमंडल और जीवमंडल
-- प्रमुख स्थलरूप
-
-## 6.7 भारतीय भूगोल
-
-- भारत की भौतिक विशेषताएँ
-- मिट्टी
-- प्राकृतिक वनस्पति
-- वन्यजीव
-- जलवायु
-- आर्थिक संसाधन
-- कृषि, उद्योग और परिवहन
-
-## 6.8 उत्तर प्रदेश का भूगोल
-
-- भौगोलिक स्थिति
-- राजनीतिक विभाजन
-- जलवायु
-- मिट्टी
-- वनस्पति और वन्यजीव
-- कृषि
-- खनिज संसाधन
-- प्रमुख नदियाँ और क्षेत्र
-
-## 6.9 अर्थव्यवस्था और जनसंख्या
-
-- उद्योग
-- जनसंख्या
-- नगरीकरण
-- खनिज संसाधन
-- भारतीय अर्थव्यवस्था
-- विकास और सामाजिक चुनौतियाँ
-
-## 6.10 पर्यावरण
-
-- वायुमंडल
-- जलमंडल
-- प्राकृतिक प्रदेश
-- पर्यावरण संरक्षण
-- प्रदूषण
-- अपशिष्ट प्रबंधन
-- प्राकृतिक आपदा प्रबंधन
-- जैव-विविधता और जलवायु परिवर्तन
-
-### Social Studies preparation tips
-
-- History के लिए chronology और dynasty tables बनाइए।
-- Geography के लिए map practice अनिवार्य रखें।
-- UP Geography के लिए अलग one-page district/river/agriculture facts बनाइए।
-- Civics में Constitution, government structure, local bodies और citizenship को flowchart से revise करें।
+**तैयारी की नज़र:** शब्दरूप, धातुरूप, संधि-विच्छेद, समास-विग्रह, विभक्ति व लकारों का chart बनाकर daily oral revision; रचनाओं के लेखक-विषय की table तैयार करें।
 
 ---
 
-# 7. Section 2C — Science & Mathematics Teacher subject
+## 4. द्वितीय खण्ड (ख) — सामाजिक अध्ययन शिक्षक (90 प्रश्न)
 
-Science & Mathematics category में selected subject section के 90 प्रश्नों के लिए दोनों subjects पढ़ने होंगे। उपलब्ध summary में इनके topics इस प्रकार दिए गए हैं।
+> 📌 **आधिकारिक पाठ्यक्रम (35 बिंदु):**
 
-## 7.1 Junior Mathematics
+1. इतिहास जानने के स्रोत।
+2. पाषाणकालीन संस्कृति, ताम्र पाषाणिक संस्कृति, वैदिक संस्कृति।
+3. छठी शताब्दी ई० पू० का भारत।
+4. भारत के प्रारम्भिक राज्य।
+5. भारत में मौर्य साम्राज्य की स्थापना।
+6. मौर्योत्तरकालीन भारत, गुप्तकाल, राजपूत कालीन भारत, पुष्यभूति वंश, दक्षिण भारत के राज्य।
+7. छठी शताब्दी का धार्मिक तथा सामाजिक विकास।
+8. इस्लाम का भारत में आगमन, दिल्ली सल्तनत की स्थापना, विस्तार, विघटन।
+9. मुगल साम्राज्य, संस्कृति, पतन।
+10. यूरोपीय शक्तियों का भारत में आगमन एवं अंग्रेजी राज्य की स्थापना।
+11. भारत में कम्पनी राज्य का विस्तार।
+12. भारत में नवजागरण, भारत में राष्ट्रवाद का उदय।
+13. स्वाधीनता आन्दोलन, स्वतंत्रता प्राप्ति, भारत विभाजन।
+14. स्वतंत्र भारत की चुनौतियाँ।
+15. हम और हमारा समाज।
+16. ग्रामीण एवं नगरीय समाज व रहन-सहन, ग्रामीण एवं नगरीय स्वशासन।
+17. जिला प्रशासन।
+18. हमारा संविधान, केन्द्रीय व राज्य शासन व्यवस्था।
+19. भारत में लोकतंत्र।
+20. देश की सुरक्षा एवं विदेश नीति, वैश्विक समुदाय एवं भारत।
+21. नागरिक सुरक्षा, यातायात सुरक्षा।
+22. दिव्यांगता।
+23. सौरमण्डल में पृथ्वी, ग्लोब, पृथ्वी पर स्थानों का निर्धारण, पृथ्वी की गतियाँ।
+24. मानचित्रण, पृथ्वी के चार परिमण्डल, स्थलमण्डल, पृथ्वी की संरचना, पृथ्वी के प्रमुख स्थलरूप।
+25. विश्व में भारत, भारत का भौतिक स्वरूप, मृदा, उर्वरक का प्रयोग एवं महत्व, वनस्पति एवं वन्य जीव, भारत की जलवायु, भारत के आर्थिक संसाधन, यातायात, व्यापार एवं संचार।
+26. उत्तर प्रदेश — भारत में स्थान, राजनीतिक विभाग, जलवायु, मृदा, वनस्पति एवं वन्यजीव, कृषि, खनिज।
+27. उद्योग-धन्धे, जनसंख्या एवं नगरीकरण।
+28. वायुमण्डल, जलमण्डल।
+29. संसार के प्रमुख प्राकृतिक प्रदेश एवं जनजीवन।
+30. खनिज संसाधन, उद्योग-धन्धे।
+31. भारतीय अर्थव्यवस्था एवं उसकी चुनौतियाँ।
+32. पर्यावरण, प्राकृतिक संसाधन एवं उनकी उपयोगिता।
+33. प्राकृतिक संतुलन, संसाधनों का उपयोग।
+34. जनसंख्या वृद्धि का पर्यावरण पर प्रभाव, पर्यावरण-प्रदूषण।
+35. अपशिष्ट प्रबन्धन, आपदाएँ, पर्यावरणविद, पर्यावरण के क्षेत्र में पुरस्कार, पर्यावरण दिवस, पर्यावरण कैलेण्डर।
 
-### Number System
-
-- Natural numbers
-- Whole numbers
-- Integers
-- Rational numbers
-- Rational और irrational numbers
-- Number properties और operations
-
-### Arithmetic
-
-- LCM और HCF
-- Square roots और cube roots
-- Ratio और proportion
-- Percentage
-- Profit और loss
-- Simple और compound interest
-
-### Algebra
-
-- Algebraic expressions
-- Powers और exponents
-- Linear equations
-- Quadratic equations
-- Simultaneous equations
-- Algebraic identities
-
-### Geometry
-
-- Parallel lines
-- Quadrilaterals
-- Triangles
-- Circles
-- Tangents
-- Basic geometric properties और theorems
-
-### Statistics और Data
-
-- Pictographs
-- Mean
-- Median
-- Mode
-- Bar graphs
-- Pie charts
-- Data reading और comparison
-
-### Probability
-
-- Basic probability
-- Favourable और total outcomes
-- Simple event-based questions
-
-### Mensuration और Trigonometry
-
-- Mensuration और related calculations
-- Perimeter, area और volume
-- Basic trigonometry
-
-### Mathematics preparation tips
-
-- Formula को केवल याद न करें; हर formula का एक solved example बनाइए।
-- Algebra और geometry के लिए steps लिखकर proof/problem-solving practice करें।
-- Statistics, graph और probability में data को पहले ध्यान से पढ़ें, फिर calculation करें।
-- 90-question subject practice में Maths के लिए अलग time block तय करें।
-
-## 7.2 Junior Science
-
-### Biology
-
-- Living और non-living things
-- Organisms का classification
-- Plants और animals का classification
-- Adaptation
-- Animal structure और functions
-
-### Microbiology और Health
-
-- Microorganisms
-- Diseases
-- Cells
-- Organ systems
-- Adolescence
-- Disability और health support
-
-### Food और Nutrition
-
-- Food
-- Health और hygiene
-- Crop production
-- Nutrition
-- Vitamins और minerals
-
-### Human Biology
-
-- Reproduction
-- Respiration
-- Excretion
-- Hormones
-- Blood structure और blood groups
-
-### Physics
-
-- Measurement
-- Electric current
-- Magnetism
-- Motion
-- Force
-- Machines
-- Energy
-- Sound
-- Static electricity
-- Light और optical instruments
-
-### Air और Environment
-
-- Air के गुण
-- Air की composition और importance
-- Ozone layer
-- Greenhouse effect
-
-### Water और Pollution
-
-- Water
-- Water conservation
-- Water pollution
-
-### Matter और Chemistry
-
-- Matter और उसके properties
-- Separation of substances
-- Structure और nature of matter
-- Acids, bases और salts
-
-### Heat और Materials
-
-- Heat और temperature
-- Plastics
-- Glass
-- Soap
-
-### Metals और Carbon
-
-- Minerals और metals
-- Carbon और उसके compounds
-
-### Energy और Modern Science
-
-- Alternative sources of energy
-- Periodic table
-- Science और technology के daily-life applications
-
-### Science preparation tips
-
-- प्रत्येक chapter के लिए definition, example, diagram और daily-life application लिखें।
-- Human Biology और Physics में labelled diagrams का अभ्यास करें।
-- Chemistry में properties, uses और reactions की comparison tables बनाइए।
-- NCERT concepts को D.El.Ed/teacher-exam style application questions से जोड़ें।
+**तैयारी की नज़र (थीम के अनुसार):**
+- **इतिहास (1–14):** प्राचीन -> मध्यकाल -> आधुनिक की chronology व dynasty tables बनाइए; स्वाधीनता आन्दोलन की timeline विशेष रूप से।
+- **समाज/शासन (15–22):** संविधान, केन्द्र-राज्य व्यवस्था, स्थानीय स्वशासन, लोकतंत्र, दिव्यांगता — flowchart से revise करें।
+- **भूगोल (23–27):** पृथ्वी की गतियाँ/संरचना, भारत का भौतिक स्वरूप व जलवायु, **UP भूगोल** (स्थान, विभाग, जलवायु, कृषि, खनिज) — map practice अनिवार्य।
+- **संसाधन/अर्थव्यवस्था (28–31):** वायुमण्डल-जलमण्डल, प्राकृतिक प्रदेश, खनिज, उद्योग, भारतीय अर्थव्यवस्था की चुनौतियाँ।
+- **पर्यावरण (32–35):** पर्यावरण-प्रदूषण, अपशिष्ट प्रबन्धन, आपदाएँ, पर्यावरण दिवस/पुरस्कार/कैलेण्डर — **यहाँ facts सीधे पूछे जा सकते हैं** (जैसे विश्व पर्यावरण दिवस = 5 जून)।
 
 ---
 
-## 8. Junior exam strategy
+## 5. द्वितीय खण्ड (ग) — विज्ञान एवं गणित शिक्षक (90 प्रश्न)
+
+### 5.1 गणित
+
+> 📌 **आधिकारिक पाठ्यक्रम:**
+
+1. प्राकृतिक संख्याएँ, पूर्ण संख्याएँ, परिमेय संख्याएँ।
+2. पूर्णांक, कोष्ठक, लघुत्तम समापवर्त्य एवं महत्तम समापवर्तक।
+3. वर्गमूल, घनमूल, सर्वसमिकाएँ।
+4. बीजगणित, अवधारणा — चर संख्याएँ, अचर संख्याएँ, चर संख्याओं की घात।
+5. बीजीय व्यंजकों का जोड़, घटाना, गुणा एवं भाग, बीजीय व्यंजकों के पद एवं पदों के गुणांक, सजातीय एवं विजातीय पद, व्यंजकों की डिग्री, एक, दो एवं त्रिपदीय व्यंजकों की अवधारणाएँ।
+6. युगपत समीकरण, वर्ग समीकरण, रेखीय समीकरण।
+7. समान्तर रेखाएँ, चतुर्भुज की रचनाएँ, त्रिभुज।
+8. वृत्त और चक्रीय चतुर्भुज, वृत्त की स्पर्श रेखाएँ।
+9. अनुपात, समानुपात, प्रतिशतता, लाभ-हानि, साधारण ब्याज, चक्रवृद्धि ब्याज।
+10. सांख्यिकी — आंकड़ों का वर्गीकरण, पिक्टोग्राफ, माध्य, माध्यिका एवं बहुलक, बारम्बारता।
+11. पाई एवं दण्ड चार्ट, अवर्गीकृत आंकड़ों का चित्र।
+12. सम्भावना (प्रायिकता) ग्राफ, दण्ड आरेख तथा मिश्रित दण्ड आरेख।
+13. कार्तीय तल, क्षेत्रमिति (मेन्सुरेशन), घातांक, त्रिकोणमिति।
+
+**तैयारी की नज़र:** हर topic का formula + solved example notebook में लिखें; बीजीय व्यंजकों की शब्दावली (पद, गुणांक, डिग्री, सजातीय-विजातीय) पर ध्यान दें — यहाँ सीधे conceptual प्रश्न आ सकते हैं; statistics/graph/probability में data ध्यान से पढ़ें।
+
+### 5.2 विज्ञान
+
+> 📌 **आधिकारिक पाठ्यक्रम:**
+
+1. दैनिक जीवन में विज्ञान, महत्वपूर्ण खोज, महत्व, मानव, विज्ञान एवं प्रौद्योगिकी।
+2. रेशे एवं वस्त्र, रेशों से वस्त्रों तक (प्रक्रिया)।
+3. सजीव, निर्जीव पदार्थ, जीव जगत, सजीवों का वर्गीकरण, जन्तु एवं वनस्पति के आधार पर पौधों का वर्गीकरण एवं जन्तुओं का वर्गीकरण, जीवों में अनुकूलन, जन्तुओं एवं पौधों में परिवर्तन।
+4. जन्तु की संरचना व कार्य।
+5. सूक्ष्म जीव एवं उनका वर्गीकरण तथा उनसे होने वाली बीमारियों और उनकी रोकथाम।
+6. कोशिका से अंगतन्त्र तक।
+7. किशोरावस्था, विकलांगता।
+8. भोजन, स्वास्थ्य, स्वच्छता एवं रोग, फसल उत्पादन, नाइट्रोजन चक्र।
+9. जन्तुओं में पोषण, पौधों में पोषण, जनन, लाभदायक पौधे।
+10. जीवों में श्वसन, उत्सर्जन, लाभदायक जन्तु।
+11. पोषण, विटामिन्स, हार्मोन्स एवं खनिज लवण।
+12. मापन, विद्युत धारा, चुम्बकत्व, गति, बल एवं यंत्र।
+13. ऊर्जा, ध्वनि, स्थिर विद्युत, प्रकाश एवं प्रकाश यंत्र।
+14. वायु — गुण, संघटन, आवश्यकता, उपयोगिता, ओजोन परत, हरित गृह प्रभाव।
+15. जल — आवश्यकता, उपयोगिता, स्रोत, गुण, प्रदूषण, जल-संरक्षण।
+16. पदार्थ, पदार्थों के समूह, पदार्थों का पृथक्करण, पदार्थ की संरचना एवं प्रकृति।
+17. अम्ल, क्षार, लवण।
+18. ऊष्मा एवं ताप।
+19. मानव निर्मित वस्तुएँ, प्लास्टिक, काँच, साबुन, मृतिका।
+20. खनिज एवं धातु, कार्बन एवं उसके यौगिक।
+21. ऊर्जा के वैकल्पिक स्रोत।
+22. आवर्त सारिणी, रक्त की संरचना, वर्ग एवं रक्त के आदान-प्रदान में सावधानियाँ।
+
+**तैयारी की नज़र:** हर chapter के लिए definition -> example -> diagram -> daily-life application लिखें; जीव विज्ञान में **आरेख (कोशिका, रक्त, उत्सर्जन तंत्र)** और रसायन में **properties/uses की comparison tables**; विटामिन-हार्मोन्स-खनिज लवण व **रक्त वर्ग (blood group)** याद करें।
+
+---
+
+## 6. स्तर व तैयारी पर नोट
+
+- यह आधिकारिक दस्तावेज़ विषयवस्तु का level (जैसे "कक्षा 12 तक") अलग से स्पष्ट नहीं करता।
+- तैयारी का व्यावहारिक आधार: **NCERT (कक्षा 6–8)** की पक्की बुनियाद + ऊपरी कक्षाओं (9–10/12) के relevant concepts — परीक्षा में आमतौर पर इसी मिश्रण से प्रश्न बनते हैं। अंतिम official notification देखकर confirm करें।
+
+---
+
+## 7. परीक्षा-रणनीति (2 घंटे / 120 प्रश्न)
 
 | चरण | समय | कार्य |
 |---|---:|---|
-| General Knowledge | 20 मिनट | Direct facts और familiar questions |
-| Selected subject — Round 1 | 45 मिनट | निश्चित और short questions |
-| Selected subject — Round 2 | 40 मिनट | Multi-step और conceptual questions |
-| Review | 15 मिनट | Marked questions और calculation check |
+| प्रथम खण्ड (GK) | 20 मिनट | Direct facts और familiar questions पहले |
+| द्वितीय खण्ड — Round 1 | 45 मिनट | Subject के निश्चित व short questions |
+| द्वितीय खण्ड — Round 2 | 40 मिनट | Multi-step व conceptual questions |
+| Review | 15 मिनट | Marked questions व calculation check |
 
-### Negative marking rule
+**Marking नियम (आधिकारिक):** सही = **+3**, गलत = **−1**, छोड़ा = **0**। Blind guessing से बचें; दो विकल्प स्पष्ट हट जाएँ तभी risk लें।
 
-- Correct answer: `+3`
-- Wrong answer: `−1`
-- Unattempted question: `0`
+---
 
-Blind guessing से बचें। दो विकल्पों में स्पष्ट elimination हो तभी risk लें।
+## 8. तैयारी checklist
 
-## 9. Junior preparation checklist
+- [ ] अपनी post के अनुसार द्वितीय खण्ड का विषय तय किया (भाषा/Social Studies/Science & Maths)
+- [ ] प्रथम खण्ड (GK 30) के लिए static GK + current affairs + reasoning practice शुरू की
+- [ ] 90-प्रश्न वाले subject का पूरा आधिकारिक syllabus पढ़ा
+- [ ] 120 प्रश्न / 360 अंक / 120 मिनट वाले pattern पर timed practice की
+- [ ] +3/−1 marking के साथ mock score calculate किया
+- [ ] कम-से-कम 10 full-length mocks हल किए
+- [ ] हर mock के बाद error notebook बनाई
+- [ ] Final notification में subject selection/marking का अंतिम confirm किया
 
-- [ ] अपने teaching post के अनुसार selected subject तय किया
-- [ ] General Knowledge के 30 प्रश्नों के लिए current और static GK notebook बनाई
-- [ ] चुनी गई language / Social Studies / Science & Mathematics का complete syllabus पढ़ा
-- [ ] 120 questions और 360 marks वाले pattern पर practice की
-- [ ] 120 मिनट में full mock पूरा किया
-- [ ] +3/−1 marking के साथ score calculate किया
-- [ ] कम-से-कम 10 full-length Junior mocks हल किए
-- [ ] गलतियों की error notebook बनाई
-- [ ] अंतिम सप्ताह में केवल revision और timed practice रखी
+---
 
-## 10. Source and verification note
+## 9. स्रोत एवं सत्यापन
 
-- [UPESSC official portal](https://upessc.up.gov.in/) को अंतिम authority मानें।
-- [Latest Super TET syllabus and Junior pattern summary — 2 September 2026](https://www.adda247.com/teaching-jobs-exam/super-tet-syllabus/)
-- [1 September 2026 UPESSC revised-pattern report](https://www.updatemarts.com/2026/09/tet-vs-upessc-2026.html)
+- **आधिकारिक विषयवस्तु (शब्दशः):** [UP_Junior_6_8_New_Syllabus_2026.md](./UP_Junior_6_8_New_Syllabus_2026.md)
+- [UPESSC official portal](https://upessc.up.gov.in/) — अंतिम authority
 
-> **Status:** यह Junior/Upper Primary file उपलब्ध latest syllabus summary को अलग करके तैयार करती है। Final UPESSC recruitment advertisement/PDF में subject selection, internal distribution या marking में कोई बदलाव हो तो final official document को प्राथमिकता दी जाएगी।
+> **Status:** यह file UPESSC की उपलब्ध आधिकारिक संरचना व विषयवस्तु के अनुसार अद्यतन की गई है (3 सितम्बर 2026)। Final advertisement/PDF में कोई परिवर्तन होने पर official document को प्राथमिकता दी जाएगी।

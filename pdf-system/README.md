@@ -239,7 +239,32 @@ sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libffi-dev
 
 ---
 
-## 8. वर्तमान आउटपुट (`~/PDF/`)
+## 8. वैकल्पिक इंजन: `md2pdf-hb.py` (बिना WeasyPrint — HarfBuzz)
+
+`md2pdf-hb.py` वही markdown-शैली (headings, tables, `>` boxes, `:::` callouts)
+पढ़कर PDF बनाता है, पर **WeasyPrint/pango की ज़रूरत नहीं** — यह
+`uharfbuzz + fontTools + reportlab` (सभी pip wheels) से देवनागरी को
+सही shape करता है और bunded `fonts/PlaypenSansDeva-*.ttf` का उपयोग करता है।
+
+```bash
+pip install uharfbuzz fonttools reportlab
+
+python3 pdf-system/md2pdf-hb.py notes.md                                  # -> notes.pdf
+python3 pdf-system/md2pdf-hb.py a.md b.md c.md -o book.pdf --toc          # merge + TOC
+python3 pdf-system/md2pdf-hb.py notes.md -o out.pdf \
+    --title "शीर्षक" --subtitle "..." --badge "8 अध्याय" --toc --no-cover
+```
+
+विकल्प: `-o/--output`, `--title`, `--subtitle`, `--badge`, `--toc`,
+`--no-toc`, `--no-cover`।
+
+> 💡 यह engine हर सैंडबॉक्स/सिस्टम में चलता है जहाँ pip चलता है;
+> root/apt की ज़रूरत नहीं। PDF glyph-paths से बनते हैं (सर्च-टेक्स्ट
+> layer नहीं होता)। PDF फोल्डर की `SuperTET-IT-*.pdf` फाइलें इसी से बनी हैं।
+
+---
+
+## 9. वर्तमान आउटपुट (`~/PDF/`)
 
 | फाइल | पेज |
 |---|---|
@@ -248,6 +273,9 @@ sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libffi-dev
 | SuperTET-Maths-Junior-QuestionBank.pdf | 45 |
 | SuperTET-Maths-Primary-Notes.pdf | 31 |
 | SuperTET-Maths-Junior-Notes.pdf | 25 |
+| SuperTET-IT-Primary-Notes.pdf | 24 |
+| SuperTET-IT-Primary-QuestionBank.pdf | 19 |
+| SuperTET-IT-COMPLETE.pdf | 44 |
 | Reasoning-COMPLETE.pdf | 133 |
 | Reasoning-Syllabus-Blueprint.pdf | 12 |
-| **कुल** | **452 पेज** |
+| **कुल** | **~539 पेज** |
