@@ -29,6 +29,11 @@
   - Diligence: थकान/बोरियत नहीं, घंटों एक जैसी सटीकता।
   - कंप्यूटर में **IQ (बुद्धि) नहीं होती** — वह बताए गए instruction ही मानता है।
 
+```figure
+type: it-computer-system
+caption: कंप्यूटर प्रणाली — Input → CPU (ALU + CU) → Output; RAM अस्थायी (volatile), HDD/SSD स्थायी storage। बीच में RAM व storage दोनों से data आता-जाता है
+```
+
 > 💡 **ट्रिक:** "S-A-D-S" याद रखें -> **S**peed, **A**ccuracy, **D**iligence, **S**torage (विशेषताएँ)।
 
 ### 1.2 कंप्यूटर का इतिहास — महत्वपूर्ण नाम (PYQ में बार-बार)
@@ -65,6 +70,11 @@
 
 > ⚡ **ट्रिक:** पीढ़ियों की तकनीक = **V-T-I-M-A** -> **V**acuum tube -> **T**ransistor -> **I**C -> **M**icroprocessor -> **A**I
 > (V से A तक "आगे बढ़ती तकनीक" — Vahini Tube se AI tak 😊)
+
+```figure
+type: it-generations
+caption: पीढ़ियाँ — Vacuum Tube (1) → Transistor (2) → IC (3) → Microprocessor (4) → AI (5); हर पीढ़ी में आकार छोटा, गति व क्षमता अधिक
+```
 
 ### 1.4 कंप्यूटर के प्रकार (Types)
 
@@ -187,6 +197,11 @@
 | **Blu-ray Disc** | ~25 GB |
 | **Cloud Storage** | इंटरनेट पर दूर के server में data — Google Drive, OneDrive, Dropbox |
 
+```figure
+type: it-memory-hierarchy
+caption: Memory-पिरामिड — ऊपर Register (सबसे तेज़, सबसे छोटी व महँगी) → Cache → RAM → नीचे HDD/SSD (सबसे बड़ी व धीमी)। ऊपर जितनी तेज़, उतनी महँगी
+```
+
 ### 2.6 Memory Units (इकाइयाँ) — रटने वाला table
 
 - **1 Nibble = 4 bits**, **1 Byte = 8 bits**
@@ -229,6 +244,11 @@
 
 > 💡 **ट्रिक:** Compiler = "पूरी किताब एक साथ अनुवाद", Interpreter = "हर line का तुरंत अनुवाद"।
 
+```figure
+type: it-software-tree
+caption: Software के मुख्य भाग — System software (OS, drivers, utilities — मशीन चलाते हैं) व Application software (Office, browser, games — user का काम)
+```
+
 ### 3.2 Operating System (OS) — सॉफ्टवेयर का राजा
 
 - **OS** वह main system software है जो **hardware और user के बीच सेतु (interface)** बनाता है; कंप्यूटर OS के बिना नहीं चल सकता।
@@ -251,6 +271,11 @@
 - **Open Source:** source code सबके लिए खुला/मुफ्त (Linux, Firefox, LibreOffice) | **Proprietary:** कंपनी का निजी (Windows, MS Office)।
 
 > 🔑 **पक्का तथ्य:** कंप्यूटर बिना **OS** के चालू तो होगा, पर कोई program/user काम नहीं कर सकेगा। सबसे लोकप्रिय desktop OS = Windows; सबसे लोकप्रिय mobile OS = Android।
+
+```figure
+type: it-os-layer
+caption: OS का स्थान — User ↔ Application ↔ OS ↔ Hardware। User सीधे hardware से नहीं, OS के माध्यम से काम करता है
+```
 
 ### 3.3 MS Office व उसके alternatives
 
@@ -321,6 +346,11 @@
 
 > ⚡ **बहुत पूछा जाता है:** Browser = Chrome/Firefox (software), Search Engine = Google/Bing (website), Website = जानकारी का पता। **Google एक search engine है, browser नहीं!** Chrome browser है, Google search engine है।
 
+```figure
+type: it-client-server
+caption: Web चलने का तरीका — Browser (client) web server से page माँगता है (request), server page भेजता है (response)
+```
+
 ### 4.3 Email (ई-मेल)
 
 - **Email** = Electronic Mail — इंटरनेट से चिट्ठी/संदेश भेजना।
@@ -332,6 +362,11 @@
 
 > 🔑 **Email address में '@' ज़रूरी है, spaces नहीं होते, domain '.com/.in/.gov.in' होता है।** Gmail = Google की, Outlook = Microsoft की।
 
+```figure
+type: it-email-flow
+caption: Email का सफ़र — भेजते समय SMTP (Sender → Mail server → Internet), पाने के लिए POP3/IMAP (Mail server → Receiver)
+```
+
 ### 4.4 Networking basics
 
 - **Network:** दो या अधिक devices का आपस में जुड़ाव (data share करने के लिए)।
@@ -339,6 +374,11 @@
 - **Topology** (जुड़ाव का तरीका): Star, Bus, Ring, Mesh, Tree — स्कूल में आम = **Star** (सब devices एक hub/switch से जुड़े)।
 - Network devices: **Hub/Switch** (LAN जोड़ना), **Router** (network जोड़ना + Wi-Fi), **Modem**, **Gateway**।
 - **स्कूल/ऑफिस में sharing:** files, printer, internet एक साथ share — computer lab में LAN यही काम करता है।
+
+```figure
+type: it-network-topology
+caption: Topology — Star (स्कूल LAN: हर device बीच के hub/switch से जुड़ा), Bus (एक main line पर सब), Ring (गोल घेरे में एक-दूसरे से)
+```
 
 ### 4.5 Smartphone basics (TET स्तर)
 
@@ -486,6 +526,11 @@
 | **Vishing / Smishing** | phone call (voice) / SMS से ठगी |
 
 > ⚡ **ट्रिक:** Virus = "बीमारी (जुड़कर फैलती है)" | Worm = "बिना सहारा खुद रेंगती है" | Trojan = "ट्रोजन घोड़ा — बाहर से अच्छा, अंदर से खतरा" | Phishing = "झाँसा/धोखा"।
+
+```figure
+type: it-malware-fan
+caption: Malware के मुख्य रूप — Virus (जुड़कर), Worm (खुद फैलता), Trojan (छिपकर), Spyware (चुराता), Ransomware (पैसे माँगता)
+```
 
 ### 7.2 सुरक्षा के उपाय (Safety measures)
 

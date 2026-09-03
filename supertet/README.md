@@ -19,11 +19,11 @@ Primary के **सूचना तकनीकी (4 प्रश्न / 12 �
 | सामग्री | File | PDF |
 |---|---|---|
 | Syllabus + रणनीति | [supertet-it/00-IT-Syllabus-aur-Strategy.md](./supertet-it/00-IT-Syllabus-aur-Strategy.md) | — |
-| पूर्ण नोट्स (8 अध्याय) | [supertet-it/01-Primary-Level-IT-Notes.md](./supertet-it/01-Primary-Level-IT-Notes.md) | [PDF/SuperTET-IT-Primary-Notes.pdf](../PDF/SuperTET-IT-Primary-Notes.pdf) |
+| पूर्ण नोट्स (8 अध्याय + 9 आकृतियाँ) | [supertet-it/01-Primary-Level-IT-Notes.md](./supertet-it/01-Primary-Level-IT-Notes.md) | [PDF/SuperTET-IT-Primary-Notes.pdf](../PDF/SuperTET-IT-Primary-Notes.pdf) |
 | Solved Question Bank (114 प्रश्न) | [supertet-it/02-Primary-IT-Solved-Question-Bank.md](./supertet-it/02-Primary-IT-Solved-Question-Bank.md) | [PDF/SuperTET-IT-Primary-QuestionBank.pdf](../PDF/SuperTET-IT-Primary-QuestionBank.pdf) |
 | सब एक साथ (COMPLETE) | — | [PDF/SuperTET-IT-COMPLETE.pdf](../PDF/SuperTET-IT-COMPLETE.pdf) |
 
-> 📌 IT के PDF `pdf-system/md2pdf-hb.py` से बनते हैं (HarfBuzz engine — सैंडबॉक्स में भी चलता है)।
+> 📌 Notes में अब आकृतियाँ (` ```figure ` blocks — figlib) हैं, इसलिए IT के PDF **`pdf-system/md2pdf.py`** से बनाएँ (WeasyPrint + figlib — आकृतियाँ सहित)। पुराने PDF (md2pdf-hb से बने) में आकृतियाँ नहीं हैं — नए notes से दोबारा बनाएँ।
 
 ## ✅ बन चुका है — तार्किक ज्ञान (Logical Reasoning) — Primary + Junior
 

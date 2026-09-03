@@ -17,13 +17,13 @@
 ## Files
 
 1. [00-IT-Syllabus-aur-Strategy.md](./00-IT-Syllabus-aur-Strategy.md) — syllabus map, chapter plan, study strategy (Hinglish)
-2. [01-Primary-Level-IT-Notes.md](./01-Primary-Level-IT-Notes.md) — पूर्ण revision notes (8 chapters + memory charts + last-minute sheet)
+2. [01-Primary-Level-IT-Notes.md](./01-Primary-Level-IT-Notes.md) — पूर्ण revision notes (8 chapters + **9 आकृतियाँ** + memory charts + last-minute sheet)
 3. [02-Primary-IT-Solved-Question-Bank.md](./02-Primary-IT-Solved-Question-Bank.md) — chapter-wise **solved** MCQ bank (~110+ प्रश्न) + अंतिम mock
 
 ## PDFs
 
 PDF के लिए देखें: [../PDF/SuperTET-IT-*.pdf](../PDF/)<br>
-PDF फिर से बनाने के लिए: `python3 pdf-system/md2pdf-hb.py` (सैंडबॉक्स/सिस्टम दोनों पर चलता है — weasyprint ज़रूरी नहीं)।
+अब notes में आकृतियाँ (` ```figure ` — computer system, generations, memory pyramid, software tree, OS layer, network topology, email flow, client-server, malware) हैं, इसलिए PDF **`python3 pdf-system/md2pdf.py`** से बनाएँ (WeasyPrint + figlib — आकृतियाँ सहित)। `md2pdf-hb.py` (HarfBuzz) चलता तो है पर आकृतियों को placeholder दिखाता है।
 
 ## कैसे पढ़ें
 
