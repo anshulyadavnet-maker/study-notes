@@ -36,6 +36,16 @@ Reasoning की SuperTET-केंद्रित सामग्री तै�
 
 > 📌 reasoning-book में जो SuperTET topics के लिए अलग अध्याय नहीं थे (Binary Logic, Grouping & Selections, TET-स्तरीय DI) — वे `supertet_reasoning.md` में पूरे हैं। आकृतियाँ ` ```figure ` blocks से हैं → PDF के लिए `pdf-system/md2pdf.py` (WeasyPrint/figlib) चाहिए, `md2pdf-hb.py` figures को placeholder दिखाता है।
 
+## ✅ बन चुका है — विज्ञान (Science) — Primary + Junior
+
+| सामग्री | File |
+|---|---|
+| Syllabus + रणनीति | [supertet-science/00-Syllabus-aur-Strategy.md](./supertet-science/00-Syllabus-aur-Strategy.md) |
+| Primary विज्ञान Notes (10 अध्याय — 12 आधिकारिक अंश) | [supertet-science/01-Primary-Level-Science-Notes.md](./supertet-science/01-Primary-Level-Science-Notes.md) |
+| Junior विज्ञान Notes (22 अध्याय — 22 आधिकारिक बिंदु, 1:1) | [supertet-science/02-Junior-Level-Science-Notes.md](./supertet-science/02-Junior-Level-Science-Notes.md) |
+
+> 📌 Primary: **8 प्रश्न / 24 अंक**। Junior: "विज्ञान एवं गणित" 90-खण्ड में विज्ञान-भाग (official split नहीं; ~40–50 मानें)। Solved QB व PDF इस चरण में नहीं — अगले चरण में बन सकते हैं।
+
 ## Revised working pattern — दोनों levels
 
 - 120 objective questions
