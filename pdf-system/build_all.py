@@ -73,28 +73,35 @@ def main():
             "-o", str(OUT_DIR / 'SuperTET-Maths-Primary-Notes.pdf'),
             "--title", "गणित नोट्स — प्राथमिक स्तर",
             "--subtitle", "SUPER TET · कक्षा 1–5",
-            "--badge", "22 अध्याय", "--toc"
+            "--badge", "25 अध्याय", "--toc"
         ])
         run([
             str(M / '02-Junior-Level-Maths-Notes.md'),
             "-o", str(OUT_DIR / 'SuperTET-Maths-Junior-Notes.pdf'),
             "--title", "गणित नोट्स — जूनियर स्तर",
             "--subtitle", "SUPER TET · कक्षा 6–8",
-            "--badge", "19 अध्याय", "--toc"
+            "--badge", "21 अध्याय", "--toc"
         ])
         run([
             str(M / '03-Primary-Solved-Question-Bank.md'),
             "-o", str(OUT_DIR / 'SuperTET-Maths-Primary-QuestionBank.pdf'),
             "--title", "हल प्रश्न-पत्र — प्राथमिक",
-            "--subtitle", "SUPER TET · 221 हल प्रश्न",
-            "--badge", "20 अध्याय", "--toc", "--qcols", "--flow"
+            "--subtitle", "SUPER TET · हल प्रश्न-बैंक",
+            "--badge", "23 अध्याय", "--toc", "--qcols", "--flow"
         ])
         run([
             str(M / '04-Junior-Solved-Question-Bank.md'),
             "-o", str(OUT_DIR / 'SuperTET-Maths-Junior-QuestionBank.pdf'),
             "--title", "हल प्रश्न-पत्र — जूनियर",
-            "--subtitle", "SUPER TET · 210 हल प्रश्न",
-            "--badge", "17 अध्याय", "--toc", "--qcols", "--flow"
+            "--subtitle", "SUPER TET · हल प्रश्न-बैंक",
+            "--badge", "19 अध्याय", "--toc", "--qcols", "--flow"
+        ])
+        run([
+            str(M / '00-Syllabus-aur-Strategy.md'),
+            "-o", str(OUT_DIR / 'Syllabus-aur-Strategy.pdf'),
+            "--title", "पाठ्यक्रम एवं रणनीति",
+            "--subtitle", "SUPER TET प्राथमिक एवं जूनियर स्तर",
+            "--badge", "रणनीति", "--toc"
         ])
         run([
             str(M / '00-Syllabus-aur-Strategy.md'),
@@ -104,7 +111,7 @@ def main():
             str(M / '04-Junior-Solved-Question-Bank.md'),
             "-o", str(OUT_DIR / 'SuperTET-Maths-COMPLETE.pdf'),
             "--title", "SUPER TET गणित",
-            "--subtitle", "सम्पूर्ण पुस्तक — नोट्स + 431 हल प्रश्न",
+            "--subtitle", "सम्पूर्ण पुस्तक — नोट्स + हल प्रश्न",
             "--badge", "प्राथमिक + जूनियर", "--toc", "--qcols", "--flow"
         ])
 
@@ -497,6 +504,79 @@ def main():
                 "--subtitle", "सम्पूर्ण अंग्रेजी नोट्स — Grammar, Vocabulary, Sentence Ability & Comprehension",
                 "--badge", "PET English Complete", "--toc", "--flow"
             ])
+        MOCK = PET / "mock"
+        if MOCK.exists():
+            run_mcq([
+                str(MOCK / '01-UPSSSC-PET-Mock-Test.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-Mock-Test-01.pdf'),
+                "--title", "UPSSSC PET 2026 — मॉक टेस्ट 01",
+                "--subtitle", "100 प्रश्न · व्याख्या सहित हल (आधिकारिक ब्लूप्रिंट)",
+                "--badge", "Mock Test 01", "--toc"
+            ])
+            run_mcq([
+                str(MOCK / '02-UPSSSC-PET-Mock-Test.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-Mock-Test-02.pdf'),
+                "--title", "UPSSSC PET 2026 — मॉक टेस्ट 02",
+                "--subtitle", "100 मिश्रित प्रश्न · व्याख्या सहित हल",
+                "--badge", "Mock Test 02", "--toc"
+            ])
+            run_mcq([
+                str(MOCK / '03-UPSSSC-PET-Mock-Test.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-Mock-Test-03.pdf'),
+                "--title", "UPSSSC PET 2026 — मॉक टेस्ट 03",
+                "--subtitle", "100 मिश्रित प्रश्न · व्याख्या सहित हल",
+                "--badge", "Mock Test 03", "--toc"
+            ])
+            run_mcq([
+                str(MOCK / '04-UPSSSC-PET-Mock-Test.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-Mock-Test-04.pdf'),
+                "--title", "UPSSSC PET 2026 — मॉक टेस्ट 04",
+                "--subtitle", "100 मिश्रित प्रश्न · व्याख्या सहित हल",
+                "--badge", "Mock Test 04", "--toc"
+            ])
+            run_mcq([
+                str(MOCK / '05-UPSSSC-PET-Mock-Test.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-Mock-Test-05.pdf'),
+                "--title", "UPSSSC PET 2026 — मॉक टेस्ट 05",
+                "--subtitle", "100 मिश्रित प्रश्न · व्याख्या सहित हल",
+                "--badge", "Mock Test 05", "--toc"
+            ])
+            # Unified Complete Mock Test Series
+            run_mcq([
+                str(MOCK / '01-UPSSSC-PET-Mock-Test.md'),
+                str(MOCK / '02-UPSSSC-PET-Mock-Test.md'),
+                str(MOCK / '03-UPSSSC-PET-Mock-Test.md'),
+                str(MOCK / '04-UPSSSC-PET-Mock-Test.md'),
+                str(MOCK / '05-UPSSSC-PET-Mock-Test.md'),
+                "-o", str(OUT_DIR / 'UPSSSC-PET-5-Mock-Tests-COMPLETE.pdf'),
+                "--title", "UPSSSC PET 2026 सम्पूर्ण मॉक टेस्ट सीरीज",
+                "--subtitle", "5 पूर्ण मॉक टेस्ट · 500 प्रश्न (विस्तृत व्याख्या सहित हल)",
+                "--badge", "500 MCQs · 5 Mocks", "--toc", "--flow"
+            ])
+
+    # 9. RAILWAY EXAM NOTES
+    RW = REPO_ROOT / "railway"
+    if RW.exists():
+        print("\n--- 9. RAILWAY EXAM NOTES -------------------------")
+        if (RW / '01-Statistics-Notes.md').exists():
+            run([
+                str(RW / '01-Statistics-Notes.md'),
+                "-o", str(OUT_DIR / 'Railway-Statistics-Notes.pdf'),
+                "--title", "Railway Maths — Statistics",
+                "--subtitle", "RRB NTPC • Group D • ALP • Technician • RPF",
+                "--badge", "Exam-Oriented Notes", "--toc", "--flow"
+            ])
+
+    # 10. DEMOS & EXAMPLES
+    if (HERE / 'figure-demo.md').exists():
+        print("\n--- 10. DEMOS & EXAMPLES --------------------------")
+        run([
+            str(HERE / 'figure-demo.md'),
+            "-o", str(OUT_DIR / '00-FIGURE-DEMO.pdf'),
+            "--title", "Figure Demo — ज्यामिति आकृति",
+            "--subtitle", "Vector Diagrams & Callouts Demo",
+            "--badge", "Demo"
+        ])
 
     print("\n==================================================")
     print("            BUILD COMPLETE                        ")
