@@ -5,7 +5,6 @@
 >
 > **Language choice reminder:** Language II must be different from Language I. This bank is for English Language II alongside Hindi Language I.
 >
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow` for clear question separators.
 
 ---
 

@@ -5,7 +5,6 @@
 >
 > **Figure note:** Figures are Python-generated vector SVG teaching models. They are included where a diagram, graph, circuit or process makes the concept clearer; they are not external image links.
 >
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card.
 
 ---
 

@@ -1,10 +1,10 @@
 # CTET Paper II Mathematics — गणित Revision Notes
 
-> **Hindi-medium exam notes:** यह file Paper II के Mathematics & Science option में आने वाले Mathematics section (30 questions) के लिए बनाई गई है। Main explanation Hindi में है; जरूरी exam terms English में Hindi meaning के साथ दिए गए हैं। Focus Classes VI–VIII / Elementary Stage के concepts, application और pedagogy पर है।
+> **Hindi-medium exam notes:** यह सामग्री Paper II के Mathematics & Science option में आने वाले Mathematics section (30 questions) के लिए बनाई गई है। Main explanation Hindi में है; जरूरी exam terms English में Hindi meaning के साथ दिए गए हैं। Focus Classes VI–VIII / Elementary Stage के concepts, application और pedagogy पर है।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source of truth:** CTET Detailed Syllabus & Exam Blueprint
 >
-> **Practice source:** [Paper II Mathematics Content — Q001–Q100](../ctet-mcq/06-Paper-II-Mathematics-MCQ-Part-1.md) और [Mathematics Pedagogy — Q101–Q200](../ctet-mcq/06-Paper-II-Mathematics-MCQ-Part-2.md)
+> **Practice source:** Paper II Mathematics Content — Q001–Q100 और Mathematics Pedagogy — Q101–Q200
 
 ---
 
@@ -1777,4 +1777,4 @@ caption: Paper II Mathematics में evidence को अगली teaching de
 Content में sign, unit, scale, property और representation check करें। Pedagogy में child की strategy सुनें, error को evidence मानें, meaningful support दें और नई situation में understanding re-check करें।
 :::
 
-**Suggested practice:** `ctet-mcq/06-Paper-II-Mathematics-MCQ-Part-1.md` और `ctet-mcq/06-Paper-II-Mathematics-MCQ-Part-2.md`
+**Suggested practice:** Solve this subject's solved MCQ sets (Part 1–2) from the same study pack.

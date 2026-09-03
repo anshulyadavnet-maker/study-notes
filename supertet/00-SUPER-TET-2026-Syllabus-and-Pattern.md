@@ -2,14 +2,14 @@
 
 > **Updated:** 3 सितम्बर 2026<br>
 > नए UPESSC syllabus update के बाद Primary और Junior/Upper Primary को अलग-अलग पढ़ना चाहिए। दोनों levels का pattern और subject selection समान नहीं है।
-> ✅ **Primary और Junior — दोनों levels की आधिकारिक UPESSC विषयवस्तु प्राप्त हो चुकी है**; दोनों की files उसी के अनुसार अद्यतन हैं।
+> ✅ **Primary और Junior — दोनों levels की आधिकारिक UPESSC विषयवस्तु प्राप्त हो चुकी है**; दोनों की सामग्री उसी के अनुसार अद्यतन हैं।
 
-## अलग-अलग syllabus files
+## अलग-अलग syllabus सामग्री
 
 ### 1. Primary Level — कक्षा 1–5
 
-- 📄 **आधिकारिक विषयवस्तु (शब्दशः):** [UP_Primary_1_5_Syllabus_2026.md](./UP_Primary_1_5_Syllabus_2026.md)
-- 📝 **व्याख्या + तैयारी:** [Primary Level Syllabus और Pattern खोलें](./00-Primary-Level-Syllabus-2026.md)
+- 📄 **आधिकारिक विषयवस्तु (शब्दशः)** — UPESSC द्वारा प्रकाशित Primary विषयवस्तु (कक्षा 1–5), 3 सितम्बर 2026।
+- 📝 **व्याख्या + तैयारी** — Primary Level के विस्तृत syllabus व pattern की व्याख्या इसी अध्ययन-पैक में उपलब्ध है।
 
 - कुल प्रश्न: 120
 - कुल अंक: 360
@@ -24,8 +24,8 @@
 
 ### 2. Junior / Upper Primary Level — कक्षा 6–8
 
-- 📄 **आधिकारिक विषयवस्तु (शब्दशः):** [UP_Junior_6_8_New_Syllabus_2026.md](./UP_Junior_6_8_New_Syllabus_2026.md)
-- 📝 **व्याख्या + तैयारी:** [Junior Level Syllabus और Pattern खोलें](./00-Junior-Level-Syllabus-2026.md)
+- 📄 **आधिकारिक विषयवस्तु (शब्दशः)** — UPESSC द्वारा प्रकाशित Junior विषयवस्तु (कक्षा 6–8), 3 सितम्बर 2026।
+- 📝 **व्याख्या + तैयारी** — Junior Level के विस्तृत syllabus व pattern की व्याख्या इसी अध्ययन-पैक में उपलब्ध है।
 
 - कुल प्रश्न: 120
 - कुल अंक: 360
@@ -51,12 +51,12 @@
 
 ## Important verification note
 
-- **Primary (कक्षा 1–5):** UPESSC **आधिकारिक संरचना व विषयवस्तु** (3 सितम्बर 2026) — शब्दशः प्रति: `UP_Primary_1_5_Syllabus_2026.md`।
-- **Junior (कक्षा 6–8):** UPESSC **आधिकारिक संरचना व विषयवस्तु** (3 सितम्बर 2026) — शब्दशः प्रति: `UP_Junior_6_8_New_Syllabus_2026.md`।
+- **Primary (कक्षा 1–5):** UPESSC **आधिकारिक संरचना व विषयवस्तु** (3 सितम्बर 2026) — शब्दशः आधारित।
+- **Junior (कक्षा 6–8):** UPESSC **आधिकारिक संरचना व विषयवस्तु** (3 सितम्बर 2026) — शब्दशः आधारित।
 - Final recruitment advertisement / official PDF में कोई बदलाव हो तो वही अंतिम authority होगी।
 
 ### Sources checked
 
 - [UPESSC official portal](https://upessc.up.gov.in/) — Primary व Junior official विषयवस्तु (आधार)
 
-> **Folder plan:** पहले अपने target level—Primary या Junior—को तय करें। उसके बाद उसी level की notes, PYQ और mock series पढ़ें; दोनों patterns को mix न करें।
+> **तैयारी-योजना:** पहले अपना target level—Primary या Junior—तय करें। उसके बाद उसी level की notes, PYQ और mock series पढ़ें; दोनों patterns को mix न करें।

@@ -83,6 +83,13 @@ Reasoning की SuperTET-केंद्रित सामग्री तै�
 
 > **Verification note (3 सितम्बर 2026):** Primary व Junior — **दोनों levels की files UPESSC की आधिकारिक संरचना व विषयवस्तु** पर आधारित हैं (शब्दशः: `UP_Primary_1_5_Syllabus_2026.md` व `UP_Junior_6_8_New_Syllabus_2026.md`)। Final UPESSC recruitment notification/PDF में कोई बदलाव हो तो वही अंतिम मान्य होगा। पुराने 150-question/150-mark pattern को नए 120-question/360-mark pattern के साथ mix न करें।
 
+## 🖨️ PDF कैसे बनाएँ (केवल तैयारी/developer के लिए — students को दी जाने वाली notes में ये instructions नहीं हैं)
+
+- सभी SuperTET subjects की notes/QB को **अपने local env में** `python3 pdf-system/md2pdf.py` (WeasyPrint + figlib) से PDF बनाएँ — इसी engine से ` ```figure ` आकृतियाँ सही आती हैं।
+- **Maths:** मौजूदा `PDF/SuperTET-Maths-*.pdf` पुराने (pre-overhaul) Markdown से बने हैं — maths की नई md files से दोबारा बनाएँ।
+- `md2pdf-hb.py` (HarfBuzz) केवल तब है जब system में WeasyPrint न हो; उसमें figures placeholder दिखती हैं — final print के लिए उपयुक्त नहीं।
+- सभी notes/QB/strategy files content-ही-content हैं; build commands, file names या folder structure कहीं student-facing content में नहीं दिखती।
+
 ### Sources checked
 
 - [UPESSC official portal](https://upessc.up.gov.in/) — Primary व Junior official विषयवस्तु (आधार)

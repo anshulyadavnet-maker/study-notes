@@ -5,7 +5,6 @@
 >
 > **Coverage:** Concept and scope of EVS, significance, integrated EVS, environmental education, learning principles, relation with Science/Social Science, approaches, activities, experimentation, discussion, CCE, teaching aids and problems of teaching.
 >
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। आवश्यक concepts के लिए visual figure blocks शामिल हैं।
 
 ---
 

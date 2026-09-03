@@ -5,7 +5,6 @@
 >
 > **Exam lens:** Prefer the response that makes evidence and learner thinking visible, supports democratic participation, respects multiple perspectives and uses assessment to plan the next step—not rote copying, stereotyping or unsupported opinion.
 >
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card and selected concepts include Python-generated vector figures.
 
 ---
 

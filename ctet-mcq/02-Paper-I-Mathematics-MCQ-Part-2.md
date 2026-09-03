@@ -5,7 +5,6 @@
 >
 > **Coverage:** Nature of Mathematics, logical thinking, children’s reasoning and strategies, curriculum, language of Mathematics, community Mathematics, evaluation, teaching problems, error analysis, diagnostic and remedial teaching.
 >
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। आवश्यक जगहों पर visual figure blocks दिए गए हैं।
 
 ---
 

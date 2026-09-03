@@ -5,7 +5,6 @@
 >
 > **चित्र-सूचना:** इस Hindi version में वही Python-generated vector SVG figures reuse किए गए हैं। Figures के labels English में रखे गए हैं ताकि दोनों medium में एक ही visual model उपयोग हो सके।
 >
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
 
 ---
 

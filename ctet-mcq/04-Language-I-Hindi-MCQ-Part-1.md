@@ -5,7 +5,6 @@
 >
 > **Paper pattern reminder:** Language I में comprehension और language proficiency के साथ language use को समझने की क्षमता भी जाँची जाती है।
 >
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें।
 
 ---
 

@@ -7,7 +7,6 @@
 >
 > **Exam lens:** “Most appropriate teacher response” में conceptual understanding, learner reasoning, multiple representations, inclusion, evidence-based assessment और targeted support को rote learning, speed, punishment या fixed labels से ऊपर रखें।
 >
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा और selected concepts में वही vector figures आएँगे।
 
 ---
 

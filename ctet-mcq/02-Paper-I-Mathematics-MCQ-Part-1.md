@@ -5,7 +5,6 @@
 >
 > **Coverage:** Numbers, operations, fractions, geometry, shapes and spatial understanding, solids, measurement, time, volume, data handling, patterns and money.
 >
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। जहाँ concept को visual model से बेहतर समझाया जा सकता है, वहाँ figure block दिया गया है।
 
 ---
 

@@ -5,7 +5,6 @@
 >
 > **Coverage:** Learning and acquisition, principles of language teaching, listening-speaking, language as a tool, grammar, multilingual classroom, language skills, errors/disorders, evaluation, materials and remedial teaching.
 >
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें।
 
 ---
 

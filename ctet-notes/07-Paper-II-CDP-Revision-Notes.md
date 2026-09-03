@@ -1,10 +1,10 @@
 # CTET Paper II CDP — Child Development and Pedagogy Revision Notes
 
-> **Hindi-medium exam notes:** यह file Paper II के Elementary Stage learners (लगभग 11–14 years, Classes VI–VIII) के लिए Child Development and Pedagogy का focused revision resource है। Paper I से broad concepts समान हैं, लेकिन यहाँ adolescence, identity, peer influence, abstract reasoning और subject-learning context पर अधिक focus है।
+> **Hindi-medium exam notes:** यह सामग्री Paper II के Elementary Stage learners (लगभग 11–14 years, Classes VI–VIII) के लिए Child Development and Pedagogy का focused revision resource है। Paper I से broad concepts समान हैं, लेकिन यहाँ adolescence, identity, peer influence, abstract reasoning और subject-learning context पर अधिक focus है।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source of truth:** CTET Detailed Syllabus & Exam Blueprint
 >
-> **Practice source:** `ctet-mcq/01-CDP-MCQ-Part-1.md` और `ctet-mcq/01-CDP-MCQ-Part-2.md` में Paper I और Paper II दोनों से जुड़े concepts तथा classroom applications practise करें।
+> **अभ्यास स्रोत:** इस विषय के हल प्रश्न-संग्रह (भाग 1 व 2) — इसी अध्ययन-पैक में।
 
 ---
 
@@ -952,4 +952,4 @@ caption: observe the elementary learner, understand context, support participati
 Elementary learner को छोटा बच्चा या fully mature adult—दोनों extreme रूपों में न देखें। उसकी age, identity, peer world, prior knowledge, subject context और learning evidence को समझकर inclusive support दें।
 :::
 
-**Suggested practice:** `ctet-mcq/01-CDP-MCQ-Part-1.md` और `ctet-mcq/01-CDP-MCQ-Part-2.md`
+**Suggested practice:** Solve this subject's solved MCQ sets (Part 1–2) from the same study pack.

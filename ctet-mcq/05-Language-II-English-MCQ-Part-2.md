@@ -5,7 +5,6 @@
 >
 > **Exam lens:** Choose the response that develops communication, learner participation, inclusion and evidence-based teaching—not the option based only on rote memorisation, punishment or labelling.
 >
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow` for clear question separators.
 
 ---
 

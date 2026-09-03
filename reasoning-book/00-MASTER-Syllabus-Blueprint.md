@@ -224,10 +224,9 @@ Puzzles (Floor, Box, Scheduling, Designation, Comparison, Distribution, Mixed-va
 **Primary (तार्किक ज्ञान 5 प्रश्न / 15 अंक) — आधिकारिक 18 topics का chapter-map:**
 - Analogy → 4 • Classification → 5 • Number Series → 6 • Letter Series → 3 (भाग A) • Coding-Decoding → 8 • Direction Sense → 10 • Clock → 28 • Calendar → 29 • Venn → 15 • Dice/Cube → 30 • Coded Inequality → 16 • Symbols & Notations → 17 • A&R/Critical → 26 (18–25) • Inference → 23 • Puzzles → 11, 13, 27
 
-**इन 3 topics के लिए reasoning-book में अलग अध्याय नहीं था → गैप:** Binary Logic • Grouping & Selections • Data Interpretation (TET-स्तर)। इनका पूरा संक्षिप्त समाधान अब अलग file में है:
-👉 **`../supertet_reasoning.md`** — SuperTET-केंद्रित (सूत्र, हल उदाहरण, आकृतियाँ, 10 प्रश्न अभ्यास)।
+**इन 3 topics के लिए इस पुस्तक में अलग अध्याय नहीं था → गैप:** Binary Logic • Grouping & Selections • Data Interpretation (TET-स्तर)। इनका पूरा संक्षिप्त समाधान अलग **SuperTET Reasoning सामग्री** में है — सूत्र, हल उदाहरण, आकृतियाँ, 10 प्रश्न अभ्यास।
 
-*(Primary 5 प्रश्न व Junior GK-reasoning 8 topics के लिए यही 18 topics का हल्का संस्करण पर्याप्त है — बुनियादी अध्याय + ऊपर वाली file।)*
+*(Primary 5 प्रश्न व Junior GK-reasoning 8 topics के लिए यही 18 topics का हल्का संस्करण पर्याप्त है — बुनियादी अध्याय + वही SuperTET Reasoning सामग्री।)*
 
 ---
 

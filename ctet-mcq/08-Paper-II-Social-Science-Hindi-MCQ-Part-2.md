@@ -7,7 +7,6 @@
 >
 > **Exam lens:** Evidence और learner thinking को visible बनाने, democratic participation support करने, multiple perspectives respect करने और assessment से next step plan करने वाले options prefer करें।
 >
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
 
 ---
 

@@ -2,7 +2,7 @@
 
 > **Official reference:** [CTET September 2026 Information Bulletin](https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf) — Appendix I: *Structure and Content of Syllabus*.
 >
-> This file is prepared for the `ctet-mcq/` question-bank folder. Always check the latest bulletin at [ctet.nic.in](https://ctet.nic.in/) before applying because dates, instructions or operational details may be updated.
+> यह सामग्री इसी अध्ययन-पैक के solved question-bank sets के साथ प्रयोग के लिए तैयार की गई है। Always check the latest bulletin at [ctet.nic.in](https://ctet.nic.in/) before applying because dates, instructions or operational details may be updated.
 
 ---
 
@@ -750,33 +750,9 @@ Focus areas:
 
 ---
 
-# 16. MCQ Folder की Planned Structure
+# 16. Question-Bank की Planned Structure
 
-इस folder में आगे question banks को इस structure में रखा जा सकता है:
-
-```text
-ctet-mcq/
-├── 00-CTET-Detailed-Syllabus.md   ← यह file
-├── 01-CDP-MCQ-Part-1.md
-├── 01-CDP-MCQ-Part-2.md
-├── 02-Paper-I-Mathematics-MCQ-Part-1.md
-├── 02-Paper-I-Mathematics-MCQ-Part-2.md
-├── 03-Paper-I-EVS-MCQ-Part-1.md
-├── 03-Paper-I-EVS-MCQ-Part-2.md
-├── 04-Language-I-Hindi-MCQ-Part-1.md
-├── 04-Language-I-Hindi-MCQ-Part-2.md
-├── 05-Language-II-English-MCQ-Part-1.md
-├── 05-Language-II-English-MCQ-Part-2.md
-├── 06-Paper-II-Mathematics-MCQ-Part-1.md
-├── 06-Paper-II-Mathematics-MCQ-Part-2.md
-├── 07-Paper-II-Science-MCQ-Part-1.md
-├── 07-Paper-II-Science-MCQ-Part-2.md
-├── 08-Paper-II-Social-Science-MCQ-Part-1.md
-├── 08-Paper-II-Social-Science-MCQ-Part-2.md
-├── 09-Pedagogy-Mixed-MCQ.md
-├── 10-CTET-Full-Mock-Tests.md
-└── 11-CTET-Answer-Key-Explanations.md
-```
+आगे question banks को इस संरचना में रखा जा सकता है — विषयवार Part-1/Part-2 sets, pedagogy-mixed set, full mock tests और answer-key explanations।
 
 ### Recommended MCQ format
 

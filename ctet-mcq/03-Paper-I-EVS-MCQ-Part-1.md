@@ -5,7 +5,6 @@
 >
 > **Coverage:** Family and Friends, Food, Shelter, Water, Travel, and Things We Make and Do.
 >
-> **Print/PDF:** इस file को `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें। Relevant concepts के लिए visual diagrams शामिल किए गए हैं।
 
 ---
 

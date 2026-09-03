@@ -5,7 +5,6 @@
 >
 > **Original practice:** ਇਹ questions CTET Language-II ਦੇ comprehension, grammar ਅਤੇ verbal-ability patterns ਉੱਤੇ ਆਧਾਰਿਤ original practice ਹਨ; passages ਕਿਸੇ previous-year paper ਦੀ verbatim copy ਨਹੀਂ ਹਨ।
 >
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` ਤੋਂ `--toc --flow` ਨਾਲ build ਕਰੋ। Gurmukhi text ਲਈ system ਵਿੱਚ Punjabi/Gurmukhi-compatible font ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ; figures ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 
 ---
 

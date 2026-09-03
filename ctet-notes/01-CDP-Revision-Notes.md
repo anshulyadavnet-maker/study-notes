@@ -1,10 +1,10 @@
 # CTET Child Development and Pedagogy (बाल विकास एवं शिक्षाशास्त्र) — Paper I Revision Notes (पुनरावृत्ति नोट्स)
 
-> **Hindi-medium exam notes:** यह file Paper I के Primary Stage learners (लगभग 6–11 years) के लिए Child Development and Pedagogy का concept-based revision resource है। Important terms English में brackets के साथ दिए गए हैं ताकि MCQ wording आसानी से समझ आए।
+> **Hindi-medium exam notes:** यह सामग्री Paper I के Primary Stage learners (लगभग 6–11 years) के लिए Child Development and Pedagogy का concept-based revision resource है। Important terms English में brackets के साथ दिए गए हैं ताकि MCQ wording आसानी से समझ आए।
 >
-> **Source:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source:** CTET Detailed Syllabus & Exam Blueprint
 >
-> **MCQ practice:** इस notes को `ctet-mcq/01-CDP-MCQ-Part-1.md` और `ctet-mcq/01-CDP-MCQ-Part-2.md` के साथ revise करें।
+> **अभ्यास स्रोत:** इस विषय के हल प्रश्न-संग्रह (भाग 1 व 2) — इसी अध्ययन-पैक में।
 
 ---
 
@@ -1135,4 +1135,4 @@ caption: a fast CDP decision ladder for choosing the most appropriate teacher re
 CTET CDP में best answer प्रायः वह है जो बच्चे की thinking को समझे, dignity बनाए रखे, diversity को accept करे, meaningful support दे और evidence के आधार पर next teaching plan करे।
 :::
 
-**Suggested practice source:** `ctet-mcq/01-CDP-MCQ-Part-1.md` और `ctet-mcq/01-CDP-MCQ-Part-2.md`
+**Suggested practice source:** This subject's solved MCQ sets (Part 1–2) from the same study pack.

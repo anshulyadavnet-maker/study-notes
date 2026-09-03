@@ -1,10 +1,10 @@
 # CTET Paper I EVS — पर्यावरण अध्ययन Revision Notes
 
-> **Hindi-medium exam notes:** यह file CTET Paper I Environmental Studies (EVS) के Primary Stage (Classes I–V) learners और Hindi-medium aspirants के लिए है। Main explanation Hindi में है और important exam terms English के साथ Hindi meaning में दिए गए हैं।
+> **Hindi-medium exam notes:** यह सामग्री CTET Paper I Environmental Studies (EVS) के Primary Stage (Classes I–V) learners और Hindi-medium aspirants के लिए है। Main explanation Hindi में है और important exam terms English के साथ Hindi meaning में दिए गए हैं।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source of truth:** CTET Detailed Syllabus & Exam Blueprint
 >
-> **Practice source:** [Paper I EVS MCQs — Part 1](../ctet-mcq/03-Paper-I-EVS-MCQ-Part-1.md) और [Part 2](../ctet-mcq/03-Paper-I-EVS-MCQ-Part-2.md)
+> **Practice source:** Paper I EVS MCQs — Part 1 और Part 2
 
 ---
 
@@ -740,4 +740,4 @@ Child experience → observation → question → activity → evidence → disc
 EVS में सबसे अच्छा answer वह होता है जो child के अपने environment से शुरू हो, observation और questions को महत्व दे, activity/evidence से concept बनाए और responsible action तक पहुँचाए।
 :::
 
-**Suggested practice:** `ctet-mcq/03-Paper-I-EVS-MCQ-Part-1.md` और `ctet-mcq/03-Paper-I-EVS-MCQ-Part-2.md`
+**Suggested practice:** Solve this subject's solved MCQ sets (Part 1–2) from the same study pack.

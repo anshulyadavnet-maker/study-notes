@@ -5,7 +5,6 @@
 >
 > **Coverage plan:** Q001–Q040 History, Q041–Q070 Geography and Q071–Q100 Civics. Figures are Python-generated vector SVG teaching models, included where timelines, maps, processes or institutions benefit from a visual representation.
 >
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card.
 
 ---
 

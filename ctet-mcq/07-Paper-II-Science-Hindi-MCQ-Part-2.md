@@ -7,7 +7,6 @@
 >
 > **Exam lens:** ऐसे option चुनें जो learner thinking को visible बनाए, safe evidence-based inquiry कराए, inclusion support करे और assessment को next teaching step में बदले।
 >
-> **Print/PDF:** `pdf-system/mcqmdtopdf.py` से `--toc --flow` के साथ build करें; हर question colour-coded bordered card में render होगा।
 
 ---
 

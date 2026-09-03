@@ -1,10 +1,10 @@
 # CTET Paper I Mathematics — गणित Revision Notes
 
-> **Hindi-medium exam notes:** यह file CTET Paper I Mathematics के Primary Stage (Classes I–V) learners और Hindi-medium aspirants के लिए बनाई गई है। Main explanation Hindi में है; जरूरी exam terms English में Hindi meaning के साथ दिए गए हैं।
+> **Hindi-medium exam notes:** यह सामग्री CTET Paper I Mathematics के Primary Stage (Classes I–V) learners और Hindi-medium aspirants के लिए बनाई गई है। Main explanation Hindi में है; जरूरी exam terms English में Hindi meaning के साथ दिए गए हैं।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source of truth:** CTET Detailed Syllabus & Exam Blueprint
 >
-> **Practice source:** [Paper I Mathematics MCQs — Part 1](../ctet-mcq/02-Paper-I-Mathematics-MCQ-Part-1.md) और [Part 2](../ctet-mcq/02-Paper-I-Mathematics-MCQ-Part-2.md)
+> **Practice source:** Paper I Mathematics MCQs — Part 1 और Part 2
 
 ---
 
@@ -867,4 +867,4 @@ Child की thinking समझो → method पूछो → suitable represen
 गणित में answer से पहले representation और reasoning देखें। Pedagogy में child की strategy समझें। सबसे अच्छा option वह होता है जो concept, confidence, inclusion और independent thinking को साथ बढ़ाए।
 :::
 
-**Suggested practice:** `ctet-mcq/02-Paper-I-Mathematics-MCQ-Part-1.md` और `Part-2.md`
+**Suggested practice:** इस विषय के हल प्रश्न-संग्रह (Part 1–2) — इसी अध्ययन-पैक में।

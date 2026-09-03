@@ -1,10 +1,10 @@
 # CTET Paper II Social Studies / Social Science — सामाजिक विज्ञान Revision Notes
 
-> **Hindi-medium exam notes:** यह file Paper II के Social Studies/Social Science option (60 questions) के लिए बनाई गई है। Main explanation Hindi में है; जरूरी History, Geography और Civics terms English में Hindi meaning के साथ दिए गए हैं। Focus Classes VI–VIII / Elementary Stage के concepts, evidence, map-work, democratic understanding और pedagogy पर है।
+> **Hindi-medium exam notes:** यह सामग्री Paper II के Social Studies/Social Science option (60 questions) के लिए बनाई गई है। Main explanation Hindi में है; जरूरी History, Geography और Civics terms English में Hindi meaning के साथ दिए गए हैं। Focus Classes VI–VIII / Elementary Stage के concepts, evidence, map-work, democratic understanding और pedagogy पर है।
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source of truth:** CTET Detailed Syllabus & Exam Blueprint
 >
-> **Practice source:** [Social Science Content — Q001–Q100](../ctet-mcq/08-Paper-II-Social-Science-MCQ-Part-1.md) और [Social Science Pedagogy — Q101–Q200](../ctet-mcq/08-Paper-II-Social-Science-MCQ-Part-2.md)। Hindi-medium practice के लिए [Hindi MCQ Part 1](../ctet-mcq/08-Paper-II-Social-Science-Hindi-MCQ-Part-1.md), [Part 2](../ctet-mcq/08-Paper-II-Social-Science-Hindi-MCQ-Part-2.md), [Part 3](../ctet-mcq/08-Paper-II-Social-Science-Hindi-MCQ-Part-3.md) और [Part 4](../ctet-mcq/08-Paper-II-Social-Science-Hindi-MCQ-Part-4.md) भी देखें।
+> **Practice source:** Social Science Content — Q001–Q100 और Social Science Pedagogy — Q101–Q200। Hindi-medium practice के लिए Hindi MCQ Part 1, Part 2, Part 3 और Part 4 भी देखें।
 
 ---
 
@@ -1435,4 +1435,4 @@ caption: Social Science में assessment evidence को feedback और अ
 History में source और context, Geography में map और spatial relationship, Civics में rights और accountability, और pedagogy में enquiry, inclusion तथा evidence-based discussion—इन चार lenses से answer चुनें।
 :::
 
-**Suggested practice:** `ctet-mcq/08-Paper-II-Social-Science-MCQ-Part-1.md`, `Part-2.md` और Hindi-medium `08-Paper-II-Social-Science-Hindi-MCQ-Part-1.md` से `Part-4.md`
+**Suggested practice:** इस विषय के हल प्रश्न-संग्रह (English व Hindi-medium, Part 1–4) — इसी अध्ययन-पैक में।

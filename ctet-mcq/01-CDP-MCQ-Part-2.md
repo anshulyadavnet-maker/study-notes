@@ -3,7 +3,6 @@
 
 > **Purpose:** ये questions CTET के Inclusive Education, Learning and Pedagogy, classroom application और official Paper I/Paper II CDP pattern पर आधारित original PYQ-concept practice questions हैं।
 >
-> **Print/PDF tip:** इस file को `pdf-system/md2pdf.py` से `--toc --qcols` options के साथ build करें। हर set में question, चार options, answer और short explanation दिया गया है।
 
 ---
 

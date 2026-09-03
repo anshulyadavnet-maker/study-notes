@@ -2,9 +2,9 @@
 
 > **Audience:** Hindi-medium CTET students
 >
-> **Source of truth:** [CTET Detailed Syllabus & Exam Blueprint](../ctet-mcq/00-CTET-Detailed-Syllabus.md)
+> **Source of truth:** CTET (CBSE) का आधिकारिक Detailed Syllabus & Exam Blueprint
 >
-> यह folder syllabus को दोहराने के लिए नहीं, बल्कि exam से पहले fast, concept-based और print-friendly revision के लिए बनाया जा रहा है। Detailed syllabus में कोई official change हो तो पहले उसी file और latest CTET bulletin को update/check किया जाएगा।
+> यह सामग्री syllabus को दोहराने के लिए नहीं, बल्कि exam से पहले fast, concept-based और print-friendly revision के लिए बनाई जा रही है। Detailed syllabus में कोई official change हो तो पहले उसी सामग्री और latest CTET bulletin को update/check किया जाएगा।
 
 ---
 
@@ -87,21 +87,6 @@ CTET revision notes में हर topic को short लेकिन complete
 - Hindi explanation के साथ standard English terms
 - Figures केवल learning value होने पर
 - हर topic के अंत में **Last-Minute Revision Box**
-- Revision notes के लिए `pdf-system/ctet-notes-md2pdf.py`
-- MCQ banks के लिए `pdf-system/mcqmdtopdf.py`
-
-### Revision notes PDF command
-
-```bash
-python3 pdf-system/ctet-notes-md2pdf.py \\
-  ctet-notes/00-CTET-Revision-Notes-Blueprint.md \\
-  -o PDF/CTET-Revision-Notes-Blueprint.pdf \\
-  --title "CTET Revision Notes" \\
-  --subtitle "Hindi-medium exam revision" \\
-  --badge "CTET" --toc --flow
-```
-
-`ctet-notes-md2pdf.py` में `SECTION_STYLES` mapping section keywords और colours control करती है। जब कोई नया notes section बनाया जाए, उसकी keyword और preferred colour उसी mapping में add करें; unknown headings के लिए generic style automatically लागू रहेगी।
 
 ---
 
@@ -315,39 +300,25 @@ Paper II CDP notes में 11–14 years learners पर focus रहेगा
 
 Revision notes बनाते समय existing question banks को application practice के लिए use किया जाएगा:
 
-| Source bank | Available practice |
+| Subject bank | Available practice |
 |---|---|
-| `ctet-mcq/01-CDP-MCQ-Part-1.md` और `Part-2.md` | 200 CDP MCQs |
-| `ctet-mcq/02-Paper-I-Mathematics-*` | 200 Paper I Mathematics MCQs |
-| `ctet-mcq/03-Paper-I-EVS-*` | 200 Paper I EVS MCQs |
-| `ctet-mcq/04-Language-I-Hindi-*` | 200 Hindi Language I MCQs |
-| `ctet-mcq/05-Language-II-English-*` | 200 English Language II MCQs |
-| `ctet-mcq/05-Language-II-Punjabi-*` | 200 Punjabi + Hindi-help MCQs |
-| `ctet-mcq/06-Paper-II-Mathematics-*` | English + Hindi Mathematics MCQs |
-| `ctet-mcq/07-Paper-II-Science-*` | English + Hindi Science MCQs |
-| `ctet-mcq/08-Paper-II-Social-Science-*` | English + Hindi SST MCQs |
+| CDP | 200 CDP MCQs |
+| Paper I Mathematics | 200 Paper I Mathematics MCQs |
+| Paper I EVS | 200 Paper I EVS MCQs |
+| Language I Hindi | 200 Hindi Language I MCQs |
+| Language II English | 200 English Language II MCQs |
+| Language II Punjabi | 200 Punjabi + Hindi-help MCQs |
+| Paper II Mathematics | English + Hindi Mathematics MCQs |
+| Paper II Science | English + Hindi Science MCQs |
+| Paper II Social Science | English + Hindi SST MCQs |
 
 > MCQs और revision notes अलग resources हैं: **notes concept समझाएँगे; MCQs recall, application और exam decision-making practise कराएँगे।**
 
 ---
 
-# PART E — Planned Revision-Notes Files
+# PART E — Planned Revision-Notes Parts
 
-```text
-ctet-notes/
-├── 00-CTET-Revision-Notes-Blueprint.md   ← यह file
-├── 01-CDP-Revision-Notes.md              ← first completed revision notes file
-├── 02-Paper-I-Mathematics-Revision-Notes.md
-├── 03-Paper-I-EVS-Revision-Notes.md
-├── 04-Language-I-Hindi-Revision-Notes.md     ← completed revision notes file
-├── 05-Language-II-English-Revision-Notes.md  ← completed revision notes file
-├── 06-Language-II-Punjabi-Revision-Notes.md
-├── 07-Paper-II-CDP-Revision-Notes.md          ← completed revision notes file
-├── 08-Paper-II-Mathematics-Revision-Notes.md
-├── 09-Paper-II-Science-Revision-Notes.md
-├── 10-Paper-II-Social-Science-Revision-Notes.md
-└── 11-Last-Minute-CTET-Revision-Sheets.md
-```
+यह (blueprint) मास्टर-योजना है; इसके बाद की पुनरावृत्ति-सामग्री के हिस्से हैं — Paper I CDP, Paper I Mathematics, Paper I EVS, Language I Hindi, Language II English/Punjabi, Paper II CDP, Paper II Mathematics, Paper II Science, Paper II Social Science और अंतिम समय revision sheets।
 
 ### Recommended creation order
 

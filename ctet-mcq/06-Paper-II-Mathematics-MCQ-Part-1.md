@@ -5,7 +5,6 @@
 >
 > **Paper-II focus:** Content questions are followed in Part 2 by mathematics pedagogy questions. Figures are Python-generated vector SVG models and are included only where a visual representation improves understanding.
 >
-> **Print/PDF:** Build with `pdf-system/mcqmdtopdf.py` using `--toc --flow`; each question is rendered as a colour-coded bordered card.
 
 ---
 
