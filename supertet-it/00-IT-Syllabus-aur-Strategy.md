@@ -27,7 +27,7 @@
 - कुल समय 2 घंटे (120 मिनट) में 120 प्रश्न -> प्रति प्रश्न ~60 सेकंड
 - IT के 4 प्रश्न **समय बचाकर पक्के करने** वाले हैं — इन्हें जल्दी और सही करना है।
 
-> ⚠️ ध्यान दें: कुछ पुरानी सूचनाओं में IT = 5 प्रश्न बताए गए थे; UPESSC की आधिकारिक Primary विषयवस्तु (2026) के अनुसार **सूचना तकनीकी = 4 प्रश्न (12 अंक)** है। स्रोत: [UP_Primary_1_5_Syllabus_2026.md](../supertet/UP_Primary_1_5_Syllabus_2026.md)। Final recruitment notification को हमेशा authority मानें।
+> ⚠️ ध्यान दें: कुछ पुरानी सूचनाओं में IT = 5 प्रश्न बताए गए थे; UPESSC की आधिकारिक Primary विषयवस्तु (2026) के अनुसार **सूचना तकनीकी = 4 प्रश्न (12 अंक)** है। स्रोत: UPESSC प्राथमिक स्तर आधिकारिक पाठ्यक्रम। Final recruitment notification को हमेशा authority मानें।
 
 ---
 
@@ -111,5 +111,5 @@ UPESSC की आधिकारिक Primary विषयवस्तु म�
 
 ## 7. Sources & verification
 
-- Syllabus base: [UP_Primary_1_5_Syllabus_2026.md](../supertet/UP_Primary_1_5_Syllabus_2026.md) + [00-Primary-Level-Syllabus-2026.md](../supertet/00-Primary-Level-Syllabus-2026.md) (UPESSC आधिकारिक विषयवस्तु, 3 सितम्बर 2026)
+- Syllabus base: UPESSC आधिकारिक Primary विषयवस्तु (3 सितम्बर 2026)
 - Schemes/portals के facts की cross-check: Ministry of Education / NCERT official pages; UPESSC official notification को अंतिम मानें।

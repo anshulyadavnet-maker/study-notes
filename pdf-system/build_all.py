@@ -115,6 +115,46 @@ def main():
             "--badge", "प्राथमिक + जूनियर", "--toc", "--qcols", "--flow"
         ])
 
+    # 1.1 SUPER TET IT (INFORMATION TECHNOLOGY)
+    IT = REPO_ROOT / "supertet-it"
+    if IT.exists():
+        print("\n--- 1.1 SUPER TET IT -------------------------------")
+        run([
+            str(IT / '01-Primary-Level-IT-Notes.md'),
+            "-o", str(OUT_DIR / 'SuperTET-IT-Primary-Notes.pdf'),
+            "--title", "सूचना तकनीकी — प्राथमिक स्तर",
+            "--subtitle", "SUPER TET · कक्षा 1–5 सम्पूर्ण IT नोट्स",
+            "--badge", "8 अध्याय", "--toc", "--flow"
+        ])
+        run([
+            str(IT / '02-Primary-IT-Solved-Question-Bank.md'),
+            "-o", str(OUT_DIR / 'SuperTET-IT-Primary-QuestionBank.pdf'),
+            "--title", "सूचना तकनीकी — प्रश्न-बैंक",
+            "--subtitle", "SUPER TET प्राथमिक स्तर · 114 हल प्रश्न",
+            "--badge", "8 अध्याय", "--toc", "--qcols", "--flow"
+        ])
+        run([
+            str(IT / '00-IT-Syllabus-aur-Strategy.md'),
+            str(IT / '01-Primary-Level-IT-Notes.md'),
+            str(IT / '02-Primary-IT-Solved-Question-Bank.md'),
+            "-o", str(OUT_DIR / 'SuperTET-IT-COMPLETE.pdf'),
+            "--title", "SUPER TET सूचना तकनीकी",
+            "--subtitle", "सम्पूर्ण अध्ययन सामग्री — नोट्स + 114 हल प्रश्न",
+            "--badge", "प्राथमिक स्तर", "--toc", "--qcols", "--flow"
+        ])
+
+    # 1.2 SUPER TET REASONING
+    STR = REPO_ROOT / "supertet_reasoning.md"
+    if STR.exists():
+        print("\n--- 1.2 SUPER TET REASONING ------------------------")
+        run([
+            str(STR),
+            "-o", str(OUT_DIR / 'SuperTET-Reasoning-Notes.pdf'),
+            "--title", "तार्किक ज्ञान — SUPER TET",
+            "--subtitle", "Primary (18 टॉपिक्स) + Junior (8 टॉपिक्स) सम्पूर्ण अध्ययन गाइड",
+            "--badge", "18 टॉपिक्स", "--toc", "--flow"
+        ])
+
     # 2. REASONING BOOK
     R = REPO_ROOT / "reasoning-book"
     if R.exists():
