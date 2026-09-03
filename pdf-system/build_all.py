@@ -155,6 +155,34 @@ def main():
             "--badge", "18 टॉपिक्स", "--toc", "--flow"
         ])
 
+    # 1.3 SUPER TET SCIENCE
+    SCI = REPO_ROOT / "supertet-science"
+    if SCI.exists():
+        print("\n--- 1.3 SUPER TET SCIENCE --------------------------")
+        run([
+            str(SCI / '01-Primary-Level-Science-Notes.md'),
+            "-o", str(OUT_DIR / 'SuperTET-Science-Primary-Notes.pdf'),
+            "--title", "विज्ञान नोट्स — प्राथमिक स्तर",
+            "--subtitle", "SUPER TET · कक्षा 1–5 सम्पूर्ण विज्ञान अध्ययन सामग्री",
+            "--badge", "10 अध्याय", "--toc", "--flow"
+        ])
+        run([
+            str(SCI / '02-Junior-Level-Science-Notes.md'),
+            "-o", str(OUT_DIR / 'SuperTET-Science-Junior-Notes.pdf'),
+            "--title", "विज्ञान नोट्स — जूनियर स्तर",
+            "--subtitle", "SUPER TET · कक्षा 6–8 विज्ञान एवं गणित शिक्षक",
+            "--badge", "22 अध्याय", "--toc", "--flow"
+        ])
+        run([
+            str(SCI / '00-Syllabus-aur-Strategy.md'),
+            str(SCI / '01-Primary-Level-Science-Notes.md'),
+            str(SCI / '02-Junior-Level-Science-Notes.md'),
+            "-o", str(OUT_DIR / 'SuperTET-Science-COMPLETE.pdf'),
+            "--title", "SUPER TET विज्ञान",
+            "--subtitle", "सम्पूर्ण अध्ययन सामग्री — प्राथमिक (1–5) एवं जूनियर (6–8) स्तर",
+            "--badge", "प्राथमिक + जूनियर", "--toc", "--flow"
+        ])
+
     # 2. REASONING BOOK
     R = REPO_ROOT / "reasoning-book"
     if R.exists():
