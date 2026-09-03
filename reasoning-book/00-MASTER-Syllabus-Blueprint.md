@@ -26,7 +26,8 @@ Reasoning सभी सरकारी परीक्षाओं में **�
 | **UP Police SI** | Mental Aptitude + IQ + Reasoning | 40 | 100 | निर्धारित |
 | **UP Police Constable** | Mental Ability + IQ + Mental Aptitude | ~38 | ~95 | 0.25 |
 | **UPSSSC PET** | Logical Reasoning सहित | ~15 | 15 | 0.25 |
-| **Super TET** | तार्किक ज्ञान (Logical Reasoning) | 5 | 5 | नहीं |
+| **Super TET — Primary (नया 2026)** | तार्किक ज्ञान (Logical Reasoning) | 5 | 15 | 1.00 |
+| **Super TET — Junior (नया 2026)** | Reasoning GK खण्ड (30) के अंतर्गत 8 topics | ~2–4 | ~6–12 | 1.00 |
 | **RRB NTPC CBT-1** | General Intelligence & Reasoning | 30 | 30 | 1/3 |
 | **RRB Group D** | General Intelligence & Reasoning | 30 | 30 | 1/3 |
 | **IBPS/SBI PO Prelims** | Reasoning Ability | 35 | 35 | 0.25 |
@@ -218,9 +219,15 @@ Puzzles (Floor, Box, Scheduling, Designation, Comparison, Distribution, Mixed-va
 **अंत में:** 4, 5, 6, 15, 27
 *(Banking में Non-verbal लगभग नहीं पूछा जाता — अध्याय 32–38 छोड़ सकते हैं)*
 
-### Super TET / UPTET / PET
-**अनिवार्य:** 4, 5, 6, 8, 9, 10, 15, 28, 29, 30
-*(केवल 5–15 प्रश्न आते हैं — बुनियादी अध्याय पर्याप्त)*
+### Super TET (नया 2026) / UPTET / PET
+
+**Primary (तार्किक ज्ञान 5 प्रश्न / 15 अंक) — आधिकारिक 18 topics का chapter-map:**
+- Analogy → 4 • Classification → 5 • Number Series → 6 • Letter Series → 3 (भाग A) • Coding-Decoding → 8 • Direction Sense → 10 • Clock → 28 • Calendar → 29 • Venn → 15 • Dice/Cube → 30 • Coded Inequality → 16 • Symbols & Notations → 17 • A&R/Critical → 26 (18–25) • Inference → 23 • Puzzles → 11, 13, 27
+
+**इन 3 topics के लिए reasoning-book में अलग अध्याय नहीं था → गैप:** Binary Logic • Grouping & Selections • Data Interpretation (TET-स्तर)। इनका पूरा संक्षिप्त समाधान अब अलग file में है:
+👉 **`../supertet_reasoning.md`** — SuperTET-केंद्रित (सूत्र, हल उदाहरण, आकृतियाँ, 10 प्रश्न अभ्यास)।
+
+*(Primary 5 प्रश्न व Junior GK-reasoning 8 topics के लिए यही 18 topics का हल्का संस्करण पर्याप्त है — बुनियादी अध्याय + ऊपर वाली file।)*
 
 ---
 

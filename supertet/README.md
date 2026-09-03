@@ -25,6 +25,17 @@ Primary के **सूचना तकनीकी (4 प्रश्न / 12 �
 
 > 📌 IT के PDF `pdf-system/md2pdf-hb.py` से बनते हैं (HarfBuzz engine — सैंडबॉक्स में भी चलता है)।
 
+## ✅ बन चुका है — तार्किक ज्ञान (Logical Reasoning) — Primary + Junior
+
+Reasoning की SuperTET-केंद्रित सामग्री तैयार है (आधिकारिक 18 topics की अपनी file — generic reasoning-book से अलग):
+
+| सामग्री | File |
+|---|---|
+| **SuperTET Reasoning guide** (Primary 18 + Junior 8 official topics, हर topic: सूत्र + हल उदाहरण + आकृतियाँ, 10 प्रश्न TET अभ्यास, 5-प्रश्नों की 5/5 रणनीति) | [supertet_reasoning.md](../supertet_reasoning.md) |
+| गहन स्रोत — सभी परीक्षाओं वाला generic reasoning-book (40 अध्याय) | [reasoning-book/](../reasoning-book/) |
+
+> 📌 reasoning-book में जो SuperTET topics के लिए अलग अध्याय नहीं थे (Binary Logic, Grouping & Selections, TET-स्तरीय DI) — वे `supertet_reasoning.md` में पूरे हैं। आकृतियाँ ` ```figure ` blocks से हैं → PDF के लिए `pdf-system/md2pdf.py` (WeasyPrint/figlib) चाहिए, `md2pdf-hb.py` figures को placeholder दिखाता है।
+
 ## Revised working pattern — दोनों levels
 
 - 120 objective questions
@@ -56,7 +67,7 @@ Primary के **सूचना तकनीकी (4 प्रश्न / 12 �
 4. Environment & Social Studies notes
 5. Teaching Skills और Child Psychology
 6. General Knowledge, UP GK और Current Affairs
-7. Logical Knowledge और Information Technology
+7. ✅ Logical Knowledge → [supertet_reasoning.md](../supertet_reasoning.md) • Information Technology → [supertet-it/](./supertet-it/)
 8. Life Skills, Management & Attitude
 9. Level-wise PYQ, practice sets और full mocks
 
